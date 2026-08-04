@@ -48,18 +48,15 @@ extra_javascript:
   - assets/javascripts/learning-figures.js
 
 nav:
-  - Home: index.md
-  - Foundations:
+  - Start Here: index.md
+  - How Knives Cut:
+      - Single and Double Bevels: 04-geometry-and-bevels/single-and-double-bevels.md
+      - Knife Types and Cutting Styles: 05-knife-types/overview.md
+  - Materials and Performance:
       - The Five Dimensions of Knife Steel: 01-foundations/five-dimensions-of-knife-steel.md
-  - Steels and Metallurgy:
       - Alloying Elements: 02-steels-and-metallurgy/alloying-elements.md
-  - Blade Construction:
       - Damascus Steel: 03-blade-construction/damascus-steel.md
       - Self-Sharpening Full Damascus: 03-blade-construction/self-sharpening-full-damascus.md
-  - Geometry and Bevels:
-      - Single and Double Bevels: 04-geometry-and-bevels/single-and-double-bevels.md
-  - Knife Types:
-      - Knife Types and Cutting Styles: 05-knife-types/overview.md
   - Use and Safety:
       - Safe Use and Carrying: 08-use-and-safety/safe-use-and-carrying.md
   - Sharpening:
