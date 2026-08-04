@@ -1,66 +1,96 @@
 source_locale: en
 locale_standard: BCP-47
+translation_engine: GitHub Models
+translation_policy: machine-generated translations are derived from and never replace the English source of truth
 
 locales:
   en:
     name: English
     status: source
     direction: ltr
+    deploy: true
+    mkdocs_language: en
   it:
-    name: Italian
-    status: planned
+    name: Italiano
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: it
   es:
-    name: Spanish
-    status: planned
+    name: Español
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: es
   de:
-    name: German
-    status: planned
+    name: Deutsch
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: de
   fr:
-    name: French
-    status: planned
+    name: Français
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: fr
   ja:
-    name: Japanese
-    status: planned
+    name: 日本語
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: ja
     specialist_review_required: true
   zh-Hans:
-    name: Simplified Chinese
-    status: planned
+    name: 简体中文
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: zh
     specialist_review_required: true
   zh-Hant:
-    name: Traditional Chinese
-    status: planned
+    name: 繁體中文
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: zh-Hant
     specialist_review_required: true
   pt:
-    name: Portuguese
-    status: supported
+    name: Português
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: pt
   pl:
-    name: Polish
-    status: supported
+    name: Polski
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: pl
   cs:
-    name: Czech
-    status: supported
+    name: Čeština
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: cs
   nl:
-    name: Dutch
-    status: supported
+    name: Nederlands
+    status: automatic
     direction: ltr
+    deploy: true
+    mkdocs_language: nl
   ar:
-    name: Arabic
-    status: supported
+    name: العربية
+    status: automatic
     direction: rtl
+    deploy: true
+    mkdocs_language: ar
   he:
-    name: Hebrew
-    status: supported
+    name: עברית
+    status: automatic
     direction: rtl
+    deploy: true
+    mkdocs_language: he
 
 export_formats:
   - markdown
@@ -71,6 +101,9 @@ export_formats:
 rules:
   - English is the sole source of truth.
   - Meaning changes must be made in English first.
+  - Every deployed translation is regenerated when its English source hash changes.
+  - Generated translations are cached between deployments to avoid unnecessary model calls.
+  - Every machine-translated page displays a visible review notice.
   - Japanese and Chinese exports require terminology review.
   - CJK PDF exports require fonts with full Unicode coverage.
   - Right-to-left exports require bidirectional layout support.
