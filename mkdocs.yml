@@ -41,6 +41,12 @@ markdown_extensions:
   - toc:
       permalink: true
 
+extra_css:
+  - assets/stylesheets/learning-figures.css
+
+extra_javascript:
+  - assets/javascripts/learning-figures.js
+
 nav:
   - Home: index.md
   - Foundations:
