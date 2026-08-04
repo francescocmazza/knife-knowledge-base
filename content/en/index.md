@@ -7,88 +7,97 @@ reviewed: 2026-08-04
 
 # Knife Knowledge Base
 
-A kitchen knife is one of the simplest tools we use. It is a handle connected to a sharpened piece of steel. Yet behind that simple shape there is an entire world of choices: hard or forgiving steel, thin or strong geometry, one bevel or two, a light handle or a blade-heavy balance, a polished finish or a visible forged texture.
+A kitchen knife looks simple: a handle, a blade and a cutting edge. Its behaviour is not simple. Steel, heat treatment, blade geometry, sharpening, balance and user technique all work together.
 
-To someone approaching the subject for the first time, these choices can feel confusing. Product descriptions often use specialist words, hardness numbers, steel names, layer counts and traditional Japanese terms without explaining what they actually change in everyday use. A customer may be told that one knife has 67 layers, another reaches 62 HRC, and another is made from powder steel, but still have no clear idea of which knife will feel better in the hand or suit the work they want to do.
+This knowledge base explains those relationships in practical language. It is written for curious home cooks, chefs, sales staff, distributors, content creators and anyone who wants to understand why two knives that look similar can feel completely different in use.
 
-This knowledge base was created to make that world easier to understand.
+The project is practical rather than academic. Technical terms are introduced when they help the reader understand a real difference. Useful simplifications are encouraged, but they should never become materially misleading claims.
 
-It is written for people who are curious about kitchen knives but do not already have technical training. It is also designed for sales staff, distributors, chefs, content creators and anyone who needs to explain a product clearly without turning every conversation into a metallurgy lesson.
+> A knife is never defined by one feature alone. The useful question is always how its different features work together for a particular task and user.
 
-The aim is not to remove all complexity. Knives are affected by many connected factors, and useful knowledge sometimes requires nuance. The aim is to introduce that complexity gradually, using simple language, practical examples and ideas that can be remembered.
+## Recommended reading path
 
-## How to read this guide
+Each chapter can stand alone, but a new reader will understand the subject more easily in this order.
 
-You do not need to read the knowledge base in a fixed order. Each chapter can stand on its own. However, readers who are new to the subject may find the following path helpful.
+### 1. Begin with geometry
 
-Start with **The Five Dimensions of Knife Steel**. This chapter explains why no single number can describe whether a steel is good or bad. It introduces hardness, ease of sharpening, corrosion resistance, robustness and the fineness of the steel's internal structure.
+- [Single and Double Bevels](04-geometry-and-bevels/single-and-double-bevels.md)
+- [Knife Types and Cutting Styles](05-knife-types/overview.md)
 
-Continue with **Alloying Elements** if you want to understand why steels contain carbon, chromium, vanadium, tungsten and other elements. The chapter does not ask you to memorize chemical formulas. Instead, it explains what each ingredient is trying to achieve and what compromise may come with it.
+Start by seeing how a knife meets food. Bevels, edge shape, blade height, curvature and thickness are easier to visualize than metallurgy, and they explain why a knife may steer, rock, chop, slice or release food differently.
 
-The chapters on **Damascus Steel** and **Self-Sharpening Full Damascus** explain how layers can be used for appearance, structure and cutting behaviour. They also clarify an important point: a beautiful pattern is not automatically proof of a better knife, but neither is Damascus always merely decorative. The actual construction matters.
-
-The section on **Single and Double Bevels** shows how edge geometry changes the way a knife moves through food, why some traditional Japanese knives are made in right- and left-handed versions, and how an experienced user can compensate when working with the opposite orientation.
-
-The chapter on **Knife Types and Cutting Styles** helps connect names such as gyuto, santoku, bunka, nakiri, yanagiba and deba to real tasks and movements. Rather than treating each knife name as a rigid rule, it explains how profile, thickness and balance influence the result.
-
-Finally, the sharpening section introduces water stones, the formation of the burr and a complete practical sharpening process. These chapters are deliberately detailed because sharpening becomes much easier once the reader understands what is happening at the very edge of the blade.
-
-## The main sections
-
-### Knife steel
+### 2. Learn how steel performance is described
 
 - [The Five Dimensions of Knife Steel](01-foundations/five-dimensions-of-knife-steel.md)
-- [Alloying Elements: A Practical Guide](02-steels-and-metallurgy/alloying-elements.md)
+- [Alloying Elements — A Practical Guide](02-steels-and-metallurgy/alloying-elements.md)
 
-These chapters explain the character of steel. They focus on the questions that matter to a user: How long will the edge remain effective? How easily can it be restored? How carefully must the knife be treated? How easily can it stain or rust?
+Once the reader understands geometry, steel specifications become more meaningful. These chapters explain hardness, ease of sharpening, corrosion resistance, robustness and microstructural fineness, then show how alloying elements contribute to that balance.
 
-### Blade construction and geometry
+### 3. Understand blade construction
 
-- [Damascus Steel: Construction, Appearance, and Performance](03-blade-construction/damascus-steel.md)
+- [Damascus Steel — Construction, Appearance, and Performance](03-blade-construction/damascus-steel.md)
 - [The Self-Sharpening Effect in Full Damascus Blades](03-blade-construction/self-sharpening-full-damascus.md)
-- [Single and Double Bevels](04-geometry-and-bevels/single-and-double-bevels.md)
 
-These pages look at how the blade is built and shaped. Two knives made from similar steel can behave very differently if one is thin and delicate while the other is thick and robust. Construction and geometry are often as important as the steel name printed on the box.
+These chapters distinguish patterned cladding, full pattern-welded construction, historical wootz and surface-applied decoration. They also explain how alternating steels can influence edge wear when the layers actually reach the apex.
 
-### Choosing and using knives
+### 4. Use the knife safely
 
-- [Knife Types and Cutting Styles](05-knife-types/overview.md)
 - [Safe Use and Carrying](08-use-and-safety/safe-use-and-carrying.md)
 
-This section connects design to real kitchen work. It explains which knives are versatile, which are specialized, how different profiles support different cutting movements, and how to work safely without damaging the edge.
+A suitable sharp knife is easier to control, but safety depends on the complete working method: a stable board and ingredient, correct grip, controlled movement, appropriate cutting surface, safe carrying and protected storage.
 
-### Sharpening
+### 5. Finish with sharpening
 
 - [Preparing Water Stones](10-sharpening/whetstone-preparation.md)
 - [Understanding the Burr](10-sharpening/the-burr.md)
 - [A Practical Sharpening Process](10-sharpening/basic-sharpening-process.md)
 
-Sharpening is not a mysterious skill reserved for specialists. It is a controlled process of removing small amounts of steel until the two sides of the edge meet cleanly again. These chapters explain the process step by step and focus on the signs that tell you whether the work is progressing correctly.
+Sharpening becomes much easier once the reader knows what the bevel and apex are. The sequence is deliberate: first prepare the abrasive, then understand the burr, then follow the complete process.
 
-## A practical, not academic, approach
+## What this first edition covers
 
-This is not an academic paper and it is not intended to replace the technical documentation of a steel producer or knife manufacturer. Where a technical term is useful, it is introduced and explained. Where a simpler word communicates the same idea more effectively, the simpler word is preferred.
+The current English core explains:
 
-For example, the technical word **toughness** is important in metallurgy, but many customers understand **robustness** more quickly. The knowledge base therefore uses robustness as the main customer-facing term and explains the technical meaning where needed.
+- how single- and double-bevel geometry changes cutting behaviour;
+- how major knife profiles support rocking, push cutting, chopping, slicing and detail work;
+- how to compare steels without treating one number as a universal quality score;
+- what the main alloying elements contribute;
+- the difference between Damascus cladding, full Damascus and surface decoration;
+- the differential-wear mechanism described as a self-sharpening effect;
+- safe use, carrying, washing, transport and storage;
+- stone preparation, flatness, slurry and swarf;
+- burr formation, detection and removal;
+- a complete double-bevel sharpening workflow.
 
-The same principle applies throughout the project. We want the reader to finish a chapter with a clearer mental picture, not simply with a longer list of unfamiliar words.
+## Subjects still to be developed
 
-## English as the source of truth
+The present guide is a strong first technical-commercial foundation, but it is not yet a complete book. Future chapters should add:
 
-English is the sole source-of-truth language for this project. Translations and localized exports are derived from the English core. The structure is designed to support Italian, Spanish, German, French, Japanese, Simplified Chinese, Traditional Chinese and any other language identified by a standard locale code.
+- the anatomy of a kitchen knife and the vocabulary of blade geometry;
+- monosteel, san-mai, ni-mai and honyaki construction in one comparative chapter;
+- heat treatment as the bridge between composition and performance;
+- blade thickness, distal taper, convexity and geometry behind the edge;
+- handles, balance, weight and ergonomics;
+- polished, hammered, kurouchi and other finishes;
+- maintenance, patina, corrosion removal and long-term storage;
+- product-comparison methods that do not rely on unsupported rankings.
 
-When a translation needs to change the meaning of a statement, that change should first be made in the English source. This keeps every language aligned and prevents different versions from slowly becoming different books.
+These additions will be placed into the same learning sequence rather than treated as isolated articles.
+
+## English is the source of truth
+
+English is the sole source-of-truth language. Localized versions are generated from the approved English core. A translation may improve natural phrasing, but it must not introduce a new technical or commercial claim independently.
+
+The publishing system supports Italian, Spanish, German, French, Japanese, Simplified Chinese, Traditional Chinese and additional standard locale codes.
 
 ## An open project
 
-Questions, corrections and proposals are welcome through the repository's Issues and pull requests. A reader may notice that an explanation is unclear. A chef may suggest a better practical example. A sharpener may identify a point that needs more nuance. These contributions can make the knowledge base more useful, provided that they respect the project's purpose: clear, responsible and accessible education.
+Questions, corrections and proposals are welcome through GitHub Issues and pull requests. Contributions should improve clarity, usefulness or factual reliability while respecting the project's practical educational purpose.
 
-The written content may be shared and adapted for non-commercial purposes under the repository's licence. Commercial reuse requires separate prior written permission from the copyright holder.
+The original written content may be shared and adapted for non-commercial purposes under CC BY-NC-SA 4.0. Commercial reuse requires separate prior written permission. Image rights may differ and must be stated individually.
 
-## Begin with the central idea
+## The central idea
 
-If there is one principle to remember before reading further, it is this:
+> Steel creates possibilities. Heat treatment develops them. Geometry turns them into cutting behaviour. Sharpening restores the edge. Technique determines what the user experiences.
 
-> A knife is never defined by one feature alone. Steel, heat treatment, construction, geometry, sharpening, balance and user technique work together.
-
-Understanding those relationships is what turns a list of product specifications into useful knowledge.
+That relationship is the thread connecting every chapter in this knowledge base.

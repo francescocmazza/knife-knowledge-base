@@ -6,8 +6,9 @@ All notable editorial changes to the English source of truth will be recorded he
 
 ### Changed
 
+- reordered the website around a clearer novice learning path: geometry and knife movement before metallurgy, followed by safety and sharpening;
+- rewrote the home page as a concise guided reading path and documented subjects still missing from the first edition;
 - rewrote the current English knowledge base in a more discursive, detailed and book-like style for readers without specialist knowledge;
-- expanded the home page into a guided introduction to the subject;
 - expanded the five dimensions of knife steel with practical examples, misunderstandings and selection guidance;
 - expanded the alloying-elements chapter with plain-language explanations of each element and its compromises;
 - expanded the Damascus and self-sharpening chapters with clearer construction and wear explanations;
@@ -19,6 +20,11 @@ All notable editorial changes to the English source of truth will be recorded he
 
 ### Added
 
+- a complete structural audit of the English core;
+- a page-by-page register of visual placeholders and exact placement instructions;
+- a catalogue of reusable or adaptable images found in the supplied legacy training slides;
+- a prioritized list of original diagrams and licensed photographs still required;
+- original explanatory SVG diagrams for steel dimensions, bevels, Damascus differential wear and burr formation;
 - repository structure and contribution rules;
 - English-first localization architecture;
 - five dimensions of knife steel;
