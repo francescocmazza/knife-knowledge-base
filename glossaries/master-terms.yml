@@ -1,0 +1,76 @@
+terms:
+  hardness:
+    definition_en: Resistance of steel to local deformation, commonly expressed as HRC for knife blades.
+    preferred_customer_term_en: hardness
+    it: durezza
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required
+
+  robustness:
+    definition_en: Practical ability of the blade and edge to tolerate impact, twisting, chipping, and demanding use.
+    technical_note_en: The closest technical concept is toughness, but robustness is preferred in customer-facing content.
+    preferred_customer_term_en: robustness
+    it: robustezza
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required
+
+  ease_of_sharpening:
+    definition_en: How easily an abrasive can remove material and restore a clean cutting edge.
+    it: facilità di affilatura
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required
+
+  corrosion_resistance:
+    definition_en: Ability to resist rust, staining, and oxidation under normal use and maintenance.
+    it: resistenza alla corrosione
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required
+
+  microstructural_fineness:
+    definition_en: Fineness and distribution of grains and carbides that influence edge refinement, stability, and sharpening behavior.
+    it: finezza della microstruttura
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required
+
+  burr:
+    definition_en: A very thin lip of steel that remains attached to the edge and bends to the opposite side during sharpening.
+    note_en: It is not loose grinding residue or stone slurry.
+    it: bava di affilatura
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required
+
+  slurry:
+    definition_en: Mixture of water, released abrasive particles, and removed metal found on a sharpening stone during use.
+    it: sospensione abrasiva
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required
+
+  full_damascus:
+    definition_en: A blade whose patterned multilayer steel forms the blade body and reaches the cutting-edge region, rather than being only decorative cladding around a separate core.
+    it: damasco integrale
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required
+
+  single_bevel:
+    definition_en: An asymmetrical blade geometry with a main bevel on one side, often paired with a flat or concave reverse side.
+    it: monobisela
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required

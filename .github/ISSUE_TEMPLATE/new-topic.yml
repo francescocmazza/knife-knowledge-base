@@ -1,0 +1,39 @@
+name: Propose a new topic
+description: Suggest a new knowledge-base article, glossary term, or training module.
+title: "Topic: "
+labels:
+  - new-topic
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Proposed topic title
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who needs this information?
+      description: For example store staff, chefs, home cooks, sharpeners, or social-media audiences.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why is it useful?
+      description: Explain the practical or commercial-training value.
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Suggested explanation or outline
+    validations:
+      required: false
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Publication and rights
+      options:
+        - label: I will not submit confidential material or third-party images without permission.
+          required: true
