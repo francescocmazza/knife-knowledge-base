@@ -8,6 +8,18 @@ This project is designed for practical learning, commercial training, customer e
 
 The goal is to make knife knowledge easier to understand without turning useful simplifications into misleading claims.
 
+## Website
+
+The knowledge base is published as a searchable multilingual website with GitHub Pages:
+
+**https://francescocmazza.github.io/knife-knowledge-base/**
+
+Every approved change to the English core automatically rebuilds the website in all configured languages. The current deployment includes English, Italian, Spanish, German, French, Japanese, Simplified Chinese, Traditional Chinese, Portuguese, Polish, Czech, Dutch, Arabic, and Hebrew.
+
+The site includes a language selector. English is published under `/en/`, while each localized version uses its BCP-47 locale path, such as `/it/`, `/ja/`, `/zh-Hans/`, and `/zh-Hant/`.
+
+Machine-generated translations display a visible notice and remain open to human correction through pull requests. If a translation service is temporarily unavailable, the corresponding language path remains online and clearly displays the current English source as a fallback.
+
 ## Source-of-truth language
 
 English is the sole source-of-truth language for this project. All translations and localized exports are derived from the English core. Changes that affect meaning must first be made in English.
@@ -44,9 +56,10 @@ See [the English content index](content/en/README.md).
 
 ```text
 content/en/          English source of truth
-translations/        Derived localized content
+translations/        Space for reviewed localized content
 localization/        Locale configuration and translation rules
 glossaries/          Controlled terminology
+scripts/             Multilingual translation and site build tools
 editorial/           Social and marketing content planning
 sources/             Source-handling rules
 assets/              Original or authorized visual material
