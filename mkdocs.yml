@@ -1,0 +1,62 @@
+site_name: Knife Knowledge Base
+site_description: An open, practical knowledge base on kitchen knives, steels, blade geometry, construction, sharpening, maintenance, safety, and product education.
+site_author: Francesco Claudio Mazza
+site_url: https://francescocmazza.github.io/knife-knowledge-base/
+
+repo_name: francescocmazza/knife-knowledge-base
+repo_url: https://github.com/francescocmazza/knife-knowledge-base
+edit_uri: edit/main/content/en/
+
+copyright: Copyright &copy; 2026 Francesco Claudio Mazza — CC BY-NC-SA 4.0
+
+docs_dir: content/en
+site_dir: site
+use_directory_urls: true
+exclude_docs: |
+  README.md
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.action.view
+
+plugins:
+  - search
+
+markdown_extensions:
+  - meta
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Foundations:
+      - The Five Dimensions of Knife Steel: 01-foundations/five-dimensions-of-knife-steel.md
+  - Steels and Metallurgy:
+      - Alloying Elements: 02-steels-and-metallurgy/alloying-elements.md
+  - Blade Construction:
+      - Damascus Steel: 03-blade-construction/damascus-steel.md
+      - Self-Sharpening Full Damascus: 03-blade-construction/self-sharpening-full-damascus.md
+  - Geometry and Bevels:
+      - Single and Double Bevels: 04-geometry-and-bevels/single-and-double-bevels.md
+  - Knife Types:
+      - Knife Types and Cutting Styles: 05-knife-types/overview.md
+  - Use and Safety:
+      - Safe Use and Carrying: 08-use-and-safety/safe-use-and-carrying.md
+  - Sharpening:
+      - Preparing Water Stones: 10-sharpening/whetstone-preparation.md
+      - Understanding the Burr: 10-sharpening/the-burr.md
+      - A Practical Sharpening Process: 10-sharpening/basic-sharpening-process.md
