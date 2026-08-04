@@ -12,6 +12,8 @@ copyright: Copyright &copy; 2026 Francesco Claudio Mazza — CC BY-NC-SA 4.0
 docs_dir: content/en
 site_dir: site
 use_directory_urls: true
+exclude_docs: |
+  README.md
 
 theme:
   name: material
