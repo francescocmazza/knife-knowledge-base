@@ -7,35 +7,171 @@ reviewed: 2026-08-04
 
 # Editorial Principles
 
-## Intended level
+## Intended reader
 
-The knowledge base is deliberately practical and accessible. It is suitable for sales teams, store staff, customers, social-media audiences, and enthusiasts who want a reliable introduction.
+The knowledge base is written first for a curious reader who has no specialist knowledge of knives, steel or sharpening.
 
-It is not written as a scientific paper. Technical precision is used to improve understanding, not to overwhelm the reader.
+It must also remain useful for sales teams, store staff, distributors, chefs, content creators and enthusiasts. A person should be able to read a chapter for pleasure and understanding, not only consult it as a list of technical notes.
+
+## Intended style
+
+The core knowledge base should read like an accessible non-fiction book.
+
+Articles should be:
+
+- discursive rather than compressed;
+- detailed enough to build a clear mental picture;
+- written with common, intuitive vocabulary;
+- pleasant to read from beginning to end;
+- divided into short sections with descriptive headings;
+- supported by practical examples and familiar comparisons;
+- technically responsible without sounding academic.
+
+A page should not feel like an enlarged product specification sheet. Tables and bullet points are useful for summaries, but the main explanation should normally be written in connected prose.
+
+## Begin with the reader's question
+
+Each chapter should open by explaining why the subject matters or what confusion it resolves.
+
+For example, a steel chapter should not begin with a chemical definition. It may begin with the customer's question: “Why can two knives with similar hardness feel completely different?”
+
+A sharpening chapter should explain what is physically happening at the edge before giving a sequence of movements.
+
+The reader should understand the purpose of an idea before being asked to remember its name.
+
+## Explain one step deeper
+
+The text should not stop at a short claim when one additional paragraph can make the idea intuitive.
+
+Instead of writing only “hard steel retains an edge longer,” explain that the apex is a very thin ridge and that greater hardness helps it resist bending during repeated contact with the cutting board.
+
+Instead of writing only “a burr forms,” explain that the last thin strip of steel remains attached and bends away from the side being sharpened.
+
+This additional level of explanation is what turns information into knowledge.
+
+## Use technical terms carefully
+
+Technical terms are welcome when they help the reader communicate accurately. They must be introduced in plain language.
+
+Preferred pattern:
+
+1. give the intuitive explanation;
+2. introduce the technical term;
+3. continue using the term consistently.
+
+For example:
+
+> Robustness describes how forgiving the blade is when it receives impact or sideways stress. In metallurgy, the closest technical term is toughness.
+
+Avoid placing several unexplained specialist terms in the same sentence.
 
 ## Two-layer writing model
 
 ### Main explanation
 
-The main text should be simple, memorable, and commercially useful.
+The main text should be clear, memorable, commercially useful and sufficiently detailed for a beginner to follow.
 
 ### Precision note
 
-A short note should be added only when a simplification could become materially false, unsafe, or misleading.
+A qualification should be added when a simple statement could become materially false, unsafe or misleading.
+
+The note should be proportionate. It should clarify the practical limit without turning every paragraph into a scientific discussion.
+
+## Commercial and educational balance
+
+This project is not a scientific paper. It does not require every statement to cover every theoretical exception.
+
+It should nevertheless avoid claims that create the wrong mental model. Strong commercial language is acceptable when the practical meaning and limits are explained on the same page.
+
+For example, “self-sharpening” can be used when the chapter explains differential wear and makes clear that the knife still needs normal sharpening.
+
+The purpose of precision is to make the product story more credible, not less interesting.
 
 ## Product claims
 
-A general principle may be published when it is broadly applicable. A manufacturer- or product-specific performance claim should be clearly identified as such and supported by current product information.
+A general principle may be published when it is broadly applicable.
+
+A manufacturer- or product-specific claim should be clearly identified as such and based on current product information. Historical sales material should not silently become a current technical specification.
+
+When a feature applies only to selected product lines, the wording must say so.
 
 ## Preferred language
 
 - use **robustness** in customer-facing text;
-- use **toughness** only as a technical clarification when needed;
-- describe hardness, ease of sharpening, corrosion resistance, robustness, and microstructural fineness as separate dimensions;
+- use **toughness** as a technical clarification when useful;
+- describe hardness, ease of sharpening, corrosion resistance, robustness and microstructural fineness as separate dimensions;
 - describe “self-sharpening” as an effect that can preserve micro-serrated cutting bite, not as freedom from all future sharpening;
 - use “single bevel” and “double bevel” rather than ambiguous shorthand;
-- distinguish burr from loose metal residue and stone slurry.
+- distinguish burr from loose metal residue, swarf and stone slurry;
+- use “corrosion-resistant” or explain that stainless does not mean rust-proof;
+- distinguish a Damascus-clad core construction from full pattern-welded Damascus;
+- avoid presenting layer count, HRC, price or origin as a complete quality grade.
 
-## Marketing rule
+## Readability rules
 
-A strong claim is acceptable when its practical meaning and limits are explained in the same page. The goal is not to weaken the message, but to make it credible and reusable.
+Prefer short and medium-length sentences. Longer sentences are acceptable when their structure remains clear.
+
+Use headings frequently enough that a reader can pause and return without losing the thread.
+
+Use paragraphs for explanation and bullet points for:
+
+- quick comparisons;
+- practical steps;
+- examples;
+- warnings;
+- final summaries.
+
+Avoid long pages made almost entirely from bullet points.
+
+Use analogies only when they clarify the mechanism and do not create a false equivalence.
+
+## Structure of a strong chapter
+
+A complete article will usually contain:
+
+1. an inviting introduction;
+2. the reader's practical question;
+3. a simple explanation of the mechanism;
+4. the main benefits and compromises;
+5. examples of real use;
+6. common misunderstandings;
+7. guidance for choosing, using or explaining the feature;
+8. a concise customer-facing summary.
+
+Not every article must follow this sequence rigidly, but it should provide the same journey from curiosity to understanding.
+
+## Writing for translation
+
+English is the source of truth, but the content must be suitable for translation into languages including Japanese, Simplified Chinese and Traditional Chinese.
+
+Avoid unnecessary wordplay, culture-specific jokes and idioms that cannot be translated clearly.
+
+Keep important terminology consistent across chapters. The controlled glossary should be consulted before introducing a new translation-sensitive term.
+
+## Images and diagrams
+
+Images should teach, not merely decorate.
+
+A diagram should make a concept easier to understand, such as:
+
+- how a burr bends to the opposite side;
+- the difference between core-and-cladding and full Damascus;
+- the profile of a gyuto compared with a nakiri;
+- the correct carrying position;
+- how a water stone becomes dished.
+
+Only original, authorized or appropriately licensed visual material may be used.
+
+## Final editorial test
+
+Before approving a chapter, ask:
+
+- Can a complete beginner understand the central idea?
+- Is the explanation detailed enough to answer the obvious next question?
+- Does the page remain pleasant to read?
+- Are technical terms introduced rather than assumed?
+- Is the commercial message strong but credible?
+- Could the text be translated without changing its meaning?
+- Does the reader finish with a clearer mental picture?
+
+If the answer is yes, the chapter meets the intended standard.
