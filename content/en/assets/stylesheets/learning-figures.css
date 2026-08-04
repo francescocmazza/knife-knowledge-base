@@ -1,0 +1,32 @@
+.kb-learning-figure {
+  margin: 2rem auto;
+  max-width: 62rem;
+}
+
+.kb-learning-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.65rem;
+  background: white;
+  box-shadow: 0 0.3rem 1.2rem rgba(0, 0, 0, 0.08);
+}
+
+.kb-learning-figure figcaption {
+  margin-top: 0.65rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .kb-learning-figure {
+    margin: 1.4rem 0;
+  }
+
+  .kb-learning-figure figcaption {
+    text-align: left;
+  }
+}
