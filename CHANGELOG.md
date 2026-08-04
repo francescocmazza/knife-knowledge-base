@@ -14,7 +14,8 @@ All notable editorial changes to the English source of truth will be recorded he
 - expanded the single- and double-bevel chapter, including opposite-hand compensation and sharpening implications;
 - replaced the compact knife-type tables with a detailed guide connecting profiles to cutting movements and real tasks;
 - expanded safe use, water-stone preparation, burr formation and the complete sharpening process;
-- adopted a long-form reader-friendly editorial standard for future contributions.
+- adopted a long-form reader-friendly editorial standard for future contributions;
+- changed GitHub Pages from a single-language build to an automatic multilingual deployment.
 
 ### Added
 
@@ -29,4 +30,7 @@ All notable editorial changes to the English source of truth will be recorded he
 - safety and carrying guidance;
 - water-stone preparation guidance;
 - burr explanation and practical sharpening workflow;
-- issue templates for corrections and new topics.
+- issue templates for corrections and new topics;
+- automatic GitHub Models translation with source-hash caching;
+- language-specific GitHub Pages builds for English, Italian, Spanish, German, French, Japanese, Simplified Chinese, Traditional Chinese, Portuguese, Polish, Czech, Dutch, Arabic, and Hebrew;
+- language selector, right-to-left support, and visible machine-translation notices.
