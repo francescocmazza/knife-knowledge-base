@@ -1,0 +1,41 @@
+name: Report a correction
+description: Identify a factual, technical, safety, or wording problem.
+title: "Correction: "
+labels:
+  - correction
+body:
+  - type: textarea
+    id: page
+    attributes:
+      label: Page or section
+      description: Link to the relevant repository page and quote the sentence involved.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or misleading?
+      description: Explain the practical problem with the current wording.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed correction
+      description: Suggest replacement wording suitable for practical training.
+    validations:
+      required: false
+  - type: textarea
+    id: support
+    attributes:
+      label: Supporting information
+      description: Add a public source, test result, manufacturer specification, or clear explanation.
+    validations:
+      required: false
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Publication and rights
+      options:
+        - label: I have not uploaded confidential material or images that I do not have permission to publish.
+          required: true

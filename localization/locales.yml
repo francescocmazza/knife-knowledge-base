@@ -1,0 +1,76 @@
+source_locale: en
+locale_standard: BCP-47
+
+locales:
+  en:
+    name: English
+    status: source
+    direction: ltr
+  it:
+    name: Italian
+    status: planned
+    direction: ltr
+  es:
+    name: Spanish
+    status: planned
+    direction: ltr
+  de:
+    name: German
+    status: planned
+    direction: ltr
+  fr:
+    name: French
+    status: planned
+    direction: ltr
+  ja:
+    name: Japanese
+    status: planned
+    direction: ltr
+    specialist_review_required: true
+  zh-Hans:
+    name: Simplified Chinese
+    status: planned
+    direction: ltr
+    specialist_review_required: true
+  zh-Hant:
+    name: Traditional Chinese
+    status: planned
+    direction: ltr
+    specialist_review_required: true
+  pt:
+    name: Portuguese
+    status: supported
+    direction: ltr
+  pl:
+    name: Polish
+    status: supported
+    direction: ltr
+  cs:
+    name: Czech
+    status: supported
+    direction: ltr
+  nl:
+    name: Dutch
+    status: supported
+    direction: ltr
+  ar:
+    name: Arabic
+    status: supported
+    direction: rtl
+  he:
+    name: Hebrew
+    status: supported
+    direction: rtl
+
+export_formats:
+  - markdown
+  - html
+  - pdf
+  - docx
+
+rules:
+  - English is the sole source of truth.
+  - Meaning changes must be made in English first.
+  - Japanese and Chinese exports require terminology review.
+  - CJK PDF exports require fonts with full Unicode coverage.
+  - Right-to-left exports require bidirectional layout support.
