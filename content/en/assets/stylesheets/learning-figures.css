@@ -21,6 +21,15 @@
   text-align: center;
 }
 
+.kb-learning-figure__note {
+  margin-top: 0.4rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.78rem;
+  font-style: italic;
+  line-height: 1.4;
+  text-align: center;
+}
+
 .kb-image-placeholder-wrap {
   margin: 2rem auto;
   max-width: 30rem;
@@ -81,7 +90,8 @@
   }
 
   .kb-learning-figure figcaption,
-  .kb-image-placeholder-wrap figcaption {
+  .kb-image-placeholder-wrap figcaption,
+  .kb-learning-figure__note {
     text-align: left;
   }
 

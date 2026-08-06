@@ -76,6 +76,8 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting material.
 
 Only original, properly licensed, or explicitly authorized images may be added. Confidential manuals, proprietary slide decks, and third-party images must not be uploaded unless the repository owner has clear permission to publish them.
 
+Several images in this knowledge base are cropped or adapted from the Xinzuo product catalog and are used with authorization from the repository owner. They remain the property of their copyright holder, are not covered by the CC BY-NC-SA 4.0 license below, and require separate authorization for commercial reuse. See [`content/en/assets/IMAGE_RIGHTS.md`](content/en/assets/IMAGE_RIGHTS.md) for the full statement.
+
 ## License
 
 Except where otherwise noted, the original written content is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.

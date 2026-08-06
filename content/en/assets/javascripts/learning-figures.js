@@ -1,62 +1,181 @@
 (() => {
   const figures = {
-    "01-foundations/five-dimensions-of-knife-steel": {
-      file: "five-dimensions-radar.svg",
-      alt: "Radar chart of the five dimensions used to describe knife steel",
-      caption: "The five dimensions provide an educational map of a steel's character; they are not an absolute quality score."
-    },
-    "03-blade-construction/self-sharpening-full-damascus": {
-      file: "self-sharpening-damascus.svg",
-      alt: "Diagram of differential wear in a full Damascus cutting edge",
-      caption: "Original diagram based on the layered-steel concept presented in the training slides."
-    },
-    "04-geometry-and-bevels/single-and-double-bevels": {
-      file: "single-vs-double-bevel.svg",
-      alt: "Cross-section comparison of single and double bevel edges",
-      caption: "A simplified cross-section makes the basic geometric difference easier to visualize."
-    },
-    "05-knife-types/overview": {
-      file: "knife-types-and-motion.svg",
-      alt: "Knife profiles and their most common cutting motions",
-      caption: "Adapted from the profile and cutting-style concepts in the original agent-training slides."
-    },
-    "10-sharpening/whetstone-preparation": {
-      file: "whetstone-preparation.svg",
-      alt: "Diagram comparing soaking, splash-and-go preparation and keeping a whetstone wet",
-      caption: "The correct preparation depends on the stone; manufacturer instructions always prevail."
-    },
-    "10-sharpening/the-burr": {
-      file: "burr-cross-section.svg",
-      alt: "Cross-section diagram showing how a sharpening burr forms",
-      caption: "The burr is a thin lip of steel still attached to the apex, not loose grinding residue."
-    }
+    index: [
+      {
+        id: "VIS-HOME-01",
+        dir: "assets/images/approved/",
+        file: "home-hero-xinzuo-masterpieces.svg",
+        alt: "A craftsman inspecting a Xinzuo Damascus kitchen knife.",
+        caption: "A kitchen knife is the result of material, process, geometry and craftsmanship working together.",
+        width: 1000,
+        height: 1389,
+        loading: "eager",
+        target: { type: "lead", index: 0 }
+      },
+      {
+        id: "VIS-HANDLE-01",
+        dir: "assets/images/approved/",
+        file: "handle-material-gallery.svg",
+        alt: "Catalog comparison of wood, composite, resin, carbon-fibre and G10 knife-handle materials.",
+        caption: "Examples of handle materials used across Xinzuo knife series. Appearance alone does not determine ergonomics, durability or balance.",
+        width: 650,
+        height: 902,
+        loading: "lazy",
+        target: { type: "heading", level: "h2", index: 2 }
+      },
+      {
+        id: "VIS-MAKING-01",
+        dir: "assets/images/approved/",
+        file: "production-process-overview.svg",
+        alt: "Overview of the Xinzuo knife production process, from blade cutting to inspection and packaging.",
+        caption: "The production process connects steel selection, heat treatment, grinding, finishing, sharpening, assembly and quality control.",
+        note: "This shows the Xinzuo production sequence specifically. It is not evidence that every knife manufacturer follows exactly the same process.",
+        width: 2000,
+        height: 1389,
+        loading: "lazy",
+        target: { type: "heading", level: "h2", index: 2 }
+      }
+    ],
+
+    "01-foundations/five-dimensions-of-knife-steel": [
+      {
+        id: "FIG-STEEL-DIMENSIONS",
+        file: "five-dimensions-radar.svg",
+        alt: "Radar chart of the five dimensions used to describe knife steel",
+        caption: "The five dimensions provide an educational map of a steel's character; they are not an absolute quality score."
+      }
+    ],
+
+    "03-blade-construction/damascus-steel": [
+      {
+        id: "VIS-FINISH-01",
+        dir: "assets/images/approved/",
+        file: "pattern-gallery.svg",
+        alt: "Examples of named Damascus patterns from the Xinzuo catalog.",
+        caption: "Pattern names describe the visible design. They do not by themselves define steel quality, heat treatment or cutting performance.",
+        width: 650,
+        height: 902,
+        loading: "lazy",
+        target: { type: "heading", level: "h2", index: 1, position: "before" }
+      }
+    ],
+
+    "03-blade-construction/self-sharpening-full-damascus": [
+      {
+        id: "FIG-SELF-DIFFERENTIAL-WEAR",
+        file: "self-sharpening-damascus.svg",
+        alt: "Diagram of differential wear in a full Damascus cutting edge",
+        caption: "Original diagram based on the layered-steel concept presented in the training slides."
+      }
+    ],
+
+    "04-geometry-and-bevels/single-and-double-bevels": [
+      {
+        id: "FIG-BEV-CROSS-SECTION",
+        file: "single-vs-double-bevel.svg",
+        alt: "Cross-section comparison of single and double bevel edges",
+        caption: "A simplified cross-section makes the basic geometric difference easier to visualize."
+      }
+    ],
+
+    "05-knife-types/overview": [
+      {
+        id: "FIG-KNIFE-MOTION",
+        file: "knife-types-and-motion.svg",
+        alt: "Knife profiles and their most common cutting motions",
+        caption: "Adapted from the profile and cutting-style concepts in the original agent-training slides."
+      },
+      {
+        id: "VIS-KNIFE-09",
+        dir: "assets/images/approved/",
+        file: "master-knife-shape-index.svg",
+        alt: "Catalog index showing common kitchen-knife blade shapes.",
+        caption: "A visual index of common and specialist knife shapes. Profile is only the starting point: thickness, bevel geometry, weight and heat treatment also affect how a knife behaves.",
+        note: "Catalog terminology is reproduced for identification. Some labels are broad or commercial categories and are explained more precisely in the accompanying text.",
+        width: 1299,
+        height: 902,
+        loading: "lazy",
+        target: { type: "heading", level: "h2", index: 0, position: "before" }
+      }
+    ],
+
+    "08-use-and-safety/safe-use-and-carrying": [
+      {
+        id: "VIS-STORAGE-01",
+        dir: "assets/images/approved/",
+        file: "storage-options-gallery.svg",
+        alt: "In-drawer knife trays and wall-mounted magnetic knife holders.",
+        caption: "Storage should protect the edge and allow the handle to be reached without touching the blade.",
+        width: 700,
+        height: 902,
+        loading: "lazy",
+        target: { type: "heading", level: "h2", index: 11 }
+      }
+    ],
+
+    "10-sharpening/whetstone-preparation": [
+      {
+        id: "FIG-STONE-PREPARATION-COMPARE",
+        file: "whetstone-preparation.svg",
+        alt: "Diagram comparing soaking, splash-and-go preparation and keeping a whetstone wet",
+        caption: "The correct preparation depends on the stone; manufacturer instructions always prevail."
+      },
+      {
+        id: "VIS-STONE-01",
+        dir: "assets/images/approved/",
+        file: "stable-whetstone-setup.svg",
+        alt: "A kitchen knife being sharpened on a whetstone secured in a wooden stone holder.",
+        caption: "A stable holder reduces stone movement and makes angle control safer and more repeatable.",
+        note: "The stone, guide and sharpening angle shown are one working example, not a mandatory setup.",
+        width: 579,
+        height: 780,
+        loading: "lazy",
+        target: { type: "heading", level: "h2", index: 3 }
+      }
+    ],
+
+    "10-sharpening/the-burr": [
+      {
+        id: "FIG-BURR-CROSS-SECTION",
+        file: "burr-cross-section.svg",
+        alt: "Cross-section diagram showing how a sharpening burr forms",
+        caption: "The burr is a thin lip of steel still attached to the apex, not loose grinding residue."
+      }
+    ],
+
+    "10-sharpening/basic-sharpening-process": [
+      {
+        id: "VIS-SHARP-08A",
+        dir: "assets/images/approved/",
+        file: "whetstones-and-sheaths.svg",
+        alt: "Whetstones and blade sheaths from the Xinzuo catalog.",
+        caption: "Sharpening stones remove steel and rebuild the bevel and apex. Preparation requirements depend on the individual stone.",
+        width: 1299,
+        height: 902,
+        loading: "lazy",
+        target: { type: "heading", level: "h2", index: 1 }
+      },
+      {
+        id: "VIS-SHARP-08B",
+        dir: "assets/images/approved/",
+        file: "strops-and-honing-rods.svg",
+        alt: "Leather strops and honing rods from the Xinzuo catalog.",
+        caption: "Strops and honing rods perform different maintenance functions and do not automatically replace stone sharpening.",
+        width: 619,
+        height: 902,
+        loading: "lazy",
+        target: { type: "heading", level: "h2", index: 1 }
+      }
+    ]
   };
 
   const placeholders = {
     index: [
       {
-        id: "VIS-HOME-01",
-        title: "Hero Knife Image",
-        note: "Candidate: a current Xinzuo Damascus macro photograph.",
-        target: { type: "lead", index: 0 }
-      },
-      {
         id: "VIS-HOME-02",
         title: "The Knife as a System",
         note: "Original diagram: steel, heat treatment, geometry, sharpening, balance and technique.",
         target: { type: "selector", selector: "blockquote", index: 0 }
-      },
-      {
-        id: "VIS-HANDLE-01",
-        title: "Handle Material Gallery",
-        note: "Candidate source: named handle-material swatches in the 2025 Xinzuo catalog.",
-        target: { type: "heading", level: "h2", index: 2 }
-      },
-      {
-        id: "VIS-MAKING-01",
-        title: "How a Kitchen Knife Is Made",
-        note: "Candidate source: the twelve-stage production sequence in the 2025 Xinzuo catalog.",
-        target: { type: "heading", level: "h2", index: 2 }
       }
     ],
 
@@ -108,12 +227,6 @@
         title: "Pattern-Welding Production Sequence",
         note: "Original diagram: stack, forge weld, manipulate, grind, polish and etch.",
         target: { type: "heading", level: "h2", index: 0 }
-      },
-      {
-        id: "VIS-FINISH-01",
-        title: "Named Damascus Pattern Gallery",
-        note: "Candidate source: ten named pattern swatches in the 2025 Xinzuo catalog.",
-        target: { type: "heading", level: "h2", index: 1, position: "before" }
       },
       {
         id: "VIS-DAM-02",
@@ -178,12 +291,6 @@
     ],
 
     "05-knife-types/overview": [
-      {
-        id: "VIS-KNIFE-09",
-        title: "Master Index of Kitchen-Knife Shapes",
-        note: "Redraw from the 2025 Xinzuo catalog and organize by practical function.",
-        target: { type: "heading", level: "h2", index: 0, position: "before" }
-      },
       {
         id: "VIS-KNIFE-02",
         title: "Gyuto vs Santoku vs Bunka",
@@ -274,12 +381,6 @@
         title: "Safe Tip-Down Carrying Position",
         note: "Original full-body safety illustration or authorized staged photograph.",
         target: { type: "heading", level: "h2", index: 9 }
-      },
-      {
-        id: "VIS-STORAGE-01",
-        title: "Passing, Storage and Protected Transport",
-        note: "Candidate source: Xinzuo catalog trays, magnetic strips, sayas, blocks and knife rolls.",
-        target: { type: "heading", level: "h2", index: 11 }
       }
     ],
 
@@ -295,12 +396,6 @@
         title: "Sharpening-Media Preparation Guide",
         note: "Absorbent, splash-and-go, ceramic, diamond, oil and natural stone families.",
         target: { type: "heading", level: "h2", index: 2 }
-      },
-      {
-        id: "VIS-STONE-01",
-        title: "Stable Whetstone Sharpening Setup",
-        note: "Candidate source: catalog stone-holder photograph or permitted training-slide crop.",
-        target: { type: "heading", level: "h2", index: 3 }
       },
       {
         id: "VIS-STONE-04",
@@ -343,12 +438,6 @@
         title: "The Six Phases of Sharpening",
         note: "Inspect, prepare, first side, second side, refine/deburr, inspect/test/clean.",
         target: { type: "heading", level: "h2", index: 0, position: "before" }
-      },
-      {
-        id: "VIS-SHARP-08",
-        title: "Stone, Strop and Honing Rod: Different Tools",
-        note: "Candidate source: whetstones, leather strops and rods in the 2025 Xinzuo catalog.",
-        target: { type: "heading", level: "h2", index: 1 }
       },
       {
         id: "VIS-SHARP-02",
@@ -489,6 +578,40 @@
     return figure;
   }
 
+  function legacyAnchor(article) {
+    const h1 = article.querySelector("h1");
+    return h1?.nextElementSibling?.nextElementSibling || h1?.nextElementSibling || null;
+  }
+
+  function createFigure(item) {
+    const figure = document.createElement("figure");
+    figure.className = "kb-learning-figure";
+    figure.dataset.visualId = item.id;
+
+    const image = document.createElement("img");
+    const dir = item.dir || "assets/diagrams/";
+    image.src = `${assetRoot()}${dir}${item.file}`;
+    image.alt = item.alt;
+    image.loading = item.loading || "lazy";
+    image.decoding = "async";
+    if (item.width) image.width = item.width;
+    if (item.height) image.height = item.height;
+
+    const caption = document.createElement("figcaption");
+    caption.textContent = item.caption;
+
+    figure.append(image, caption);
+
+    if (item.note) {
+      const note = document.createElement("p");
+      note.className = "kb-learning-figure__note";
+      note.textContent = item.note;
+      figure.append(note);
+    }
+
+    return figure;
+  }
+
   function insertRelative(anchor, element, position, afterAnchors) {
     if (!anchor) return;
 
@@ -502,26 +625,24 @@
     afterAnchors.set(anchor, element);
   }
 
-  function placeFigure(article, key) {
-    if (article.querySelector(".kb-learning-figure")) return;
-    const item = figures[key];
-    if (!item) return;
+  function placeFigures(article, key) {
+    const items = figures[key] || [];
+    const afterAnchors = new WeakMap();
 
-    const figure = document.createElement("figure");
-    figure.className = "kb-learning-figure";
-    const image = document.createElement("img");
-    image.src = `${assetRoot()}assets/diagrams/${item.file}`;
-    image.alt = item.alt;
-    image.loading = "lazy";
-    image.decoding = "async";
-    const caption = document.createElement("figcaption");
-    caption.textContent = item.caption;
-    figure.append(image, caption);
+    items.forEach((item) => {
+      if (article.querySelector(`[data-visual-id="${item.id}"]`)) return;
 
-    const h1 = article.querySelector("h1");
-    const insertionPoint = h1?.nextElementSibling?.nextElementSibling || h1?.nextElementSibling;
-    if (insertionPoint) insertionPoint.insertAdjacentElement("afterend", figure);
-    else article.prepend(figure);
+      if (!item.target) {
+        const anchor = legacyAnchor(article);
+        const figure = createFigure(item);
+        if (anchor) anchor.insertAdjacentElement("afterend", figure);
+        else article.prepend(figure);
+        return;
+      }
+
+      const { anchor, position } = resolveTarget(article, item.target);
+      insertRelative(anchor, createFigure(item), position, afterAnchors);
+    });
   }
 
   function placePlaceholders(article, key) {
@@ -539,7 +660,7 @@
     const article = document.querySelector("article.md-content__inner");
     if (!article) return;
     const key = pageKey();
-    placeFigure(article, key);
+    placeFigures(article, key);
     placePlaceholders(article, key);
   }
 
