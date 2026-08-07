@@ -4,6 +4,14 @@ English under `content/en/` is the sole source of truth.
 
 The GitHub Pages workflow automatically generates localized website versions during deployment. Generated translations are stored in the GitHub Actions cache rather than committed as authoritative source files. This keeps the repository English-first while avoiding repeated translation of unchanged pages.
 
+## Translation provider
+
+GitHub Models was fully retired by GitHub on July 30, 2026, so the multilingual builder now uses the OpenAI API for machine translation.
+
+Repository setup requires an Actions secret named `OPENAI_API_KEY`. The default translation model is `gpt-5-mini`; it can be changed through the `OPENAI_MODEL` environment variable without changing the English source.
+
+Production deployments use strict translation mode: if a required non-English translation cannot be generated and is not already present in the translation cache, the build fails instead of silently replacing that page with English. This protects the live multilingual site from provider outages or missing credentials.
+
 ## Current automatic deployment locales
 
 - Italian (`it`)
