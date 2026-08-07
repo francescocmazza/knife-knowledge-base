@@ -45,7 +45,6 @@ on:
 
 permissions:
   contents: read
-  models: read
 
 concurrency:
   group: export-pdf-${{ github.ref }}
@@ -84,9 +83,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .translation-cache
-          key: multilingual-translations-v1-${{ hashFiles('content/en/**/*.md', 'glossaries/**/*.yml', 'localization/locales.yml', 'scripts/multilingual_site.py') }}
+          key: multilingual-translations-v2-openai-${{ hashFiles('content/en/**/*.md', 'glossaries/**/*.yml', 'localization/locales.yml', 'scripts/multilingual_site.py') }}
           restore-keys: |
-            multilingual-translations-v1-
+            multilingual-translations-v2-openai-
 
       - name: Smoke-test the English PDF on pull requests
         if: github.event_name == 'pull_request'
@@ -96,11 +95,21 @@ jobs:
             --placeholders hide \
             --output-dir pdf-export
 
+      - name: Require translation API key for non-English exports
+        if: github.event_name == 'workflow_dispatch' && inputs.language != 'en'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::OPENAI_API_KEY repository secret is required for translated PDF exports."
+            exit 1
+          fi
+
       - name: Export requested PDF guide(s)
         if: github.event_name == 'workflow_dispatch'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_MODELS_MODEL: openai/gpt-4.1
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5-mini
         run: |
           python scripts/export_pdf_guides.py \
             --locales ${{ inputs.language }} \
