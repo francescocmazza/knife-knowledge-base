@@ -60,12 +60,39 @@
       }
     ],
 
+    "03-blade-construction/self-sharpening-full-damascus": [
+      {
+        id: "VIS-SELF-01",
+        dir: "assets/images/approved/",
+        file: "damascus-structure-comparison.svg",
+        alt: "Technical cross-section comparison of historic Damascus steel and modern full-Damascus steel, showing the layered structure continuing to the cutting edge.",
+        caption: "In both structures, the alternating layers continue all the way to the cutting edge — the structural basis for the differential-wear mechanism described in this chapter.",
+        note: "Presentation material. The specific hardness values shown describe the individual steels tested there and are not a general ranking of Damascus knives.",
+        width: 1600,
+        height: 405,
+        loading: "lazy",
+        target: { type: "lead", index: 0 }
+      }
+    ],
+
     "04-geometry-and-bevels/single-and-double-bevels": [
       {
         id: "FIG-BEV-CROSS-SECTION",
         file: "single-vs-double-bevel.svg",
         alt: "Cross-section comparison of single and double bevel edges",
         caption: "A simplified cross-section makes the basic geometric difference easier to visualize."
+      },
+      {
+        id: "VIS-BEV-02",
+        dir: "assets/images/approved/",
+        file: "bevel-families.svg",
+        alt: "Presentation chart of seven blade bevel families: V, convex, asymmetric V, compound double V, concave, single-sided, and single-sided with urasuki.",
+        caption: "Classic double-bevel profiles (left) and traditional Japanese single-bevel profiles (right). Bevel shape is one more variable, alongside steel and heat treatment, that shapes how a knife cuts.",
+        note: "Labels are reproduced from the source presentation in Italian (“V”, “Convessa”, “Asimmetrica”, “Concava”, “Lato singolo”, “Lato singolo con Urasuki”); the chapter text explains each shape.",
+        width: 1600,
+        height: 875,
+        loading: "lazy",
+        target: { type: "heading", level: "h2", index: 1 }
       }
     ],
 
@@ -241,12 +268,6 @@
 
     "03-blade-construction/self-sharpening-full-damascus": [
       {
-        id: "VIS-SELF-01",
-        title: "Differential Wear Mechanism",
-        note: "Withdrawn pending review: the previous generated diagram did not show the alternating layers continuing into the apex, which is the mechanism this chapter describes. Needs an authorized photograph or a corrected diagram.",
-        target: { type: "lead", index: 0 }
-      },
-      {
         id: "VIS-SELF-02",
         title: "Why Full Damascus Matters at the Apex",
         note: "Original comparison: clad core edge versus alternating layers reaching the edge.",
@@ -261,12 +282,6 @@
     ],
 
     "04-geometry-and-bevels/single-and-double-bevels": [
-      {
-        id: "VIS-BEV-02",
-        title: "Main Bevel Families",
-        note: "Redraw in English from the permitted training-slide reference.",
-        target: { type: "heading", level: "h2", index: 1 }
-      },
       {
         id: "VIS-BEV-04",
         title: "Handedness and Opposite-Hand Compensation",
