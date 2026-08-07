@@ -12,7 +12,6 @@ on:
 
 permissions:
   contents: read
-  models: read
 
 concurrency:
   group: multilingual-export-${{ github.ref }}
@@ -70,15 +69,15 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .translation-cache
-          key: multilingual-translations-v1-${{ hashFiles('content/en/**/*.md', 'glossaries/**/*.yml', 'localization/locales.yml', 'scripts/multilingual_site.py') }}
+          key: multilingual-translations-v2-openai-${{ hashFiles('content/en/**/*.md', 'glossaries/**/*.yml', 'localization/locales.yml', 'scripts/multilingual_site.py') }}
           restore-keys: |
-            multilingual-translations-v1-
+            multilingual-translations-v2-openai-
 
       - name: Translate and build every configured language
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_MODELS_MODEL: openai/gpt-4.1
-        run: python scripts/multilingual_site.py --translate
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5-mini
+        run: python scripts/multilingual_site.py --translate --require-translations
 
       - name: Prepare export package
         shell: bash
