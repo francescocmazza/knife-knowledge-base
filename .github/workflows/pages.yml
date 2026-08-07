@@ -70,11 +70,47 @@ jobs:
         if: github.event_name == 'pull_request'
         run: python scripts/multilingual_site.py --locales en
 
+      - name: Validate GitHub Models access on pull requests
+        if: github.event_name == 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_MODELS_MODEL: openai/gpt-4.1
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          payload = {
+              "model": os.environ["GITHUB_MODELS_MODEL"],
+              "temperature": 0,
+              "max_tokens": 16,
+              "messages": [{"role": "user", "content": "Reply with exactly: OK"}],
+          }
+          request = urllib.request.Request(
+              "https://models.github.ai/inference/chat/completions",
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Accept": "application/vnd.github+json",
+                  "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+                  "Content-Type": "application/json",
+                  "X-GitHub-Api-Version": "2026-03-10",
+              },
+              method="POST",
+          )
+          with urllib.request.urlopen(request, timeout=60) as response:
+              data = json.loads(response.read().decode("utf-8"))
+          content = data["choices"][0]["message"]["content"].strip()
+          if "OK" not in content.upper():
+              raise SystemExit(f"Unexpected GitHub Models response: {content!r}")
+          print(f"GitHub Models probe succeeded with {os.environ['GITHUB_MODELS_MODEL']}")
+          PY
+
       - name: Translate and build every configured language
         if: github.event_name != 'pull_request'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_MODELS_MODEL: openai/gpt-4o
+          GITHUB_MODELS_MODEL: openai/gpt-4.1
         run: python scripts/multilingual_site.py --translate
 
       - name: Upload Pages artifact
