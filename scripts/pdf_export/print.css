@@ -46,37 +46,64 @@ a {
 .kb-cover {
   break-after: page;
   page-break-after: always;
-  min-height: 240mm;
+  min-height: 250mm;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
-  padding: 0 15mm;
+  padding: 18mm 15mm 6mm;
+}
+
+.kb-cover__top {
+  flex: 0 0 auto;
 }
 
 .kb-cover__title {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.4rem;
 }
 
 .kb-cover__language {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--kb-muted);
-  margin: 0 0 3rem;
+  margin: 0;
+}
+
+.kb-cover__hero {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  margin: 8mm 0;
+}
+
+.kb-cover__hero img {
+  max-width: 115mm;
+  max-height: 160mm;
+  width: auto;
+  height: auto;
+  display: block;
+  border: 1px solid var(--kb-rule);
+  box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.12);
+}
+
+.kb-cover__bottom {
+  flex: 0 0 auto;
 }
 
 .kb-cover__meta {
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   color: var(--kb-muted);
   margin: 0.2rem 0;
 }
 
 .kb-cover__rights {
-  margin-top: 3rem;
+  margin: 2rem auto 0;
   max-width: 130mm;
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   line-height: 1.5;
   color: var(--kb-muted);
 }
@@ -181,6 +208,20 @@ figure img,
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+/*
+ * The printable A4 content area is roughly 259mm tall (297mm minus the
+ * 20mm/18mm top/bottom margins). A full-width portrait image can render
+ * taller than that on its own, which forces Chromium to fragment the
+ * figure and strand its caption on the next page even with
+ * break-inside: avoid (a browser cannot honour that rule for a box that
+ * would not fit on any single page). Capping figure images well under the
+ * content height guarantees room for the caption and note underneath, so
+ * every learning figure keeps its caption on the same page.
+ */
+.kb-learning-figure img {
+  max-height: 195mm;
 }
 
 figcaption,

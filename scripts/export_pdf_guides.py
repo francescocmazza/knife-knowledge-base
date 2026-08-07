@@ -48,9 +48,15 @@ IMAGE_RIGHTS_URL = f"{GITHUB_REPO_URL}/blob/main/content/en/assets/IMAGE_RIGHTS.
 IMAGE_LOAD_TIMEOUT_MS = 20000
 PRINT_COVER_NAME = "__print_cover__.html"
 PRINT_REST_NAME = "__print_rest__.html"
+HERO_IMAGE_REL = "assets/images/approved/home-hero-xinzuo-masterpieces.svg"
+HERO_IMAGE_ALT = "A craftsman inspecting a Xinzuo Damascus kitchen knife."
+# The cover page already features the approved hero photograph prominently,
+# so the same image is skipped when printing the home chapter to avoid
+# showing it twice in a row at the start of the book.
+PRINT_SKIP_VISUAL_IDS = {"index": ["VIS-HOME-01"]}
 
 EXTRACT_JS = """
-([chapterId, hidePlaceholders, urlToId]) => {
+([chapterId, hidePlaceholders, urlToId, skipVisualIds]) => {
   const article = document.querySelector('article.md-content__inner');
   if (!article) return null;
   const clone = article.cloneNode(true);
@@ -59,6 +65,11 @@ EXTRACT_JS = """
   clone.querySelectorAll('.headerlink').forEach(el => el.remove());
   if (hidePlaceholders) {
     clone.querySelectorAll('.kb-image-placeholder-wrap').forEach(el => el.remove());
+  }
+  if (skipVisualIds && skipVisualIds.length) {
+    clone.querySelectorAll('[data-visual-id]').forEach(el => {
+      if (skipVisualIds.includes(el.dataset.visualId)) el.remove();
+    });
   }
 
   clone.querySelectorAll('img').forEach(img => {
@@ -226,19 +237,26 @@ def wait_for_images_loaded(page, context_label: str) -> None:
         ) from exc
 
 
-def render_cover_html(language_name: str, export_date_str: str) -> str:
+def render_cover_html(language_name: str, export_date_str: str, hero_src: str) -> str:
     return f"""
     <section class="kb-cover">
-      <h1 class="kb-cover__title">Knife Knowledge Base</h1>
-      <p class="kb-cover__language">{html.escape(language_name)}</p>
-      <p class="kb-cover__meta">{html.escape(GITHUB_REPO_URL)}</p>
-      <p class="kb-cover__meta">Exported {html.escape(export_date_str)}</p>
-      <p class="kb-cover__rights">
-        The original written content is generally licensed under CC BY-NC-SA 4.0.
-        Some images, including Xinzuo catalog and promotional material, carry separate rights
-        and are not automatically covered by that licence.
-        See <a href="{IMAGE_RIGHTS_URL}">IMAGE_RIGHTS.md</a> in the repository for details.
-      </p>
+      <div class="kb-cover__top">
+        <h1 class="kb-cover__title">Knife Knowledge Base</h1>
+        <p class="kb-cover__language">{html.escape(language_name)}</p>
+      </div>
+      <div class="kb-cover__hero">
+        <img src="{html.escape(hero_src)}" alt="{html.escape(HERO_IMAGE_ALT)}" loading="eager">
+      </div>
+      <div class="kb-cover__bottom">
+        <p class="kb-cover__meta">{html.escape(GITHUB_REPO_URL)}</p>
+        <p class="kb-cover__meta">Exported {html.escape(export_date_str)}</p>
+        <p class="kb-cover__rights">
+          The original written content is generally licensed under CC BY-NC-SA 4.0.
+          Some images, including Xinzuo catalog and promotional material, carry separate rights
+          and are not automatically covered by that licence.
+          See <a href="{IMAGE_RIGHTS_URL}">IMAGE_RIGHTS.md</a> in the repository for details.
+        </p>
+      </div>
     </section>
     """
 
@@ -278,11 +296,11 @@ def _wrap_document(lang: str, direction: str, body_class: str, title: str, css_t
 </html>"""
 
 
-def assemble_cover_document(cfg: dict, export_date_str: str, css_text: str) -> str:
+def assemble_cover_document(cfg: dict, export_date_str: str, css_text: str, hero_src: str) -> str:
     """A standalone one-page document for the cover, printed without a footer."""
     direction = cfg.get("direction", "ltr")
     lang = cfg.get("mkdocs_language", "en")
-    cover = render_cover_html(cfg["name"], export_date_str)
+    cover = render_cover_html(cfg["name"], export_date_str, hero_src)
     return _wrap_document(lang, direction, "", f"Knife Knowledge Base — {cfg['name']}", css_text, cover)
 
 
@@ -344,10 +362,12 @@ def render_locale_pdf(
         for node in flat:
             url = f"{base_url}{code}/{node['urlpath']}"
             label = node["urlpath"] or "index"
+            page_key = node["urlpath"].rstrip("/") or "index"
+            skip_visual_ids = PRINT_SKIP_VISUAL_IDS.get(page_key, [])
             page.goto(url, wait_until="load")
             force_images_eager(page)
             wait_for_images_loaded(page, f"{code}:{label}")
-            result = page.evaluate(EXTRACT_JS, [node["id"], hide_placeholders, known_urls])
+            result = page.evaluate(EXTRACT_JS, [node["id"], hide_placeholders, known_urls, skip_visual_ids])
             if result is None:
                 raise RuntimeError(f"Could not find rendered article content at {url}")
             node["title"] = result["title"] or node["label"]
@@ -355,7 +375,8 @@ def render_locale_pdf(
 
         pdf_path.parent.mkdir(parents=True, exist_ok=True)
 
-        cover_html = assemble_cover_document(cfg, export_date_str, css_text)
+        hero_src = f"{base_url}{code}/{HERO_IMAGE_REL}"
+        cover_html = assemble_cover_document(cfg, export_date_str, css_text, hero_src)
         (SITE / code / PRINT_COVER_NAME).write_text(cover_html, encoding="utf-8")
         page.goto(f"{base_url}{code}/{PRINT_COVER_NAME}", wait_until="load")
         wait_for_images_loaded(page, f"{code}:cover")

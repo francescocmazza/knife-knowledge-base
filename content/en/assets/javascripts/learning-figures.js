@@ -60,15 +60,6 @@
       }
     ],
 
-    "03-blade-construction/self-sharpening-full-damascus": [
-      {
-        id: "FIG-SELF-DIFFERENTIAL-WEAR",
-        file: "self-sharpening-damascus.svg",
-        alt: "Diagram of differential wear in a full Damascus cutting edge",
-        caption: "Original diagram based on the layered-steel concept presented in the training slides."
-      }
-    ],
-
     "04-geometry-and-bevels/single-and-double-bevels": [
       {
         id: "FIG-BEV-CROSS-SECTION",
@@ -83,7 +74,7 @@
         id: "FIG-KNIFE-MOTION",
         file: "knife-types-and-motion.svg",
         alt: "Knife profiles and their most common cutting motions",
-        caption: "Adapted from the profile and cutting-style concepts in the original agent-training slides."
+        caption: "Original diagram illustrating typical profile-related cutting tendencies for gyuto, santoku, bunka and nakiri."
       },
       {
         id: "VIS-KNIFE-09",
@@ -249,6 +240,12 @@
     ],
 
     "03-blade-construction/self-sharpening-full-damascus": [
+      {
+        id: "VIS-SELF-01",
+        title: "Differential Wear Mechanism",
+        note: "Withdrawn pending review: the previous generated diagram did not show the alternating layers continuing into the apex, which is the mechanism this chapter describes. Needs an authorized photograph or a corrected diagram.",
+        target: { type: "lead", index: 0 }
+      },
       {
         id: "VIS-SELF-02",
         title: "Why Full Damascus Matters at the Apex",
