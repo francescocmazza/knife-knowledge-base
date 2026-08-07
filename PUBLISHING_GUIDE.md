@@ -24,6 +24,24 @@ The deployment workflow is:
 
 A successful run must show both the `build` and `deploy` jobs in green.
 
+## Translation provider setup
+
+GitHub Models was fully retired by GitHub on July 30, 2026. Automatic translations therefore use the OpenAI API instead of GitHub Models.
+
+The repository needs one Actions secret:
+
+1. Open the repository on GitHub.
+2. Open **Settings → Secrets and variables → Actions**.
+3. Click **New repository secret**.
+4. Set the name exactly to `OPENAI_API_KEY`.
+5. Paste an OpenAI API key with API billing enabled and save it.
+
+The secret is available only to GitHub Actions and is never written into the repository, generated pages, artifacts, or logs. ChatGPT subscriptions and OpenAI API billing are separate; a ChatGPT subscription by itself does not create API credit.
+
+The default translation model is `gpt-5-mini`, selected because translation is a well-defined, high-volume task and this model is comparatively inexpensive. The model can later be changed through the `OPENAI_MODEL` environment variable without changing English source files.
+
+Production deployment and multilingual export run in strict translation mode. If a required translation cannot be generated and is not already available in the translation cache, the workflow fails before deployment instead of silently publishing English content under a non-English locale.
+
 ## Windows: one-click publishing
 
 For routine content edits on a Windows checkout of this repository, double-click:
