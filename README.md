@@ -43,6 +43,8 @@ Windows users can run `publish-guide.cmd` for a guided one-click routine that va
 
 For a downloadable snapshot, run **Actions → Export multilingual guide → Run workflow**. The generated artifact contains the complete HTML website and generated Markdown trees for every configured locale.
 
+For printable guides, run **Actions → Export PDF guides → Run workflow**, choose a language (or "all") and whether to hide or show editorial placeholder boxes, then download the PDF artifact. This does not modify or redeploy the website.
+
 See [PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md) for the complete operating procedure.
 
 ## Current scope

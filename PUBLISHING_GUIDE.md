@@ -114,6 +114,41 @@ markdown/
 
 The artifact is intended as a portable snapshot and is retained by GitHub Actions for 30 days.
 
+## One-click PDF export
+
+This produces professionally formatted, printable PDF guides — one per language — instead of a website snapshot. It does not touch the live website in any way.
+
+No command line is needed. Everything happens on the GitHub website:
+
+1. Open GitHub.
+2. Open the repository.
+3. Click **Actions**.
+4. Click **Export PDF guides**.
+5. Click **Run workflow**.
+6. Select **all** (one PDF per configured language) or a single language.
+7. Select whether the editorial `IMAGE PLACEHOLDER` boxes should be **hide**-den or **show**n in the printed guide. Choose `hide` for a clean reader-facing guide, or `show` to also see which visuals are still awaiting production.
+8. Click **Run workflow**.
+9. Wait for the green check next to the run.
+10. Open the completed run.
+11. Download the artifact named `knife-knowledge-base-pdf-<run number>` under **Artifacts**.
+
+The artifact contains one file per requested language, for example:
+
+```text
+Knife-Knowledge-Base-EN.pdf
+Knife-Knowledge-Base-IT.pdf
+Knife-Knowledge-Base-JA.pdf
+Knife-Knowledge-Base-AR.pdf
+```
+
+Each PDF is a self-contained A4 guide with a cover page, a clickable table of contents, every chapter in the same order as the website navigation, and the same approved images and diagrams shown on the live site — captured after the page has fully rendered, not a screenshot of the raw source. Website navigation, search, the language selector and GitHub edit buttons are never included.
+
+The PDF export reuses the same translation cache as the website and the multilingual export, so choosing a single language does not retranslate or rebuild the languages you did not select.
+
+### Why the PDF is not generated directly from Markdown
+
+Several diagrams, approved catalog images and their captions are inserted into the page by JavaScript after the website loads, not written directly into the Markdown source. Converting the Markdown files alone (for example with Pandoc) would silently miss those images. The export workflow instead renders every chapter in a real browser, waits for that script to finish, and only then captures the page — so the PDF always matches what a reader sees on the website.
+
 ## Important rules
 
 - Meaning changes must always be made in English first.
@@ -121,3 +156,4 @@ The artifact is intended as a portable snapshot and is retained by GitHub Action
 - Machine-generated translations may require human review, especially Japanese and Chinese specialist terminology.
 - Images and third-party material may have rights different from the written-content licence; see `content/en/assets/IMAGE_RIGHTS.md`.
 - If the build succeeds but the deploy job fails because a GitHub-hosted runner is temporarily unavailable, re-run the failed job from the Actions page. This is an infrastructure failure, not a content or translation failure.
+- The PDF export (**Actions → Export PDF guides**) only produces a downloadable artifact. It never modifies the repository, the website, or the GitHub Pages deployment.

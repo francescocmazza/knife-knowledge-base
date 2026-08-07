@@ -214,7 +214,7 @@ th, td {
   border: 1px solid var(--kb-rule);
   padding: 0.35rem 0.55rem;
   text-align: start;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 /* ---------- Code ---------- */
