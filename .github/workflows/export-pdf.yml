@@ -34,6 +34,7 @@ on:
     paths:
       - "content/en/**/*.md"
       - "content/en/assets/**"
+      - "translations/**"
       - "mkdocs.yml"
       - "localization/**"
       - "scripts/multilingual_site.py"
@@ -78,15 +79,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y fonts-noto fonts-noto-cjk fonts-noto-cjk-extra
 
-      - name: Restore translation cache
-        if: github.event_name == 'workflow_dispatch'
-        uses: actions/cache@v4
-        with:
-          path: .translation-cache
-          key: multilingual-translations-v2-openai-${{ hashFiles('content/en/**/*.md', 'glossaries/**/*.yml', 'localization/locales.yml', 'scripts/multilingual_site.py') }}
-          restore-keys: |
-            multilingual-translations-v2-openai-
-
       - name: Smoke-test the English PDF on pull requests
         if: github.event_name == 'pull_request'
         run: |
@@ -95,21 +87,8 @@ jobs:
             --placeholders hide \
             --output-dir pdf-export
 
-      - name: Require translation API key for non-English exports
-        if: github.event_name == 'workflow_dispatch' && inputs.language != 'en'
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          if [ -z "$OPENAI_API_KEY" ]; then
-            echo "::error::OPENAI_API_KEY repository secret is required for translated PDF exports."
-            exit 1
-          fi
-
       - name: Export requested PDF guide(s)
         if: github.event_name == 'workflow_dispatch'
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-5-mini
         run: |
           python scripts/export_pdf_guides.py \
             --locales ${{ inputs.language }} \
