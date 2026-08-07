@@ -1,20 +1,15 @@
 #!/usr/bin/env python3
-"""Translate the English Markdown core and build one MkDocs site per locale."""
+"""Build the multilingual MkDocs site from English plus committed translations."""
 
 from __future__ import annotations
 
 import argparse
 import hashlib
 import html
-import json
-import os
 import re
 import shutil
 import subprocess
 import sys
-import time
-import urllib.error
-import urllib.request
 from pathlib import Path
 from typing import Any
 
@@ -25,24 +20,20 @@ from publication_metadata import PublicationMetadata, get_metadata  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "content" / "en"
+TRANSLATIONS = ROOT / "translations"
 LOCALES = ROOT / "localization" / "locales.yml"
 GLOSSARY = ROOT / "glossaries" / "master-terms.yml"
 BASE_CONFIG = ROOT / "mkdocs.yml"
-CACHE = ROOT / ".translation-cache"
 WORK = ROOT / ".site-work"
 SITE = ROOT / "site"
 BASE_URL = "https://francescocmazza.github.io/knife-knowledge-base"
-OPENAI_ENDPOINT = "https://api.openai.com/v1/chat/completions"
-PROMPT_VERSION = "2026-08-07-v2-openai"
-DEFAULT_MODEL = "gpt-5-mini"
+TRANSLATION_SCHEMA_VERSION = "2026-08-07-v3-committed"
 
 
 def args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--translate", action="store_true")
     parser.add_argument("--require-translations", action="store_true")
     parser.add_argument("--locales", nargs="*")
-    parser.add_argument("--model", default=os.getenv("OPENAI_MODEL", DEFAULT_MODEL))
     return parser.parse_args()
 
 
@@ -64,78 +55,8 @@ def join_document(metadata: dict[str, Any], body: str) -> str:
 
 
 def digest(locale: str, source: str, glossary: str) -> str:
-    raw = "\0".join((PROMPT_VERSION, locale, source, glossary)).encode()
+    raw = "\0".join((TRANSLATION_SCHEMA_VERSION, locale, source, glossary)).encode()
     return hashlib.sha256(raw).hexdigest()
-
-
-def cache_files(locale: str, relative: Path) -> tuple[Path, Path]:
-    page = CACHE / locale / relative
-    return page, page.with_suffix(page.suffix + ".sha256")
-
-
-def get_cached(locale: str, relative: Path, expected: str) -> str | None:
-    page, marker = cache_files(locale, relative)
-    if page.exists() and marker.exists() and marker.read_text().strip() == expected:
-        return page.read_text(encoding="utf-8")
-    return None
-
-
-def set_cached(locale: str, relative: Path, expected: str, body: str) -> None:
-    page, marker = cache_files(locale, relative)
-    page.parent.mkdir(parents=True, exist_ok=True)
-    page.write_text(body, encoding="utf-8")
-    marker.write_text(expected + "\n", encoding="utf-8")
-
-
-def call_model(body: str, code: str, name: str, glossary: str, token: str, model: str) -> str:
-    prompt = f"""Translate this public kitchen-knife knowledge-base page from English to {name} ({code}).
-Return only translated Markdown, with no YAML front matter and no outer code fence.
-Preserve all Markdown structure, relative link destinations, URLs, image paths, HTML, code, formulas, steel grades, product names and HRC values.
-Translate visible link text and headings. Keep customary knife names such as Gyuto, Santoku, Bunka, Nakiri, Usuba, Deba, Honesuki, Sujihiki and Yanagiba recognizable.
-Do not add, remove, correct or reconcile claims. Keep the clear, detailed, non-specialist commercial-training tone.
-
-Project glossary:
-{glossary[:12000]}
-
-Source Markdown:
-{body}
-"""
-    payload = {
-        "model": model,
-        "max_completion_tokens": 16000,
-        "messages": [
-            {"role": "system", "content": "You are a faithful technical translator. English is the authoritative source."},
-            {"role": "user", "content": prompt},
-        ],
-    }
-    request = urllib.request.Request(
-        OPENAI_ENDPOINT,
-        data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
-    last: Exception | None = None
-    for attempt in range(5):
-        try:
-            with urllib.request.urlopen(request, timeout=180) as response:
-                data = json.loads(response.read().decode("utf-8"))
-            result = data["choices"][0]["message"]["content"].strip()
-            if result.startswith("```") and result.endswith("```"):
-                result = re.sub(r"^```(?:markdown)?\s*", "", result)
-                result = re.sub(r"\s*```$", "", result)
-            if not result:
-                raise RuntimeError("empty model response")
-            return result.rstrip() + "\n"
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, KeyError, json.JSONDecodeError, RuntimeError) as exc:
-            last = exc
-            status = getattr(exc, "code", None)
-            if status not in (408, 409, 429, 500, 502, 503, 504):
-                break
-            time.sleep(min(60, 3 * (2**attempt)))
-    raise RuntimeError(f"translation failed for {code}: {last}")
 
 
 def title_from(body: str, fallback: str | None = None) -> str | None:
@@ -143,18 +64,28 @@ def title_from(body: str, fallback: str | None = None) -> str | None:
     return found.group(1).strip() if found else fallback
 
 
+def translation_status(code: str, relative: Path, source_text: str, glossary: str) -> tuple[str, str | None]:
+    """Return (status, translated body). Status is current/missing/stale."""
+    path = TRANSLATIONS / code / relative
+    if not path.exists():
+        return "missing", None
+    metadata, body = split_document(path.read_text(encoding="utf-8"))
+    expected = digest(code, source_text, glossary)
+    if metadata.get("source_hash") != expected:
+        return "stale", body
+    return "current", body
+
+
 def prepare_docs(
     code: str,
     cfg: dict[str, Any],
-    do_translate: bool,
     require_translations: bool,
-    token: str | None,
-    model: str,
     glossary: str,
 ) -> Path:
     target = WORK / "docs" / code
     shutil.rmtree(target, ignore_errors=True)
     target.mkdir(parents=True)
+
     for source_path in sorted(SOURCE.rglob("*")):
         if not source_path.is_file():
             continue
@@ -163,54 +94,67 @@ def prepare_docs(
             continue
         output = target / relative
         output.parent.mkdir(parents=True, exist_ok=True)
+
         if code == "en" or source_path.suffix.lower() != ".md":
             shutil.copy2(source_path, output)
             continue
 
         source_text = source_path.read_text(encoding="utf-8")
-        metadata, body = split_document(source_text)
+        source_metadata, source_body = split_document(source_text)
         expected = digest(code, source_text, glossary)
-        translated = get_cached(code, relative, expected)
-        fallback = False
-        if translated is None and do_translate and token:
-            try:
-                translated = call_model(body, code, cfg["name"], glossary, token, model)
-                set_cached(code, relative, expected, translated)
-            except Exception as exc:
-                print(f"::warning file={source_path}::{exc}", file=sys.stderr)
-                if require_translations:
-                    raise RuntimeError(
-                        f"Required translation failed for {code}:{relative}; deployment/export aborted to avoid publishing English fallback content."
-                    ) from exc
-        if translated is None:
-            if require_translations:
-                reason = "translation API key is unavailable" if not token else "translation could not be generated"
-                raise RuntimeError(
-                    f"Required translation missing for {code}:{relative} ({reason}); deployment/export aborted."
-                )
-            translated = body
-            fallback = True
+        status, translated = translation_status(code, relative, source_text, glossary)
+        fallback = status != "current"
 
-        metadata = dict(metadata)
+        if fallback and require_translations:
+            raise RuntimeError(
+                f"Required committed translation is {status} for {code}:{relative}. "
+                "Refresh it with Claude Code before publishing."
+            )
+        if translated is None or fallback:
+            translated = source_body
+
+        metadata = dict(source_metadata)
         metadata.update({
-            "title": title_from(translated, metadata.get("title")),
+            "title": title_from(translated, source_metadata.get("title")),
             "language": code,
             "source_language": "en",
-            "translation_status": "fallback-english" if fallback else "machine-translated",
+            "translation_status": "fallback-english" if fallback else "committed-translation",
             "human_review_required": True,
             "source_hash": expected,
         })
-        notice = (
-            '!!! warning "Translation notice"\n'
-            '    This page was generated automatically from the English source and may require human review, especially for specialist terminology.\n\n'
-        )
+
         if fallback:
             notice = (
                 '!!! warning "Translation temporarily unavailable"\n'
-                '    The current English source is displayed because an updated translation could not be generated during this deployment.\n\n'
+                '    This English source is shown only in local/development builds because the committed translation is missing or stale.\n\n'
+            )
+        else:
+            notice = (
+                '!!! warning "Translation notice"\n'
+                '    This committed translation was generated from the English source and may still require human review, especially for specialist terminology.\n\n'
             )
         output.write_text(join_document(metadata, notice + translated), encoding="utf-8")
     return target
+
+
+def report_translation_status(selected: list[str], glossary: str) -> tuple[int, int]:
+    missing = stale = 0
+    for code in selected:
+        if code == "en":
+            continue
+        for source_path in sorted(SOURCE.rglob("*.md")):
+            if source_path.name == "README.md":
+                continue
+            relative = source_path.relative_to(SOURCE)
+            status, _ = translation_status(code, relative, source_path.read_text(encoding="utf-8"), glossary)
+            if status == "missing":
+                missing += 1
+                print(f"MISSING {code}:{relative}")
+            elif status == "stale":
+                stale += 1
+                print(f"STALE   {code}:{relative}")
+    print(f"Translation status: {missing} missing, {stale} stale")
+    return missing, stale
 
 
 def localize_nav(node: Any, docs: Path) -> Any:
@@ -286,37 +230,28 @@ def main() -> int:
     options = args()
     locale_cfg = read_yaml(LOCALES).get("locales", {})
     selected = options.locales or [code for code, cfg in locale_cfg.items() if cfg.get("deploy")]
-    missing = [code for code in selected if code not in locale_cfg]
-    if missing:
-        raise SystemExit(f"Unknown locales: {', '.join(missing)}")
+    unknown = [code for code in selected if code not in locale_cfg]
+    if unknown:
+        raise SystemExit(f"Unknown locales: {', '.join(unknown)}")
 
     shutil.rmtree(WORK, ignore_errors=True)
     shutil.rmtree(SITE, ignore_errors=True)
-    token = os.getenv("OPENAI_API_KEY")
     glossary = GLOSSARY.read_text(encoding="utf-8") if GLOSSARY.exists() else ""
-    needs_translation = options.translate and any(code != "en" for code in selected)
-    if needs_translation and not token:
-        message = "OPENAI_API_KEY is unavailable; translated sites cannot be refreshed"
-        if options.require_translations:
-            raise SystemExit(message)
-        print(f"::warning::{message}; non-English pages will display English fallbacks", file=sys.stderr)
+
+    if options.require_translations:
+        missing, stale = report_translation_status(selected, glossary)
+        if missing or stale:
+            raise SystemExit(
+                "Committed translations are incomplete or stale. Refresh them with Claude Code before publishing."
+            )
 
     metadata = get_metadata()
     print(f"Publication metadata: {metadata.full_label} · {metadata.publication_date}")
-    if needs_translation and token:
-        print(f"Translation provider: OpenAI API · model {options.model}")
+    print("Translation source: committed repository files (no translation API)")
 
     for code in selected:
         print(f"Preparing {code}")
-        docs = prepare_docs(
-            code,
-            locale_cfg[code],
-            options.translate,
-            options.require_translations,
-            token,
-            options.model,
-            glossary,
-        )
+        docs = prepare_docs(code, locale_cfg[code], options.require_translations, glossary)
         print(f"Building {code}")
         build(code, locale_cfg[code], locale_cfg, docs, metadata)
     root_index(locale_cfg)
