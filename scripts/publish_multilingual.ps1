@@ -48,9 +48,9 @@ if ($localHead -ne $remoteHead) {
     }
 }
 
-$trackedChanges = git status --porcelain -- content/en glossaries localization mkdocs.yml
+$trackedChanges = git status --porcelain -- content/en translations glossaries localization mkdocs.yml
 if (-not $trackedChanges) {
-    Stop-WithMessage "No publishable source changes were found under content/en, glossaries, localization or mkdocs.yml."
+    Stop-WithMessage "No publishable changes were found under content/en, translations, glossaries, localization or mkdocs.yml."
 }
 
 if (-not $SkipLocalValidation) {
@@ -68,15 +68,15 @@ if (-not $SkipLocalValidation) {
         }
     }
 
-    Write-Host "Validating the English source locally..."
-    python scripts/multilingual_site.py --locales en
+    Write-Host "Validating English and all committed translations locally..."
+    python scripts/multilingual_site.py --require-translations
     if ($LASTEXITCODE -ne 0) {
-        Stop-WithMessage "English validation failed. Nothing was committed or pushed."
+        Stop-WithMessage "Multilingual validation failed. Ask Claude Code to refresh the missing/stale translations before publishing. Nothing was committed or pushed."
     }
 }
 
-Write-Host "Staging source changes..."
-git add -- content/en glossaries localization mkdocs.yml
+Write-Host "Staging source and committed translations..."
+git add -- content/en translations glossaries localization mkdocs.yml
 
 $staged = git diff --cached --name-only
 if (-not $staged) {
@@ -100,7 +100,7 @@ if ($LASTEXITCODE -ne 0) {
 
 Write-Host ""
 Write-Host "Published source successfully." -ForegroundColor Green
-Write-Host "GitHub Actions will now translate stale pages, rebuild every configured language and deploy GitHub Pages."
+Write-Host "GitHub Actions will validate the committed translations, rebuild every configured language and deploy GitHub Pages without any translation API call."
 Write-Host "Actions: https://github.com/francescocmazza/knife-knowledge-base/actions"
 Write-Host "Site:    https://francescocmazza.github.io/knife-knowledge-base/"
 Write-Host ""
