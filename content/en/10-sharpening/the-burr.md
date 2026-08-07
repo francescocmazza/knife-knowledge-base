@@ -112,11 +112,11 @@ To check with a fingertip:
 
 1. Keep the knife stable.
 2. Use very light pressure.
-3. Move from the flat face of the blade toward and across the edge.
-4. Stop immediately after crossing it.
+3. Move from the flat face of the blade toward the edge and stop at the apex rather than deliberately crossing over the sharpened edge.
+4. Keep the motion perpendicular to the edge; never slide along its length.
 5. Repeat at several points from heel to tip.
 
-The movement is perpendicular to the edge, not parallel to it.
+If there is any uncertainty about touching near the apex, use a cotton pad, soft cloth fibre, thin paper or visual inspection instead.
 
 A cotton pad, soft cloth fibre or thin piece of paper can also help. The material may catch on the burr. This is useful when the burr is difficult to feel or when the user is not confident touching near the edge.
 
@@ -253,7 +253,7 @@ The full edge must be checked from heel to tip.
 
 ### Sliding the finger along the edge
 
-This is dangerous. Always check across the edge.
+This is dangerous. Move only perpendicular to the edge and stop at the apex; use a non-finger method if you are not confident checking safely.
 
 ### Moving to a fine stone before reaching the apex
 

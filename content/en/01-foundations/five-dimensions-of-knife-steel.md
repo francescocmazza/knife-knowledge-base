@@ -25,7 +25,7 @@ Hardness describes how strongly steel resists being pressed, dented or permanent
 
 For a customer, the important point is that a harder edge is generally better able to resist folding or rolling over during normal cutting. Imagine the very tip of the edge as an extremely thin ridge. When that ridge meets a cutting board thousands of times, it is repeatedly placed under pressure. If the steel is too soft for the geometry, the ridge can bend and lose its clean shape. A harder steel tends to resist that bending for longer.
 
-This is why a higher HRC is often associated with longer edge life. It is a useful and easy-to-understand relationship, especially in commercial training.
+Higher HRC can therefore support longer edge life by improving resistance to rolling and plastic deformation at the apex. Hardness alone, however, does not determine edge retention: wear resistance, carbide type and distribution, heat treatment, edge geometry, cutting medium and technique all influence how long a knife remains effective.
 
 However, hardness is not the same thing as sharpness. A knife does not become sharp simply because the steel is hard. Sharpness comes from the shape of the edge: how thin it is, how cleanly the two sides meet and how well it has been finished. A softer knife can be sharpened extremely well, even if the edge does not remain in that condition as long.
 
@@ -33,7 +33,7 @@ Hardness also brings a practical compromise. A very hard edge, especially when i
 
 A useful commercial explanation is therefore:
 
-> Greater hardness generally helps the edge remain effective for longer, but very hard and thin knives require more disciplined use.
+> Greater hardness generally improves resistance to edge rolling. How long the knife remains effective also depends on wear resistance, microstructure, heat treatment, geometry and use; very hard and thin knives require more disciplined technique.
 
 ## 2. Ease of sharpening: how readily the edge can be restored
 

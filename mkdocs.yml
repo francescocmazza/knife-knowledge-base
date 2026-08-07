@@ -44,9 +44,11 @@ markdown_extensions:
 
 extra_css:
   - assets/stylesheets/learning-figures.css
+  - assets/stylesheets/visual-corrections.css
 
 extra_javascript:
   - assets/javascripts/learning-figures.js
+  - assets/javascripts/visual-corrections.js
 
 nav:
   - Start Here: index.md

@@ -114,6 +114,53 @@ markdown/
 
 The artifact is intended as a portable snapshot and is retained by GitHub Actions for 30 days.
 
+## One-click PDF export
+
+This produces professionally formatted, printable PDF guides — one per language — instead of a website snapshot. It does not touch the live website in any way.
+
+No command line is needed. Everything happens on the GitHub website:
+
+1. Open GitHub.
+2. Open the repository.
+3. Click **Actions**.
+4. Click **Export PDF guides**.
+5. Click **Run workflow**.
+6. Select **all** (one PDF per configured language) or a single language.
+7. Select whether the editorial `IMAGE PLACEHOLDER` boxes should be **hide**-den or **show**n in the printed guide. Choose `hide` for a clean reader-facing guide, or `show` to also see which visuals are still awaiting production.
+8. Click **Run workflow**.
+9. Wait for the green check next to the run.
+10. Open the completed run.
+11. Download the artifact named `knife-knowledge-base-pdf-<run number>` under **Artifacts**.
+
+The artifact contains one file per requested language, for example:
+
+```text
+Knife-Knowledge-Base-EN-v42.pdf
+Knife-Knowledge-Base-IT-v42.pdf
+Knife-Knowledge-Base-JA-v42.pdf
+Knife-Knowledge-Base-AR-v42.pdf
+```
+
+Each PDF is a self-contained A4 guide with a cover page, a clickable table of contents, every chapter in the same order as the website navigation, and the same approved images and diagrams shown on the live site — captured after the page has fully rendered, not a screenshot of the raw source. Website navigation, search, the language selector and GitHub edit buttons are never included.
+
+The PDF export reuses the same translation cache as the website and the multilingual export, so choosing a single language does not retranslate or rebuild the languages you did not select.
+
+### Why the PDF is not generated directly from Markdown
+
+Several diagrams, approved catalog images and their captions are inserted into the page by JavaScript after the website loads, not written directly into the Markdown source. Converting the Markdown files alone (for example with Pandoc) would silently miss those images. The export workflow instead renders every chapter in a real browser, waits for that script to finish, and only then captures the page — so the PDF always matches what a reader sees on the website.
+
+## Automatic version numbers and publication dates
+
+Every published website page and every exported PDF shows a progressive version number and a publication/export date, for example `v42 · 2026-08-07`. Both are generated automatically by `scripts/publication_metadata.py` and shared by the website build and the PDF export, so they never drift apart:
+
+- **Version** is simply the number of commits in the repository's history up to the commit that was built (`git rev-list --count HEAD`). It is not a file you edit and not a number you bump by hand — a new content commit automatically produces the next version, and the same commit always produces the same version everywhere it is built.
+- **Publication/export date** is the actual calendar date (in the `Europe/Rome` time zone, in `YYYY-MM-DD` form) on which that particular build or export ran — not the date any given article was originally written. Re-exporting the exact same commit on a later date keeps the same version number and only the date changes, because the version identifies the content snapshot and the date identifies the publication instance.
+- On the website, the version and date appear in the footer of every page, in every language, in the compact language-neutral form `v42 · 2026-08-07` — no manually maintained translation is needed for it.
+- In a PDF, the cover shows the full form (`Version 42 · commit a1b2c3d`, `Published / Exported 2026-08-07`) and every content page's footer shows the compact form.
+- If a PDF is exported from the same commit that is currently deployed on the website, its version number matches the site's version number exactly.
+
+This is why the GitHub Actions workflows that build the website or export PDFs check out the repository with `fetch-depth: 0` (full history) rather than the default shallow clone — the version count needs the complete commit history to be accurate.
+
 ## Important rules
 
 - Meaning changes must always be made in English first.
@@ -121,3 +168,4 @@ The artifact is intended as a portable snapshot and is retained by GitHub Action
 - Machine-generated translations may require human review, especially Japanese and Chinese specialist terminology.
 - Images and third-party material may have rights different from the written-content licence; see `content/en/assets/IMAGE_RIGHTS.md`.
 - If the build succeeds but the deploy job fails because a GitHub-hosted runner is temporarily unavailable, re-run the failed job from the Actions page. This is an infrastructure failure, not a content or translation failure.
+- The PDF export (**Actions → Export PDF guides**) only produces a downloadable artifact. It never modifies the repository, the website, or the GitHub Pages deployment.

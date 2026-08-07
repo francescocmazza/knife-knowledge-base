@@ -11,11 +11,11 @@ translation_priority: high
 
 The expression **self-sharpening blade** immediately sounds impressive. It can also be misunderstood.
 
-A kitchen knife does not contain a hidden sharpening device, and no steel can repair a chipped or rolled edge by itself. In the context of selected full Damascus blades, self-sharpening describes something more subtle and more interesting: the different steel layers are designed to wear at slightly different rates, helping the edge preserve a microscopic tooth-like structure during use.
+A kitchen knife does not contain a hidden sharpening device, and no steel can repair a chipped or rolled edge by itself. In the context of selected full Damascus blades, self-sharpening describes a proposed differential-wear mechanism: the different steel layers are designed to wear at slightly different rates, which can help the edge preserve a microscopic tooth-like structure during use.
 
 To understand the idea, imagine a road made from alternating strips of two materials. One strip is slightly more resistant to wear than the next. As traffic passes over the road, the softer strips become lower a little faster, while the harder strips remain slightly more exposed. The road is no longer perfectly level.
 
-At the scale of a knife edge, a similar difference can create a very fine micro-serrated structure. The individual “teeth” are far too small to see during normal use, but they can help the blade continue to grip and slice food.
+At the scale of a knife edge, such a difference can contribute to a very fine micro-serrated structure. The individual “teeth” are far too small to see during normal use, but in principle they can help the blade continue to grip and slice food.
 
 ## Why full Damascus is important
 
@@ -37,7 +37,7 @@ The harder or more wear-resistant layers are slower to wear away. They help main
 
 The relatively softer or less wear-resistant layers recede a little faster. Their controlled wear allows the harder layers to remain slightly more exposed.
 
-Used together, the layers can maintain an edge with a fine, active bite instead of wearing into a completely smooth and rounded line at the same speed.
+Used together, the layers are intended to maintain an edge with a fine, active bite instead of wearing into a completely smooth and rounded line at the same speed.
 
 The success of this construction depends on several factors:
 
@@ -59,7 +59,7 @@ The apex may become slightly rounded. Very small areas may bend, wear or fractur
 
 In an ordinary uniform steel, the apex wears according to the behaviour of that one material. In a selected full Damascus blade, the alternating layers respond differently.
 
-As the relatively softer layers recede, the more wear-resistant layers remain microscopically prominent. The resulting edge can continue to act like a very fine saw. It catches the surface of food and helps start the cut.
+If the relatively softer layers recede faster in use, the more wear-resistant layers can remain microscopically prominent. The resulting edge may retain a very fine saw-like character that helps it catch the surface of food and start the cut.
 
 This effect is most noticeable in slicing movements, where the blade travels forward or backward through the ingredient. Skins, fibrous foods and draw cuts benefit from an edge that has a small amount of bite.
 
@@ -75,7 +75,7 @@ The self-sharpening effect mainly helps maintain this **cutting aggression**, or
 
 This is why the most accurate commercial wording is not “the knife becomes sharper and sharper.” It is:
 
-> The layered edge helps preserve its microscopic bite and slicing ability through differential wear.
+> The layered edge can help preserve microscopic bite and slicing ability through differential wear.
 
 That explanation remains strong and memorable without promising an impossible result.
 
@@ -111,7 +111,7 @@ A knife used mainly for gentle slicing on a wooden board will change differently
 
 Food also matters. Fibrous vegetables, meat, skins and soft products create different cutting forces. The self-sharpening effect is especially relevant where slicing bite is valuable.
 
-This is another reason to avoid presenting the feature as a fixed number of extra months or years. The benefit is real as a design principle, but the user's technique and working conditions still influence the result.
+This is another reason to avoid presenting the feature as a fixed number of extra months or years. The mechanism is plausible as a design principle, but the magnitude and persistence of the benefit depend on the actual steel pairing, heat treatment, geometry, use and maintenance. Product-specific microscopy or controlled cutting tests are the appropriate way to quantify it.
 
 ## Sharpening a self-sharpening full Damascus blade
 
@@ -127,7 +127,7 @@ As with any quality knife:
 - form and remove a light burr cleanly;
 - finish at a grit suited to the intended cutting style.
 
-An extremely polished finish may temporarily reduce the toothy feel. During use, differential wear can again contribute to the microscopic bite.
+An extremely polished finish may temporarily reduce the toothy feel. During use, differential wear may again contribute to microscopic bite.
 
 ## How to explain the feature to a customer
 
@@ -135,11 +135,11 @@ The explanation should begin with the benefit, then describe the mechanism.
 
 A concise version is:
 
-> The blade is made from alternating steels with different hardness and wear resistance. During use, the layers wear at slightly different speeds, helping preserve a microscopic tooth-like structure along the edge. This maintains slicing bite for longer, although the knife still needs normal care and occasional sharpening.
+> The blade is made from alternating steels with different hardness and wear resistance. The intended mechanism is that the layers wear at slightly different speeds, which can help preserve a microscopic tooth-like structure along the edge and support slicing bite between sharpening sessions. The knife still needs normal care and occasional sharpening.
 
 A more conversational version is:
 
-> It does not sharpen itself like a machine. The idea is that the harder layers remain slightly more exposed as the other layers wear, so the edge keeps a very fine natural bite instead of becoming uniformly smooth.
+> It does not sharpen itself like a machine. The idea is that differential wear may leave the more wear-resistant layers slightly more exposed, helping the edge retain a very fine natural bite instead of becoming uniformly smooth.
 
 Both versions are understandable without requiring the customer to know metallurgy.
 
@@ -149,9 +149,9 @@ Recommended expressions include:
 
 - self-sharpening effect;
 - differential wear;
-- helps maintain cutting bite;
-- preserves a microscopic micro-serrated structure;
-- extends effective cutting performance between sharpening sessions.
+- can help maintain cutting bite;
+- can preserve a microscopic micro-serrated structure;
+- can extend effective cutting performance between sharpening sessions.
 
 Expressions to avoid include:
 
@@ -165,6 +165,6 @@ Responsible language does not weaken the product story. It makes the story belie
 
 ## Customer-facing summary
 
-> In selected full Damascus blades, alternating steels are deliberately chosen to wear at slightly different rates. The relatively softer layers recede faster, while the harder layers remain slightly more exposed. This helps preserve a microscopic tooth-like structure and maintain slicing bite for longer. The knife is not maintenance-free, but its construction supports lasting cutting aggression during normal use.
+> In selected full Damascus blades, alternating steels are deliberately chosen with different hardness and wear characteristics. The intended differential-wear mechanism can leave the more wear-resistant layers slightly more exposed and help preserve a microscopic tooth-like structure. The knife is not maintenance-free, and the size of this effect should be judged from the specific construction and test evidence rather than assumed from the Damascus pattern alone.
 
 The most important idea is that the effect comes from the **working relationship between the layers**, not from the beauty of the pattern alone.

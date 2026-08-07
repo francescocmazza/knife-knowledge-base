@@ -20,6 +20,9 @@ from typing import Any
 
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from publication_metadata import PublicationMetadata, get_metadata  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "content" / "en"
 LOCALES = ROOT / "localization" / "locales.yml"
@@ -213,8 +216,15 @@ def localize_nav(node: Any, docs: Path) -> Any:
     return node
 
 
-def build(code: str, cfg: dict[str, Any], locales: dict[str, dict[str, Any]], docs: Path) -> None:
+def build(
+    code: str,
+    cfg: dict[str, Any],
+    locales: dict[str, dict[str, Any]],
+    docs: Path,
+    metadata: PublicationMetadata,
+) -> None:
     config = read_yaml(BASE_CONFIG)
+    config["copyright"] = f"{config.get('copyright', '')} · {metadata.compact_footer}"
     config["site_url"] = f"{BASE_URL}/{code}/"
     config["docs_dir"] = str(docs)
     config["site_dir"] = str(SITE / code)
@@ -272,11 +282,14 @@ def main() -> int:
     if options.translate and not token:
         print("::warning::GITHUB_TOKEN is unavailable; translated sites will display English fallbacks", file=sys.stderr)
 
+    metadata = get_metadata()
+    print(f"Publication metadata: {metadata.full_label} · {metadata.publication_date}")
+
     for code in selected:
         print(f"Preparing {code}")
         docs = prepare_docs(code, locale_cfg[code], options.translate, token, options.model, glossary)
         print(f"Building {code}")
-        build(code, locale_cfg[code], locale_cfg, docs)
+        build(code, locale_cfg[code], locale_cfg, docs, metadata)
     root_index(locale_cfg)
     print(f"Built {len(selected)} locale(s)")
     return 0

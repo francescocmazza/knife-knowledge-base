@@ -1,0 +1,374 @@
+/* Print stylesheet for the Knife Knowledge Base PDF export.
+   Used only when assembling the standalone printable book document;
+   it is not loaded by the live website. */
+
+@page {
+  size: A4;
+}
+
+:root {
+  --kb-text: #1b1f22;
+  --kb-muted: #55606a;
+  --kb-rule: #d3d9de;
+  --kb-accent: #2c5f7c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10.5pt;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--kb-text);
+  font-family: "Noto Sans", "Noto Sans CJK SC", "Noto Sans CJK TC", "Noto Sans CJK JP",
+    "Noto Sans Arabic", "Noto Sans Hebrew", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  background: #ffffff;
+}
+
+body[dir="rtl"] {
+  direction: rtl;
+}
+
+a {
+  color: var(--kb-accent);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ---------- Cover page ---------- */
+
+.kb-cover {
+  break-after: page;
+  page-break-after: always;
+  min-height: 250mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 18mm 15mm 6mm;
+}
+
+.kb-cover__top {
+  flex: 0 0 auto;
+}
+
+.kb-cover__title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+}
+
+.kb-cover__language {
+  font-size: 1.2rem;
+  color: var(--kb-muted);
+  margin: 0;
+}
+
+.kb-cover__hero {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  margin: 8mm 0;
+}
+
+.kb-cover__hero img {
+  max-width: 115mm;
+  max-height: 160mm;
+  width: auto;
+  height: auto;
+  display: block;
+  border: 1px solid var(--kb-rule);
+  box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.12);
+}
+
+.kb-cover__bottom {
+  flex: 0 0 auto;
+}
+
+.kb-cover__meta {
+  font-size: 0.92rem;
+  color: var(--kb-muted);
+  margin: 0.2rem 0;
+}
+
+.kb-cover__rights {
+  margin: 2rem auto 0;
+  max-width: 130mm;
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: var(--kb-muted);
+}
+
+.kb-cover__rights a {
+  color: var(--kb-muted);
+}
+
+/* ---------- Table of contents ---------- */
+
+.kb-toc {
+  break-after: page;
+  page-break-after: always;
+}
+
+.kb-toc h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.kb-toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.kb-toc > ul > li {
+  margin-bottom: 0.9rem;
+}
+
+.kb-toc__group {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+  color: var(--kb-text);
+}
+
+.kb-toc ul ul {
+  margin-inline-start: 1.1rem;
+  margin-top: 0.3rem;
+}
+
+.kb-toc a {
+  text-decoration: none;
+  color: var(--kb-text);
+}
+
+.kb-toc li li {
+  margin-bottom: 0.35rem;
+}
+
+/* ---------- Chapters ---------- */
+
+.kb-chapter {
+  break-before: page;
+  page-break-before: always;
+}
+
+.kb-chapter h1 {
+  font-size: 1.7rem;
+  margin-top: 0;
+  border-bottom: 1px solid var(--kb-rule);
+  padding-bottom: 0.4rem;
+}
+
+.kb-chapter h2 {
+  font-size: 1.3rem;
+  margin-top: 1.8rem;
+}
+
+.kb-chapter h3 {
+  font-size: 1.1rem;
+  margin-top: 1.3rem;
+}
+
+h1, h2, h3, h4 {
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
+
+h1 + *, h2 + *, h3 + *, h4 + * {
+  break-before: avoid-page;
+}
+
+p {
+  orphans: 3;
+  widows: 3;
+}
+
+/* ---------- Figures and images ---------- */
+
+figure {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+  margin: 1.4rem 0;
+  text-align: center;
+}
+
+figure img,
+.kb-chapter img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/*
+ * The printable A4 content area is roughly 259mm tall (297mm minus the
+ * 20mm/18mm top/bottom margins). A full-width portrait image can render
+ * taller than that on its own, which forces Chromium to fragment the
+ * figure and strand its caption on the next page even with
+ * break-inside: avoid (a browser cannot honour that rule for a box that
+ * would not fit on any single page). Capping figure images well under the
+ * content height guarantees room for the caption and note underneath, so
+ * every learning figure keeps its caption on the same page.
+ */
+.kb-learning-figure img {
+  max-height: 195mm;
+}
+
+/* VIS-SELF-01 uses only the modern full-Damascus panel from a two-panel
+ * source-slide crop. The historical comparison panel is intentionally
+ * excluded because it must not be presented as a metallurgical model of
+ * historical wootz. The DOM wrapper is added by visual-corrections.js
+ * before the PDF exporter extracts the rendered chapter. */
+.kb-right-panel-crop {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 800 / 405;
+  overflow: hidden;
+  margin-inline: auto;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.kb-right-panel-crop > img {
+  display: block;
+  width: 200% !important;
+  max-width: none !important;
+  height: 100% !important;
+  max-height: none !important;
+  object-fit: fill;
+  transform: translateX(-50%);
+}
+
+figcaption,
+.kb-learning-figure__note {
+  font-size: 0.82rem;
+  color: var(--kb-muted);
+  margin-top: 0.4rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* ---------- Tables ---------- */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 0.92rem;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+th, td {
+  border: 1px solid var(--kb-rule);
+  padding: 0.35rem 0.55rem;
+  text-align: start;
+  overflow-wrap: break-word;
+}
+
+/* ---------- Code ---------- */
+
+pre, code {
+  font-family: "Noto Sans Mono", "DejaVu Sans Mono", monospace;
+  font-size: 0.85rem;
+}
+
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+  background: #f4f6f7;
+  border: 1px solid var(--kb-rule);
+  border-radius: 0.3rem;
+  padding: 0.6rem 0.8rem;
+}
+
+/* ---------- Admonitions / callouts ---------- */
+
+.admonition {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+  border: 1px solid var(--kb-rule);
+  border-inline-start: 4px solid var(--kb-accent);
+  border-radius: 0.25rem;
+  padding: 0.6rem 0.9rem;
+  margin: 1.2rem 0;
+  background: #f4f8fa;
+}
+
+.admonition-title {
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+/* ---------- Blockquotes ---------- */
+
+blockquote {
+  border-inline-start: 3px solid var(--kb-rule);
+  margin: 1rem 0;
+  padding: 0.2rem 1rem;
+  color: var(--kb-muted);
+  break-inside: avoid-page;
+}
+
+/* ---------- Lists ---------- */
+
+ul, ol {
+  padding-inline-start: 1.4rem;
+}
+
+/* ---------- Editorial placeholder boxes (hidden when placeholders=hide) ---------- */
+
+body.kb-placeholders-hidden .kb-image-placeholder-wrap {
+  display: none;
+}
+
+.kb-image-placeholder-wrap {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+  margin: 1.2rem auto;
+}
+
+.kb-image-placeholder {
+  border: 2px dashed #9aa4ac;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  text-align: center;
+  color: #55606a;
+}
+
+.kb-image-placeholder__label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.kb-image-placeholder__title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0.3rem;
+}
+
+.kb-image-placeholder__note {
+  font-size: 0.78rem;
+  margin-top: 0.3rem;
+}
