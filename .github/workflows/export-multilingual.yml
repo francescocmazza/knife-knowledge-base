@@ -5,6 +5,7 @@ on:
   pull_request:
     paths:
       - ".github/workflows/export-multilingual.yml"
+      - "translations/**"
       - "scripts/publish_multilingual.ps1"
       - "publish-guide.cmd"
       - "PUBLISHING_GUIDE.md"
@@ -12,7 +13,6 @@ on:
 
 permissions:
   contents: read
-  models: read
 
 concurrency:
   group: multilingual-export-${{ github.ref }}
@@ -66,19 +66,8 @@ jobs:
       - name: Install documentation dependencies
         run: pip install -r requirements-docs.txt
 
-      - name: Restore translation cache
-        uses: actions/cache@v4
-        with:
-          path: .translation-cache
-          key: multilingual-translations-v1-${{ hashFiles('content/en/**/*.md', 'glossaries/**/*.yml', 'localization/locales.yml', 'scripts/multilingual_site.py') }}
-          restore-keys: |
-            multilingual-translations-v1-
-
-      - name: Translate and build every configured language
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_MODELS_MODEL: openai/gpt-4o
-        run: python scripts/multilingual_site.py --translate
+      - name: Build every configured language from committed translations
+        run: python scripts/multilingual_site.py --require-translations
 
       - name: Prepare export package
         shell: bash
@@ -91,9 +80,10 @@ jobs:
           Knife Knowledge Base multilingual export
 
           html/      Complete built website for every configured locale.
-          markdown/  Generated per-locale source trees used to build the site.
+          markdown/  Per-locale source trees used to build the site.
 
-          English remains the source of truth. Machine-generated translations may require human review.
+          English remains the source of truth. Translations are committed in the repository and may require human review.
+          No paid translation API is called by this export.
           Image rights may differ from the written-content license; see the repository IMAGE_RIGHTS.md.
           EOF
 
