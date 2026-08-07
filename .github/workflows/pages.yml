@@ -69,6 +69,34 @@ jobs:
         if: github.event_name == 'pull_request'
         run: python scripts/multilingual_site.py --locales en
 
+      - name: Validate OpenAI translation provider on pull requests
+        if: github.event_name == 'pull_request'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5-mini
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::Repository secret OPENAI_API_KEY is not configured. Add it before merging this migration."
+            exit 1
+          fi
+          python - <<'PY'
+          import os
+          from scripts.multilingual_site import call_model
+
+          source = "A sharp kitchen knife cuts cleanly."
+          translated = call_model(
+              source,
+              "it",
+              "Italian",
+              "",
+              os.environ["OPENAI_API_KEY"],
+              os.environ["OPENAI_MODEL"],
+          ).strip()
+          if not translated or translated == source:
+              raise SystemExit(f"Unexpected translation probe result: {translated!r}")
+          print("OpenAI translation provider probe succeeded.")
+          PY
+
       - name: Translate and build every configured language
         if: github.event_name != 'pull_request'
         env:
