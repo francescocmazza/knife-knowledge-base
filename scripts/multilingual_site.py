@@ -32,16 +32,17 @@ CACHE = ROOT / ".translation-cache"
 WORK = ROOT / ".site-work"
 SITE = ROOT / "site"
 BASE_URL = "https://francescocmazza.github.io/knife-knowledge-base"
-MODEL_ENDPOINT = "https://models.github.ai/inference/chat/completions"
-PROMPT_VERSION = "2026-08-04-v1"
-DEFAULT_MODEL = "openai/gpt-4o"
+OPENAI_ENDPOINT = "https://api.openai.com/v1/chat/completions"
+PROMPT_VERSION = "2026-08-07-v2-openai"
+DEFAULT_MODEL = "gpt-5-mini"
 
 
 def args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--translate", action="store_true")
+    parser.add_argument("--require-translations", action="store_true")
     parser.add_argument("--locales", nargs="*")
-    parser.add_argument("--model", default=os.getenv("GITHUB_MODELS_MODEL", DEFAULT_MODEL))
+    parser.add_argument("--model", default=os.getenv("OPENAI_MODEL", DEFAULT_MODEL))
     return parser.parse_args()
 
 
@@ -101,21 +102,18 @@ Source Markdown:
 """
     payload = {
         "model": model,
-        "temperature": 0.1,
-        "max_tokens": 16000,
+        "max_completion_tokens": 16000,
         "messages": [
             {"role": "system", "content": "You are a faithful technical translator. English is the authoritative source."},
             {"role": "user", "content": prompt},
         ],
     }
     request = urllib.request.Request(
-        MODEL_ENDPOINT,
+        OPENAI_ENDPOINT,
         data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
         headers={
-            "Accept": "application/vnd.github+json",
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json",
-            "X-GitHub-Api-Version": "2026-03-10",
         },
         method="POST",
     )
@@ -134,7 +132,7 @@ Source Markdown:
         except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, KeyError, json.JSONDecodeError, RuntimeError) as exc:
             last = exc
             status = getattr(exc, "code", None)
-            if status not in (429, 500, 502, 503, 504):
+            if status not in (408, 409, 429, 500, 502, 503, 504):
                 break
             time.sleep(min(60, 3 * (2**attempt)))
     raise RuntimeError(f"translation failed for {code}: {last}")
@@ -145,7 +143,15 @@ def title_from(body: str, fallback: str | None = None) -> str | None:
     return found.group(1).strip() if found else fallback
 
 
-def prepare_docs(code: str, cfg: dict[str, Any], do_translate: bool, token: str | None, model: str, glossary: str) -> Path:
+def prepare_docs(
+    code: str,
+    cfg: dict[str, Any],
+    do_translate: bool,
+    require_translations: bool,
+    token: str | None,
+    model: str,
+    glossary: str,
+) -> Path:
     target = WORK / "docs" / code
     shutil.rmtree(target, ignore_errors=True)
     target.mkdir(parents=True)
@@ -172,7 +178,16 @@ def prepare_docs(code: str, cfg: dict[str, Any], do_translate: bool, token: str 
                 set_cached(code, relative, expected, translated)
             except Exception as exc:
                 print(f"::warning file={source_path}::{exc}", file=sys.stderr)
+                if require_translations:
+                    raise RuntimeError(
+                        f"Required translation failed for {code}:{relative}; deployment/export aborted to avoid publishing English fallback content."
+                    ) from exc
         if translated is None:
+            if require_translations:
+                reason = "translation API key is unavailable" if not token else "translation could not be generated"
+                raise RuntimeError(
+                    f"Required translation missing for {code}:{relative} ({reason}); deployment/export aborted."
+                )
             translated = body
             fallback = True
 
@@ -277,17 +292,31 @@ def main() -> int:
 
     shutil.rmtree(WORK, ignore_errors=True)
     shutil.rmtree(SITE, ignore_errors=True)
-    token = os.getenv("GITHUB_TOKEN")
+    token = os.getenv("OPENAI_API_KEY")
     glossary = GLOSSARY.read_text(encoding="utf-8") if GLOSSARY.exists() else ""
-    if options.translate and not token:
-        print("::warning::GITHUB_TOKEN is unavailable; translated sites will display English fallbacks", file=sys.stderr)
+    needs_translation = options.translate and any(code != "en" for code in selected)
+    if needs_translation and not token:
+        message = "OPENAI_API_KEY is unavailable; translated sites cannot be refreshed"
+        if options.require_translations:
+            raise SystemExit(message)
+        print(f"::warning::{message}; non-English pages will display English fallbacks", file=sys.stderr)
 
     metadata = get_metadata()
     print(f"Publication metadata: {metadata.full_label} · {metadata.publication_date}")
+    if needs_translation and token:
+        print(f"Translation provider: OpenAI API · model {options.model}")
 
     for code in selected:
         print(f"Preparing {code}")
-        docs = prepare_docs(code, locale_cfg[code], options.translate, token, options.model, glossary)
+        docs = prepare_docs(
+            code,
+            locale_cfg[code],
+            options.translate,
+            options.require_translations,
+            token,
+            options.model,
+            glossary,
+        )
         print(f"Building {code}")
         build(code, locale_cfg[code], locale_cfg, docs, metadata)
     root_index(locale_cfg)
