@@ -2,6 +2,13 @@ name: Export multilingual guide
 
 on:
   workflow_dispatch:
+  pull_request:
+    paths:
+      - ".github/workflows/export-multilingual.yml"
+      - "scripts/publish_multilingual.ps1"
+      - "publish-guide.cmd"
+      - "PUBLISHING_GUIDE.md"
+      - "README.md"
 
 permissions:
   contents: read
@@ -12,7 +19,35 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  validate-helper:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate PowerShell helper syntax
+        shell: pwsh
+        run: |
+          $errors = $null
+          [System.Management.Automation.Language.Parser]::ParseFile(
+            (Resolve-Path 'scripts/publish_multilingual.ps1'),
+            [ref]$null,
+            [ref]$errors
+          ) | Out-Null
+          if ($errors.Count -gt 0) {
+            $errors | ForEach-Object { Write-Error $_.Message }
+            exit 1
+          }
+
+      - name: Confirm publishing documentation exists
+        shell: bash
+        run: |
+          test -f publish-guide.cmd
+          test -f PUBLISHING_GUIDE.md
+
   export:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
