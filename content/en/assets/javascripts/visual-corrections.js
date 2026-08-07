@@ -148,6 +148,22 @@
     }
   }
 
+  function removeBunkaPackageOpening(article) {
+    const headings = [...article.querySelectorAll("h2")];
+    const bunkaHeading = headings[3];
+    if (!bunkaHeading) return;
+
+    let node = bunkaHeading.nextElementSibling;
+    while (node && node.tagName !== "H2" && node.tagName !== "H1") {
+      if (node.tagName === "UL") {
+        const items = [...node.querySelectorAll(":scope > li")];
+        if (items.length >= 6) items[3].remove();
+        return;
+      }
+      node = node.nextElementSibling;
+    }
+  }
+
   function renderCorrections() {
     const article = document.querySelector("article.md-content__inner");
     if (!article) return;
@@ -158,6 +174,7 @@
     if (key === "01-foundations/five-dimensions-of-knife-steel") correctFiveDimensions(article);
     if (key === "04-geometry-and-bevels/single-and-double-bevels") correctBevelFamilies(article);
     if (key === "03-blade-construction/self-sharpening-full-damascus") cropModernFullDamascusPanel(article);
+    if (key === "05-knife-types/overview") removeBunkaPackageOpening(article);
   }
 
   document.addEventListener("DOMContentLoaded", renderCorrections);
