@@ -135,10 +135,10 @@ No command line is needed. Everything happens on the GitHub website:
 The artifact contains one file per requested language, for example:
 
 ```text
-Knife-Knowledge-Base-EN.pdf
-Knife-Knowledge-Base-IT.pdf
-Knife-Knowledge-Base-JA.pdf
-Knife-Knowledge-Base-AR.pdf
+Knife-Knowledge-Base-EN-v42.pdf
+Knife-Knowledge-Base-IT-v42.pdf
+Knife-Knowledge-Base-JA-v42.pdf
+Knife-Knowledge-Base-AR-v42.pdf
 ```
 
 Each PDF is a self-contained A4 guide with a cover page, a clickable table of contents, every chapter in the same order as the website navigation, and the same approved images and diagrams shown on the live site — captured after the page has fully rendered, not a screenshot of the raw source. Website navigation, search, the language selector and GitHub edit buttons are never included.
@@ -148,6 +148,18 @@ The PDF export reuses the same translation cache as the website and the multilin
 ### Why the PDF is not generated directly from Markdown
 
 Several diagrams, approved catalog images and their captions are inserted into the page by JavaScript after the website loads, not written directly into the Markdown source. Converting the Markdown files alone (for example with Pandoc) would silently miss those images. The export workflow instead renders every chapter in a real browser, waits for that script to finish, and only then captures the page — so the PDF always matches what a reader sees on the website.
+
+## Automatic version numbers and publication dates
+
+Every published website page and every exported PDF shows a progressive version number and a publication/export date, for example `v42 · 2026-08-07`. Both are generated automatically by `scripts/publication_metadata.py` and shared by the website build and the PDF export, so they never drift apart:
+
+- **Version** is simply the number of commits in the repository's history up to the commit that was built (`git rev-list --count HEAD`). It is not a file you edit and not a number you bump by hand — a new content commit automatically produces the next version, and the same commit always produces the same version everywhere it is built.
+- **Publication/export date** is the actual calendar date (in the `Europe/Rome` time zone, in `YYYY-MM-DD` form) on which that particular build or export ran — not the date any given article was originally written. Re-exporting the exact same commit on a later date keeps the same version number and only the date changes, because the version identifies the content snapshot and the date identifies the publication instance.
+- On the website, the version and date appear in the footer of every page, in every language, in the compact language-neutral form `v42 · 2026-08-07` — no manually maintained translation is needed for it.
+- In a PDF, the cover shows the full form (`Version 42 · commit a1b2c3d`, `Published / Exported 2026-08-07`) and every content page's footer shows the compact form.
+- If a PDF is exported from the same commit that is currently deployed on the website, its version number matches the site's version number exactly.
+
+This is why the GitHub Actions workflows that build the website or export PDFs check out the repository with `fetch-depth: 0` (full history) rather than the default shallow clone — the version count needs the complete commit history to be accurate.
 
 ## Important rules
 

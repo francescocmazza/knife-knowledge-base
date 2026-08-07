@@ -16,6 +16,8 @@ The five presentation files were supplied and reviewed in full for this second p
 
 All 70 slides were read page by page. Most are commercial/catalog pages (product photography, pricing, competitor comparisons, sales scripts) that are explicitly out of scope for technical diagrams and were not used, per the instruction not to include obsolete prices, old commercial claims, or unrelated slide content.
 
+A first crop of the "Tipi di affilatura" chart (see below) left a sliver of the Xinzuo brand stamp visible in the bottom-left corner; this was caught during PDF contact-sheet review and fixed with a tighter crop that excludes the entire logo/page-number footer band of the source slide.
+
 Two slides contained technically usable, correct diagrams not otherwise available from the approved catalog images, and were cropped and added:
 
 - `Formazione Agenti A.pdf`, slide 14 ("Tipi di affilatura") — a chart of seven bevel-family cross-sections (V, convex, asymmetric V, compound double V, concave, single-sided, single-sided with urasuki).

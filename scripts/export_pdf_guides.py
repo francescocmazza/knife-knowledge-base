@@ -28,13 +28,15 @@ import socketserver
 import subprocess
 import sys
 import threading
-from datetime import date
 from pathlib import Path
 from typing import Any
 
 import yaml
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from publication_metadata import PublicationMetadata, get_metadata  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
@@ -237,7 +239,7 @@ def wait_for_images_loaded(page, context_label: str) -> None:
         ) from exc
 
 
-def render_cover_html(language_name: str, export_date_str: str, hero_src: str) -> str:
+def render_cover_html(language_name: str, metadata: PublicationMetadata, hero_src: str) -> str:
     return f"""
     <section class="kb-cover">
       <div class="kb-cover__top">
@@ -249,7 +251,8 @@ def render_cover_html(language_name: str, export_date_str: str, hero_src: str) -
       </div>
       <div class="kb-cover__bottom">
         <p class="kb-cover__meta">{html.escape(GITHUB_REPO_URL)}</p>
-        <p class="kb-cover__meta">Exported {html.escape(export_date_str)}</p>
+        <p class="kb-cover__meta">{html.escape(metadata.full_label)}</p>
+        <p class="kb-cover__meta">Published / Exported {html.escape(metadata.publication_date)}</p>
         <p class="kb-cover__rights">
           The original written content is generally licensed under CC BY-NC-SA 4.0.
           Some images, including Xinzuo catalog and promotional material, carry separate rights
@@ -296,11 +299,11 @@ def _wrap_document(lang: str, direction: str, body_class: str, title: str, css_t
 </html>"""
 
 
-def assemble_cover_document(cfg: dict, export_date_str: str, css_text: str, hero_src: str) -> str:
+def assemble_cover_document(cfg: dict, metadata: PublicationMetadata, css_text: str, hero_src: str) -> str:
     """A standalone one-page document for the cover, printed without a footer."""
     direction = cfg.get("direction", "ltr")
     lang = cfg.get("mkdocs_language", "en")
-    cover = render_cover_html(cfg["name"], export_date_str, hero_src)
+    cover = render_cover_html(cfg["name"], metadata, hero_src)
     return _wrap_document(lang, direction, "", f"Knife Knowledge Base — {cfg['name']}", css_text, cover)
 
 
@@ -329,12 +332,13 @@ def assemble_rest_document(
     )
 
 
-def footer_template(direction: str) -> str:
+def footer_template(direction: str, metadata: PublicationMetadata) -> str:
     return f"""
     <div style="font-size:8px; width:100%; text-align:center; color:#666;
                 font-family:'Noto Sans',sans-serif; direction:{direction};">
-      Knife Knowledge Base &nbsp;&middot;&nbsp;
-      <span class="pageNumber"></span> / <span class="totalPages"></span>
+      Knife Knowledge Base &nbsp;&middot;&nbsp; {html.escape(metadata.version_label)}
+      &nbsp;&middot;&nbsp; {html.escape(metadata.publication_date)} &nbsp;&middot;&nbsp;
+      <span class="pageNumber"></span>
     </div>
     """
 
@@ -351,7 +355,7 @@ def render_locale_pdf(
     hide_placeholders: bool,
     base_url: str,
     css_text: str,
-    export_date_str: str,
+    metadata: PublicationMetadata,
     pdf_path: Path,
 ) -> None:
     known_urls = {f"{base_url}{code}/{node['urlpath']}": node["id"] for node in flat}
@@ -376,7 +380,7 @@ def render_locale_pdf(
         pdf_path.parent.mkdir(parents=True, exist_ok=True)
 
         hero_src = f"{base_url}{code}/{HERO_IMAGE_REL}"
-        cover_html = assemble_cover_document(cfg, export_date_str, css_text, hero_src)
+        cover_html = assemble_cover_document(cfg, metadata, css_text, hero_src)
         (SITE / code / PRINT_COVER_NAME).write_text(cover_html, encoding="utf-8")
         page.goto(f"{base_url}{code}/{PRINT_COVER_NAME}", wait_until="load")
         wait_for_images_loaded(page, f"{code}:cover")
@@ -392,7 +396,7 @@ def render_locale_pdf(
             print_background=True,
             display_header_footer=True,
             header_template="<span></span>",
-            footer_template=footer_template(cfg.get("direction", "ltr")),
+            footer_template=footer_template(cfg.get("direction", "ltr"), metadata),
             margin=PDF_MARGIN,
         )
 
@@ -450,7 +454,8 @@ def main() -> int:
     httpd, thread = start_server(serve_root)
     port = httpd.server_address[1]
     base_url = f"http://127.0.0.1:{port}/{REPO_BASENAME}/"
-    export_date_str = date.today().strftime("%d %B %Y")
+    metadata = get_metadata()
+    print(f"Publication metadata: {metadata.full_label} · {metadata.publication_date}", flush=True)
 
     generated: list[Path] = []
     try:
@@ -463,11 +468,11 @@ def main() -> int:
             try:
                 for code in requested:
                     cfg = locale_cfg[code]
-                    pdf_path = output_dir / f"Knife-Knowledge-Base-{code.upper()}.pdf"
+                    pdf_path = output_dir / f"Knife-Knowledge-Base-{code.upper()}-{metadata.version_label}.pdf"
                     print(f"Rendering {code} -> {pdf_path.name}", flush=True)
                     render_locale_pdf(
                         browser, code, cfg, tree, flat, args.placeholders == "hide",
-                        base_url, css_text, export_date_str, pdf_path,
+                        base_url, css_text, metadata, pdf_path,
                     )
                     generated.append(pdf_path)
             finally:

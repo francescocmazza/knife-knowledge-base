@@ -90,7 +90,7 @@
         caption: "Classic double-bevel profiles (left) and traditional Japanese single-bevel profiles (right). Bevel shape is one more variable, alongside steel and heat treatment, that shapes how a knife cuts.",
         note: "Labels are reproduced from the source presentation in Italian (“V”, “Convessa”, “Asimmetrica”, “Concava”, “Lato singolo”, “Lato singolo con Urasuki”); the chapter text explains each shape.",
         width: 1600,
-        height: 875,
+        height: 800,
         loading: "lazy",
         target: { type: "heading", level: "h2", index: 1 }
       }
