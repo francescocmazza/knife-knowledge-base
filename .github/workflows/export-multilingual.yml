@@ -77,7 +77,7 @@ jobs:
       - name: Translate and build every configured language
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_MODELS_MODEL: openai/gpt-4o
+          GITHUB_MODELS_MODEL: openai/gpt-4.1
         run: python scripts/multilingual_site.py --translate
 
       - name: Prepare export package
