@@ -1,6 +1,6 @@
 # Image Rights
 
-This page states the licensing status of visual material published in this knowledge base. It applies to every image under `content/en/assets/`, including the diagrams in `assets/diagrams/` and the catalog-derived images in `assets/images/approved/`.
+This page states the licensing status of visual material published in this knowledge base. It applies to every image under `content/en/assets/`, including the diagrams in `assets/diagrams/` and the catalog- or presentation-derived images in `assets/images/approved/`.
 
 ## Written content
 
@@ -8,11 +8,13 @@ Unless stated otherwise, the original written content of this knowledge base is 
 
 ## Original diagrams
 
-Diagrams created for this project (for example the files in `assets/diagrams/`) are original work and are covered by the same CC BY-NC-SA 4.0 license as the written content, unless individually marked otherwise.
+Diagrams created specifically for this project (for example files in `assets/diagrams/`) are original work and are covered by the same CC BY-NC-SA 4.0 license as the written content, unless individually marked otherwise.
+
+A diagram remains published only while it passes the project's technical review. A generated illustration that is found to be materially misleading is withdrawn from the rendered guide and returned to placeholder status until a verified replacement is available.
 
 ## Xinzuo catalog images
 
-The following approved images in `assets/images/approved/` are cropped or adapted from the 2025 Xinzuo product catalog:
+The following approved images in `assets/images/approved/` are cropped or adapted from the 2025 Xinzuo product catalog or approved Xinzuo promotional material:
 
 - `home-hero-xinzuo-masterpieces.svg`
 - `production-process-overview.svg`
@@ -24,25 +26,29 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 - `whetstones-and-sheaths.svg`
 - `strops-and-honing-rods.svg`
 
-These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their copyright holder**. They are reproduced here with authorization from the repository owner for the specific educational purpose of this knowledge base.
+These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this knowledge base.
 
-**They are not automatically sublicensed under CC BY-NC-SA 4.0.** The CC BY-NC-SA 4.0 license stated above covers the original written content and original diagrams; it does not extend to these third-party catalog images.
+**They are not automatically sublicensed under CC BY-NC-SA 4.0.** The Creative Commons license stated above covers the original written content and original diagrams; it does not automatically extend to catalog or promotional images.
 
-**Commercial reuse of these images requires separate authorization** from the copyright holder. Do not copy, redistribute, or reuse these specific image files outside this knowledge base without that separate permission, even though the surrounding written content may be reused non-commercially under CC BY-NC-SA 4.0.
+**Commercial reuse of these images requires separate authorization** from the relevant copyright holder. Do not copy, redistribute, or reuse these specific image files outside this knowledge base without that separate permission.
 
 ## Presentation-derived images
 
-The following approved images in `assets/images/approved/` are cropped from the repository owner's internal agent-training presentations:
+The following approved images in `assets/images/approved/` are cropped from internal agent-training presentations supplied by the repository owner:
 
 - `bevel-families.svg` (cropped from `Formazione Agenti A`)
 - `damascus-structure-comparison.svg` (cropped from `Formazione Agenti D`)
 
-The same terms as the Xinzuo catalog images above apply: these crops **remain the property of their copyright holder**, are reproduced here with authorization from the repository owner, are **not automatically sublicensed under CC BY-NC-SA 4.0**, and **require separate authorization for commercial reuse**.
+The repository owner's permission to use an internal presentation does **not by itself prove ownership of every photograph, diagram, micrograph, logo or other element embedded in that presentation**. These presentation-derived crops must therefore be treated as restricted project-use material unless the underlying rights provenance is independently confirmed.
+
+They are **not automatically sublicensed under CC BY-NC-SA 4.0**, and commercial reuse outside this knowledge base requires separate rights confirmation from the relevant copyright holder.
+
+For `damascus-structure-comparison.svg`, the rendered guide intentionally displays only the modern full-Damascus panel. The historical comparison panel from the source slide is excluded from the published view because it should not be used as a metallurgical model of historical wootz.
 
 ## Excluded material
 
-No confidential catalog PDF, proprietary slide deck, or Musashi material is published in this repository. Only individually approved, cropped, and captioned images — or crops of the owner's own training slides — are included. The original presentation PDF files themselves are not published in this repository; only the individual approved crops are.
+No confidential Musashi material is published in this repository. Proprietary slide decks and source catalog PDFs are not published as complete documents; only individually selected visual extracts are used where permitted and technically appropriate.
 
 ## Questions
 
-Questions about the rights status of a specific image should be raised through a GitHub Issue before any reuse.
+Questions about the rights status or provenance of a specific image should be resolved before any reuse outside this project. When provenance is uncertain, the safe default is not to redistribute the image.
