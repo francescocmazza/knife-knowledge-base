@@ -32,6 +32,9 @@ TRANSLATION_SCHEMA_VERSION = "2026-08-07-v3-committed"
 
 def args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
+    # Kept temporarily for compatibility with older helper scripts. It performs
+    # no API call: translations are always read from committed repository files.
+    parser.add_argument("--translate", action="store_true", help=argparse.SUPPRESS)
     parser.add_argument("--require-translations", action="store_true")
     parser.add_argument("--locales", nargs="*")
     return parser.parse_args()
