@@ -35,6 +35,16 @@ The localization architecture supports any standard locale code, including:
 - Traditional Chinese (`zh-Hant`)
 - Arabic and other right-to-left languages
 
+## Publishing and multilingual export
+
+Normal publication is automatic: update the English source under `content/en/`, commit and push the change to `main`, and GitHub Actions regenerates stale translations, rebuilds every configured language and deploys GitHub Pages.
+
+Windows users can run `publish-guide.cmd` for a guided one-click routine that validates the English site, commits the source changes and pushes `main`.
+
+For a downloadable snapshot, run **Actions → Export multilingual guide → Run workflow**. The generated artifact contains the complete HTML website and generated Markdown trees for every configured locale.
+
+See [PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md) for the complete operating procedure.
+
 ## Current scope
 
 The first version covers:
