@@ -87,6 +87,10 @@ jobs:
             --placeholders hide \
             --output-dir pdf-export
 
+      - name: Validate committed translations for translated exports
+        if: github.event_name == 'workflow_dispatch' && inputs.language != 'en'
+        run: python scripts/multilingual_site.py --require-translations
+
       - name: Export requested PDF guide(s)
         if: github.event_name == 'workflow_dispatch'
         run: |
