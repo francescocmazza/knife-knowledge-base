@@ -32,6 +32,12 @@ on:
           - show
   pull_request:
     paths:
+      - "content/en/**/*.md"
+      - "content/en/assets/**"
+      - "mkdocs.yml"
+      - "localization/**"
+      - "scripts/multilingual_site.py"
+      - "scripts/publication_metadata.py"
       - "scripts/export_pdf_guides.py"
       - "scripts/pdf_export/**"
       - "requirements-pdf.txt"
