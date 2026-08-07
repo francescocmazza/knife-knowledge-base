@@ -224,6 +224,31 @@ figure img,
   max-height: 195mm;
 }
 
+/* VIS-SELF-01 uses only the modern full-Damascus panel from a two-panel
+ * source-slide crop. The historical comparison panel is intentionally
+ * excluded because it must not be presented as a metallurgical model of
+ * historical wootz. The DOM wrapper is added by visual-corrections.js
+ * before the PDF exporter extracts the rendered chapter. */
+.kb-right-panel-crop {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 800 / 405;
+  overflow: hidden;
+  margin-inline: auto;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.kb-right-panel-crop > img {
+  display: block;
+  width: 200% !important;
+  max-width: none !important;
+  height: 100% !important;
+  max-height: none !important;
+  object-fit: fill;
+  transform: translateX(-50%);
+}
+
 figcaption,
 .kb-learning-figure__note {
   font-size: 0.82rem;
