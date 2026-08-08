@@ -26,19 +26,12 @@ Production builds use strict mode (`--require-translations`). If any required tr
 
 ## Current deployment locales
 
+Active for this phase (`deploy: true` in `localization/locales.yml`, and therefore required by `--require-translations`):
+
 - Italian (`it`)
-- Spanish (`es`)
-- German (`de`)
-- French (`fr`)
-- Japanese (`ja`)
 - Simplified Chinese (`zh-Hans`)
-- Traditional Chinese (`zh-Hant`)
-- Portuguese (`pt`)
-- Polish (`pl`)
-- Czech (`cs`)
-- Dutch (`nl`)
-- Arabic (`ar`)
-- Hebrew (`he`)
+
+Other locale codes remain defined in `localization/locales.yml` with `deploy: false` for future re-activation, but are intentionally out of scope for now and are not built, validated, or translated.
 
 ## Rules
 

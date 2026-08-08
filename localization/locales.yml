@@ -20,25 +20,25 @@ locales:
     name: Español
     status: automatic
     direction: ltr
-    deploy: true
+    deploy: false
     mkdocs_language: es
   de:
     name: Deutsch
     status: automatic
     direction: ltr
-    deploy: true
+    deploy: false
     mkdocs_language: de
   fr:
     name: Français
     status: automatic
     direction: ltr
-    deploy: true
+    deploy: false
     mkdocs_language: fr
   ja:
     name: 日本語
     status: automatic
     direction: ltr
-    deploy: true
+    deploy: false
     mkdocs_language: ja
     specialist_review_required: true
   zh-Hans:
@@ -52,44 +52,44 @@ locales:
     name: 繁體中文
     status: automatic
     direction: ltr
-    deploy: true
+    deploy: false
     mkdocs_language: zh-Hant
     specialist_review_required: true
   pt:
     name: Português
     status: automatic
     direction: ltr
-    deploy: true
+    deploy: false
     mkdocs_language: pt
   pl:
     name: Polski
     status: automatic
     direction: ltr
-    deploy: true
+    deploy: false
     mkdocs_language: pl
   cs:
     name: Čeština
     status: automatic
     direction: ltr
-    deploy: true
+    deploy: false
     mkdocs_language: cs
   nl:
     name: Nederlands
     status: automatic
     direction: ltr
-    deploy: true
+    deploy: false
     mkdocs_language: nl
   ar:
     name: العربية
     status: automatic
     direction: rtl
-    deploy: true
+    deploy: false
     mkdocs_language: ar
   he:
     name: עברית
     status: automatic
     direction: rtl
-    deploy: true
+    deploy: false
     mkdocs_language: he
 
 export_formats:
