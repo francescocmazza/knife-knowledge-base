@@ -1,18 +1,29 @@
 # Publishing and exporting the multilingual guide
 
-English is the only source-of-truth language. Do not edit generated translations directly.
+English under `content/en/` is the only source of truth. Translations are committed under `translations/<locale>/` and are refreshed during editing, not by GitHub Actions.
+
+## Current active languages
+
+The current publication scope is intentionally limited to:
+
+- English (`en`)
+- Italian (`it`)
+- Simplified Chinese (`zh-Hans`)
+
+Other locale definitions are retained as inactive for possible future use. Inactive locales are not deployed, validated, exported, or offered by the PDF workflow.
 
 ## Normal publishing routine
 
-After changing the guide content under `content/en/`, the normal publishing flow is:
+After changing the English guide:
 
-1. Validate the English source.
-2. Commit the English change.
-3. Push `main` to GitHub.
-4. GitHub Actions detects which English pages changed.
-5. Only missing or stale translations are regenerated.
-6. All configured language sites are rebuilt.
-7. GitHub Pages is deployed automatically.
+1. Edit and approve the English source.
+2. Ask Claude Code to check the translation status and refresh only missing/stale translated pages for the active non-English locales.
+3. Commit the English change and the corresponding translation updates together.
+4. GitHub Actions validates that every required translation matches the current English source hash.
+5. All active language sites are rebuilt from committed files.
+6. GitHub Pages is deployed automatically.
+
+There is **no paid translation API in the publishing pipeline**. GitHub Actions never sends guide content to OpenAI, GitHub Models or another translation service.
 
 The public site is:
 
@@ -22,150 +33,114 @@ The deployment workflow is:
 
 **Actions → Deploy multilingual knowledge base to GitHub Pages**
 
-A successful run must show both the `build` and `deploy` jobs in green.
+A successful production run must show both `build` and `deploy` in green.
+
+## Translation files and stale-page protection
+
+Each active locale mirrors the Markdown tree under `content/en/`, for example:
+
+```text
+content/en/10-sharpening/the-burr.md
+translations/it/10-sharpening/the-burr.md
+translations/zh-Hans/10-sharpening/the-burr.md
+```
+
+Every translated Markdown file contains a `source_hash` in YAML front matter. `scripts/multilingual_site.py` recalculates the expected hash from the current English page, locale, glossary and translation schema. If the committed file is missing or its hash is outdated, it is reported as missing/stale.
+
+Production publishing and multilingual exports use:
+
+```text
+python scripts/multilingual_site.py --require-translations
+```
+
+This means a stale translation blocks publication instead of silently showing English text under another language.
+
+For local development, strict mode can be omitted; missing/stale translations then fall back to English only for that local build and display a warning.
+
+## Updating translations with Claude Code
+
+Claude Code should be used before publishing whenever English content has changed. It should:
+
+- run/check the multilingual builder to identify missing/stale locale/page pairs;
+- translate only those pages for the active locales from the current English source;
+- preserve Markdown, links, image paths, HTML, formulas, steel grades, product names and HRC values;
+- avoid adding, correcting or reconciling claims that are not in English;
+- write the translated files under `translations/<locale>/`;
+- write the exact current `source_hash` required by the builder;
+- run `python scripts/multilingual_site.py --require-translations` until it passes.
+
+English remains authoritative. A translation may improve wording in its own language but must not change technical meaning.
 
 ## Windows: one-click publishing
 
-For routine content edits on a Windows checkout of this repository, double-click:
+For routine publishing from a Windows checkout, double-click:
 
 `publish-guide.cmd`
 
 The launcher runs `scripts/publish_multilingual.ps1` and will:
 
 - verify that you are on `main`;
-- check that your local branch is not behind or diverged from `origin/main`;
-- detect publishable changes under `content/en`, `glossaries`, `localization`, or `mkdocs.yml`;
-- install the documentation dependencies if needed;
-- validate the English site locally;
-- stage only the publishable source paths;
-- commit them with the default message `Update guide content`;
-- push `main` to GitHub;
+- check that local `main` is not behind/diverged from `origin/main`;
+- detect publishable changes under `content/en`, `translations`, `glossaries`, `localization`, or `mkdocs.yml`;
+- install documentation dependencies if needed;
+- validate English plus all active committed translations locally;
+- refuse to publish if any active translation is missing/stale;
+- stage English and translations together;
+- commit and push `main`;
 - print the Actions and public-site links.
 
-Nothing is pushed if local English validation fails.
-
-### Optional custom commit message
-
-From PowerShell:
+Optional custom commit message:
 
 ```powershell
 .\scripts\publish_multilingual.ps1 -Message "Update sharpening chapter"
 ```
 
-If local validation cannot be run on a particular machine, it can be skipped deliberately:
+Local validation can deliberately be skipped with `-SkipLocalValidation`, but GitHub Actions will still reject a production deployment if active translations are incomplete.
 
-```powershell
-.\scripts\publish_multilingual.ps1 -Message "Update guide content" -SkipLocalValidation
-```
+## One-click downloadable multilingual export
 
-In that case GitHub Actions remains the authoritative validation step.
+Go to **Actions → Export multilingual guide → Run workflow** on `main`.
 
-## One-click downloadable export
-
-The website deploy and the downloadable export are separate operations.
-
-To create a current multilingual snapshot without changing the site:
-
-1. Open the repository on GitHub.
-2. Open **Actions**.
-3. Select **Export multilingual guide**.
-4. Select **Run workflow** on `main`.
-5. Wait for the workflow to finish successfully.
-6. Open the completed workflow run.
-7. Download the artifact named `knife-knowledge-base-multilingual-<run number>`.
-
-The artifact contains:
+The artifact `knife-knowledge-base-multilingual-<run number>` contains:
 
 ```text
-html/
-  en/
-  it/
-  es/
-  de/
-  fr/
-  ja/
-  zh-Hans/
-  zh-Hant/
-  pt/
-  pl/
-  cs/
-  nl/
-  ar/
-  he/
-
-markdown/
-  en/
-  it/
-  es/
-  de/
-  fr/
-  ja/
-  zh-Hans/
-  zh-Hant/
-  pt/
-  pl/
-  cs/
-  nl/
-  ar/
-  he/
+html/      complete built website for every active locale
+markdown/  per-locale source trees used for that build
 ```
 
-`html/` is the fully built multilingual website. `markdown/` contains the generated source tree for every locale used for that build.
-
-The artifact is intended as a portable snapshot and is retained by GitHub Actions for 30 days.
+The export reads committed translations only and makes no paid API calls.
 
 ## One-click PDF export
 
-This produces professionally formatted, printable PDF guides — one per language — instead of a website snapshot. It does not touch the live website in any way.
+Go to **Actions → Export PDF guides → Run workflow**. Choose `all`, `en`, `it`, or `zh-Hans`, then choose whether editorial placeholders should be hidden or shown.
 
-No command line is needed. Everything happens on the GitHub website:
+Only active locales can be exported. The PDF exporter rejects inactive locales even if invoked directly from the command line. Any translated PDF export runs strict committed-translation validation before building, so stale or missing translated content cannot silently fall back to English.
 
-1. Open GitHub.
-2. Open the repository.
-3. Click **Actions**.
-4. Click **Export PDF guides**.
-5. Click **Run workflow**.
-6. Select **all** (one PDF per configured language) or a single language.
-7. Select whether the editorial `IMAGE PLACEHOLDER` boxes should be **hide**-den or **show**n in the printed guide. Choose `hide` for a clean reader-facing guide, or `show` to also see which visuals are still awaiting production.
-8. Click **Run workflow**.
-9. Wait for the green check next to the run.
-10. Open the completed run.
-11. Download the artifact named `knife-knowledge-base-pdf-<run number>` under **Artifacts**.
-
-The artifact contains one file per requested language, for example:
+The artifact is named `knife-knowledge-base-pdf-<run number>` and contains files such as:
 
 ```text
 Knife-Knowledge-Base-EN-v42.pdf
 Knife-Knowledge-Base-IT-v42.pdf
-Knife-Knowledge-Base-JA-v42.pdf
-Knife-Knowledge-Base-AR-v42.pdf
+Knife-Knowledge-Base-ZH-HANS-v42.pdf
 ```
 
-Each PDF is a self-contained A4 guide with a cover page, a clickable table of contents, every chapter in the same order as the website navigation, and the same approved images and diagrams shown on the live site — captured after the page has fully rendered, not a screenshot of the raw source. Website navigation, search, the language selector and GitHub edit buttons are never included.
-
-The PDF export reuses the same translation cache as the website and the multilingual export, so choosing a single language does not retranslate or rebuild the languages you did not select.
-
-### Why the PDF is not generated directly from Markdown
-
-Several diagrams, approved catalog images and their captions are inserted into the page by JavaScript after the website loads, not written directly into the Markdown source. Converting the Markdown files alone (for example with Pandoc) would silently miss those images. The export workflow instead renders every chapter in a real browser, waits for that script to finish, and only then captures the page — so the PDF always matches what a reader sees on the website.
+Each PDF is A4, has a cover and clickable contents, uses the same rendered images/diagrams as the website, and contains no website navigation UI.
 
 ## Automatic version numbers and publication dates
 
-Every published website page and every exported PDF shows a progressive version number and a publication/export date, for example `v42 · 2026-08-07`. Both are generated automatically by `scripts/publication_metadata.py` and shared by the website build and the PDF export, so they never drift apart:
+Every published website page and PDF reports a progressive version and publication/export date, e.g. `v42 · 2026-08-07`.
 
-- **Version** is simply the number of commits in the repository's history up to the commit that was built (`git rev-list --count HEAD`). It is not a file you edit and not a number you bump by hand — a new content commit automatically produces the next version, and the same commit always produces the same version everywhere it is built.
-- **Publication/export date** is the actual calendar date (in the `Europe/Rome` time zone, in `YYYY-MM-DD` form) on which that particular build or export ran — not the date any given article was originally written. Re-exporting the exact same commit on a later date keeps the same version number and only the date changes, because the version identifies the content snapshot and the date identifies the publication instance.
-- On the website, the version and date appear in the footer of every page, in every language, in the compact language-neutral form `v42 · 2026-08-07` — no manually maintained translation is needed for it.
-- In a PDF, the cover shows the full form (`Version 42 · commit a1b2c3d`, `Published / Exported 2026-08-07`) and every content page's footer shows the compact form.
-- If a PDF is exported from the same commit that is currently deployed on the website, its version number matches the site's version number exactly.
+- The version is the repository commit count at the built commit (`git rev-list --count HEAD`).
+- The date is the actual build/export date in `Europe/Rome`, formatted `YYYY-MM-DD`.
+- Re-exporting the same commit later keeps the version but updates the export date.
+- A PDF built from the same commit as the live website has the same version number.
 
-This is why the GitHub Actions workflows that build the website or export PDFs check out the repository with `fetch-depth: 0` (full history) rather than the default shallow clone — the version count needs the complete commit history to be accurate.
+The shared implementation is `scripts/publication_metadata.py`.
 
 ## Important rules
 
 - Meaning changes must always be made in English first.
-- Do not manually maintain 13 separate translated copies in the repository.
-- Machine-generated translations may require human review, especially Japanese and Chinese specialist terminology.
+- Do not publish an English change without refreshing the affected active committed translations.
+- Machine-assisted translations may require human review, especially Simplified Chinese specialist knife terminology.
 - Images and third-party material may have rights different from the written-content licence; see `content/en/assets/IMAGE_RIGHTS.md`.
-- If the build succeeds but the deploy job fails because a GitHub-hosted runner is temporarily unavailable, re-run the failed job from the Actions page. This is an infrastructure failure, not a content or translation failure.
-- The PDF export (**Actions → Export PDF guides**) only produces a downloadable artifact. It never modifies the repository, the website, or the GitHub Pages deployment.
+- PDF export only creates a downloadable artifact; it never modifies the repository or the live site.

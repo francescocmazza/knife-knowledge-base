@@ -127,7 +127,7 @@ def parse_args() -> argparse.Namespace:
         "--locales",
         nargs="+",
         default=["all"],
-        help="Locale codes to export (e.g. en it ja), or 'all' for every deployed locale.",
+        help="Locale codes to export (e.g. en it zh-Hans), or 'all' for every active locale.",
     )
     parser.add_argument(
         "--placeholders",
@@ -183,10 +183,9 @@ def flatten_nav(nav_items: list) -> tuple[list[dict], list[dict]]:
 
 
 def build_site(locales: list[str]) -> None:
-    translate = any(code != "en" for code in locales)
     cmd = [sys.executable, str(ROOT / "scripts" / "multilingual_site.py")]
-    if translate:
-        cmd.append("--translate")
+    if any(code != "en" for code in locales):
+        cmd.append("--require-translations")
     cmd += ["--locales", *locales]
     print("Building site:", " ".join(cmd), flush=True)
     subprocess.run(cmd, cwd=ROOT, check=True)
@@ -434,6 +433,12 @@ def main() -> int:
         unknown = [code for code in requested if code not in locale_cfg]
         if unknown:
             raise SystemExit(f"Unknown locale(s): {', '.join(unknown)}")
+        disabled = [code for code in requested if code not in deployed]
+        if disabled:
+            raise SystemExit(
+                f"Locale(s) are not enabled for PDF export: {', '.join(disabled)}. "
+                f"Active locales: {', '.join(deployed)}"
+            )
 
     build_site(requested)
 

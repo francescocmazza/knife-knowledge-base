@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "content/en/**"
+      - "translations/**"
       - "glossaries/**"
       - "localization/**"
       - "scripts/multilingual_site.py"
@@ -15,6 +16,7 @@ on:
       - main
     paths:
       - "content/en/**"
+      - "translations/**"
       - "glossaries/**"
       - "localization/**"
       - "scripts/multilingual_site.py"
@@ -27,7 +29,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-  models: read
 
 concurrency:
   group: pages-${{ github.ref }}
@@ -53,29 +54,17 @@ jobs:
       - name: Install documentation dependencies
         run: pip install -r requirements-docs.txt
 
-      - name: Restore translation cache
-        if: github.event_name != 'pull_request'
-        uses: actions/cache@v4
-        with:
-          path: .translation-cache
-          key: multilingual-translations-v1-${{ hashFiles('content/en/**/*.md', 'glossaries/**/*.yml', 'localization/locales.yml', 'scripts/multilingual_site.py') }}
-          restore-keys: |
-            multilingual-translations-v1-
-
       - name: Configure GitHub Pages
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
 
-      - name: Validate English site on pull requests
+      - name: Validate complete multilingual source on pull requests
         if: github.event_name == 'pull_request'
-        run: python scripts/multilingual_site.py --locales en
+        run: python scripts/multilingual_site.py --require-translations
 
-      - name: Translate and build every configured language
+      - name: Build every configured language from committed translations
         if: github.event_name != 'pull_request'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_MODELS_MODEL: openai/gpt-4o
-        run: python scripts/multilingual_site.py --translate
+        run: python scripts/multilingual_site.py --require-translations
 
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
