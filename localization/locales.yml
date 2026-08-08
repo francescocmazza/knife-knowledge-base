@@ -1,7 +1,7 @@
 source_locale: en
 locale_standard: BCP-47
-translation_engine: GitHub Models
-translation_policy: machine-generated translations are derived from and never replace the English source of truth
+translation_engine: editor-assisted committed translations
+translation_policy: committed translations are derived from and never replace the English source of truth
 
 locales:
   en:
@@ -12,82 +12,82 @@ locales:
     mkdocs_language: en
   it:
     name: Italiano
-    status: automatic
+    status: committed
     direction: ltr
     deploy: true
     mkdocs_language: it
   es:
     name: Español
-    status: automatic
+    status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: es
   de:
     name: Deutsch
-    status: automatic
+    status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: de
   fr:
     name: Français
-    status: automatic
+    status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: fr
   ja:
     name: 日本語
-    status: automatic
+    status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: ja
     specialist_review_required: true
   zh-Hans:
     name: 简体中文
-    status: automatic
+    status: committed
     direction: ltr
     deploy: true
     mkdocs_language: zh
     specialist_review_required: true
   zh-Hant:
     name: 繁體中文
-    status: automatic
+    status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: zh-Hant
     specialist_review_required: true
   pt:
     name: Português
-    status: automatic
+    status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: pt
   pl:
     name: Polski
-    status: automatic
+    status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: pl
   cs:
     name: Čeština
-    status: automatic
+    status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: cs
   nl:
     name: Nederlands
-    status: automatic
+    status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: nl
   ar:
     name: العربية
-    status: automatic
+    status: inactive
     direction: rtl
     deploy: false
     mkdocs_language: ar
   he:
     name: עברית
-    status: automatic
+    status: inactive
     direction: rtl
     deploy: false
     mkdocs_language: he
@@ -101,9 +101,9 @@ export_formats:
 rules:
   - English is the sole source of truth.
   - Meaning changes must be made in English first.
-  - Every deployed translation is regenerated when its English source hash changes.
-  - Generated translations are cached between deployments to avoid unnecessary model calls.
-  - Every machine-translated page displays a visible review notice.
-  - Japanese and Chinese exports require terminology review.
+  - Every deployed translation must be refreshed when its English source hash changes.
+  - Committed translations are validated before deployment; CI performs no translation model or API calls.
+  - Every committed translated page displays a visible review notice.
+  - Simplified Chinese exports require terminology review.
   - CJK PDF exports require fonts with full Unicode coverage.
-  - Right-to-left exports require bidirectional layout support.
+  - Right-to-left support remains reserved for future inactive locales.
