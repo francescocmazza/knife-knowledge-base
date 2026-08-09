@@ -12,7 +12,7 @@ Direct language links:
 - [Italiano](https://francescocmazza.github.io/knife-knowledge-base/it/)
 - [简体中文](https://francescocmazza.github.io/knife-knowledge-base/zh-Hans/)
 
-**[Download the latest official release](https://github.com/francescocmazza/knife-knowledge-base/releases/latest)** — PDFs in all active languages plus offline HTML and Markdown.
+**[Download the latest edition](https://github.com/francescocmazza/knife-knowledge-base/releases/latest)** — PDFs in all active languages plus offline HTML and Markdown, automatically rebuilt after every successful content merge and Pages deployment.
 
 ## Purpose
 
@@ -133,6 +133,15 @@ On the resulting `main` push, the deployment workflow runs the same translation 
 2. builds all active languages from that committed repository state;
 3. uploads the Pages artifact;
 4. deploys the multilingual website.
+
+After that deployment succeeds, a second workflow automatically:
+
+1. exports fresh PDFs for English, Italian, and Simplified Chinese;
+2. rebuilds the offline HTML and Markdown packages;
+3. replaces the assets in the rolling `latest` release;
+4. points that release to the same current `main` revision and marks it as GitHub's latest release.
+
+This means a normal content merge updates both the online Pages site and the downloadable edition without any manual Release action.
 
 The bot uses the repository `GITHUB_TOKEN`, so its translation commit does not start an infinite second workflow loop.
 
