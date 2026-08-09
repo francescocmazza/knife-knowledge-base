@@ -1,5 +1,5 @@
 ---
-source_hash: 7e83dbd98435ad2957dce19198f5a2109450789da5493f2ae8193cb9f94354d5
+source_hash: c140d49f9c6cf7b3e4afdebcfa900074c829e9eed02f2cf0c565961e8113cc33
 ---
 
 # Base di Conoscenza sui Coltelli
@@ -53,7 +53,7 @@ L'affilatura diventa molto più facile una volta che il lettore sa cosa sono la 
 
 ## Cosa copre questa prima edizione
 
-Il nucleo attuale in inglese spiega:
+Questa edizione spiega:
 
 - come la geometria a monobisela e a bisela doppia cambi il comportamento di taglio;
 - come i principali profili di coltello supportino il dondolamento, il taglio a spinta, il tritare, l'affettare e il lavoro di dettaglio;

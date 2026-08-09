@@ -1,5 +1,5 @@
 ---
-source_hash: 28ec8c61e8ea7fa67a69726da1c52c760fffbe225475e096ddb2626f3d4e7f51
+source_hash: 96c71ac0fb6e0ce2f085e9367cd85d8daec9b9e55ceec3a151900722f9d9f66a
 ---
 
 # 刀具知识库
@@ -53,7 +53,7 @@ source_hash: 28ec8c61e8ea7fa67a69726da1c52c760fffbe225475e096ddb2626f3d4e7f51
 
 ## 本首版涵盖的内容
 
-当前的英文核心内容讲解了:
+本版解释:
 
 - 单面刃与双面刃几何形状如何改变切割表现;
 - 主要刀型的轮廓如何支持摇切、推切、剁切、滑切与精细作业;
