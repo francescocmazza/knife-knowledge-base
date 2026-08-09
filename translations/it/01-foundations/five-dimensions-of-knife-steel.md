@@ -1,5 +1,5 @@
 ---
-source_hash: 2b73afed7c034ac1a61d0c0f762b974019d3d48086d5474aaaf513cd1404fe2d
+source_hash: 56a42f17fe8a1035cc48640ceec22cf43459fbacc41b8a889e27639cfa8c1868
 ---
 
 # Le Cinque Dimensioni dell'Acciaio da Coltello
@@ -32,11 +32,11 @@ Una spiegazione commerciale utile è quindi:
 
 ## 2. Facilità di affilatura: quanto prontamente il filo può essere ripristinato
 
-Tutti i coltelli hanno prima o poi bisogno di manutenzione. Anche il filo più raffinato cambia gradualmente attraverso il contatto con il cibo, i taglieri e l'uso normale. La facilità di affilatura descrive quanto rapidamente e prevedibilmente il filo può essere ripristinato con un abrasivo come una pietra ad acqua.
+Tutti i coltelli alla fine hanno bisogno di manutenzione. Anche il bordo più fine cambia gradualmente attraverso il contatto con alimenti, taglieri e uso normale. Facilità di affilatura descrive come rapidamente e prevedibilmente il bordo può essere ripristinato con un abrasivo come un whetstone.
 
 Questa qualità è spesso fraintesa. Le persone a volte presumono che un acciaio duro debba sempre essere difficile da affilare. In realtà, la durezza è solo una parte della storia.
 
-Due acciai con un HRC simile possono sentirsi molto diversi su una pietra. Uno può rispondere rapidamente e formare una bava di affilatura pulita con poco sforzo. Un altro può resistere all'abrasione perché contiene una grande quantità di carburi molto duri. Il primo acciaio può essere piacevole da affilare anche se è duro. Il secondo può richiedere più tempo, pietre migliori o abrasivi diamantati.
+Due acciai ad un HRC simile possono sembrare molto diversi su una pietra. Si può rispondere rapidamente e formare una bava pulita con poco sforzo. Un altro può resistere all'abrasione perché contiene una grande quantità di carburi molto duri. Il primo acciaio può essere piacevole da affilare anche se è duro. Il secondo può richiedere più tempo, pietre speciali o abrasivi diamantati.
 
 Per l'utilizzatore, la facilità di affilatura influisce su più del semplice tempo di manutenzione. Influisce anche sulla fiducia. Un principiante è più propenso a mantenere regolarmente un coltello quando l'acciaio dà un riscontro chiaro e non richiede un processo lungo e impegnativo. Un affilatore professionista, al contrario, può trovarsi a proprio agio nel lavorare con un acciaio molto resistente all'usura in cambio di una vita di taglio più lunga.
 
@@ -58,7 +58,7 @@ Questa è la qualità che la maggior parte delle persone associa alla parola **i
 
 La parola inossidabile può tuttavia creare aspettative irrealistiche. Non significa che il coltello sia completamente immune alla ruggine. Acqua salata, ingredienti acidi, residui di cibo e conservazione prolungata da bagnato possono comunque macchiare o corrodere una lama inossidabile. Il significato corretto è più vicino a **resistente alle macchie** che a **immune alle macchie**.
 
-Gli acciai al carbonio si trovano all'altro estremo dello spettro. Possono raggiungere fili eccellenti e possono essere molto piacevoli da affilare, ma reagiscono più rapidamente con l'ambiente. La loro superficie può scurirsi e sviluppare una patina. Questa patina non è necessariamente un danno; è uno strato di reazione naturale che può diventare parte del carattere del coltello. La ruggine attiva di colore arancione, tuttavia, dovrebbe essere rimossa.
+Gli acciai al carbonio si trovano all'altra estremità dello spettro. Possono prendere orli eccellenti e possono essere molto piacevoli da affilare, ma reagiscono più rapidamente con l'ambiente. La loro superficie può scurire e sviluppare una patina. Questa patina non è necessariamente un danno; è uno strato di reazione naturale che può diventare parte del carattere del coltello. La ruggine arancione attivo, tuttavia, dovrebbe essere rimosso rapidamente. Se la corrosione è permesso di continuare, può approfondire in pozzi e danneggiare permanentemente la lama.
 
 La resistenza alla corrosione conta in modo diverso per utilizzatori diversi. Un cuoco casalingo che lava e asciuga subito un coltello può trovarsi a proprio agio con l'acciaio al carbonio. Un professionista che lavora velocemente attorno ad agrumi, pomodori o ingredienti salati può preferire la comodità dell'acciaio inossidabile. Un cliente che acquista un regalo può valutare la manutenzione facile più del carattere di affilatura di un acciaio reattivo.
 
