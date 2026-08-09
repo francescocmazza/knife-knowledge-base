@@ -63,7 +63,7 @@ This is the quality most people associate with the word **stainless**. Stainless
 
 The word stainless can nevertheless create unrealistic expectations. It does not mean that the knife is completely immune to rust. Salt water, acidic ingredients, food residue and prolonged storage while wet can still stain or corrode a stainless blade. The correct meaning is closer to **stain-resistant** than **stain-proof**.
 
-Carbon steels sit at the other end of the spectrum. They can take excellent edges and may be very pleasant to sharpen, but they react more quickly with the environment. Their surface may darken and develop a patina. This patina is not necessarily damage; it is a natural reaction layer that can become part of the knife's character. Active orange rust, however, should be removed as soon as possible, as it will grow inside the steel with time, possibly damaging the entire blade.
+Carbon steels sit at the other end of the spectrum. They can take excellent edges and may be very pleasant to sharpen, but they react more quickly with the environment. Their surface may darken and develop a patina. This patina is not necessarily damage; it is a natural reaction layer that can become part of the knife's character. Active orange rust, however, should be removed promptly. If corrosion is allowed to continue, it can deepen into pits and permanently damage the blade.
 
 Corrosion resistance matters differently to different users. A home cook who washes and dries a knife immediately may be comfortable with carbon steel. A professional working quickly around citrus fruit, tomatoes or salty ingredients may prefer the convenience of stainless steel. A customer buying a gift may value easy maintenance more than the sharpening character of a reactive steel.
 
