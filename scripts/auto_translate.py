@@ -34,6 +34,9 @@ MODEL_BY_LOCALE = {
 }
 MODEL_LICENSE = "Apache-2.0"
 MODEL_MAX_INPUT_TOKENS = 450
+TARGET_PREFIX_BY_LOCALE = {
+    "zh-Hans": ">>cmn_Hans<<",
+}
 
 
 @dataclass
@@ -202,7 +205,11 @@ class MarianTranslator:
     def _translate_plain(self, text: str) -> str:
         if not text.strip():
             return text
-        encoded = self.tokenizer(text, return_tensors="pt", add_special_tokens=True)
+        model_input = text
+        target_prefix = TARGET_PREFIX_BY_LOCALE.get(self.locale)
+        if target_prefix:
+            model_input = f"{target_prefix} {text}"
+        encoded = self.tokenizer(model_input, return_tensors="pt", add_special_tokens=True)
         token_count = int(encoded["input_ids"].shape[1])
         if token_count > MODEL_MAX_INPUT_TOKENS:
             return self._translate_long(text)
