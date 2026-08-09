@@ -234,6 +234,38 @@ class MarianTranslator:
             pieces = [text[:split_at], text[split_at + 1 :]]
         return " ".join(self._translate_plain(piece) for piece in pieces if piece)
 
+    def _protect_markdown_links(self, text: str) -> tuple[str, Callable[[str], str]]:
+        """Translate link/image labels separately while preserving Markdown destinations."""
+
+        replacements: list[str] = []
+        pattern = re.compile(r"(!?)\[([^]\n]+)\]\(([^)\n]+)\)")
+
+        def replace(match: re.Match[str]) -> str:
+            bang, label, destination = match.groups()
+            translated_label = self._translate_plain(label)
+            rendered = f"{bang}[{translated_label}]({destination})"
+            token = f"ZZZKBLINK{len(replacements):03d}ZZZ"
+            replacements.append(rendered)
+            return token
+
+        protected = pattern.sub(replace, text)
+
+        def restore(value: str) -> str:
+            restored = value
+            for index, original in enumerate(replacements):
+                token = f"ZZZKBLINK{index:03d}ZZZ"
+                restored = restored.replace(token, original)
+                spaced = r"\s*".join(map(re.escape, token))
+                restored = re.sub(spaced, original, restored, flags=re.IGNORECASE)
+            return restored
+
+        return protected, restore
+
+    def _translate_payload(self, payload: str) -> str:
+        linked, restore_links = self._protect_markdown_links(payload)
+        protected, restore_inline = _protect_inline(linked)
+        return restore_links(restore_inline(self._translate_plain(protected)))
+
     def translate_line(self, line: str) -> str:
         ending = "\n" if line.endswith("\n") else ""
         raw = line[:-1] if ending else line
@@ -254,12 +286,10 @@ class MarianTranslator:
                 left = cell[: len(cell) - len(cell.lstrip())]
                 right = cell[len(cell.rstrip()) :]
                 core = cell.strip()
-                protected, restore = _protect_inline(core)
-                translated_cells.append(left + restore(self._translate_plain(protected)) + right)
+                translated_cells.append(left + self._translate_payload(core) + right)
             return prefix + "|".join(translated_cells) + ending
 
-        protected, restore = _protect_inline(payload)
-        translated = restore(self._translate_plain(protected))
+        translated = self._translate_payload(payload)
         return prefix + translated + ending
 
 
