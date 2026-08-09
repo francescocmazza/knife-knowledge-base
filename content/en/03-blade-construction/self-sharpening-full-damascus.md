@@ -3,7 +3,7 @@ title: The Self-Sharpening Effect in Full Damascus Blades
 status: approved
 audience: commercial-training
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 translation_priority: high
 ---
 
@@ -130,6 +130,8 @@ As with any quality knife:
 An extremely polished finish may temporarily reduce the toothy feel. During use, differential wear may again contribute to microscopic bite.
 
 ## How to explain the feature to a customer
+
+Within Xinzuo's offer, this explanation belongs specifically to the selected customized 110-layer full-Damascus blades whose alternating steels continue to the cutting edge. It must not be copied automatically onto a Xinzuo Damascus-clad knife: in those constructions a separate core forms the edge, so the mechanism described here is not established merely by the visible outer pattern.
 
 The explanation should begin with the benefit, then describe the mechanism.
 

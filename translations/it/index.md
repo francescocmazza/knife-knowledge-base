@@ -1,14 +1,14 @@
 ---
-source_hash: c140d49f9c6cf7b3e4afdebcfa900074c829e9eed02f2cf0c565961e8113cc33
+source_hash: f445563253e0e6f44cd5b9b41a485f3ed93e0acce576525ba85525ad23f8c38e
 ---
 
-# Base di Conoscenza sui Coltelli
+# Base di conoscenza Xinzuo
 
 Un coltello da cucina sembra semplice: un manico, una lama e un filo tagliente. Il suo comportamento non è semplice. Acciaio, trattamento termico, geometria della lama, affilatura, bilanciamento e tecnica dell'utilizzatore lavorano tutti insieme.
 
-Questa base di conoscenza spiega queste relazioni con un linguaggio pratico. È scritta per cuochi casalinghi curiosi, chef, personale di vendita, distributori, creatori di contenuti e chiunque voglia capire perché due coltelli che sembrano simili possano risultare completamente diversi nell'uso.
+Questa è la base di conoscenze di Xinzuo: una guida pratica ai materiali, alle costruzioni, alle scelte di produzione, all'uso e alla manutenzione dei coltelli da cucina. E' scritta per curiosi cuochi domestici, chef, team di vendita Xinzuo, distributori, retail staff, creatori di contenuti e chiunque voglia capire perché due coltelli simili possano sentirsi completamente diversi nell'uso.
 
-Il progetto è pratico piuttosto che accademico. I termini tecnici vengono introdotti quando aiutano il lettore a comprendere una differenza reale. Le semplificazioni utili sono incoraggiate, ma non devono mai diventare affermazioni materialmente fuorvianti.
+La guida è pratica piuttosto che accademica. Inizia con le caratteristiche presenti nell'offerta di Xinzuo e le colloca nel più ampio contesto della lavorazione del coltello. Altri acciai, materiali, produttori e tradizioni vengono discussi quando chiariscono un vero e proprio confronto; Xinzuo è il punto di riferimento, non un esempio occasionale.
 
 > Un coltello non è mai definito da una sola caratteristica. La domanda utile è sempre come le sue diverse caratteristiche lavorino insieme per un compito e un utilizzatore particolari.
 
@@ -26,9 +26,11 @@ Iniziare osservando come un coltello incontra il cibo. Bisele, forma del filo, a
 ### 2. Imparare come viene descritta la prestazione dell'acciaio
 
 - [Le Cinque Dimensioni dell'Acciaio da Coltello](01-foundations/five-dimensions-of-knife-steel.md)
+- [Guida al portafoglio di Xinzuo Blade Steels](02-steels-and-metallurgy/xinzuo-blade-steels.md)
 - [Elementi in Lega — Una Guida Pratica](02-steels-and-metallurgy/alloying-elements.md)
+- [Xinzuo Handle Materials Guida al portafoglio](02-steels-and-metallurgy/xinzuo-handle-materials.md)
 
-Una volta che il lettore comprende la geometria, le specifiche dell'acciaio diventano più significative. Questi capitoli spiegano durezza, facilità di affilatura, resistenza alla corrosione, robustezza e finezza della microstruttura, poi mostrano come gli elementi in lega contribuiscano a quell'equilibrio.
+Una volta che il lettore comprende la geometria, le specifiche dell'acciaio diventano più significative. Questi capitoli spiegano la durezza, la facilità di affilatura, la resistenza alla corrosione, la robustezza e la finezza microstrutturale, quindi applicano queste idee agli acciai e ai materiali di maniglia utilizzati nel portafoglio di Xinzuo.
 
 ### 3. Comprendere la costruzione della lama
 
@@ -58,6 +60,8 @@ Questa edizione spiega:
 - come la geometria a monobisela e a bisela doppia cambi il comportamento di taglio;
 - come i principali profili di coltello supportino il dondolamento, il taglio a spinta, il tritare, l'affettare e il lavoro di dettaglio;
 - come confrontare gli acciai senza trattare un singolo numero come un punteggio di qualità universale;
+- i principali acciai a lama Xinzuo, le loro tipiche gamme di durezza del catalogo e pratici compromessi;
+- i principali materiali di maniglia naturali e ingegnerizzati utilizzati da Xinzuo;
 - cosa contribuiscono i principali elementi in lega;
 - la differenza tra placcatura Damasco, damasco integrale e decorazione superficiale;
 - il meccanismo di usura differenziale descritto come effetto auto-affilante;
@@ -74,7 +78,7 @@ La guida attuale è una solida prima base tecnico-commerciale, ma non è ancora 
 - la costruzione monoacciaio, san-mai, ni-mai e honyaki in un unico capitolo comparativo;
 - il trattamento termico come ponte tra composizione e prestazione;
 - spessore della lama, rastremazione distale, convessità e geometria dietro il filo;
-- manici, bilanciamento, peso ed ergonomia;
+- maneggiare forme, equilibrio, peso ed ergonomia al di là della presente guida materiale;
 - finiture lucide, martellate, kurouchi e altre;
 - manutenzione, patina, rimozione della corrosione e conservazione a lungo termine;
 - metodi di confronto tra prodotti che non si basino su classifiche non supportate.
@@ -87,9 +91,9 @@ L'inglese è l'unica lingua fonte di verità. Le versioni localizzate vengono ge
 
 Il sistema di pubblicazione supporta italiano, spagnolo, tedesco, francese, giapponese, cinese semplificato, cinese tradizionale e ulteriori codici di lingua standard.
 
-## Un progetto aperto
+## Correzioni e contributi
 
-Domande, correzioni e proposte sono benvenute tramite GitHub Issues e pull request. I contributi dovrebbero migliorare la chiarezza, l'utilità o l'affidabilità fattuale rispettando lo scopo educativo pratico del progetto.
+Domande, correzioni e proposte sono benvenute attraverso i problemi di GitHub e tirare le richieste. I contributi dovrebbero migliorare la conoscenza del prodotto Xinzuo, la chiarezza, l'utilità o l'affidabilità di fatto, nel rispetto dello scopo educativo della guida e la distinzione tra fatti di portafoglio verificati e conoscenze generali coltello.
 
 Il contenuto scritto originale può essere condiviso e adattato per scopi non commerciali secondo la licenza CC BY-NC-SA 4.0. Il riutilizzo commerciale richiede un'autorizzazione scritta preventiva separata. I diritti sulle immagini possono differire e devono essere indicati individualmente.
 

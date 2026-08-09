@@ -1,5 +1,5 @@
 ---
-source_hash: cab673e7b88afb70f006bca57412f6d64ff9718e2af9118b839c5c90b99b5401
+source_hash: 2e6be96a65320448a8f6e3441f900026074178cb70149de79e5814ebc61d6eed
 ---
 
 # Elementi in Lega — Una Guida Pratica
@@ -17,6 +17,8 @@ Per un lettore generico, ci sono tre idee da ricordare prima di esaminare i sing
 3. **Il trattamento termico sblocca la ricetta.** Una buona composizione non può compensare una lavorazione scadente.
 
 Con questi principi in mente, i principali elementi in lega diventano molto più facili da comprendere.
+
+Il catalogo di Xinzuo rende queste interazioni calcestruzzo. Il portafoglio comprende acciai inossidabili ricchi di cromo, cobalto-cuscinetto 10Cr15CoMoV, geo-cuscinetto 14Cr14MoVNb, azoto-legato 14C28N, tungsteno-cuscinetto Blue Steel No. 2 e acciaio in polvere-metallurgia come SRS13, M390 e ZDP-189. I loro nomi non sono una lista della spesa di ingredienti di prestigio; ogni ricetta supporta un equilibrio diverso.
 
 ## Una panoramica semplice
 

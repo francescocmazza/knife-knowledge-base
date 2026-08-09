@@ -3,7 +3,7 @@ title: Understanding the Burr
 status: approved
 audience: commercial-training
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 translation_priority: high
 ---
 
@@ -196,6 +196,8 @@ Some sharpeners draw the edge lightly through cork or soft wood to remove loose 
 No deburring method should be treated as magic. The best results come from forming a small burr in the first place and reducing it progressively.
 
 ## The burr on different steels
+
+The range of Xinzuo steels makes this variation tangible. A burr on DIN 1.4116 may feel different from one on 10Cr15CoMoV, while highly wear-resistant ZDP-189, SRS13, M390 or 14Cr14MoVNb can require more efficient abrasives before the apex is reached. Blue Steel No. 2 may abrade readily but needs immediate cleaning and drying after water-stone work. Do not compensate for a slow-abrasion steel by pressing harder and creating a larger burr; choose an effective abrasive and keep the burr small.
 
 Not every steel forms the same kind of burr.
 

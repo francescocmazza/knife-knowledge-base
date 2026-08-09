@@ -3,7 +3,7 @@ title: Damascus Steel — Construction, Appearance, and Performance
 status: approved
 audience: commercial-training
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 translation_priority: high
 ---
 
@@ -172,6 +172,10 @@ A simple customer check is not always possible from appearance alone. Trustworth
 - laser-marked or surface-decorated.
 
 ## How to evaluate a Damascus knife
+
+Xinzuo's portfolio demonstrates why the construction must be identified before layer count is discussed. It includes layered blades with 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, ZDP-189 or 14Cr14MoVNb cutting cores; copper-Damascus constructions; and customized 110-layer full Damascus. These are not interchangeable uses of the same decorative idea. In a core-and-cladding blade the named core creates the edge, while in full Damascus the alternating steels continue to the edge.
+
+For a Xinzuo model, verify the current series specification for core steel, total layer count, hardness and heat treatment. The [Xinzuo Blade Steels portfolio guide](../02-steels-and-metallurgy/xinzuo-blade-steels.md) provides the material context behind those constructions.
 
 Instead of looking only at the pattern, ask a series of practical questions.
 

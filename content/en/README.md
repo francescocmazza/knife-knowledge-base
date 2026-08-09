@@ -1,4 +1,4 @@
-# English Knowledge Base
+# Xinzuo Knowledge Base — English Source
 
 English is the source of truth for all localized versions and exports.
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 76cb9d5a0dbe4b5b339c3b0837f4ae3d87b88bbc0943e6c6756878af34f814d7
+source_hash: f935c590f7e495e495a544b2caafccbd4d1f9a9cb6f74ba2d133ceb2e13a698b
 ---
 
 # Monobisela e Bisela Doppia
@@ -172,6 +172,8 @@ L'ampia bisela principale viene normalmente appoggiata contro la pietra e lavora
 Un'affilatura eccessiva del lato posteriore o il sollevarlo con l'angolo sbagliato può danneggiare la geometria prevista. I principianti dovrebbero quindi ricevere istruzioni specifiche per il prodotto prima di affilare un costoso coltello a monobisela.
 
 ## Scegliere tra i due
+
+La gamma di Xinzuo comprende i noti coltelli da cuoco, santoku, nakiri, taglialegna e affettatrici, nonché le forme selezionate in stile giapponese. Il portfolio va quindi spiegato attraverso la tecnica, la manualità e l'alimentazione, piuttosto che presentando una famiglia smussata come intrinsecamente più avanzata. Per un modello Xinzuo, confermare l'orientamento effettivo e consegnato nella specifica attuale; un nome di profilo giapponese da solo non dimostra la costruzione smussata.
 
 Un coltello a bisela doppia è di solito la scelta migliore quando l'utilizzatore desidera:
 

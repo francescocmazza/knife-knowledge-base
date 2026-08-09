@@ -1,5 +1,5 @@
 ---
-source_hash: 11bafe2bbe7b3358f581e76d520c2d6d24885ac7bf38e9fefca66b3e213dbbe9
+source_hash: b4c85279e1cbda1bce76f29a27325ac6cba101198a6b4ceb5be4ab40ed77f2b9
 ---
 
 # Uso e Trasporto Sicuri
@@ -103,6 +103,8 @@ Il tagliere dovrebbe anche essere mantenuto. Solchi profondi possono raccogliere
 
 ## Evitare la torsione e il raschiamento laterale
 
+Questo è particolarmente importante per gli acciai Xinzuo più duri. ZDP-189, SRS13, M390, Blue Steel No. 2 e 14Cr14MoVNb sono selezionati per prestazioni di bordo esigenti, ma un sottile bordo duro non è destinato a strappare, girare attraverso un taglio, colpire o tagliare alimenti congelati. Più perdonando acciai Xinzuo e geometrie più pesanti forniscono un margine più ampio per il lavoro robusto, ma ancora non trasformano il coltello di uno chef in uno strumento di mannaia o di pry. Abbina il coltello al compito prima di affidarsi al nome dell'acciaio.
+
 Un coltello sottile è forte nella direzione per cui è stato progettato per tagliare. È molto meno tollerante al movimento laterale.
 
 Quando la lama è dentro un cibo denso, non torcerla per separare i pezzi. Se il coltello si blocca, ritirarlo con attenzione e correggere il taglio.
@@ -112,6 +114,8 @@ Dopo aver tritato, evitare di usare il filo affilato per raschiare il cibo sul t
 Questa abitudine ha un grande effetto sulla durata del filo ed è facile da insegnare.
 
 ## Lavare il coltello
+
+Tutti i coltelli Xinzuo devono essere lavati a mano e asciugati prontamente. Questo protegge il bordo, la finitura, le giunzioni adesive e la maniglia anche quando la lama è in acciaio inossidabile. Acciaio Blu No. 2 necessita di essiccazione particolarmente immediata perché reattivo; legno naturale, corno e manici compositi non devono essere bagnati o esposti al calore e al detersivo della lavastoviglie.
 
 I coltelli da cucina di qualità dovrebbero normalmente essere lavati a mano.
 

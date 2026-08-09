@@ -3,7 +3,7 @@ title: Safe Use and Carrying
 status: approved
 audience: commercial-training
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 translation_priority: high
 ---
 
@@ -108,6 +108,8 @@ The board should also be maintained. Deep grooves can collect residue and affect
 
 ## Avoid twisting and sideways scraping
 
+This is especially important across Xinzuo's higher-hardness steels. ZDP-189, SRS13, M390, Blue Steel No. 2 and 14Cr14MoVNb are selected for demanding edge performance, but a thin hard edge is not intended to pry, twist through a cut, strike bone or cut frozen food. More forgiving Xinzuo steels and heavier geometries provide a larger margin for robust work, yet they still do not turn a chef's knife into a cleaver or pry tool. Match the knife to the task before relying on the steel name.
+
 A thin knife is strong in the direction it was designed to cut. It is much less tolerant of sideways movement.
 
 When the blade is inside dense food, do not twist it to separate the pieces. If the knife becomes stuck, withdraw it carefully and adjust the cut.
@@ -117,6 +119,8 @@ After chopping, avoid using the sharp edge to scrape food across the board. This
 This habit has a large effect on edge life and is easy to teach.
 
 ## Washing the knife
+
+All Xinzuo knives should be hand-washed and dried promptly. This protects the edge, finish, adhesive joints and handle even when the blade steel is stainless. Blue Steel No. 2 needs especially immediate drying because it is reactive; natural wood, horn and composite handles should not be soaked or exposed to dishwasher heat and detergent. See the [Xinzuo Handle Materials guide](../02-steels-and-metallurgy/xinzuo-handle-materials.md) for material-specific care.
 
 Quality kitchen knives should normally be washed by hand.
 

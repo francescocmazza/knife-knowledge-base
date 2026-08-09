@@ -1,5 +1,5 @@
 ---
-source_hash: 56a42f17fe8a1035cc48640ceec22cf43459fbacc41b8a889e27639cfa8c1868
+source_hash: 97502f7c3cd5a6bdf110acdfad1fbbbb03da61044837b2b20eb5ec3c09898cf2
 ---
 
 # Le Cinque Dimensioni dell'Acciaio da Coltello
@@ -11,6 +11,8 @@ Sono domande comprensibili, ma di solito portano a una risposta incompleta. L'ac
 La domanda migliore non è "Quale acciaio è il migliore?". È:
 
 > Quale equilibrio di qualità è più utile per questo coltello, questo utilizzatore e questo tipo di lavoro?
+
+Questo è anche il modo in cui dovrebbe essere compresa la gamma di acciaio di Xinzuo. Il portafoglio si estende dal forgiving DIN 1.4116 a 56 040258 HRC a ZDP-189 a 65 040267 HRC, con 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, 14Cr14MoVNb e altre scelte tra di loro. La gamma esiste perché un singolo bilanciamento non può servire ogni coltello e utente.
 
 Un modo pratico per rispondere a questa domanda è osservare cinque dimensioni: **durezza, facilità di affilatura, resistenza alla corrosione, robustezza e finezza della microstruttura**. Queste cinque idee non descrivono ogni dettaglio della metallurgia, ma insieme offrono un quadro chiaro e utile del carattere di un acciaio.
 
@@ -107,6 +109,12 @@ Le cinque dimensioni non sono punteggi separati che possono essere tutti massimi
 Aumentare la durezza può migliorare la resistenza all'arrotolamento ma ridurre l'indulgenza. Aumentare il volume di carburi duri può migliorare la resistenza all'usura ma rendere l'affilatura più lenta. Aumentare la resistenza alla corrosione può richiedere scelte di lega che cambiano il modo in cui l'acciaio si sente sulla pietra. Una geometria molto sottile può migliorare le prestazioni di taglio ma porre maggiori richieste sulla robustezza e sulla tecnica dell'utilizzatore.
 
 Questo non è un difetto nella progettazione dei coltelli. È il motivo per cui esistono diversi acciai e stili di coltello.
+
+## Applicare le cinque dimensioni a Xinzuo
+
+Le cinque dimensioni forniscono la chiave di lettura per lo [Guida al portafoglio Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md). Ad un'estremità, ZDP-189 enfatizza durezza e ritenzione; SRS13, M390 e 14Cr14MoVNb offrono diversi bilanci premium; 10Cr15CoMoV è un'opzione centrale a tutto tondo in numerose costruzioni Xinzuo; e DIN 1.4116 enfatizza la robustezza e la facilità di affilatura.
+
+Questi confronti descrivono tendenze all'interno del catalogo, non le prestazioni complete di un coltello finito. Il trattamento termico sottovuoto di Xinzuo, la lavorazione a freddo dove specificato, la geometria della lama e l'affilatura determinano come il materiale si comporta in una particolare serie.
 
 Consideriamo quattro utilizzatori:
 

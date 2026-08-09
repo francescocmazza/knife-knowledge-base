@@ -3,7 +3,7 @@ title: Preparing Water Stones
 status: approved
 audience: commercial-training
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 translation_priority: high
 ---
 
@@ -52,6 +52,8 @@ The correct training message is therefore not “all stones must soak.” It is:
 > Soak most absorbent water stones until the bubbles substantially stop, but check the manufacturer's instructions before the first use because special stones may need little or no soaking.
 
 ## Types of sharpening media
+
+Xinzuo's broad steel portfolio is one reason no single stone should be prescribed for every knife. Conventional water stones can be effective for many DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV, 12Cr18MoV and Blue Steel No. 2 edges. The higher wear resistance of ZDP-189, SRS13, M390 and 14Cr14MoVNb may make hard ceramic or diamond abrasives more efficient. Stone preparation still follows the stone maker's instructions, not the Xinzuo steel name.
 
 Understanding the main families helps explain why preparation differs.
 

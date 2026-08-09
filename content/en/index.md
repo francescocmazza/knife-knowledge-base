@@ -1,17 +1,17 @@
 ---
-title: Knife Knowledge Base
+title: Xinzuo Knowledge Base
 status: approved
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 ---
 
-# Knife Knowledge Base
+# Xinzuo Knowledge Base
 
 A kitchen knife looks simple: a handle, a blade and a cutting edge. Its behaviour is not simple. Steel, heat treatment, blade geometry, sharpening, balance and user technique all work together.
 
-This knowledge base explains those relationships in practical language. It is written for curious home cooks, chefs, sales staff, distributors, content creators and anyone who wants to understand why two knives that look similar can feel completely different in use.
+This is Xinzuo's knowledge base: a practical guide to the materials, constructions, production choices, use and maintenance of kitchen knives. It is written for curious home cooks, chefs, Xinzuo sales teams, distributors, retail staff, content creators and anyone who wants to understand why two knives that look similar can feel completely different in use.
 
-The project is practical rather than academic. Technical terms are introduced when they help the reader understand a real difference. Useful simplifications are encouraged, but they should never become materially misleading claims.
+The guide is practical rather than academic. It begins with the characteristics found across Xinzuo's offer and places them in the wider context of knife making. Other steels, materials, makers and traditions are discussed when they clarify a real comparison; Xinzuo is the reference point, not an occasional example.
 
 > A knife is never defined by one feature alone. The useful question is always how its different features work together for a particular task and user.
 
@@ -29,9 +29,11 @@ Start by seeing how a knife meets food. Bevels, edge shape, blade height, curvat
 ### 2. Learn how steel performance is described
 
 - [The Five Dimensions of Knife Steel](01-foundations/five-dimensions-of-knife-steel.md)
+- [Xinzuo Blade Steels — Portfolio Guide](02-steels-and-metallurgy/xinzuo-blade-steels.md)
 - [Alloying Elements — A Practical Guide](02-steels-and-metallurgy/alloying-elements.md)
+- [Xinzuo Handle Materials — Portfolio Guide](02-steels-and-metallurgy/xinzuo-handle-materials.md)
 
-Once the reader understands geometry, steel specifications become more meaningful. These chapters explain hardness, ease of sharpening, corrosion resistance, robustness and microstructural fineness, then show how alloying elements contribute to that balance.
+Once the reader understands geometry, steel specifications become more meaningful. These chapters explain hardness, ease of sharpening, corrosion resistance, robustness and microstructural fineness, then apply those ideas to the steels and handle materials used across Xinzuo's portfolio.
 
 ### 3. Understand blade construction
 
@@ -61,6 +63,8 @@ This edition explains:
 - how single and double-bevel geometry changes cutting behaviour;
 - how major knife profiles support rocking, push cutting, chopping, slicing and detail work;
 - how to compare steels without treating one number as a universal quality score;
+- the principal Xinzuo blade steels, their typical catalog hardness ranges and practical trade-offs;
+- the principal natural and engineered handle materials used by Xinzuo;
 - what the main alloying elements contribute;
 - the difference between Damascus cladding, full Damascus and surface decoration;
 - the differential-wear mechanism described as a self-sharpening effect;
@@ -77,7 +81,7 @@ The present guide is a strong first technical-commercial foundation, but it is n
 - monosteel, san-mai, ni-mai and honyaki construction in one comparative chapter;
 - heat treatment as the bridge between composition and performance;
 - blade thickness, distal taper, convexity and geometry behind the edge;
-- handles, balance, weight and ergonomics;
+- handle shapes, balance, weight and ergonomics beyond the present material guide;
 - polished, hammered, kurouchi and other finishes;
 - maintenance, patina, corrosion removal and long-term storage;
 - product-comparison methods that do not rely on unsupported rankings.
@@ -90,9 +94,9 @@ English is the sole source-of-truth language. Localized versions are generated f
 
 The publishing system supports Italian, Spanish, German, French, Japanese, Simplified Chinese, Traditional Chinese and additional standard locale codes.
 
-## An open project
+## Corrections and contributions
 
-Questions, corrections and proposals are welcome through GitHub Issues and pull requests. Contributions should improve clarity, usefulness or factual reliability while respecting the project's practical educational purpose.
+Questions, corrections and proposals are welcome through GitHub Issues and pull requests. Contributions should improve Xinzuo product knowledge, clarity, usefulness or factual reliability while respecting the guide's educational purpose and the distinction between verified portfolio facts and general knife knowledge.
 
 The original written content may be shared and adapted for non-commercial purposes under CC BY-NC-SA 4.0. Commercial reuse requires separate prior written permission. Image rights may differ and must be stated individually.
 

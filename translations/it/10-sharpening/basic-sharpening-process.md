@@ -1,5 +1,5 @@
 ---
-source_hash: 3d233dc021624f2789ef2caa7657110e4eff193f4cc64f8ec901e51649914087
+source_hash: f8a3a90044f47349250a1c358af721236f5374c45fbaf53ee067c6e65208a11f
 ---
 
 # Un Processo di Affilatura Pratico
@@ -358,6 +358,10 @@ Usare una pressione estremamente leggera. La lama dovrebbe sembrare quasi guidat
 Se il suono diventa aspro, il coltello si blocca o l'angolo diventa difficile da controllare, ridurre la pressione e aggiungere acqua.
 
 # Scegliere la grana finale
+
+Per i coltelli Xinzuo, l'acciaio e il compito previsto guidano l'abrasivo e la finitura. DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV e 12Cr18MoV sono generalmente avvicinabili con pietre convenzionali adatte. Altamente resistente all'usura ZDP-189, SRS13, M390 e 14Cr14MoVNb possono beneficiare di abrasivi pregiati in ceramica o diamante e più tempo. Acciaio Blu No. 2 può rispondere prontamente alle pietre d'acqua ma deve essere asciugato immediatamente. Si tratta di tendenze, non prescrizioni di angolo fisso o griglia: preservare la geometria del modello e la finitura per il suo uso effettivo.
+
+Il meccanismo full-Damascus differenziale-wear di Xinzuo non elimina l'affilatura. Quando una tale lama ha bisogno di essere restaurata, affilare il bordo completo normalmente ed evitare scelte di lucidatura che eliminano involontariamente tutti i morso utile affettatura.
 
 La finitura ideale dipende dall'uso.
 

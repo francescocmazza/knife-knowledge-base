@@ -1,13 +1,13 @@
-site_name: Knife Knowledge Base
-site_description: An open, practical knowledge base on kitchen knives, steels, blade geometry, construction, sharpening, maintenance, safety, and product education.
-site_author: Francesco Claudio Mazza
+site_name: Xinzuo Knowledge Base
+site_description: Xinzuo's multilingual guide to kitchen knives, blade steels, handle materials, construction, sharpening, maintenance, safety, and product knowledge.
+site_author: Xinzuo
 site_url: https://francescocmazza.github.io/knife-knowledge-base/
 
 repo_name: francescocmazza/knife-knowledge-base
 repo_url: https://github.com/francescocmazza/knife-knowledge-base
 edit_uri: edit/main/content/en/
 
-copyright: Copyright &copy; 2026 Francesco Claudio Mazza — CC BY-NC-SA 4.0
+copyright: Copyright &copy; 2026 Xinzuo — written content CC BY-NC-SA 4.0 unless otherwise stated
 
 docs_dir: content/en
 site_dir: site
@@ -51,13 +51,15 @@ extra_javascript:
   - assets/javascripts/visual-corrections.js
 
 nav:
-  - Start Here: index.md
+  - Xinzuo Knowledge Base: index.md
   - How Knives Cut:
       - Single and Double Bevels: 04-geometry-and-bevels/single-and-double-bevels.md
       - Knife Types and Cutting Styles: 05-knife-types/overview.md
   - Materials and Performance:
       - The Five Dimensions of Knife Steel: 01-foundations/five-dimensions-of-knife-steel.md
+      - Xinzuo Blade Steels: 02-steels-and-metallurgy/xinzuo-blade-steels.md
       - Alloying Elements: 02-steels-and-metallurgy/alloying-elements.md
+      - Xinzuo Handle Materials: 02-steels-and-metallurgy/xinzuo-handle-materials.md
       - Damascus Steel: 03-blade-construction/damascus-steel.md
       - Self-Sharpening Full Damascus: 03-blade-construction/self-sharpening-full-damascus.md
   - Use and Safety:

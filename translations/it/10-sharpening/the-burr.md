@@ -1,5 +1,5 @@
 ---
-source_hash: a29dcde7a8217e5661af7c461c48c8375b376afa47fd7a0709e25cf9db81e3ea
+source_hash: 6ab6150e14cc15844df8d0b76531d4f7cba1133bb438c34cbc588f8bfcf2b9f3
 ---
 
 # Comprendere la Bava di Affilatura
@@ -191,6 +191,8 @@ Alcuni affilatori fanno passare leggermente il filo attraverso sughero o legno m
 Nessun metodo di rimozione della bava dovrebbe essere trattato come magico. I migliori risultati derivano dal formare fin dall'inizio una piccola bava e ridurla progressivamente.
 
 ## La bava su acciai diversi
+
+La gamma degli acciai Xinzuo rende tangibile questa variazione. Una bava su DIN 1.4116 può sembrare diversa da una su 10Cr15CoMoV, mentre ZDP-189, SRS13, M390 o 14Cr14MoVNb altamente resistente all'usura può richiedere abrasivi più efficienti prima che l'apice venga raggiunto. L'acciaio Blu No. 2 può abradere facilmente ma ha bisogno di una pulizia immediata e asciugatura dopo il lavoro della pietra d'acqua. Non compensare un acciaio a lenta abrasione premendo più forte e creando una bava più grande; scegliere un abrasivo efficace e mantenere la bava piccola.
 
 Non ogni acciaio forma lo stesso tipo di bava.
 

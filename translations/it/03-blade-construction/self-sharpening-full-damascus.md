@@ -1,5 +1,5 @@
 ---
-source_hash: 2de9a6c7d1863a3e25423b20f50a9c26dd0dbe89ea32ff40d806651f887fa351
+source_hash: ac271477b931780a6e15f99eb362e2bb9eb447077caf34b2c9ef298cf876b89e
 ---
 
 # L'Effetto Auto-affilante nelle Lame in Damasco Integrale
@@ -125,6 +125,8 @@ Come con qualsiasi coltello di qualità:
 Una finitura estremamente lucidata può ridurre temporaneamente la sensazione dentata. Durante l'uso, l'usura differenziale può di nuovo contribuire a un morso microscopico.
 
 ## Come spiegare la caratteristica a un cliente
+
+All'interno dell'offerta di Xinzuo, questa spiegazione appartiene specificamente alle lame personalizzate a 110 strati full-Damascus, i cui acciai alternati continuano ad essere all'avanguardia. Non deve essere copiata automaticamente su un coltello Xinzuo damasco: in queste costruzioni un nucleo separato forma il bordo, quindi il meccanismo qui descritto non è stabilito solo dal motivo esterno visibile.
 
 La spiegazione dovrebbe iniziare con il beneficio, poi descrivere il meccanismo.
 
