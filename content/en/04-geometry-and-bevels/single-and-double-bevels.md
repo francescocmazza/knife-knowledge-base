@@ -3,7 +3,7 @@ title: Single and Double Bevels
 status: approved
 audience: commercial-training
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 translation_priority: high
 ---
 
@@ -177,6 +177,8 @@ The broad main bevel is normally laid against the stone and worked as a surface,
 Over-sharpening the reverse side or lifting it at the wrong angle can damage the intended geometry. Beginners should therefore receive product-specific instruction before sharpening an expensive single-bevel knife.
 
 ## Choosing between the two
+
+Xinzuo's range includes the familiar double-bevel chef's knives, santoku, nakiri, cleavers and slicers as well as selected Japanese-style single-bevel forms. The portfolio should therefore be explained through intended technique, handedness and food rather than by presenting one bevel family as inherently more advanced. For a Xinzuo model, confirm the actual grind and handed orientation in the current specification; a Japanese profile name alone does not prove single-bevel construction.
 
 A double-bevel knife is usually the better choice when the user wants:
 

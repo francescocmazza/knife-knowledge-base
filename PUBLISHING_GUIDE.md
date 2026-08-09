@@ -165,6 +165,14 @@ html/      complete built website for every active locale
 markdown/  per-locale source trees used for that build
 ```
 
+## Official GitHub Releases
+
+GitHub Pages is the current online edition. Numbered downloadable editions are published from **Actions → Publish official release** after approved changes reach `main`.
+
+Enter a semantic version such as `v1.0.0`, a short release title and whether the edition is a pre-release. The workflow refreshes active translations, requires `0 missing / 0 stale`, builds the multilingual website, exports all three PDFs and creates a GitHub Release with HTML and Markdown offline archives plus SHA-256 checksums.
+
+The latest downloadable edition is always available from the repository's **Releases** menu and the “Download the latest official release” link in `README.md`.
+
 ## PDF export
 
 Go to **Actions → Export PDF guides → Run workflow** and choose:

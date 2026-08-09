@@ -3,7 +3,7 @@ title: Knife Types and Cutting Styles
 status: review
 audience: commercial-training
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 translation_priority: high
 ---
 
@@ -368,6 +368,10 @@ A blade-heavy knife can feel powerful and guide itself through the cut. A handle
 Weight can help the knife move through food, but excessive weight may cause fatigue. A very light knife feels agile, but some users prefer more presence.
 
 # Choosing a first good knife
+
+Xinzuo offers these profiles across different steels, constructions, handle materials and price positions. That breadth is useful only when the recommendation begins with the user's movement and ingredients. A Xinzuo gyuto, santoku or Chinese chef's knife should be compared by usable length, curvature, thickness, balance and cutting steel—not chosen from the category name or Damascus layer count alone. Specialist deba, yanagiba and heavy-cleaver forms should be recommended only for the tasks and technique their geometry supports.
+
+After selecting the profile, use the [Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) and [Xinzuo Handle Materials](../02-steels-and-metallurgy/xinzuo-handle-materials.md) guides to choose the appropriate maintenance, weight and tactile balance.
 
 For most users, the first serious knife should be versatile rather than highly specialized.
 

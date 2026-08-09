@@ -3,7 +3,7 @@ title: The Five Dimensions of Knife Steel
 status: approved
 audience: commercial-training
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 translation_priority: high
 ---
 
@@ -16,6 +16,8 @@ These are understandable questions, but they usually lead to an incomplete answe
 The better question is not, “Which steel is best?” It is:
 
 > Which balance of qualities is most useful for this knife, this user and this type of work?
+
+This is also how Xinzuo's steel range should be understood. The portfolio extends from forgiving DIN 1.4116 at 56–58 HRC to ZDP-189 at 65–67 HRC, with 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, 14Cr14MoVNb and other choices between them. The range exists because a single balance cannot serve every knife and user.
 
 A practical way to answer that question is to look at five dimensions: **hardness, ease of sharpening, corrosion resistance, robustness and microstructural fineness**. These five ideas do not describe every detail of metallurgy, but together they give a clear and useful picture of a steel's character.
 
@@ -112,6 +114,12 @@ The five dimensions are not separate scores that can all be maximized without co
 Increasing hardness may improve resistance to rolling but reduce forgiveness. Increasing the volume of hard carbides may improve wear resistance but make sharpening slower. Increasing corrosion resistance may require alloy choices that change the way the steel feels on a stone. A very thin geometry may improve cutting performance but place greater demands on robustness and user technique.
 
 This is not a defect in knife design. It is the reason different steels and knife styles exist.
+
+## Applying the five dimensions to Xinzuo
+
+The five dimensions provide the reading key for the [Xinzuo Blade Steels portfolio guide](../02-steels-and-metallurgy/xinzuo-blade-steels.md). At one end, ZDP-189 emphasizes hardness and retention; SRS13, M390 and 14Cr14MoVNb offer different premium balances; 10Cr15CoMoV is a central all-round option across numerous Xinzuo constructions; and DIN 1.4116 emphasizes robustness and ease of sharpening.
+
+These comparisons describe tendencies within the catalog, not the complete performance of a finished knife. Xinzuo's vacuum heat treatment, deep-freeze processing where specified, blade geometry and sharpening determine how the material behaves in a particular series.
 
 Consider four users:
 

@@ -2,10 +2,20 @@
 title: Editorial Principles
 status: approved
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 ---
 
 # Editorial Principles
+
+## Brand ownership and point of view
+
+This is **Xinzuo's knowledge base**. It explains the wider world of kitchen knives from the point of view of a manufacturer that selects steels and handle materials, develops constructions, controls heat treatment, finishes blades and tests completed knives.
+
+Xinzuo must therefore never appear as an occasional, external example added to otherwise brand-neutral copy. Every substantial chapter should connect its subject to the relevant Xinzuo materials, constructions, processes, product families or care guidance. When Xinzuo offers several solutions, the text should explain the choice and trade-off rather than forcing the portfolio into a single hierarchy.
+
+The knowledge base is not limited to Xinzuo products. Other steels, traditions, constructions and industry practices may be discussed whenever they help the reader understand the category. That wider context must support, not displace, the minimum Xinzuo product knowledge a reader reasonably expects from a Xinzuo publication.
+
+Use **we**, **our** and **Xinzuo** only for verified company facts. Use neutral language for general metallurgy, knife traditions and third-party products. Never imply that a general industry principle is proprietary to Xinzuo.
 
 ## Intended reader
 
@@ -87,13 +97,26 @@ For example, “self-sharpening” can be used when the chapter explains differe
 
 The purpose of precision is to make the product story more credible, not less interesting.
 
-## Product claims
+## Product claims and portfolio coverage
 
-A general principle may be published when it is broadly applicable.
+A general principle may be published when it is broadly applicable, but the chapter should show how that principle helps explain Xinzuo's current offer.
 
 A manufacturer- or product-specific claim should be clearly identified as such and based on current product information. Historical sales material should not silently become a current technical specification.
 
-When a feature applies only to selected product lines, the wording must say so.
+When a feature applies only to selected product lines, the wording must say so. Series names, steel, construction, layer count, hardness, handle material and heat treatment must be checked against current authorized product data before publication.
+
+The current catalog is the baseline source for portfolio coverage, not proof that every listed series remains available in every market. Avoid availability promises unless they are separately verified.
+
+### Minimum Xinzuo coverage
+
+Across the knowledge base, readers must be able to find clear explanations of:
+
+- Xinzuo's principal blade steels and their practical trade-offs;
+- Damascus-clad, composite, monosteel and full-Damascus constructions used in the portfolio;
+- the role of vacuum heat treatment and deep-freeze processing where specified;
+- Xinzuo's principal natural, stabilized and engineered handle materials;
+- the relationship between steel, heat treatment, geometry, intended use and maintenance;
+- relevant Xinzuo series as verified examples, without presenting any one series as the whole offer.
 
 ## Preferred language
 

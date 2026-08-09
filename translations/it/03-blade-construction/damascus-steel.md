@@ -1,5 +1,5 @@
 ---
-source_hash: 4aea059890c8b0e04f5963f816590d162c248c23ad9f07cfea2ea272ce8a9125
+source_hash: 258cb6cc13031c5dd086d5dd01c4869b23a6c0a06b0314f54362f5e4c14252e4
 ---
 
 # Acciaio Damasco — Costruzione, Aspetto e Prestazioni
@@ -167,6 +167,10 @@ Una semplice verifica da parte del cliente non è sempre possibile solo dall'asp
 - marcata al laser o decorata in superficie.
 
 ## Come valutare un coltello Damasco
+
+Il portfolio di Xinzuo dimostra perché la costruzione deve essere identificata prima che venga discusso il conteggio degli strati. Esso comprende lame stratificate con 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, ZDP-189 o 14Cr14MoVNb anime di taglio; costruzioni rame-Damascus; e personalizzati 110-strato pieno Damasco. Questi non sono usi intercambiabili della stessa idea decorativa. In una lama nucleo-e-cladding il nucleo chiamato crea il bordo, mentre in pieno Damasco gli acciai alternati continuano al bordo.
+
+Per un modello Xinzuo, verificare le specifiche della serie attuale per il core steel, il conteggio totale dello strato, la durezza e il trattamento termico.
 
 Invece di guardare solo il motivo, poni una serie di domande pratiche.
 

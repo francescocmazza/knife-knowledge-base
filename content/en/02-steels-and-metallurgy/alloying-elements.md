@@ -3,7 +3,7 @@ title: Alloying Elements — A Practical Guide
 status: approved
 audience: commercial-training
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 translation_priority: high
 ---
 
@@ -22,6 +22,8 @@ For a general reader, there are three ideas to remember before looking at indivi
 3. **Heat treatment unlocks the recipe.** Good composition cannot compensate for poor processing.
 
 With those principles in mind, the main alloying elements become much easier to understand.
+
+Xinzuo's catalog makes these interactions concrete. The portfolio includes chromium-rich stainless steels, cobalt-bearing 10Cr15CoMoV, niobium-bearing 14Cr14MoVNb, nitrogen-alloyed 14C28N, tungsten-bearing Blue Steel No. 2 and powder-metallurgy steels such as SRS13, M390 and ZDP-189. Their names are not a shopping list of prestige ingredients; each recipe supports a different balance.
 
 ## A simple overview
 

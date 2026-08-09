@@ -1,5 +1,5 @@
 ---
-source_hash: a8ccb9f8a80afb12f3fb0edb5aa6177650e5db8748fb9d9626f5378bdf618251
+source_hash: 01238df9396abd17c4cb8d4f7d17989e564092b82a39a0f92949535a5744d490
 ---
 
 # Preparare le Pietre ad Acqua
@@ -47,6 +47,8 @@ Il messaggio corretto per la formazione non è quindi "tutte le pietre devono es
 > Mettere a bagno la maggior parte delle pietre ad acqua assorbenti finché le bolle non si fermano sostanzialmente, ma controllare le istruzioni del produttore prima del primo uso perché le pietre speciali possono richiedere poco o nessun ammollo.
 
 ## Tipi di supporti per affilatura
+
+L'ampio portafoglio in acciaio di Xinzuo è uno dei motivi per cui non si deve prescrivere una singola pietra per ogni coltello. Le pietre d'acqua convenzionali possono essere efficaci per molti DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV, 12Cr18MoV e Blue Steel No. 2 bordi. La maggiore resistenza all'usura di ZDP-189, SRS13, M390 e 14Cr14MoVNb può rendere più efficienti gli abrasivi in ceramica dura o diamante. La preparazione della pietra segue ancora le istruzioni del produttore della pietra, non il nome in acciaio Xinzuo.
 
 Comprendere le famiglie principali aiuta a spiegare perché la preparazione differisce.
 

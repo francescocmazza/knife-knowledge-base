@@ -1,12 +1,24 @@
-# Knife Knowledge Base
+# Xinzuo Knowledge Base
 
-An open, practical knowledge base on kitchen knives—covering steels, blade geometry, construction, sharpening, maintenance, safety, and product education.
+Xinzuo's multilingual guide to kitchen knives, steels, handle materials, blade geometry, construction, sharpening, maintenance, safety, and product education.
+
+## Read the knowledge base
+
+**[Open the multilingual Xinzuo Knowledge Base](https://francescocmazza.github.io/knife-knowledge-base/)**
+
+Direct language links:
+
+- [English](https://francescocmazza.github.io/knife-knowledge-base/en/)
+- [Italiano](https://francescocmazza.github.io/knife-knowledge-base/it/)
+- [简体中文](https://francescocmazza.github.io/knife-knowledge-base/zh-Hans/)
+
+**[Download the latest edition](https://github.com/francescocmazza/knife-knowledge-base/releases/latest)** — PDFs in all active languages plus offline HTML and Markdown, automatically rebuilt after every successful content merge and Pages deployment.
 
 ## Purpose
 
-This project is designed for practical learning, commercial training, customer education, and marketing content. It is not intended to be an academic paper or a substitute for manufacturer-specific technical documentation.
+This is Xinzuo's official educational knowledge base. It is designed for practical learning, Xinzuo commercial training, customer education, distributor support, and technically responsible marketing content.
 
-The goal is to make knife knowledge easier to understand without turning useful simplifications into misleading claims.
+The goal is to explain Xinzuo's materials, constructions and product choices within the wider world of kitchen knives, without turning useful simplifications into misleading claims.
 
 ## Website and active languages
 
@@ -122,6 +134,15 @@ On the resulting `main` push, the deployment workflow runs the same translation 
 3. uploads the Pages artifact;
 4. deploys the multilingual website.
 
+After that deployment succeeds, a second workflow automatically:
+
+1. exports fresh PDFs for English, Italian, and Simplified Chinese;
+2. rebuilds the offline HTML and Markdown packages;
+3. replaces the assets in the rolling `latest` release;
+4. points that release to the same current `main` revision and marks it as GitHub's latest release.
+
+This means a normal content merge updates both the online Pages site and the downloadable edition without any manual Release action.
+
 The bot uses the repository `GITHUB_TOKEN`, so its translation commit does not start an infinite second workflow loop.
 
 ## 5. What the translator protects
@@ -208,6 +229,19 @@ After the desired content is on `main`:
 7. download the artifact from the workflow Summary page.
 
 For `it`, `zh-Hans`, or `all`, the PDF workflow refreshes stale active translations automatically before export. English-only export skips the translation models.
+
+## 12. Publish an official Release
+
+After the approved content is on `main`, open **Actions → Publish official release → Run workflow** and enter a semantic version such as `v1.0.0` plus a short release title.
+
+The workflow refreshes Italian and Simplified Chinese, validates and builds the complete multilingual site, exports one PDF per active language, and publishes a GitHub Release containing:
+
+- English, Italian and Simplified Chinese PDF guides;
+- an offline multilingual HTML archive;
+- the corresponding multilingual Markdown source package;
+- checksums for every downloadable file.
+
+GitHub Pages remains the best way to read the current guide online. Releases are numbered, downloadable editions that can be archived, distributed or cited.
 
 ## 12. Downloadable multilingual export
 

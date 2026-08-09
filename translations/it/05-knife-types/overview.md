@@ -1,5 +1,5 @@
 ---
-source_hash: 25e22d49b5edc909a00ab60cde96c1b540d2d7ea4ab2aa33e289ac27556e1048
+source_hash: 25d9598ab8cee2cdfb7c050748226bc8dc2d73dd881d20d3c5b6f6659fa0d8d0
 ---
 
 # Tipi di Coltello e Stili di Taglio
@@ -363,6 +363,10 @@ Un coltello sbilanciato verso la lama può sembrare potente e guidarsi da solo a
 Il peso può aiutare il coltello a muoversi attraverso il cibo, ma un peso eccessivo può causare affaticamento. Un coltello molto leggero risulta agile, ma alcuni utilizzatori preferiscono più presenza.
 
 # Scegliere un primo buon coltello
+
+Xinzuo offre questi profili in diversi acciai, costruzioni, materiali di maniglia e posizioni di prezzo. Questa larghezza è utile solo quando la raccomandazione inizia con il movimento e gli ingredienti dell'utente. Un coltello Xinzuo gyuto, santoku o cinese dello chef dovrebbe essere confrontato con lunghezza utilizzabile, curvatura, spessore, bilanciamento e taglio acciaio non scelto dal nome della categoria o strato di Damasco contare da solo. Deba specializzato, forme yanagiba e pesante-leaver dovrebbe essere raccomandato solo per le attività e la tecnica il loro supporto geometrico.
+
+Dopo aver selezionato il profilo, utilizzare le guide [Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) e [Xinzuo Handle Materials](../02-steels-and-metallurgy/xinzuo-handle-materials.md) per scegliere la manutenzione, il peso e l'equilibrio tattile appropriati.
 
 Per la maggior parte degli utilizzatori, il primo coltello serio dovrebbe essere versatile piuttosto che altamente specializzato.
 

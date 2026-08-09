@@ -3,7 +3,7 @@ title: A Practical Sharpening Process
 status: approved
 audience: commercial-training
 language: en
-reviewed: 2026-08-04
+reviewed: 2026-08-09
 translation_priority: high
 ---
 
@@ -363,6 +363,10 @@ Use extremely light pressure. The blade should almost feel as if it is being gui
 If the sound becomes harsh, the knife sticks or the angle becomes difficult to control, reduce pressure and add water.
 
 # Choosing the final grit
+
+For Xinzuo knives, the steel and intended task guide the abrasive and finish. DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV and 12Cr18MoV are generally approachable with suitable conventional stones. Highly wear-resistant ZDP-189, SRS13, M390 and 14Cr14MoVNb may benefit from efficient premium ceramic or diamond abrasives and more time. Blue Steel No. 2 can respond readily to water stones but must be dried immediately. These are tendencies, not fixed angle or grit prescriptions: preserve the model's geometry and finish for its actual use.
+
+Xinzuo's full-Damascus differential-wear mechanism does not eliminate sharpening. When such a blade eventually needs restoration, sharpen the complete edge normally and avoid polishing choices that unintentionally remove all useful slicing bite.
 
 The ideal finish depends on use.
 
