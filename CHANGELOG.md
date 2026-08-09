@@ -6,6 +6,8 @@ All notable editorial changes to the English source of truth will be recorded he
 
 ### Changed
 
+- expanded the Xinzuo handle guide with six documented shape families, separate coverage for every main catalog material, and dedicated combination-material guidance;
+- clarified the practical difference between Xinzuo gyuto and Western chef's-knife profiles;
 - reordered the website around a clearer novice learning path: geometry and knife movement before metallurgy, followed by safety and sharpening;
 - rewrote the home page as a concise guided reading path and documented subjects still missing from the first edition;
 - rewrote the current English knowledge base in a more discursive, detailed and book-like style for readers without specialist knowledge;
@@ -20,6 +22,8 @@ All notable editorial changes to the English source of truth will be recorded he
 
 ### Added
 
+- a 32-form Xinzuo knife-shape atlas covering the complete catalog chart and all additional product-page forms;
+- original normalized SVG icons and authorized catalog examples for every knife form, handle shape and handle material;
 - a complete structural audit of the English core;
 - a page-by-page register of visual placeholders and exact placement instructions;
 - a catalogue of reusable or adaptable images found in the supplied legacy training slides;

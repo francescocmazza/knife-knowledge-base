@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 120" role="img" aria-labelledby="title desc">
+  <title id="title">Walnut material icon</title>
+  <desc id="desc">Original educational icon indicating the visual family of Walnut.</desc>
+  <rect x="4" y="4" width="242" height="112" rx="18" fill="#694737" stroke="#263238" stroke-width="4"/>
+  <path d="M17 39c28-22 43 19 70-3s43 18 70-2 44 17 70-4" fill="none" stroke="#fff" stroke-opacity=".42" stroke-width="5"/><path d="M20 73c27-20 42 17 68-2s42 15 68-2 43 15 69-4" fill="none" stroke="#fff" stroke-opacity=".24" stroke-width="3"/>
+  <rect x="171" y="68" width="63" height="38" rx="12" fill="#f7f4ee" fill-opacity=".9"/>
+  <text x="202.5" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#263238">W</text>
+</svg>

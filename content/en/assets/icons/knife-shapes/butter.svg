@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 110" role="img" aria-labelledby="title desc">
+  <title id="title">Butter knife silhouette</title>
+  <desc id="desc">Original educational side-profile icon for the Xinzuo knife-shape guide.</desc>
+  <rect width="490" height="110" rx="12" fill="#f7f4ee"/>
+  <path d="M18 38 Q10 48 18 62 L350 68 L350 41 L62 38 Z" fill="#cbd1d5" stroke="#263238" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M350 42h24v35h-24z" fill="#8c2f2f"/><path d="M374 35h88q13 0 13 13v24q0 13-13 13h-88z" fill="#3f2b24"/><circle cx="404" cy="60" r="4" fill="#e5cfa7"/><circle cx="444" cy="60" r="4" fill="#e5cfa7"/>
+</svg>

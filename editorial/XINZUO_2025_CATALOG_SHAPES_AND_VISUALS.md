@@ -3,6 +3,8 @@
 Reviewed: 2026-08-04  
 Source: `2025 Xinzuo Catalog V9.pdf`, 61 PDF pages / 113 printed catalog pages.
 
+Implementation update — 2026-08-10: all 23 chart forms and the additional product-page forms listed below are now covered in `content/en/05-knife-types/xinzuo-shape-atlas.md`. Each entry has an original normalized SVG profile plus an individually selected Xinzuo catalog crop. Handle geometry, main material swatches and combination materials are implemented in `content/en/02-steels-and-metallurgy/xinzuo-handle-materials.md`. Generated icons are original; catalog crops retain the restricted rights status recorded in `content/en/assets/IMAGE_RIGHTS.md`.
+
 This inventory records the terminology and visuals present in the catalog. It does **not** automatically convert every catalog label or commercial statement into general knowledge-base terminology. Some names are established knife categories; others are product-family or marketing labels that require explanation before public educational use.
 
 ## 1. Knife-shape chart in the catalog

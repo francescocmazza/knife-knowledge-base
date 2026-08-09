@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 110" role="img" aria-labelledby="title desc">
+  <title id="title">Santoku silhouette</title>
+  <desc id="desc">Original educational side-profile icon for the Xinzuo knife-shape guide.</desc>
+  <rect width="490" height="110" rx="12" fill="#f7f4ee"/>
+  <path d="M18 71 Q54 24 126 23 Q248 25 350 37 L350 76 L160 79 Q70 80 18 71 Z" fill="#cbd1d5" stroke="#263238" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M350 41h24v38h-24z" fill="#8c2f2f"/><path d="M374 32l18-7h65l18 12v46l-18 12h-65l-18-7z" fill="#3f2b24"/><path d="M390 30v60m66-60v60" stroke="#d9c6a4" stroke-width="3"/>
+</svg>

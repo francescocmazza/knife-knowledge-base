@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 110" role="img" aria-labelledby="title desc">
+  <title id="title">Faceted hidden-tang handle icon</title>
+  <desc id="desc">Original educational handle-profile icon for the Xinzuo handle guide.</desc>
+  <rect width="250" height="110" rx="14" fill="#f7f4ee"/>
+  <path d="M18 42 L52 20 H198 L232 36 V70 L198 88 H52 L18 68 Z" fill="#5b392c" stroke="#263238" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M35 36h180M35 74h180" stroke="#fff" stroke-opacity=".22" stroke-width="3"/>
+</svg>

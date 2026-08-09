@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 110" role="img" aria-labelledby="title desc">
+  <title id="title">Cylindrical Chinese handle icon</title>
+  <desc id="desc">Original educational handle-profile icon for the Xinzuo handle guide.</desc>
+  <rect width="250" height="110" rx="14" fill="#f7f4ee"/>
+  <path d="M18 41 Q18 22 40 19 H202 Q232 20 232 55 Q232 90 202 91 H40 Q18 88 18 69 Z" fill="#5b392c" stroke="#263238" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M55 24v62m30-64v66m30-65v64m30-64v64m30-65v66" stroke="#8f6654" stroke-width="4"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 110" role="img" aria-labelledby="title desc">
+  <title id="title">Chopper silhouette</title>
+  <desc id="desc">Original educational side-profile icon for the Xinzuo knife-shape guide.</desc>
+  <rect width="490" height="110" rx="12" fill="#f7f4ee"/>
+  <path d="M18 29 L350 38 L350 86 L18 84 Z" fill="#cbd1d5" stroke="#263238" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M350 45h23v31h-23z" fill="#8c2f2f"/><rect x="373" y="37" width="91" height="47" rx="18" fill="#3f2b24"/><path d="M389 40v41m19-43v45m19-45v45m19-43v41" stroke="#8f6654" stroke-width="3"/>
+</svg>

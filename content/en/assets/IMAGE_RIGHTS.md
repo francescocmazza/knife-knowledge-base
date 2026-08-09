@@ -10,6 +10,12 @@ Unless stated otherwise, the original written content of this knowledge base is 
 
 Diagrams created specifically for this project (for example files in `assets/diagrams/`) are original work and are covered by the same CC BY-NC-SA 4.0 license as the written content, unless individually marked otherwise.
 
+The normalized vector icons in the following directories are also original educational work generated for this project:
+
+- `assets/icons/knife-shapes/`
+- `assets/icons/handle-shapes/`
+- `assets/icons/handle-materials/`
+
 A diagram remains published only while it passes the project's technical review. A generated illustration that is found to be materially misleading is withdrawn from the rendered guide and returned to placeholder status until a verified replacement is available.
 
 ## Xinzuo catalog images
@@ -27,6 +33,12 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 - `strops-and-honing-rods.svg`
 
 These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this knowledge base.
+
+The same restricted Xinzuo-catalog status applies to every individual crop in:
+
+- `assets/images/approved/knife-shapes/`
+- `assets/images/approved/handle-shapes/`
+- `assets/images/approved/handle-materials/`
 
 **They are not automatically sublicensed under CC BY-NC-SA 4.0.** The Creative Commons license stated above covers the original written content and original diagrams; it does not automatically extend to catalog or promotional images.
 
