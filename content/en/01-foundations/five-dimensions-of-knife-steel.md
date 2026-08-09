@@ -37,11 +37,11 @@ A useful commercial explanation is therefore:
 
 ## 2. Ease of sharpening: how readily the edge can be restored
 
-All knives eventually need maintenance. Even the finest edge gradually changes through contact with food, cutting boards and normal use. Ease of sharpening describes how quickly and predictably the edge can be restored with an abrasive such as a water stone.
+All knives eventually need maintenance. Even the finest edge gradually changes through contact with food, cutting boards and normal use. Ease of sharpening describes how quickly and predictably the edge can be restored with an abrasive such as a whetstone.
 
 This quality is often misunderstood. People sometimes assume that a hard steel must always be difficult to sharpen. In reality, hardness is only part of the story.
 
-Two steels at a similar HRC can feel very different on a stone. One may respond quickly and form a clean burr with little effort. Another may resist abrasion because it contains a large amount of very hard carbides. The first steel may be pleasant to sharpen even though it is hard. The second may require more time, better stones or diamond abrasives.
+Two steels at a similar HRC can feel very different on a stone. One may respond quickly and form a clean burr with little effort. Another may resist abrasion because it contains a large amount of very hard carbides. The first steel may be pleasant to sharpen even though it is hard. The second may require more time, special stones or diamond abrasives.
 
 For the user, ease of sharpening affects more than maintenance time. It also affects confidence. A beginner is more likely to maintain a knife regularly when the steel gives clear feedback and does not require a long, demanding process. A professional sharpener, by contrast, may be comfortable working with a highly wear-resistant steel in exchange for longer cutting life.
 
@@ -63,7 +63,7 @@ This is the quality most people associate with the word **stainless**. Stainless
 
 The word stainless can nevertheless create unrealistic expectations. It does not mean that the knife is completely immune to rust. Salt water, acidic ingredients, food residue and prolonged storage while wet can still stain or corrode a stainless blade. The correct meaning is closer to **stain-resistant** than **stain-proof**.
 
-Carbon steels sit at the other end of the spectrum. They can take excellent edges and may be very pleasant to sharpen, but they react more quickly with the environment. Their surface may darken and develop a patina. This patina is not necessarily damage; it is a natural reaction layer that can become part of the knife's character. Active orange rust, however, should be removed.
+Carbon steels sit at the other end of the spectrum. They can take excellent edges and may be very pleasant to sharpen, but they react more quickly with the environment. Their surface may darken and develop a patina. This patina is not necessarily damage; it is a natural reaction layer that can become part of the knife's character. Active orange rust, however, should be removed promptly. If corrosion is allowed to continue, it can deepen into pits and permanently damage the blade.
 
 Corrosion resistance matters differently to different users. A home cook who washes and dries a knife immediately may be comfortable with carbon steel. A professional working quickly around citrus fruit, tomatoes or salty ingredients may prefer the convenience of stainless steel. A customer buying a gift may value easy maintenance more than the sharpening character of a reactive steel.
 
