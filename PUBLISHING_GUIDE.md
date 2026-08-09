@@ -24,7 +24,7 @@ For an ordinary content change:
 6. Simplified Chinese is explicitly generated as Simplified Mandarin (`cmn_Hans`).
 7. Strict multilingual validation runs after the refresh. The PR must report `0 missing, 0 stale`.
 8. Merge the PR when the English edit and checks are correct.
-9. On the resulting push to `main`, the same workflow refreshes translations again, builds the site, commits changed files under `translations/` back to `main`, and deploys GitHub Pages.
+9. On the resulting push to `main`, the same workflow refreshes translations again, commits changed files under `translations/` back to `main`, builds from that committed state, and deploys GitHub Pages.
 
 You therefore do **not** need to manually ask Claude Code to translate Italian and Chinese after every English edit.
 
@@ -147,9 +147,9 @@ On pull requests the workflow refreshes translations in the temporary Actions wo
 On `main` it:
 
 1. refreshes stale translations;
-2. runs strict multilingual build validation;
-3. commits changed translation files using `github-actions[bot]`;
-4. uploads the already-built Pages artifact;
+2. commits changed translation files using `github-actions[bot]`;
+3. runs the strict multilingual build from the resulting committed state;
+4. uploads the Pages artifact;
 5. deploys the site.
 
 The bot commit uses the repository `GITHUB_TOKEN`, preventing a recursive second push workflow while the current deployment continues.
