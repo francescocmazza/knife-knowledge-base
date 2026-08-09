@@ -75,6 +75,7 @@ EXTRACT_JS = """
   }
 
   clone.querySelectorAll('img').forEach(img => {
+    img.setAttribute('src', img.src);
     img.setAttribute('loading', 'eager');
     img.removeAttribute('srcset');
   });
