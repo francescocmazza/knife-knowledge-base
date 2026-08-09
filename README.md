@@ -117,8 +117,8 @@ Once the English content is correct and the relevant checks are green, merge the
 
 On the resulting `main` push, the deployment workflow runs the same translation refresh again, then:
 
-1. builds all active languages;
-2. commits any refreshed files under `translations/` using `github-actions[bot]`;
+1. commits any refreshed files under `translations/` using `github-actions[bot]`;
+2. builds all active languages from that committed repository state;
 3. uploads the Pages artifact;
 4. deploys the multilingual website.
 
@@ -229,7 +229,7 @@ Helsinki-NLP/opus-mt-en-it
 Helsinki-NLP/opus-mt-en-zh
 ```
 
-The dependency set is pinned in `requirements-translation.txt`, with Transformers kept below v5 because the Marian translation integration used here relies on the v4-compatible direct model/tokenizer path.
+The dependency set is pinned in `requirements-translation.txt`, with Transformers kept below v5 for a stable Marian implementation.
 
 The workflow caches Hugging Face model files when possible. Translation happens on the GitHub-hosted runner; guide content is not sent to a paid translation API.
 
