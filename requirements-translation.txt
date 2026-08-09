@@ -1,0 +1,5 @@
+# Local, API-key-free machine translation used by GitHub Actions.
+# PyTorch is installed separately from the CPU-only index in the workflow.
+transformers>=4.44,<5
+sentencepiece>=0.2,<0.3
+sacremoses>=0.1,<0.2

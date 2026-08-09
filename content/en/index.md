@@ -56,9 +56,9 @@ Sharpening becomes much easier once the reader knows what the bevel and apex are
 
 ## What this first edition covers
 
-The current English core explains:
+This edition explains:
 
-- how single- and double-bevel geometry changes cutting behaviour;
+- how single and double-bevel geometry changes cutting behaviour;
 - how major knife profiles support rocking, push cutting, chopping, slicing and detail work;
 - how to compare steels without treating one number as a universal quality score;
 - what the main alloying elements contribute;

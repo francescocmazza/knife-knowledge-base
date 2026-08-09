@@ -6,6 +6,8 @@ on:
     paths:
       - ".github/workflows/export-multilingual.yml"
       - "translations/**"
+      - "scripts/auto_translate.py"
+      - "requirements-translation.txt"
       - "scripts/publish_multilingual.ps1"
       - "publish-guide.cmd"
       - "PUBLISHING_GUIDE.md"
@@ -24,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Validate PowerShell helper syntax
         shell: pwsh
@@ -45,6 +47,8 @@ jobs:
         run: |
           test -f publish-guide.cmd
           test -f PUBLISHING_GUIDE.md
+          test -f scripts/auto_translate.py
+          test -f requirements-translation.txt
 
   export:
     if: github.event_name == 'workflow_dispatch'
@@ -52,21 +56,39 @@ jobs:
     timeout-minutes: 120
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: requirements-docs.txt
+          cache-dependency-path: |
+            requirements-docs.txt
+            requirements-translation.txt
 
       - name: Install documentation dependencies
         run: pip install -r requirements-docs.txt
 
-      - name: Build every configured language from committed translations
+      - name: Cache local translation models
+        uses: actions/cache@v5
+        with:
+          path: ~/.cache/huggingface
+          key: hf-marian-${{ runner.os }}-${{ hashFiles('requirements-translation.txt') }}
+          restore-keys: |
+            hf-marian-${{ runner.os }}-
+
+      - name: Install local translation dependencies
+        run: |
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch>=2.2,<3"
+          python -m pip install -r requirements-translation.txt
+
+      - name: Refresh stale active translations locally
+        run: python scripts/auto_translate.py
+
+      - name: Build every configured language from refreshed translations
         run: python scripts/multilingual_site.py --require-translations
 
       - name: Prepare export package
@@ -79,16 +101,16 @@ jobs:
           cat > export/README.txt <<'EOF'
           Knife Knowledge Base multilingual export
 
-          html/      Complete built website for every configured locale.
+          html/      Complete built website for every configured active locale.
           markdown/  Per-locale source trees used to build the site.
 
-          English remains the source of truth. Translations are committed in the repository and may require human review.
-          No paid translation API is called by this export.
+          English remains the source of truth. Stale active translations are refreshed locally before export and may require human review.
+          No translation API key or paid translation API is used.
           Image rights may differ from the written-content license; see the repository IMAGE_RIGHTS.md.
           EOF
 
       - name: Upload multilingual guide export
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: knife-knowledge-base-multilingual-${{ github.run_number }}
           path: export
