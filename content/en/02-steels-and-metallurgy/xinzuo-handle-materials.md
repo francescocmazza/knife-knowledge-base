@@ -43,8 +43,8 @@ Material tells only part of the story. A handle's cross-section, taper, tang con
 ### Western full-tang handle with riveted scales
 
 <div class="kb-profile-visual kb-profile-visual--handle">
-  <figure><img src="../assets/icons/handle-shapes/full-tang-riveted.svg" alt="Western full-tang riveted handle icon"><figcaption>Shape icon: full tang with two handle scales.</figcaption></figure>
-  <figure><img src="../assets/images/approved/handle-shapes/full-tang-riveted.jpg" alt="Xinzuo riveted full-tang handle example"><figcaption>Xinzuo catalog example with three rivets.</figcaption></figure>
+  <figure><img src="../../assets/icons/handle-shapes/full-tang-riveted.svg" alt="Western full-tang riveted handle icon"><figcaption>Shape icon: full tang with two handle scales.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/handle-shapes/full-tang-riveted.jpg" alt="Xinzuo riveted full-tang handle example"><figcaption>Xinzuo catalog example with three rivets.</figcaption></figure>
 </div>
 
 Two scales sit on either side of a tang that follows the handle outline. This familiar Western construction gives a direct, substantial feel and makes the handle's structure visually legible. Rivets secure or decorate the scales depending on the detailed construction. It can move balance rearward compared with a light hidden-tang handle. Comfort depends on contouring and finishing: proud rivets, sharp scale edges or an abrupt bolster transition are more important than the construction label itself.
@@ -52,8 +52,8 @@ Two scales sit on either side of a tang that follows the handle outline. This fa
 ### Sculpted Western ergonomic handle
 
 <div class="kb-profile-visual kb-profile-visual--handle">
-  <figure><img src="../assets/icons/handle-shapes/sculpted-western.svg" alt="Sculpted Western knife handle icon"><figcaption>Shape icon: contoured Western grip.</figcaption></figure>
-  <figure><img src="../assets/images/approved/handle-shapes/sculpted-western.jpg" alt="Xinzuo sculpted Western handle example"><figcaption>Xinzuo catalog example with a palm swell and metal end transition.</figcaption></figure>
+  <figure><img src="../../assets/icons/handle-shapes/sculpted-western.svg" alt="Sculpted Western knife handle icon"><figcaption>Shape icon: contoured Western grip.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/handle-shapes/sculpted-western.jpg" alt="Xinzuo sculpted Western handle example"><figcaption>Xinzuo catalog example with a palm swell and metal end transition.</figcaption></figure>
 </div>
 
 This family uses visible curves, palm swells and a shaped butt to locate the hand. It can feel immediately secure in a conventional handle grip and can prevent the hand from sliding rearward. Strong sculpting is also less neutral: a contour that fits one hand may create pressure points in another, and a pronounced finger shape can restrict changes of grip. Evaluate it with the user's normal pinch grip rather than judging comfort from appearance alone.
@@ -61,8 +61,8 @@ This family uses visible curves, palm swells and a shaped butt to locate the han
 ### Octagonal wa-style hidden-tang handle
 
 <div class="kb-profile-visual kb-profile-visual--handle">
-  <figure><img src="../assets/icons/handle-shapes/octagonal-wa.svg" alt="Octagonal wa-style handle icon"><figcaption>Shape icon: faceted octagonal cross-section.</figcaption></figure>
-  <figure><img src="../assets/images/approved/handle-shapes/octagonal-wa.jpg" alt="Xinzuo octagonal wa-style handle example"><figcaption>Xinzuo catalog example with a dark front collar.</figcaption></figure>
+  <figure><img src="../../assets/icons/handle-shapes/octagonal-wa.svg" alt="Octagonal wa-style handle icon"><figcaption>Shape icon: faceted octagonal cross-section.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/handle-shapes/octagonal-wa.jpg" alt="Xinzuo octagonal wa-style handle example"><figcaption>Xinzuo catalog example with a dark front collar.</figcaption></figure>
 </div>
 
 An octagonal cross-section gives clear flat reference surfaces, helping the user sense blade orientation without looking. Hidden-tang construction can reduce handle mass and move balance toward the blade. The form is generally ambidextrous when the facets are symmetrical. Corners must be softened enough for long sessions, and the junction between collar, wood and blade must be finished cleanly. `Wa-style` describes the morphology here; it does not claim a particular historical Japanese construction unless the model specification confirms it.
@@ -70,8 +70,8 @@ An octagonal cross-section gives clear flat reference surfaces, helping the user
 ### Faceted hidden-tang hybrid
 
 <div class="kb-profile-visual kb-profile-visual--handle">
-  <figure><img src="../assets/icons/handle-shapes/faceted-hidden-tang.svg" alt="Faceted hidden-tang hybrid handle icon"><figcaption>Shape icon: angular hybrid handle.</figcaption></figure>
-  <figure><img src="../assets/images/approved/handle-shapes/faceted-hidden-tang.jpg" alt="Xinzuo faceted carbon and resin handle example"><figcaption>Xinzuo catalog example with multiple planar facets.</figcaption></figure>
+  <figure><img src="../../assets/icons/handle-shapes/faceted-hidden-tang.svg" alt="Faceted hidden-tang hybrid handle icon"><figcaption>Shape icon: angular hybrid handle.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/handle-shapes/faceted-hidden-tang.jpg" alt="Xinzuo faceted carbon and resin handle example"><figcaption>Xinzuo catalog example with multiple planar facets.</figcaption></figure>
 </div>
 
 Xinzuo also uses highly faceted hidden-tang handles that combine Japanese indexing with a more architectural, modern design. The planes resist rotation and showcase layered composites, metal or decorative inlays. Their tactile character depends strongly on edge radiusing: crisp visual facets can still be comfortable if the contact edges are softened. Complex assemblies add visual value but also create more transitions whose fit and finish should be inspected.
@@ -79,8 +79,8 @@ Xinzuo also uses highly faceted hidden-tang handles that combine Japanese indexi
 ### Segmented hidden-tang handle with collars and spacers
 
 <div class="kb-profile-visual kb-profile-visual--handle">
-  <figure><img src="../assets/icons/handle-shapes/segmented-hidden-tang.svg" alt="Segmented hidden-tang handle icon"><figcaption>Shape icon: main grip plus collars and spacers.</figcaption></figure>
-  <figure><img src="../assets/images/approved/handle-shapes/segmented-hidden-tang.jpg" alt="Exploded Xinzuo segmented handle construction"><figcaption>Xinzuo F3S example showing the combined handle components.</figcaption></figure>
+  <figure><img src="../../assets/icons/handle-shapes/segmented-hidden-tang.svg" alt="Segmented hidden-tang handle icon"><figcaption>Shape icon: main grip plus collars and spacers.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/handle-shapes/segmented-hidden-tang.jpg" alt="Exploded Xinzuo segmented handle construction"><figcaption>Xinzuo F3S example showing the combined handle components.</figcaption></figure>
 </div>
 
 Segmented handles combine a principal grip material with horn, imitation bone, G10, metal or composite spacers. The assembly can tune balance, reinforce the front and create strong visual rhythm. Care follows the most sensitive component: a resin spacer does not make adjacent natural wood waterproof. Product copy should name each confirmed component and avoid describing a decorative collar as the entire handle material.
@@ -88,8 +88,8 @@ Segmented handles combine a principal grip material with horn, imitation bone, G
 ### Cylindrical or barrel-shaped Chinese handle
 
 <div class="kb-profile-visual kb-profile-visual--handle">
-  <figure><img src="../assets/icons/handle-shapes/cylindrical-chinese.svg" alt="Cylindrical Chinese knife handle icon"><figcaption>Shape icon: rounded barrel grip.</figcaption></figure>
-  <figure><img src="../assets/images/approved/handle-shapes/cylindrical-chinese.jpg" alt="Xinzuo X07 cylindrical Chinese handle example"><figcaption>Xinzuo X07 example with circumferential grip lines.</figcaption></figure>
+  <figure><img src="../../assets/icons/handle-shapes/cylindrical-chinese.svg" alt="Cylindrical Chinese knife handle icon"><figcaption>Shape icon: rounded barrel grip.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/handle-shapes/cylindrical-chinese.jpg" alt="Xinzuo X07 cylindrical Chinese handle example"><figcaption>Xinzuo X07 example with circumferential grip lines.</figcaption></figure>
 </div>
 
 The X07 Chinese-knife family uses a rounded barrel-like handle with repeated circumferential lines. The generous diameter suits the weight and height of a Chinese slicer, cleaver or chopper and permits quick grip changes. A nearly round handle gives less automatic edge indexing than a strongly faceted one, so taper, front transition and surface texture become important. The rings can add tactile reference, but they must be smooth enough not to create hot spots.
@@ -98,7 +98,7 @@ The X07 Chinese-knife family uses a rounded barrel-like handle with repeated cir
 
 ### Rosewood
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/rosewood.svg" alt="Rosewood material icon"><figcaption>Material icon: natural hardwood.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/rosewood.jpg" alt="Rosewood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog rosewood swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/rosewood.svg" alt="Rosewood material icon"><figcaption>Material icon: natural hardwood.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/rosewood.jpg" alt="Rosewood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog rosewood swatch.</figcaption></figure></div>
 
 Rosewood appears across several Xinzuo series and gives the handle a warm red-brown tone with visible grain. It is dense enough for a reassuring feel and can take a smooth finish. Because “rosewood” covers a group of woods, exact color and figure naturally vary.
 
@@ -106,7 +106,7 @@ Its advantage is a classic balance of appearance, tactility and durability. Its 
 
 ### Ebony
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/ebony.svg" alt="Ebony material icon"><figcaption>Material icon: dense dark hardwood.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/ebony.jpg" alt="Ebony swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog ebony swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/ebony.svg" alt="Ebony material icon"><figcaption>Material icon: dense dark hardwood.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/ebony.jpg" alt="Ebony swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog ebony swatch.</figcaption></figure></div>
 
 Ebony is one of the darkest and densest handle woods in the Xinzuo range. It creates a formal, understated appearance and a substantial feeling in the hand. Xinzuo uses it in series with both Damascus and conventional stainless blades.
 
@@ -114,7 +114,7 @@ Density supports wear resistance but also adds weight. Like every natural wood, 
 
 ### North American desert ironwood
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/desert-ironwood.svg" alt="Desert ironwood material icon"><figcaption>Material icon: dense figured hardwood.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/desert-ironwood.jpg" alt="Desert ironwood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog desert-ironwood swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/desert-ironwood.svg" alt="Desert ironwood material icon"><figcaption>Material icon: dense figured hardwood.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/desert-ironwood.jpg" alt="Desert ironwood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog desert-ironwood swatch.</figcaption></figure></div>
 
 Desert ironwood is a premium, exceptionally dense wood used in high-end Xinzuo families, including selected ZDP-189, SRS13 and full-Damascus knives. It is valued for stability, weight and richly figured grain.
 
@@ -122,13 +122,13 @@ Its natural oils and density make it comparatively resistant to moisture, but no
 
 ### Red wood
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/red-wood.svg" alt="Red wood material icon"><figcaption>Material icon: red-toned natural wood.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/red-wood.jpg" alt="Red wood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog red-wood swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/red-wood.svg" alt="Red wood material icon"><figcaption>Material icon: red-toned natural wood.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/red-wood.jpg" alt="Red wood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog red-wood swatch.</figcaption></figure></div>
 
 `Red wood` is the catalog wording used for selected Xinzuo series, including Chinese and Western-style families. It describes the authorized commercial appearance without establishing one botanical species. The material gives a warm medium-to-red brown tone and visible grain. Model-level copy should preserve the official series wording and should not silently substitute a more specific species name.
 
 ### Red sandalwood
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/red-sandalwood.svg" alt="Red sandalwood material icon"><figcaption>Material icon: red-toned hardwood.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/red-sandalwood.jpg" alt="Red sandalwood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog red-sandalwood swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/red-sandalwood.svg" alt="Red sandalwood material icon"><figcaption>Material icon: red-toned hardwood.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/red-sandalwood.jpg" alt="Red sandalwood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog red-sandalwood swatch.</figcaption></figure></div>
 
 Red sandalwood is listed separately from red wood in the catalog's material chart and appears in selected Western-handled Xinzuo series. Its commercial appeal is rich color, traditional character and contrast with polished steel. The trade name alone does not establish a precise botanical species, origin or conservation status; those require current authorized sourcing data.
 
@@ -136,7 +136,7 @@ The practical care rule for both red sandalwood and red wood is the same as for 
 
 ### Figured sycamore
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/figured-sycamore.svg" alt="Figured sycamore material icon"><figcaption>Material icon: figured natural wood.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/figured-sycamore.jpg" alt="Figured sycamore swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog figured-sycamore swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/figured-sycamore.svg" alt="Figured sycamore material icon"><figcaption>Material icon: figured natural wood.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/figured-sycamore.jpg" alt="Figured sycamore swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog figured-sycamore swatch.</figcaption></figure></div>
 
 Figured sycamore is chosen for movement and visual depth in the grain. It can make a handle appear different as light crosses the surface. This makes it especially effective in a premium design where the handle is intended to be noticed.
 
@@ -144,7 +144,7 @@ The figure is natural and cannot be perfectly standardized. It needs the same mo
 
 ### Olivewood
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/olivewood.svg" alt="Olivewood material icon"><figcaption>Material icon: figured natural wood.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/olivewood.jpg" alt="Olivewood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog olivewood swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/olivewood.svg" alt="Olivewood material icon"><figcaption>Material icon: figured natural wood.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/olivewood.jpg" alt="Olivewood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog olivewood swatch.</figcaption></figure></div>
 
 Olivewood is one of the most recognizable Xinzuo handle choices. Cream, honey and brown lines can create a strong flowing pattern, and the wood gives a warm, organic feel. Xinzuo pairs it with several important constructions, including 14Cr14MoVNb Damascus, 10Cr15CoMoV composite steel and 10Cr15CoMoV-core Damascus.
 
@@ -152,7 +152,7 @@ Its expressive grain is an advantage but also means photographs cannot promise a
 
 ### Oak and burnt oak
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/oak.svg" alt="Oak material icon"><figcaption>Material icon: open-grained hardwood.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/oak.jpg" alt="Oak swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog oak swatch; burnt oak is a series-specific finish.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/oak.svg" alt="Oak material icon"><figcaption>Material icon: open-grained hardwood.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/oak.jpg" alt="Oak swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog oak swatch; burnt oak is a series-specific finish.</figcaption></figure></div>
 
 Oak has a bold, familiar grain. A burnt or darkened finish increases contrast and gives the material a more rustic or architectural character, as used on selected Xinzuo series.
 
@@ -160,7 +160,7 @@ Oak's open grain makes surface finishing important. Correctly finished it is a p
 
 ### Walnut
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/walnut.svg" alt="Walnut material icon"><figcaption>Material icon: natural hardwood.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/walnut.jpg" alt="Walnut swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog walnut swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/walnut.svg" alt="Walnut material icon"><figcaption>Material icon: natural hardwood.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/walnut.jpg" alt="Walnut swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog walnut swatch.</figcaption></figure></div>
 
 Walnut provides a warm medium-to-dark brown color at a moderate weight. It suits users who want natural wood without the visual or weight extremes of ebony or desert ironwood.
 
@@ -170,7 +170,7 @@ It remains a natural material and can mark, dry or change slightly with use. Tho
 
 ### Pakka wood
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/pakka-wood.svg" alt="Pakka wood material icon"><figcaption>Material icon: resin-bonded wood laminate.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/pakka-wood.jpg" alt="Pakka wood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog Pakka-wood swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/pakka-wood.svg" alt="Pakka wood material icon"><figcaption>Material icon: resin-bonded wood laminate.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/pakka-wood.jpg" alt="Pakka wood swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog Pakka-wood swatch.</figcaption></figure></div>
 
 Pakka wood is made from thin wood layers or wood-derived material impregnated and bonded with resin. It preserves a wood-like look while improving dimensional stability, color consistency and resistance to ordinary kitchen moisture.
 
@@ -178,7 +178,7 @@ Xinzuo uses Pakka wood across several important families, including Damascus and
 
 ### Micarta
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/micarta.svg" alt="Micarta material icon"><figcaption>Material icon: fabric or paper laminate.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/micarta.jpg" alt="Micarta swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog Micarta swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/micarta.svg" alt="Micarta material icon"><figcaption>Material icon: fabric or paper laminate.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/micarta.jpg" alt="Micarta swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog Micarta swatch.</figcaption></figure></div>
 
 Micarta is a laminate produced by bonding fabric or paper layers with resin. Linen Micarta, used in selected Xinzuo series, can provide a fine visible weave and a secure, tactile surface.
 
@@ -186,7 +186,7 @@ It is stable, durable and less sensitive to humidity than natural wood. Its grip
 
 ### Black G10
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/black-g10.svg" alt="Black G10 material icon"><figcaption>Material icon: glass-fiber laminate.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/black-g10.jpg" alt="Black G10 swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog black-G10 swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/black-g10.svg" alt="Black G10 material icon"><figcaption>Material icon: glass-fiber laminate.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/black-g10.jpg" alt="Black G10 swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog black-G10 swatch.</figcaption></figure></div>
 
 G10 is a glass-fiber cloth laminate bonded with resin. It offers excellent moisture stability, high strength and reliable dimensional consistency. Xinzuo uses black G10 both as a principal handle material and as a structural or visual accent in selected premium handles.
 
@@ -194,7 +194,7 @@ G10 is especially suitable for demanding, humid or high-frequency environments. 
 
 ### Carbon fiber
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/carbon-fiber.svg" alt="Carbon fiber material icon"><figcaption>Material icon: woven carbon composite.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/carbon-fiber.jpg" alt="Carbon fiber swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog carbon-fiber swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/carbon-fiber.svg" alt="Carbon fiber material icon"><figcaption>Material icon: woven carbon composite.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/carbon-fiber.jpg" alt="Carbon fiber swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog carbon-fiber swatch.</figcaption></figure></div>
 
 Carbon fiber combines low weight with high stiffness and a distinctive woven appearance. Xinzuo uses it in premium modern designs and in combination with resin.
 
@@ -202,7 +202,7 @@ Its low mass can move the knife's balance forward relative to a heavy wood handl
 
 ### Carbon fiber with resin
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/carbon-fiber-resin.svg" alt="Carbon fiber with resin material icon"><figcaption>Material icon: decorative carbon/resin composite.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/carbon-fiber-resin.jpg" alt="Carbon fiber with resin swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog carbon-fiber-with-resin swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/carbon-fiber-resin.svg" alt="Carbon fiber with resin material icon"><figcaption>Material icon: decorative carbon/resin composite.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/carbon-fiber-resin.jpg" alt="Carbon fiber with resin swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog carbon-fiber-with-resin swatch.</figcaption></figure></div>
 
 Combining carbon reinforcement with colored or transparent resin expands visual possibilities while retaining much of the stability of an engineered composite. Xinzuo uses such constructions when the handle is intended to become a design feature rather than merely a neutral grip.
 
@@ -210,7 +210,7 @@ The exact percentage and orientation of carbon should not be inferred from appea
 
 ### Resin
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/resin.svg" alt="Resin material icon"><figcaption>Material icon: cast decorative resin.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/resin.jpg" alt="Resin swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog resin swatch.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/resin.svg" alt="Resin material icon"><figcaption>Material icon: cast decorative resin.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/resin.jpg" alt="Resin swatch from the Xinzuo catalog"><figcaption>Xinzuo catalog resin swatch.</figcaption></figure></div>
 
 Resin handles or resin-rich components offer repeatable color, moisture stability and the ability to incorporate decorative effects such as gold leaf. They can also reproduce a consistent design where natural wood would vary too much.
 
@@ -224,25 +224,25 @@ An accent material should not be treated as the whole handle specification. For 
 
 ### White and black buffalo horn
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/buffalo-horn.svg" alt="Buffalo horn material icon"><figcaption>Material icon: natural horn accent.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/buffalo-horn.jpg" alt="Xinzuo white buffalo horn handle construction"><figcaption>Xinzuo PM8M example using white buffalo horn with maple.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/buffalo-horn.svg" alt="Buffalo horn material icon"><figcaption>Material icon: natural horn accent.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/buffalo-horn.jpg" alt="Xinzuo white buffalo horn handle construction"><figcaption>Xinzuo PM8M example using white buffalo horn with maple.</figcaption></figure></div>
 
 Xinzuo uses white or black buffalo horn as a collar or contrasting segment in selected hidden-tang handles. Genuine horn is a natural keratin material, so shade and figure may vary. It can provide a smooth transition and visual contrast, but it remains sensitive to prolonged water, high heat and severe drying. The catalog wording must be checked by series; color alone cannot prove that a dark or light collar is horn.
 
 ### Imitation white ox bone
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/imitation-ox-bone.svg" alt="Imitation white ox bone material icon"><figcaption>Material icon: engineered bone-look accent.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/imitation-ox-bone.jpg" alt="Xinzuo F3S handle with imitation white ox bone accents"><figcaption>Xinzuo F3S segmented handle example.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/imitation-ox-bone.svg" alt="Imitation white ox bone material icon"><figcaption>Material icon: engineered bone-look accent.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/imitation-ox-bone.jpg" alt="Xinzuo F3S handle with imitation white ox bone accents"><figcaption>Xinzuo F3S segmented handle example.</figcaption></figure></div>
 
 The F3S specification explicitly uses **imitation white ox bone**, not natural ox bone. It creates a pale separator between darker components while offering greater visual consistency than a natural material. Product descriptions should preserve the word `imitation`; removing it would change the factual claim. Exact polymer composition should not be inferred from color or appearance.
 
 ### Copper
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/copper.svg" alt="Copper handle accent icon"><figcaption>Material icon: copper accent.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/copper.jpg" alt="Exploded Xinzuo X08C copper-accent handle"><figcaption>Xinzuo X08C example with copper in the handle specification.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/copper.svg" alt="Copper handle accent icon"><figcaption>Material icon: copper accent.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/copper.jpg" alt="Exploded Xinzuo X08C copper-accent handle"><figcaption>Xinzuo X08C example with copper in the handle specification.</figcaption></figure></div>
 
 Copper appears in selected Xinzuo handle specifications and blade constructions. As a handle accent it adds warm metallic contrast and some mass. Exposed copper can darken or develop a patina through contact with air, moisture and skin oils; this is different from rust on steel. The knowledge base should distinguish decorative copper-colored material from confirmed copper only when the current series data does so.
 
 ### Metal and composite spacers
 
-<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../assets/icons/handle-materials/metal-composite-spacers.svg" alt="Metal and composite spacer icon"><figcaption>Material icon: structural and decorative spacers.</figcaption></figure><figure><img src="../assets/images/approved/handle-materials/metal-composite-spacers.jpg" alt="Xinzuo exploded handle with metal and composite spacers"><figcaption>Exploded Xinzuo construction showing several transition components.</figcaption></figure></div>
+<div class="kb-profile-visual kb-profile-visual--material"><figure><img src="../../assets/icons/handle-materials/metal-composite-spacers.svg" alt="Metal and composite spacer icon"><figcaption>Material icon: structural and decorative spacers.</figcaption></figure><figure><img src="../../assets/images/approved/handle-materials/metal-composite-spacers.jpg" alt="Xinzuo exploded handle with metal and composite spacers"><figcaption>Exploded Xinzuo construction showing several transition components.</figcaption></figure></div>
 
 Thin spacers separate materials, reinforce transitions and control the visual line between the grip, collar and blade. Xinzuo examples use combinations of metal, G10 or other confirmed composite pieces. These parts can influence balance and assembly, but their presence does not by itself identify the tang construction or guarantee moisture sealing. Every junction should be smooth, tight and free of gaps.
 
