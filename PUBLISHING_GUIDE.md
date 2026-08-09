@@ -1,43 +1,62 @@
 # Publishing and exporting the multilingual guide
 
-English under `content/en/` is the only source of truth. Translations are committed under `translations/<locale>/` and are refreshed during editing, not by GitHub Actions.
+English under `content/en/` is the only source of truth. Active translations live under `translations/<locale>/` and are automatically refreshed by GitHub Actions when the English source changes.
 
 ## Current active languages
 
 The current publication scope is intentionally limited to:
 
-- English (`en`)
+- English (`en`) — source of truth
 - Italian (`it`)
 - Simplified Chinese (`zh-Hans`)
 
-Other locale definitions are retained as inactive for possible future use. Inactive locales are not deployed, validated, exported, or offered by the PDF workflow.
+Other locale definitions remain inactive. They are not deployed, validated, automatically translated, exported, or offered by the PDF workflow unless deliberately activated later.
 
 ## Normal publishing routine
 
-After changing the English guide:
+For an ordinary content change:
 
-1. Edit and approve the English source.
-2. Ask Claude Code to check the translation status and refresh only missing/stale translated pages for the active non-English locales.
-3. Commit the English change and the corresponding translation updates together.
-4. GitHub Actions validates that every required translation matches the current English source hash.
-5. All active language sites are rebuilt from committed files.
-6. GitHub Pages is deployed automatically.
+1. Edit the English source under `content/en/`.
+2. Choose **Create a new branch for this commit and start a pull request** rather than committing an unfinished English change directly to `main`.
+3. GitHub Actions detects which active translations became stale.
+4. `scripts/auto_translate.py` refreshes only stale/missing active pages using local Marian/OPUS-MT models.
+5. Where the previous English source and existing translation have matching line structure, unchanged translated lines are reused and only changed/inserted English lines are machine-translated.
+6. Simplified Chinese is explicitly generated as Simplified Mandarin (`cmn_Hans`).
+7. Strict multilingual validation runs after the refresh. The PR must report `0 missing, 0 stale`.
+8. Merge the PR when the English edit and checks are correct.
+9. On the resulting push to `main`, the same workflow refreshes translations again, builds the site, commits changed files under `translations/` back to `main`, and deploys GitHub Pages.
 
-There is **no paid translation API in the publishing pipeline**. GitHub Actions never sends guide content to OpenAI, GitHub Models or another translation service.
+You therefore do **not** need to manually ask Claude Code to translate Italian and Chinese after every English edit.
 
-The public site is:
+## Translation engine and cost
 
-https://francescocmazza.github.io/knife-knowledge-base/
+Automatic translation uses these local open-source models:
 
-The deployment workflow is:
+- `Helsinki-NLP/opus-mt-en-it`
+- `Helsinki-NLP/opus-mt-en-zh`
 
-**Actions → Deploy multilingual knowledge base to GitHub Pages**
+They run inside the GitHub Actions runner through Transformers/PyTorch and are cached between runs when possible.
 
-A successful production run must show both `build` and `deploy` in green.
+There is no OpenAI API, GitHub Models API, translation API key, or paid translation API in this workflow. The model checkpoints are downloaded from Hugging Face when they are not already cached.
+
+Machine translation is still subject to review. This is especially important for specialist Chinese knife terminology and any technical statement where a wording difference could change the meaning.
+
+## Why the previous `index.md` edit failed
+
+Each translated Markdown file contains a `source_hash`. The build system calculates the expected hash from:
+
+- the English source page;
+- the target locale;
+- the translation schema version;
+- the controlled glossary.
+
+Before automatic refresh existed, changing even one English sentence immediately made the corresponding Italian and Simplified Chinese files stale. Pull-request validation then failed intentionally rather than publishing an old translation.
+
+The protection remains in place. The difference is that CI now refreshes the stale translations **before** strict validation.
 
 ## Translation files and stale-page protection
 
-Each active locale mirrors the Markdown tree under `content/en/`, for example:
+The active translation tree mirrors `content/en/`, for example:
 
 ```text
 content/en/10-sharpening/the-burr.md
@@ -45,102 +64,133 @@ translations/it/10-sharpening/the-burr.md
 translations/zh-Hans/10-sharpening/the-burr.md
 ```
 
-Every translated Markdown file contains a `source_hash` in YAML front matter. `scripts/multilingual_site.py` recalculates the expected hash from the current English page, locale, glossary and translation schema. If the committed file is missing or its hash is outdated, it is reported as missing/stale.
-
-Production publishing and multilingual exports use:
+Strict validation is still performed with:
 
 ```text
 python scripts/multilingual_site.py --require-translations
 ```
 
-This means a stale translation blocks publication instead of silently showing English text under another language.
+A successful active-language run must report:
 
-For local development, strict mode can be omitted; missing/stale translations then fall back to English only for that local build and display a warning.
-
-## Updating translations with Claude Code
-
-Claude Code should be used before publishing whenever English content has changed. It should:
-
-- run/check the multilingual builder to identify missing/stale locale/page pairs;
-- translate only those pages for the active locales from the current English source;
-- preserve Markdown, links, image paths, HTML, formulas, steel grades, product names and HRC values;
-- avoid adding, correcting or reconciling claims that are not in English;
-- write the translated files under `translations/<locale>/`;
-- write the exact current `source_hash` required by the builder;
-- run `python scripts/multilingual_site.py --require-translations` until it passes.
-
-English remains authoritative. A translation may improve wording in its own language but must not change technical meaning.
-
-## Windows: one-click publishing
-
-For routine publishing from a Windows checkout, double-click:
-
-`publish-guide.cmd`
-
-The launcher runs `scripts/publish_multilingual.ps1` and will:
-
-- verify that you are on `main`;
-- check that local `main` is not behind/diverged from `origin/main`;
-- detect publishable changes under `content/en`, `translations`, `glossaries`, `localization`, or `mkdocs.yml`;
-- install documentation dependencies if needed;
-- validate English plus all active committed translations locally;
-- refuse to publish if any active translation is missing/stale;
-- stage English and translations together;
-- commit and push `main`;
-- print the Actions and public-site links.
-
-Optional custom commit message:
-
-```powershell
-.\scripts\publish_multilingual.ps1 -Message "Update sharpening chapter"
+```text
+0 missing
+0 stale
 ```
 
-Local validation can deliberately be skipped with `-SkipLocalValidation`, but GitHub Actions will still reject a production deployment if active translations are incomplete.
+The automatic refresh command is:
 
-## One-click downloadable multilingual export
+```text
+python scripts/auto_translate.py
+```
 
-Go to **Actions → Export multilingual guide → Run workflow** on `main`.
+Running it locally requires the dependencies in `requirements-translation.txt` plus a CPU-compatible PyTorch installation. For routine browser-based editing, letting GitHub Actions run it is simpler.
 
-The artifact `knife-knowledge-base-multilingual-<run number>` contains:
+## What the automatic translator preserves
+
+The helper is deliberately conservative. It attempts to preserve:
+
+- unchanged translated lines;
+- Markdown headings and list markers;
+- links and link destinations;
+- inline code;
+- URLs;
+- HTML tags;
+- inline math;
+- fenced code blocks and commands;
+- Markdown table structure;
+- existing translation wording when an English edit is formatting-only and does not change meaning.
+
+If a page cannot safely reuse the previous line alignment, the helper falls back to translating the current page rather than marking an unknown/outdated translation as current.
+
+## Human corrections to a translation
+
+English remains authoritative, but a purely linguistic improvement to Italian or Simplified Chinese may still be committed directly to the matching file under `translations/` as long as it does not introduce a new technical or commercial claim.
+
+A human correction does not need to change the English source when the meaning is unchanged.
+
+If the English meaning is wrong, change English first and let the automatic refresh propagate the new source meaning.
+
+## Adding a new article
+
+1. Create the English `.md` page under the appropriate `content/en/` folder.
+2. Add it to `mkdocs.yml` if it should appear in navigation.
+3. Open a PR.
+4. Automatic translation creates the missing Italian and Simplified Chinese pages in the CI workspace and strict validation checks them.
+5. After merge, the `main` workflow commits the generated active translations to the repository and deploys them.
+
+## Renaming, moving, or deleting an article
+
+Structural changes still need care because source and translation paths must remain aligned.
+
+For a rename/move, update the English path, navigation and internal links. Existing translated files should normally be renamed/moved correspondingly so reviewed wording can be retained. The automatic translator is intended primarily for content refresh and missing-page generation, not for guessing file-renaming intent.
+
+For deletion, remove the corresponding active translated files and update navigation/internal links.
+
+## Images
+
+Content images used by the English source belong under the approved asset structure, principally:
+
+```text
+content/en/assets/
+```
+
+Only original, properly licensed, or explicitly authorized images may be published. See `content/en/assets/IMAGE_RIGHTS.md`.
+
+## GitHub Pages deployment
+
+The public site is published by:
+
+**Actions → Deploy multilingual knowledge base to GitHub Pages**
+
+On pull requests the workflow refreshes translations in the temporary Actions workspace and validates them, but does not deploy.
+
+On `main` it:
+
+1. refreshes stale translations;
+2. runs strict multilingual build validation;
+3. commits changed translation files using `github-actions[bot]`;
+4. uploads the already-built Pages artifact;
+5. deploys the site.
+
+The bot commit uses the repository `GITHUB_TOKEN`, preventing a recursive second push workflow while the current deployment continues.
+
+## Downloadable multilingual export
+
+Go to **Actions → Export multilingual guide → Run workflow**.
+
+Before building, the workflow automatically refreshes stale active translations using the same local models. The resulting artifact contains:
 
 ```text
 html/      complete built website for every active locale
 markdown/  per-locale source trees used for that build
 ```
 
-The export reads committed translations only and makes no paid API calls.
+## PDF export
 
-## One-click PDF export
+Go to **Actions → Export PDF guides → Run workflow** and choose:
 
-Go to **Actions → Export PDF guides → Run workflow**. Choose `all`, `en`, `it`, or `zh-Hans`, then choose whether editorial placeholders should be hidden or shown.
+- `all`
+- `en`
+- `it`
+- `zh-Hans`
 
-Only active locales can be exported. The PDF exporter rejects inactive locales even if invoked directly from the command line. Any translated PDF export runs strict committed-translation validation before building, so stale or missing translated content cannot silently fall back to English.
+For Italian, Simplified Chinese, or `all`, stale active translations are refreshed automatically before PDF generation. English-only PDF exports skip the translation-model installation.
 
-The artifact is named `knife-knowledge-base-pdf-<run number>` and contains files such as:
-
-```text
-Knife-Knowledge-Base-EN-v42.pdf
-Knife-Knowledge-Base-IT-v42.pdf
-Knife-Knowledge-Base-ZH-HANS-v42.pdf
-```
-
-Each PDF is A4, has a cover and clickable contents, uses the same rendered images/diagrams as the website, and contains no website navigation UI.
+The generated artifact contains the current requested PDF guide(s). CJK exports continue to install Noto fonts for full character coverage.
 
 ## Automatic version numbers and publication dates
 
-Every published website page and PDF reports a progressive version and publication/export date, e.g. `v42 · 2026-08-07`.
+Website pages and PDFs use the shared publication metadata implementation in `scripts/publication_metadata.py`.
 
-- The version is the repository commit count at the built commit (`git rev-list --count HEAD`).
-- The date is the actual build/export date in `Europe/Rome`, formatted `YYYY-MM-DD`.
-- Re-exporting the same commit later keeps the version but updates the export date.
-- A PDF built from the same commit as the live website has the same version number.
-
-The shared implementation is `scripts/publication_metadata.py`.
+- Version: repository commit count at the built commit.
+- Date: actual build/export date in `Europe/Rome`, formatted `YYYY-MM-DD`.
 
 ## Important rules
 
-- Meaning changes must always be made in English first.
-- Do not publish an English change without refreshing the affected active committed translations.
-- Machine-assisted translations may require human review, especially Simplified Chinese specialist knife terminology.
-- Images and third-party material may have rights different from the written-content licence; see `content/en/assets/IMAGE_RIGHTS.md`.
-- PDF export only creates a downloadable artifact; it never modifies the repository or the live site.
+- English is always the source of truth.
+- Meaning changes must start in English.
+- Do not bypass strict multilingual validation.
+- Automatic translation removes the manual synchronization step; it does not remove the need for human review of important technical wording.
+- Simplified Chinese specialist terminology deserves extra review.
+- Inactive locales remain inactive until a model/review policy is deliberately configured for them.
+- Images and third-party material may have rights different from the written-content licence.
