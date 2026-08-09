@@ -78,18 +78,6 @@ jobs:
           TRANSLATION_BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
         run: python scripts/auto_translate.py
 
-      - name: Configure GitHub Pages
-        if: github.event_name != 'pull_request'
-        uses: actions/configure-pages@v6
-
-      - name: Validate complete multilingual source on pull requests
-        if: github.event_name == 'pull_request'
-        run: python scripts/multilingual_site.py --require-translations
-
-      - name: Build every configured language from refreshed translations
-        if: github.event_name != 'pull_request'
-        run: python scripts/multilingual_site.py --require-translations
-
       - name: Commit refreshed translations to main
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         shell: bash
@@ -104,6 +92,18 @@ jobs:
           git add translations
           git commit -m "Auto-refresh translations"
           git push origin HEAD:main
+
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v6
+
+      - name: Validate complete multilingual source on pull requests
+        if: github.event_name == 'pull_request'
+        run: python scripts/multilingual_site.py --require-translations
+
+      - name: Build every configured language from refreshed translations
+        if: github.event_name != 'pull_request'
+        run: python scripts/multilingual_site.py --require-translations
 
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
