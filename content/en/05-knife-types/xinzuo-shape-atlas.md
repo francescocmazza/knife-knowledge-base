@@ -12,12 +12,7 @@ source_basis: 2025 Xinzuo Catalog V9 and current Xinzuo series pages
 
 The Xinzuo catalog contains familiar Western profiles, Japanese general-purpose and specialist forms, Chinese slicing and chopping knives, and a small number of Xinzuo-specific commercial names. This atlas brings them into one educational system without pretending that every label is a universal standard.
 
-Each entry places two visuals directly below the form name:
-
-- an **original normalized silhouette**, which makes profile differences easier to compare;
-- a **Xinzuo catalog example**, which shows how the form appears in a real series.
-
-The silhouettes are intentionally not a scale drawing. Length, spine thickness, grind, balance and edge geometry still vary between models. Before recommending any knife for bones, frozen food or single-bevel work, check the exact current model specification.
+Each entry places an actual **Xinzuo catalog example** directly below the form name, showing how that profile appears in a real Xinzuo series. Length, spine thickness, grind, balance and edge geometry still vary between models. Before recommending any knife for bones, frozen food or single-bevel work, check the exact current model specification.
 
 ## The essential distinction: gyuto and Western chef's knife
 
@@ -37,7 +32,6 @@ The useful customer explanation is therefore not “Japanese versus Western qual
 ### Curved paring profile
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/paring-curved.svg" alt="Normalized curved paring knife silhouette"><figcaption>Profile icon: curved paring family.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/paring-curved.jpg" alt="Xinzuo curved paring knife catalog example"><figcaption>Xinzuo catalog example; exact curve varies by series.</figcaption></figure>
 </div>
 
@@ -46,7 +40,6 @@ This is the more curved of the two profiles that the catalog calls simply **Pari
 ### Straight paring profile
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/paring-straight.svg" alt="Normalized straight paring knife silhouette"><figcaption>Profile icon: straight paring family.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/paring-straight.jpg" alt="Xinzuo straight paring knife catalog example"><figcaption>Xinzuo catalog example with a straighter working edge.</figcaption></figure>
 </div>
 
@@ -55,7 +48,6 @@ The straighter paring profile gives more usable edge contact for short board cut
 ### Flat-cut paring knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/paring-flat-cut.svg" alt="Normalized flat-cut paring knife silhouette"><figcaption>Profile icon: flat-cut paring knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/paring-flat-cut.jpg" alt="Flat-cut paring profile from the Xinzuo catalog shape chart"><figcaption>Catalog profile reference for the dedicated flat-cut label.</figcaption></figure>
 </div>
 
@@ -64,7 +56,6 @@ Xinzuo separates this compact, almost level-edged form as **Flat Cut Paring Knif
 ### Utility knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/utility.svg" alt="Normalized utility knife silhouette"><figcaption>Profile icon: standard utility knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/utility.jpg" alt="Xinzuo utility knife catalog example"><figcaption>Xinzuo utility knife example.</figcaption></figure>
 </div>
 
@@ -73,7 +64,6 @@ The utility knife fills the space between a paring knife and a chef's knife. Its
 ### Ultimate Utility Knife — Xinzuo commercial profile
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/ultimate-utility.svg" alt="Normalized Xinzuo Ultimate Utility knife silhouette"><figcaption>Profile icon: Xinzuo Ultimate Utility profile.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/ultimate-utility.jpg" alt="Xinzuo Ultimate Utility Knife catalog example"><figcaption>Xinzuo catalog example with a scalloped cutting edge.</figcaption></figure>
 </div>
 
@@ -82,7 +72,6 @@ The utility knife fills the space between a paring knife and a chef's knife. Its
 ### Steak knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/steak.svg" alt="Normalized steak knife silhouette"><figcaption>Profile icon: steak knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/steak.jpg" alt="Xinzuo steak knife catalog example"><figcaption>Xinzuo table-size steak knife example.</figcaption></figure>
 </div>
 
@@ -91,7 +80,6 @@ A steak knife is a table knife designed to portion cooked meat cleanly on the pl
 ### Butter knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/butter.svg" alt="Normalized butter knife silhouette"><figcaption>Profile icon: butter knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/butter.jpg" alt="Xinzuo butter knife catalog example"><figcaption>Xinzuo rounded-tip butter knife example.</figcaption></figure>
 </div>
 
@@ -100,7 +88,6 @@ The butter knife has a blunt or gently rounded point and a non-aggressive workin
 ### Cheese knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/cheese.svg" alt="Normalized cheese knife silhouette"><figcaption>Profile icon: representative cheese knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/cheese.jpg" alt="Xinzuo cheese knife catalog example"><figcaption>One of several Xinzuo cheese profiles.</figcaption></figure>
 </div>
 
@@ -111,7 +98,6 @@ The butter knife has a blunt or gently rounded point and a non-aggressive workin
 ### Western chef's knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/chef.svg" alt="Normalized Western chef's knife silhouette"><figcaption>Profile icon: Western chef's knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/chef.jpg" alt="Xinzuo Western chef's knife catalog example"><figcaption>Xinzuo catalog example with a pronounced belly.</figcaption></figure>
 </div>
 
@@ -120,7 +106,6 @@ The Western chef's knife is a broad all-purpose form with a pointed tip and, com
 ### Gyuto
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/gyuto.svg" alt="Normalized gyuto silhouette"><figcaption>Profile icon: gyuto.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/gyuto.jpg" alt="Xinzuo gyuto catalog example"><figcaption>Xinzuo gyuto example with a flatter middle section.</figcaption></figure>
 </div>
 
@@ -129,7 +114,6 @@ The gyuto is the Japanese all-purpose counterpart to the chef's knife. Xinzuo ca
 ### Santoku
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/santoku.svg" alt="Normalized santoku silhouette"><figcaption>Profile icon: santoku.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/santoku.jpg" alt="Xinzuo santoku catalog example"><figcaption>Xinzuo santoku example.</figcaption></figure>
 </div>
 
@@ -138,7 +122,6 @@ The santoku is a compact, tall all-purpose knife. Its straighter edge and lowere
 ### Bunka
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/bunka.svg" alt="Normalized bunka silhouette"><figcaption>Profile icon: bunka with K-tip.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/bunka.jpg" alt="Xinzuo bunka catalog example"><figcaption>Xinzuo bunka example.</figcaption></figure>
 </div>
 
@@ -147,7 +130,6 @@ The bunka combines santoku-like blade height and compact control with an angular
 ### Nakiri
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/nakiri.svg" alt="Normalized nakiri silhouette"><figcaption>Profile icon: nakiri.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/nakiri.jpg" alt="Xinzuo nakiri catalog example"><figcaption>Xinzuo thin vegetable-knife example.</figcaption></figure>
 </div>
 
@@ -156,7 +138,6 @@ The nakiri is a tall, thin, double-bevel vegetable knife with a nearly straight 
 ### Viking Knife — Xinzuo commercial profile
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/viking.svg" alt="Normalized Xinzuo Viking knife silhouette"><figcaption>Profile icon: Xinzuo Viking profile.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/viking.jpg" alt="Xinzuo Viking Knife catalog example"><figcaption>Xinzuo catalog example; the name is product-specific.</figcaption></figure>
 </div>
 
@@ -165,7 +146,6 @@ The nakiri is a tall, thin, double-bevel vegetable knife with a nearly straight 
 ### Granton-edge chef's knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/granton-chef.svg" alt="Normalized Granton-edge chef's knife silhouette"><figcaption>Profile icon: chef's knife with edge hollows.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/granton-chef.jpg" alt="Xinzuo Granton-edge chef's knife catalog example"><figcaption>Xinzuo chef profile with alternating hollows.</figcaption></figure>
 </div>
 
@@ -176,7 +156,6 @@ This is a chef's-knife profile with machined hollows along the blade face. The h
 ### Western boning knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/boning.svg" alt="Normalized Western boning knife silhouette"><figcaption>Profile icon: Western boning knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/boning.jpg" alt="Xinzuo boning knife catalog example"><figcaption>Xinzuo narrow boning profile.</figcaption></figure>
 </div>
 
@@ -185,7 +164,6 @@ A Western boning knife has a narrow blade and a pointed tip for entering joints,
 ### Honesuki
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/honesuki.svg" alt="Normalized honesuki silhouette"><figcaption>Profile icon: honesuki.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/honesuki.jpg" alt="Xinzuo honesuki catalog example"><figcaption>Xinzuo triangular poultry-boning example.</figcaption></figure>
 </div>
 
@@ -194,7 +172,6 @@ The honesuki is a triangular Japanese boning knife strongly associated with poul
 ### Fillet knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/fillet.svg" alt="Normalized fillet knife silhouette"><figcaption>Profile icon: flexible Western fillet knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/fillet.jpg" alt="Xinzuo fillet knife catalog example"><figcaption>Xinzuo narrow fillet profile.</figcaption></figure>
 </div>
 
@@ -203,7 +180,6 @@ The Western fillet knife is long, narrow and commonly flexible. Flex allows the 
 ### Carving knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/carving.svg" alt="Normalized carving knife silhouette"><figcaption>Profile icon: carving knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/carving.jpg" alt="Xinzuo carving knife catalog example"><figcaption>Xinzuo long carving example.</figcaption></figure>
 </div>
 
@@ -212,7 +188,6 @@ A carving knife is longer and narrower than a general chef's knife so that cooke
 ### Roast carving knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/roast-carving.svg" alt="Normalized roast carving knife silhouette"><figcaption>Profile icon: roast carving profile from the catalog chart.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/roast-carving.jpg" alt="Xinzuo roast carving family catalog example"><figcaption>Xinzuo long slicing example representing the roast-carving family.</figcaption></figure>
 </div>
 
@@ -221,7 +196,6 @@ The catalog's **Roast Carving Knife** has a broader, more upswept point than the
 ### Granton carving knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/granton-carving.svg" alt="Normalized Granton carving knife silhouette"><figcaption>Profile icon: Granton carving knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/granton-carving.jpg" alt="Xinzuo Granton carving knife catalog example"><figcaption>Xinzuo long slicer with blade-face hollows.</figcaption></figure>
 </div>
 
@@ -230,7 +204,6 @@ The Granton carving knife keeps the long, narrow slicing geometry and adds a lin
 ### Ham knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/ham.svg" alt="Normalized ham knife silhouette"><figcaption>Profile icon: ham knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/ham.jpg" alt="Xinzuo ham knife catalog example"><figcaption>Xinzuo long ham-slicing example.</figcaption></figure>
 </div>
 
@@ -241,7 +214,6 @@ A ham knife is an extra-long, narrow slicer for producing broad, thin slices wit
 ### Bread knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/bread.svg" alt="Normalized bread knife silhouette"><figcaption>Profile icon: bread knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/bread.jpg" alt="Xinzuo bread knife catalog example"><figcaption>Xinzuo long serrated bread knife.</figcaption></figure>
 </div>
 
@@ -250,7 +222,6 @@ A bread knife uses a long serrated edge to enter a firm crust while limiting com
 ### Frozen-food knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/frozen-food.svg" alt="Normalized frozen-food knife silhouette"><figcaption>Profile icon: frozen-food knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/frozen-food.jpg" alt="Xinzuo frozen-food knife catalog example"><figcaption>Xinzuo catalog example with a coarse scalloped edge.</figcaption></figure>
 </div>
 
@@ -261,7 +232,6 @@ Xinzuo's frozen-food profile uses a strong, coarse serration to saw through suit
 ### Chinese slicing knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/chinese-slicer.svg" alt="Normalized Chinese slicing knife silhouette"><figcaption>Profile icon: Chinese slicing knife.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/chinese-slicer.jpg" alt="Xinzuo Chinese slicing knife catalog example"><figcaption>Xinzuo X07 Chinese slicing profile.</figcaption></figure>
 </div>
 
@@ -270,7 +240,6 @@ A Chinese slicing knife can look like a cleaver while being relatively thin behi
 ### Cleaver
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/cleaver.svg" alt="Normalized cleaver silhouette"><figcaption>Profile icon: cleaver family.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/cleaver.jpg" alt="Xinzuo Chinese cleaver catalog example"><figcaption>Xinzuo X07 cleaver example.</figcaption></figure>
 </div>
 
@@ -279,7 +248,6 @@ A Chinese slicing knife can look like a cleaver while being relatively thin behi
 ### Chopper
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/chopper.svg" alt="Normalized chopper silhouette"><figcaption>Profile icon: chopper.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/chopper.jpg" alt="Xinzuo chopper catalog example"><figcaption>Xinzuo X07 chopper example.</figcaption></figure>
 </div>
 
@@ -288,7 +256,6 @@ The catalog's chopper is a tall, weight-forward profile intended for stronger do
 ### Bone chopper
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/bone-chopper.svg" alt="Normalized bone chopper silhouette"><figcaption>Profile icon: bone chopper.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/bone-chopper.jpg" alt="Xinzuo bone chopper catalog example"><figcaption>Xinzuo heavy bone-chopper example.</figcaption></figure>
 </div>
 
@@ -299,7 +266,6 @@ The bone chopper is the most explicitly impact-oriented form in the atlas. Its t
 ### Deba
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/deba.svg" alt="Normalized deba silhouette"><figcaption>Profile icon: deba.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/deba.jpg" alt="Xinzuo deba catalog example"><figcaption>Xinzuo F3S deba example.</figcaption></figure>
 </div>
 
@@ -308,7 +274,6 @@ The deba is a thick, heavy Japanese fish-butchery knife. The strong heel is used
 ### Sashimi knife — broad Xinzuo catalog label
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/sashimi.svg" alt="Normalized sashimi knife silhouette"><figcaption>Profile icon: long sashimi slicer.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/sashimi.jpg" alt="Xinzuo sashimi knife catalog example"><figcaption>Xinzuo F3S long single-bevel slicer.</figcaption></figure>
 </div>
 
@@ -317,7 +282,6 @@ Xinzuo uses `Sashimi Knife` as a broad commercial label for long, narrow single-
 ### Sakimaru
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/sakimaru.svg" alt="Normalized sakimaru silhouette"><figcaption>Profile icon: sakimaru.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/sakimaru.jpg" alt="Xinzuo sakimaru catalog example"><figcaption>Xinzuo F3S sakimaru example.</figcaption></figure>
 </div>
 
@@ -326,7 +290,6 @@ The sakimaru belongs to the long single-bevel sashimi-slicer family but ends in 
 ### Kiritsuke
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/icons/knife-shapes/kiritsuke.svg" alt="Normalized traditional kiritsuke silhouette"><figcaption>Profile icon: catalog kiritsuke profile.</figcaption></figure>
   <figure><img src="../../assets/images/approved/knife-shapes/kiritsuke.jpg" alt="Xinzuo kiritsuke catalog example"><figcaption>Xinzuo F3S single-bevel kiritsuke example.</figcaption></figure>
 </div>
 

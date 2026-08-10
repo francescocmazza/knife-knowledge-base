@@ -10,12 +10,6 @@ Unless stated otherwise, the original written content of this knowledge base is 
 
 Diagrams created specifically for this project (for example files in `assets/diagrams/`) are original work and are covered by the same CC BY-NC-SA 4.0 license as the written content, unless individually marked otherwise.
 
-The normalized vector icons in the following directories are also original educational work generated for this project:
-
-- `assets/icons/knife-shapes/`
-- `assets/icons/handle-shapes/`
-- `assets/icons/handle-materials/`
-
 A diagram remains published only while it passes the project's technical review. A generated illustration that is found to be materially misleading is withdrawn from the rendered guide and returned to placeholder status until a verified replacement is available.
 
 ## Xinzuo catalog images

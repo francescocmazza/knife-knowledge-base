@@ -3,7 +3,7 @@
 Reviewed: 2026-08-04  
 Source: `2025 Xinzuo Catalog V9.pdf`, 61 PDF pages / 113 printed catalog pages.
 
-Implementation update — 2026-08-10: all 23 chart forms and the additional product-page forms listed below are now covered in `content/en/05-knife-types/xinzuo-shape-atlas.md`. Each entry has an original normalized SVG profile plus an individually selected Xinzuo catalog crop. Handle geometry, main material swatches and combination materials are implemented in `content/en/02-steels-and-metallurgy/xinzuo-handle-materials.md`. Generated icons are original; catalog crops retain the restricted rights status recorded in `content/en/assets/IMAGE_RIGHTS.md`.
+Implementation update — 2026-08-10: all 23 chart forms and the additional product-page forms listed below are now covered in `content/en/05-knife-types/xinzuo-shape-atlas.md`. Each entry uses an individually selected Xinzuo catalog crop. Handle geometry, main material swatches and combination materials are implemented in `content/en/02-steels-and-metallurgy/xinzuo-handle-materials.md` with Xinzuo catalog visuals only. The crops retain the restricted rights status recorded in `content/en/assets/IMAGE_RIGHTS.md`.
 
 This inventory records the terminology and visuals present in the catalog. It does **not** automatically convert every catalog label or commercial statement into general knowledge-base terminology. Some names are established knife categories; others are product-family or marketing labels that require explanation before public educational use.
 
@@ -53,7 +53,7 @@ The first two shapes share the same catalog label. In a redrawn educational char
 - **Sharpening Rod**;
 - **Roast Fork**.
 
-The page is an excellent visual index, but it should be **redrawn rather than republished unchanged**. The new version should use standardized scale, consistent orientation, English source terminology and knowledge-base descriptions rather than copying all catalog usage claims.
+The page is an excellent visual index, but it should not be republished unchanged. The educational guide should use individually selected Xinzuo knife crops with English source terminology and knowledge-base descriptions rather than copying the full catalog page and all its usage claims.
 
 ## 2. Additional names found in product-series pages
 
@@ -144,7 +144,7 @@ The catalog supports a broader visual index than the current knowledge base. A f
 - **PDF page:** 4;
 - **Use:** master reference for the future knife-shape index;
 - **Strength:** twenty-three knife labels appear together at comparable orientation;
-- **Action:** redraw; do not publish the complete catalog page as the final educational graphic.
+- **Action:** use individually selected Xinzuo knife crops; do not redraw the profiles or publish the complete catalog page as the final educational graphic.
 
 ### CAT-VIS-02 — Damascus patterns and handle materials
 

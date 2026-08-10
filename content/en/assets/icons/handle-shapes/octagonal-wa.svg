@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 110" role="img" aria-labelledby="title desc">
-  <title id="title">Octagonal wa-style handle icon</title>
-  <desc id="desc">Original educational handle-profile icon for the Xinzuo handle guide.</desc>
-  <rect width="250" height="110" rx="14" fill="#f7f4ee"/>
-  <path d="M18 36 L45 20 H199 L232 36 V74 L199 90 H45 L18 74 Z" fill="#5b392c" stroke="#263238" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M35 36h180M35 74h180" stroke="#fff" stroke-opacity=".22" stroke-width="3"/>
-</svg>

@@ -32,9 +32,10 @@
 
 .kb-profile-visual {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.35fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
-  margin: 0.8rem 0 1.25rem;
+  max-width: 46rem;
+  margin: 0.8rem auto 1.25rem;
 }
 
 .kb-profile-visual figure {
@@ -71,8 +72,7 @@
 }
 
 .kb-profile-visual--material {
-  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
-  max-width: 42rem;
+  max-width: 32rem;
 }
 
 .kb-profile-visual--material img {

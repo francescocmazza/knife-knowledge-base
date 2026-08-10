@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 120" role="img" aria-labelledby="title desc">
-  <title id="title">Resin material icon</title>
-  <desc id="desc">Original educational icon indicating the visual family of Resin.</desc>
-  <rect x="4" y="4" width="242" height="112" rx="18" fill="#274b57" stroke="#263238" stroke-width="4"/>
-  <path d="M10 78Q54 15 96 78T180 78T264 78" fill="none" stroke="#d3a76f" stroke-width="12" stroke-opacity=".75"/>
-  <rect x="171" y="68" width="63" height="38" rx="12" fill="#f7f4ee" fill-opacity=".9"/>
-  <text x="202.5" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#263238">R</text>
-</svg>
