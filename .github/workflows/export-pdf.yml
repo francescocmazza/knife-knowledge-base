@@ -113,4 +113,4 @@ jobs:
           name: knife-knowledge-base-pdf-${{ github.run_number }}
           path: pdf-export
           if-no-files-found: error
-          retention-days: 30
+          retention-days: 3
