@@ -37,6 +37,14 @@ Once the preferred movement is clear, the names begin to make sense.
 
 # General-purpose knives
 
+The complete [Xinzuo Knife Shape Atlas](xinzuo-shape-atlas.md) places all 23 catalog-chart forms and every additional product-page form side by side with a normalized profile icon and a real Xinzuo catalog example.
+
+### Gyuto compared with a Western chef's knife
+
+The two forms overlap in purpose but are not identical labels. In the current Xinzuo catalog, the **gyuto examples generally have a slightly flatter heel and middle section, a slimmer point and a less broad, less visibly meat-oriented profile**. The Western chef's-knife examples normally carry more belly and a more continuous curve, which makes a long rocking motion feel natural.
+
+This is a practical tendency, not an absolute rule. Some gyuto are curved and some Western chef's knives are relatively flat. The reliable comparison is always the individual blade's curve, height, thickness and balance: flatter profiles favour push cutting and complete board contact; more curved profiles favour rocking.
+
 ## Gyuto: the Japanese chef's knife
 
 The gyuto is one of the most versatile Japanese knife forms. Its name is often translated as “beef sword,” reflecting its historical association with meat, but the modern gyuto is a general-purpose chef's knife.
@@ -52,13 +60,13 @@ It can be used for:
 
 Gyuto are available in a wide range of lengths, commonly from compact home sizes to long professional models. A longer blade offers more slicing length and working area. A shorter blade feels easier to control in a small kitchen.
 
-The profile varies greatly. Some gyuto have a pronounced curved belly and are comfortable for rocking. Others have a flatter heel section and favour push cutting. This is why it is inaccurate to say that every gyuto is automatically the best rocking knife. The individual curve matters.
+The profile varies greatly. Relative to a typical Western chef's knife, a gyuto often has a flatter heel section, a slimmer outline and a more precise-looking point. This generally favours push cutting and draw slicing and gives the knife less of the broad, robust, meat-oriented visual profile associated with many European chef's knives. Some gyuto still have a pronounced curved belly and are comfortable for rocking. This is why it is inaccurate to say that every gyuto is automatically flat or automatically the best rocking knife. The individual curve matters.
 
 The tip is usually fine enough for detail work without being as sharply angular as the K-tip of a bunka or kiritsuke. This makes the gyuto a balanced choice for someone who wants one main knife capable of doing almost everything.
 
 A useful customer description is:
 
-> The gyuto is the Japanese version of the all-purpose chef's knife. It is long enough for efficient slicing, narrow enough for control and available in profiles suited to both rocking and push cutting.
+> The gyuto is the Japanese all-purpose counterpart to the Western chef's knife. It is commonly a little flatter and slimmer, making it especially natural for push cuts and draw slices, while the exact model may still support moderate rocking.
 
 ## Santoku: compact, tall and approachable
 

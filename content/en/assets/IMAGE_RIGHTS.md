@@ -28,6 +28,12 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 
 These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this knowledge base.
 
+The same restricted Xinzuo-catalog status applies to every individual crop in:
+
+- `assets/images/approved/knife-shapes/`
+- `assets/images/approved/handle-shapes/`
+- `assets/images/approved/handle-materials/`
+
 **They are not automatically sublicensed under CC BY-NC-SA 4.0.** The Creative Commons license stated above covers the original written content and original diagrams; it does not automatically extend to catalog or promotional images.
 
 **Commercial reuse of these images requires separate authorization** from the relevant copyright holder. Do not copy, redistribute, or reuse these specific image files outside this knowledge base without that separate permission.
