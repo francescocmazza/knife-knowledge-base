@@ -1,5 +1,5 @@
 ---
-source_hash: 6cb6009e5a8c2dc5b4c4a4337ed3d76e7a7b2c9cac329a01ef0545e6e912af9d
+source_hash: d8335a7f64a8ccb3d55590a846f8d4835dd45b4f49597acdbeb4cbecda4e2df6
 ---
 
 # Forme di coltello e loro usi
@@ -35,7 +35,7 @@ Nome primo del movimento; poi cercare il profilo che lo supporta.
 | Elicottero osseo | Lama spessa, pesante e bordo robusto | Giunti, ossa adatte e lavori d'urto | Troppo spesso per affettare con delicatezza |
 
 <figure class="kb-learning-figure" data-visual-id="VIS-SHAPES-01">
-  <img src="../assets/images/approved/knife-shape-silhouettes-neutral.png" alt="Numbered silhouettes of common kitchen-knife shapes and related tools">
+  <img src="../../assets/images/approved/knife-shape-silhouettes-neutral.png" alt="Numbered silhouettes of common kitchen-knife shapes and related tools">
   <figcaption>Venticinque profili della gamma Xinzuo, visualizzati senza linguaggio incorporato nell'immagine. I numeri corrispondono alla leggenda sottostante.</figcaption>
 </figure>
 

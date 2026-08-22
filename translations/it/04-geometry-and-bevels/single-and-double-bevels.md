@@ -1,5 +1,5 @@
 ---
-source_hash: cdab423b26782e87d7335371cecb9fb38f577ed8caba5b389df6dd9c98cbc2f5
+source_hash: d0bb8d2ffe4fa41f862d9eb907c1ece3fd5ed3c37f30df919543df35de8d9cb2
 ---
 
 # Smussatura singola e doppia
@@ -16,7 +16,7 @@ La geometria smussata cambia quattro cose che un cuoco può sentire:
 Le due famiglie sono doppie e singole bisellature. Né è automaticamente più nitida o più avanzata. Risolvono problemi diversi.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-BEV-02">
-<img src="../assets/images/approved/bevel-families-neutral.png" alt="" width="1400" height="380">
+<img src="../../assets/images/approved/bevel-families-neutral.png" alt="" width="1400" height="380">
 <figcaption>
 Sette famiglie comuni smussate, mostrate senza etichette in lingua fissa: 1. simmetrico V; 2. convesso; 3. asimmetrico V; 4. composto doppio V; 5. concavo; 6. monofronte; 7. monofronte con urasuki. La leggenda è testo ordinario in modo che possa essere tradotto con il libro.
 </figcaption>

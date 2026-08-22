@@ -1,5 +1,5 @@
 ---
-source_hash: 1c620426c5cb827d80120dda5d81bf006ed83f9d3ade6ce92cb362d2b91bad1c
+source_hash: b73333f8ec4d70b27104dd9c61c6424c0e3767b1a5225c7e7dff4deec040a4b2
 ---
 
 # 刀形及其用途
@@ -35,7 +35,7 @@ source_hash: 1c620426c5cb827d80120dda5d81bf006ed83f9d3ade6ce92cb362d2b91bad1c
 | 骨型直升机 | 厚厚的刀刃和坚固的边缘 | 关节、合适的骨头和撞击工作 | 厚得不能轻轻切开 |
 
 <figure class="kb-learning-figure" data-visual-id="VIS-SHAPES-01">
-  <img src="../assets/images/approved/knife-shape-silhouettes-neutral.png" alt="Numbered silhouettes of common kitchen-knife shapes and related tools">
+  <img src="../../assets/images/approved/knife-shape-silhouettes-neutral.png" alt="Numbered silhouettes of common kitchen-knife shapes and related tools">
   Xinzuo 范围的 QKBTOK000- T25 剖面图, 显示时没有嵌入图像的语言 。 数字与下面的图例对应 。 @ KBTOKEN001\ Name
 </figure>
 

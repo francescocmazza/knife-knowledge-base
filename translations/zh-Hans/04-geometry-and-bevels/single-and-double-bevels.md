@@ -1,5 +1,5 @@
 ---
-source_hash: 9f96df2416c258ef6b075d3f6cda3712cde2073b41cf2b012746e57bea383dea
+source_hash: 65675188b331186e8361777c15a9ccadf5d57ba7a0ab4177edf562cfc824f02e
 ---
 
 # 单面和双面
@@ -16,7 +16,7 @@ source_hash: 9f96df2416c258ef6b075d3f6cda3712cde2073b41cf2b012746e57bea383dea
 这两个大家庭是双倍优美和单倍优美的,也不是自动更敏锐或更先进的,它们解决了不同的问题。
 
 <figure class="kb-learning-figure" data-visual-id="VIS-BEV-02">
-<img src="../assets/images/approved/bevel-families-neutral.png" alt="" width="1400" height="380">
+<img src="../../assets/images/approved/bevel-families-neutral.png" alt="" width="1400" height="380">
 <figcaption>
 没有固定语言标签的7个常见贝vel族:1. 对称V;2. 曲线;3. 非对称V;4. 复合V;5. 曲线;6. 单面;7. 单面;7. 乌拉苏基。 传说是普通文本,因此可以与书一起翻译。
 </figcaption>
