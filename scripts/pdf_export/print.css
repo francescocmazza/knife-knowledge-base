@@ -406,6 +406,10 @@ ul, ol {
   padding-inline-start: 1.4rem;
 }
 
+ol {
+  padding-inline-start: 2.2rem;
+}
+
 /* ---------- Editorial placeholder boxes (hidden when placeholders=hide) ---------- */
 
 body.kb-placeholders-hidden .kb-image-placeholder-wrap {
