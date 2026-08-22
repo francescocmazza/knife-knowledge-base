@@ -9,10 +9,13 @@ on:
       - "localization/**"
       - "scripts/multilingual_site.py"
       - "scripts/auto_translate.py"
+      - "scripts/export_pdf_guides.py"
+      - "scripts/pdf_export/**"
       - "mkdocs.yml"
       - "requirements-docs.txt"
       - "requirements-translation.txt"
       - ".github/workflows/pages.yml"
+      - ".github/workflows/refresh-latest-release.yml"
   push:
     branches:
       - main
@@ -23,10 +26,13 @@ on:
       - "localization/**"
       - "scripts/multilingual_site.py"
       - "scripts/auto_translate.py"
+      - "scripts/export_pdf_guides.py"
+      - "scripts/pdf_export/**"
       - "mkdocs.yml"
       - "requirements-docs.txt"
       - "requirements-translation.txt"
       - ".github/workflows/pages.yml"
+      - ".github/workflows/refresh-latest-release.yml"
   workflow_dispatch:
 
 permissions:
