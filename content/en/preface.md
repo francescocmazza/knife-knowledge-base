@@ -14,7 +14,7 @@ The idea for this book began inside Xinzuo with a very practical need: to consol
 
 When a new colleague asks why a gyuto feels different from a Western chef's knife, why one steel is harder to sharpen than another, or whether a Damascus pattern changes cutting performance, the answer should not depend on who happens to be available that day. Our team needs a common language: accurate enough to be trusted, simple enough to be remembered and practical enough to be demonstrated with a knife and an ingredient.
 
-My name is **Francesco Claudio Mazza**, and I am **Brand Manager Europe at Xinzuo**. My work brings together the technical world of the product, the people who make and develop our knives, the staff who present them and the cooks and customers who use them. This position has shown me that even a beautifully made tool cannot explain itself. Its design, materials and intended movements have to be translated into knowledge that people can understand and use.
+My name is **Francesco Claudio Mazza**, and I am **EU Brand and Operations Manager at Xinzuo**. My work brings together the technical world of the product, the people who make and develop our knives, the staff who present them and the cooks and customers who use them. This position has shown me that even a beautifully made tool cannot explain itself. Its design, materials and intended movements have to be translated into knowledge that people can understand and use.
 
 ## From an internal manual to a book for everyone
 
@@ -36,7 +36,21 @@ For Xinzuo staff, I hope these pages become a shared foundation from which bette
 
 Most of all, I hope this book remains open in spirit. Knowledge is never truly finished. Materials evolve, techniques improve and every careful user can notice something worth sharing. This guide records what we have learned so far and invites the reader to continue the process.
 
+## A book that can continue to improve
+
+This book is also available free of charge on GitHub at:
+
+**https://github.com/francescocmazza/knife-knowledge-base**
+
+GitHub is not an intuitive tool for every reader. It was created for managing collaborative projects, and its language of repositories, issues and proposed changes can feel unfamiliar at first. That same structure, however, makes it particularly useful for keeping a work in progress transparent: every edition can be traced, corrections can be discussed and contributions can be incorporated without losing the history of the book.
+
+Every contribution is welcome. If you notice an error, disagree with an explanation, know a clearer example or would like to propose an improvement, you can open a discussion or propose a correction through the GitHub repository.
+
+You do not need to learn GitHub in order to take part. Comments, opinions, advice and proposed corrections can also be sent directly to **francescoclaudiomazza@gmail.com**. A short message identifying the chapter or passage is enough to begin the conversation.
+
+This invitation is part of the purpose of the book. Calling the guide a work in progress does not mean accepting avoidable errors. It means recognizing that useful knowledge becomes stronger when readers test it, question it and help make the next edition clearer and more accurate than the one before it.
+
 That is why I wrote it.
 
 **Francesco Claudio Mazza**<br>
-*Brand Manager Europe, Xinzuo*
+*EU Brand and Operations Manager, Xinzuo*

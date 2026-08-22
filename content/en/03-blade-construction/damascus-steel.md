@@ -13,6 +13,13 @@ Few words in the knife world create as much fascination, or as much confusion, a
 
 The flowing lines make a blade look as if its history is visible on the surface. That is often the first thing a reader notices, and it is a good place to begin.
 
+<figure class="kb-learning-figure" data-visual-id="VIS-FINISH-01">
+<img src="../assets/images/approved/damascus-pattern-knives-neutral.png" alt="" width="330" height="700">
+<figcaption>
+Examples of Xinzuo patterned blades. Pattern names describe a visible design; they do not by themselves define steel quality, heat treatment or cutting performance.
+</figcaption>
+</figure>
+
 That attraction is completely understandable. Damascus can be beautiful. The problem begins only when every patterned blade is treated as the same construction, or when the number of visible layers is presented as a complete measure of quality.
 
 The word Damascus is used for several different things. Some knives have a hard central core surrounded by patterned outer layers. Others are made from a multilayer material that forms the entire blade and reaches the cutting edge. Historical wootz steel represents a different metallurgical tradition again. There are also surface treatments that imitate a forged pattern without creating a true multilayer structure.

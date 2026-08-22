@@ -13,6 +13,13 @@ reviewed: 2026-08-22
 
 A kitchen knife looks simple: a handle, a blade and a very thin edge. In the hand, however, it can chop, glide, rock, steer, wedge, separate or crush. The difference comes from the meeting of three things: the knife's design, the ingredient and the cook's movement.
 
+<figure class="kb-learning-figure" data-visual-id="VIS-HOME-01">
+<img src="assets/images/approved/home-hero-xinzuo-neutral.png" alt="" width="1000" height="1100">
+<figcaption>
+A kitchen knife is the result of material, process, geometry and craftsmanship working together.
+</figcaption>
+</figure>
+
 This book teaches that meeting. It is written for people who are curious but may know little about knives, and for store and kitchen teams that need to explain them clearly. You will learn what to do, how to do it, why it works and what to notice while practising. Technical terms appear only when they help you make a better choice or movement.
 
 Xinzuo knives provide the examples because the range brings together Western, Japanese and Chinese forms, traditional and powder steels, layered construction and many handle materials. The lessons are wider than any catalogue: they apply to kitchen knives in general.
@@ -40,7 +47,7 @@ The final step matters. If you can explain why a flat-edged nakiri suits straigh
 
 You do not have to read from beginning to end.
 
-- If you are choosing a first serious knife, begin with **Knife Types and Cutting Styles**.
+- If you are choosing a first serious knife, begin with **Knife Shapes and Their Uses**.
 - If a knife pulls sideways or behaves differently in each hand, begin with **Single and Double Bevels**.
 - If you own a knife but do not yet feel confident, go to **How to Cut** and **Safe Use and Carrying**.
 - If steel names and hardness numbers are confusing, read **The Five Dimensions of Knife Steel** before the steel chapter.
@@ -54,9 +61,9 @@ For self-study, choose one question from your own kitchen and follow it through 
 
 The bevel is the sloping part that leads to the cutting edge. Its position changes steering, food separation, handedness and sharpening. The chapter also explains a practical way to use a single-bevel knife made for the opposite hand: arrange the work so that the blade travels away from the guiding hand or away from the body.
 
-### Knife types and cutting styles
+### Knife shapes and their uses
 
-Knife names become useful only when connected to movement and food. This chapter compares the Western chef's knife, gyuto, santoku, bunka, nakiri, usuba, Chinese chef's knife, slicers, fish knives, boning knives and smaller specialist forms.
+Knife names become useful only when connected to movement and food. This chapter begins with the families most cooks actually meet: chef's knives, Chinese chef's knives, carving and slicing knives, boning and fillet knives, bread knives, small utility knives and heavy choppers. Japanese forms such as gyuto, santoku, sujihiki, yanagiba and deba are then explained as particular solutions within those broader families.
 
 ### How to cut
 

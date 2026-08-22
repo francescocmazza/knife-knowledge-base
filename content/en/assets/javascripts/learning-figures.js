@@ -1,5 +1,8 @@
 (() => {
-  const figures = {
+  // Published figures now live in the Markdown chapters so their captions are
+  // translated together with the surrounding text. Keep this legacy map inert
+  // until every historical entry has been removed from the file.
+  const figures = false ? {
     index: [
       {
         id: "VIS-HOME-01",
@@ -149,7 +152,7 @@
         target: { type: "heading", level: "h2", index: 1 }
       }
     ]
-  };
+  } : {};
 
   const placeholders = {
     index: [

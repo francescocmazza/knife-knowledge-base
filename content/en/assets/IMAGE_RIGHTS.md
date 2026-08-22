@@ -25,6 +25,10 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 - `stable-whetstone-setup.svg`
 - `whetstones-and-sheaths.svg`
 - `strops-and-honing-rods.svg`
+- `home-hero-xinzuo-neutral.png`
+- `knife-shape-silhouettes-neutral.png`
+- `damascus-pattern-knives-neutral.png`
+- `stable-whetstone-neutral.png`
 
 These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this knowledge base.
 
@@ -38,12 +42,15 @@ The following approved images in `assets/images/approved/` are cropped from inte
 
 - `bevel-families.svg` (cropped from `Formazione Agenti A`)
 - `damascus-structure-comparison.svg` (cropped from `Formazione Agenti D`)
+- `bevel-families-neutral.png` (label-free adaptation cropped from `Formazione Agenti A`)
 
 The repository owner's permission to use an internal presentation does **not by itself prove ownership of every photograph, diagram, micrograph, logo or other element embedded in that presentation**. These presentation-derived crops must therefore be treated as restricted project-use material unless the underlying rights provenance is independently confirmed.
 
 They are **not automatically sublicensed under CC BY-NC-SA 4.0**, and commercial reuse outside this knowledge base requires separate rights confirmation from the relevant copyright holder.
 
 For `damascus-structure-comparison.svg`, the rendered guide intentionally displays only the modern full-Damascus panel. The historical comparison panel from the source slide is excluded from the published view because it should not be used as a metallurgical model of historical wootz.
+
+The neutral PNG adaptations remove captions embedded in a fixed language. Their numbered legends and explanatory captions are published as ordinary document text so that each language edition can translate them without altering the underlying image.
 
 ## Excluded material
 

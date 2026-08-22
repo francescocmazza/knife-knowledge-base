@@ -2,14 +2,14 @@
 
 *A Practical Guide to Kitchen Knives: Materials, Shapes and Techniques for Masterful Cutting*
 
-Written by **Francesco Claudio Mazza**, Brand Manager Europe at Xinzuo.
+Written by **Francesco Claudio Mazza**, EU Brand and Operations Manager at Xinzuo.
 
 - [Preface](preface.md)
 
 ## Master the movement
 
 - [Single and Double Bevels](04-geometry-and-bevels/single-and-double-bevels.md)
-- [Knife Types and Cutting Styles](05-knife-types/overview.md)
+- [Knife Shapes and Their Uses](05-knife-types/overview.md)
 - [How to Cut - Essential Knife Techniques](06-cutting-techniques/essential-cutting-techniques.md)
 
 ## Understand the material

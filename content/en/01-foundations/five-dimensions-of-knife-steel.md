@@ -17,7 +17,9 @@ The better question is not, “Which steel is best?” It is:
 
 > Which balance of qualities is most useful for this knife, this user and this type of work?
 
-This is also how Xinzuo's steel range should be understood. The range extends from forgiving DIN 1.4116 at 56-58 HRC to ZDP-189 at 65-67 HRC, with 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, 14Cr14MoVNb and other choices between them. The range exists because a single balance cannot serve every knife and user.
+This is also how Xinzuo's steel range should be understood. There is no perfect knife steel because no alloy can be exceptional in every dimension at the same time. More hardness and wear resistance may bring longer edge life, but they can also make sharpening slower and the thinnest edges less forgiving. Greater robustness or easier sharpening may be more useful in demanding everyday work, even when the edge needs attention sooner. Strong corrosion resistance adds convenience, but it does not automatically create the finest sharpening response.
+
+Choosing one steel instead of another therefore means choosing one balance instead of another. Xinzuo uses more than fifteen steels across its product families because a fine carving knife, an all-purpose chef's knife, a compact household knife and a heavy chopper do not ask the edge to solve the same problem. The breadth of the range is not a list of status levels. It is a set of different answers to different users, movements, maintenance habits and price positions.
 
 A practical way to answer that question is to look at five dimensions: **hardness, ease of sharpening, corrosion resistance, robustness and microstructural fineness**. These five ideas do not describe every detail of metallurgy, but together they give a clear and useful picture of a steel's character.
 

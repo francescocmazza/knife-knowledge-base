@@ -10,14 +10,20 @@ source_basis: 2025 Xinzuo Catalog V9
 
 # Xinzuo Blade Steels - A Practical Guide
 
-Xinzuo does not use one steel for every knife because a fine slicer, an all-purpose chef's knife and a heavy chopper ask the edge to do different jobs. The useful choice depends on maintenance, sharpening, geometry and technique as much as on price or alloy name.
+Xinzuo does not use one steel for every knife because no perfect steel exists. It is not possible to maximize hardness, edge retention, ease of sharpening, corrosion resistance and robustness all at once. Improving one dimension often changes another, and the right compromise depends on the knife, the food, the user and the way the edge will be maintained.
 
-This chapter explains the principal steels documented across the Xinzuo range. Treat it as a map, not a ranking. A steel name describes potential; heat treatment, construction, grinding and edge geometry decide how much of that potential reaches the cutting board.
+Choosing a steel is therefore choosing an equilibrium. A fine carving knife may favour a thin, stable edge and long cutting life. A general chef's knife may need a broader balance of sharpness, stainless care and robustness. A heavy chopper benefits from greater tolerance of impact. None of these balances is universally superior; each is more suitable for a different job.
+
+This is why Xinzuo uses more than fifteen steel grades across its product families. The purpose is not to create a staircase from ordinary to prestigious. It is to give different knives the material character their intended work requires.
+
+This chapter explains the principal steels documented across the Xinzuo range. Treat the table as a map of different balances, not as a catalogue or ranking. A steel name describes potential; heat treatment, construction, grinding and edge geometry decide how much of that potential reaches the cutting board.
 
 !!! note "How to read Xinzuo's comparison ratings"
     Xinzuo compares toughness, edge retention, corrosion resistance and ease of sharpening on an internal five-point scale. The ratings help distinguish the listed options, but they are not standardized laboratory units and should not be compared directly with another manufacturer's stars. Published hardness figures are ranges or targets, not a promise that every part of every blade has an identical reading.
 
-## At a glance
+## A comparison of different balances
+
+The table is deliberately compact. Use it to locate the main trade-off, then read the relevant section before drawing a conclusion. The most expensive, hardest or most wear-resistant entry is not automatically the most suitable choice.
 
 | Steel or construction | Published hardness | Character in practical use | Main advantage | Main compromise |
 |---|---:|---|---|---|

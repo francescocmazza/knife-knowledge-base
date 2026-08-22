@@ -1,6 +1,6 @@
 site_name: The Kung Fu of Xinzuo
 site_description: "A practical guide to kitchen knives: materials, shapes and techniques for masterful cutting, with examples from Xinzuo."
-site_author: Francesco Claudio Mazza, Brand Manager Europe at Xinzuo
+site_author: Francesco Claudio Mazza, EU Brand and Operations Manager at Xinzuo
 site_url: https://francescocmazza.github.io/knife-knowledge-base/
 
 repo_name: francescocmazza/knife-knowledge-base
@@ -55,7 +55,7 @@ nav:
   - The Kung Fu of Xinzuo: index.md
   - Master the Movement:
       - Single and Double Bevels: 04-geometry-and-bevels/single-and-double-bevels.md
-      - Knife Types and Cutting Styles: 05-knife-types/overview.md
+      - Knife Shapes and Their Uses: 05-knife-types/overview.md
       - How to Cut - Essential Techniques: 06-cutting-techniques/essential-cutting-techniques.md
   - Understand the Material:
       - The Five Dimensions of Knife Steel: 01-foundations/five-dimensions-of-knife-steel.md

@@ -20,13 +20,20 @@ Bevel geometry changes four things that a cook can actually feel:
 
 The two broad families are double bevel and single bevel. Neither is automatically sharper or more advanced. They solve different problems.
 
+<figure class="kb-learning-figure" data-visual-id="VIS-BEV-02">
+<img src="../assets/images/approved/bevel-families-neutral.png" alt="" width="1400" height="380">
+<figcaption>
+Seven common bevel families, shown without fixed-language labels: 1. symmetrical V; 2. convex; 3. asymmetric V; 4. compound double V; 5. concave; 6. single-sided; 7. single-sided with urasuki. The legend is ordinary text so it can be translated with the book.
+</figcaption>
+</figure>
+
 ## Double bevel: the familiar all-purpose edge
 
 A double-bevel knife is sharpened from both sides. Seen from the front, the two sloping surfaces meet like a narrow V.
 
 Because food is displaced on both sides, a reasonably symmetrical double bevel tends to travel straight. This is one reason it works so well for general cooking and for either hand.
 
-Most Western chef's knives, gyuto, santoku, bunka, nakiri, sujihiki, petty knives and many Chinese chef's knives are double bevel.
+Most Western chef's knives, carving and slicing knives (including sujihiki), utility and petty knives, gyuto, santoku, bunka, nakiri and many Chinese chef's knives are double bevel.
 
 ### What the cook notices
 
@@ -139,7 +146,7 @@ The best correction normally begins before the cut: choose the direction, stabil
 
 A single bevel can produce an exceptionally clean surface because the cut piece is directed away while the flatter side guides the remaining food. This matters in sashimi, where the cut surface is visible and affects texture in the mouth. It also matters in katsuramuki, where an usuba turns a vegetable into a continuous thin sheet.
 
-A double-bevel slicer can also make excellent cuts. A sharp sujihiki is easier for many cooks, works in either hand and handles boneless meat and fish very effectively.
+A double-bevel carving knife can also make excellent cuts. This includes the Japanese sujihiki: it is easier for many cooks, works in either hand and handles boneless meat and fish very effectively.
 
 The useful distinction is not "single bevel is sharp and double bevel is ordinary." Both can be sharpened to a very fine apex. The difference lies in steering, separation, surface finish and specialization.
 

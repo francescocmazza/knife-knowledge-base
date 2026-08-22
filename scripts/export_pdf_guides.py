@@ -50,7 +50,7 @@ IMAGE_RIGHTS_URL = f"{GITHUB_REPO_URL}/blob/main/content/en/assets/IMAGE_RIGHTS.
 IMAGE_LOAD_TIMEOUT_MS = 20000
 PRINT_COVER_NAME = "__print_cover__.html"
 PRINT_REST_NAME = "__print_rest__.html"
-HERO_IMAGE_REL = "assets/images/approved/home-hero-xinzuo-masterpieces.svg"
+HERO_IMAGE_REL = "assets/images/approved/home-hero-xinzuo-neutral.png"
 HERO_IMAGE_ALT = "A craftsman inspecting a Xinzuo Damascus kitchen knife."
 COVER_COPY = {
     "English": {
@@ -69,6 +69,29 @@ COVER_COPY = {
         "strapline": "材料、刀型与技法：掌握精准切割",
     },
 }
+EDITION_COPY = {
+    "English": {
+        "heading": "Edition and contributions",
+        "availability": "This book is available free of charge on GitHub. Every comment, correction and proposal for improvement is welcome.",
+        "contact": "If GitHub is unfamiliar, you can also write directly to the author.",
+        "version": "Edition",
+        "published": "Published / Exported",
+    },
+    "Italiano": {
+        "heading": "Edizione e contributi",
+        "availability": "Questo libro è disponibile gratuitamente su GitHub. Ogni commento, correzione e proposta di miglioramento è benvenuta.",
+        "contact": "Se GitHub non ti è familiare, puoi anche scrivere direttamente all'autore.",
+        "version": "Edizione",
+        "published": "Pubblicato / Esportato",
+    },
+    "简体中文": {
+        "heading": "版本与贡献",
+        "availability": "本书可在 GitHub 免费获取。欢迎提出任何意见、纠正和改进建议。",
+        "contact": "如果您不熟悉 GitHub，也可以直接给作者写信。",
+        "version": "版本",
+        "published": "发布 / 导出",
+    },
+}
 # The cover page already features the approved hero photograph prominently,
 # so the same image is skipped when printing the home chapter to avoid
 # showing it twice in a row at the start of the book.
@@ -82,6 +105,10 @@ EXTRACT_JS = """
 
   clone.querySelectorAll('.md-content__button').forEach(el => el.remove());
   clone.querySelectorAll('.headerlink').forEach(el => el.remove());
+  clone.querySelectorAll('.admonition').forEach(el => {
+    const title = el.querySelector('.admonition-title')?.textContent.trim().toLowerCase() || '';
+    if (title === 'translation notice') el.remove();
+  });
   if (hidePlaceholders) {
     clone.querySelectorAll('.kb-image-placeholder-wrap').forEach(el => el.remove());
   }
@@ -262,7 +289,7 @@ def render_cover_html(language_name: str, metadata: PublicationMetadata, hero_sr
       <div class="kb-cover__top">
         <h1 class="kb-cover__title">{html.escape(copy["title"])}</h1>
         <p class="kb-cover__subtitle">{html.escape(copy["subtitle"])}<br>{html.escape(copy["strapline"])}</p>
-        <p class="kb-cover__author">Francesco Claudio Mazza<br>Brand Manager Europe, Xinzuo</p>
+        <p class="kb-cover__author">Francesco Claudio Mazza<br>EU Brand and Operations Manager, Xinzuo</p>
         <p class="kb-cover__language">{html.escape(language_name)}</p>
       </div>
       <div class="kb-cover__hero">
@@ -304,6 +331,26 @@ def render_chapter_html(node: dict) -> str:
     return f'<section class="kb-chapter" id="{node["id"]}">{node["html"]}</section>'
 
 
+def render_edition_html(language_name: str, metadata: PublicationMetadata) -> str:
+    copy = EDITION_COPY.get(language_name, EDITION_COPY["English"])
+    return f"""
+    <section class="kb-edition">
+      <div class="kb-edition__content">
+        <p class="kb-edition__eyebrow">The Kung Fu of Xinzuo</p>
+        <h2>{html.escape(copy["heading"])}</h2>
+        <p>{html.escape(copy["availability"])}</p>
+        <p><a href="{GITHUB_REPO_URL}">{GITHUB_REPO_URL}</a></p>
+        <p>{html.escape(copy["contact"])}</p>
+        <p><a href="mailto:francescoclaudiomazza@gmail.com">francescoclaudiomazza@gmail.com</a></p>
+        <div class="kb-edition__metadata">
+          <p>{html.escape(copy["version"])}: {html.escape(metadata.version_label)} · commit {html.escape(metadata.commit_sha_short)}</p>
+          <p>{html.escape(copy["published"])}: {html.escape(metadata.publication_date)}</p>
+        </div>
+      </div>
+    </section>
+    """
+
+
 def _wrap_document(lang: str, direction: str, body_class: str, title: str, css_text: str, body_content: str) -> str:
     return f"""<!doctype html>
 <html lang="{lang}" dir="{direction}">
@@ -332,6 +379,7 @@ def assemble_rest_document(
     flat: list[dict],
     hide_placeholders: bool,
     css_text: str,
+    metadata: PublicationMetadata,
 ) -> str:
     """The table of contents and every chapter, printed with a numbered footer.
 
@@ -346,18 +394,17 @@ def assemble_rest_document(
     body_class = "kb-placeholders-hidden" if hide_placeholders else ""
     toc = render_toc_html(tree)
     chapters = "".join(render_chapter_html(node) for node in flat)
+    edition = render_edition_html(cfg["name"], metadata)
     return _wrap_document(
-        lang, direction, body_class, f"The Kung Fu of Xinzuo - {cfg['name']}", css_text, toc + chapters
+        lang, direction, body_class, f"The Kung Fu of Xinzuo - {cfg['name']}", css_text, toc + chapters + edition
     )
 
 
-def footer_template(direction: str, metadata: PublicationMetadata) -> str:
+def footer_template(direction: str) -> str:
     return f"""
     <div style="font-size:8px; width:100%; text-align:center; color:#666;
                 font-family:'Noto Sans',sans-serif; direction:{direction};">
-      The Kung Fu of Xinzuo &nbsp;&middot;&nbsp; {html.escape(metadata.version_label)}
-      &nbsp;&middot;&nbsp; {html.escape(metadata.publication_date)} &nbsp;&middot;&nbsp;
-      <span class="pageNumber"></span>
+      The Kung Fu of Xinzuo &nbsp;&middot;&nbsp; <span class="pageNumber"></span>
     </div>
     """
 
@@ -405,7 +452,7 @@ def render_locale_pdf(
         wait_for_images_loaded(page, f"{code}:cover")
         page.pdf(path=str(cover_pdf), format="A4", print_background=True, margin=PDF_MARGIN)
 
-        rest_html = assemble_rest_document(cfg, tree, flat, hide_placeholders, css_text)
+        rest_html = assemble_rest_document(cfg, tree, flat, hide_placeholders, css_text, metadata)
         (SITE / code / PRINT_REST_NAME).write_text(rest_html, encoding="utf-8")
         page.goto(f"{base_url}{code}/{PRINT_REST_NAME}", wait_until="load")
         wait_for_images_loaded(page, f"{code}:assembled book")
@@ -415,7 +462,7 @@ def render_locale_pdf(
             print_background=True,
             display_header_footer=True,
             header_template="<span></span>",
-            footer_template=footer_template(cfg.get("direction", "ltr"), metadata),
+            footer_template=footer_template(cfg.get("direction", "ltr")),
             margin=PDF_MARGIN,
         )
 

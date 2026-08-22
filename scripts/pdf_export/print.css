@@ -177,6 +177,46 @@ a {
   page-break-before: always;
 }
 
+/* ---------- Final edition / contribution page ---------- */
+
+.kb-edition {
+  break-before: page;
+  page-break-before: always;
+  min-height: 240mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.kb-edition__content {
+  max-width: 135mm;
+}
+
+.kb-edition__eyebrow {
+  color: var(--kb-muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.kb-edition h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.kb-edition p {
+  text-align: center;
+}
+
+.kb-edition__metadata {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--kb-rule);
+  color: var(--kb-muted);
+  font-size: 0.85rem;
+}
+
 .kb-chapter h1 {
   font-size: 1.7rem;
   margin-top: 0;

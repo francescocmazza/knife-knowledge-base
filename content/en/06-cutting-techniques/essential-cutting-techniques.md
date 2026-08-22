@@ -82,7 +82,7 @@ Think **forward, down, release**. Forward begins the slice, down completes it, a
 
 The heel or rear portion of the knife begins near the ingredient and the blade travels toward the user as it passes through. With a long slicer, most of the edge can be used in one smooth draw.
 
-This is the natural language of carving knives, sujihiki and yanagiba. It is also useful with a chef's knife when portioning boneless meat or cutting a ripe tomato with a plain edge.
+This is the natural language of carving knives. The Japanese sujihiki is a double-bevel carving and slicing counterpart, while the yanagiba is a specialist single-bevel version for raw fish. The movement is also useful with a chef's knife when portioning boneless meat or cutting a ripe tomato with a plain edge.
 
 ### Try it with a boneless cooked chicken breast
 
@@ -134,7 +134,7 @@ The pointed tip of a gyuto or chef's knife is versatile. A bunka's K-tip gives a
 
 Muscle fibers run in visible bundles. A slice made parallel to those bundles leaves long fibers that are harder to chew. Cutting across them shortens the fibers and usually makes the same piece of meat feel more tender.
 
-Before cutting, pause and identify the direction of the grain. Rotate the meat so the knife crosses those lines. Use a draw slice with a carving knife, sujihiki or long chef's knife. The improvement comes from direction, not from pressing harder.
+Before cutting, pause and identify the direction of the grain. Rotate the meat so the knife crosses those lines. Use a draw slice with a carving knife—including a sujihiki—or a long chef's knife. The improvement comes from direction, not from pressing harder.
 
 This is a good example of why knife skill is more than hand movement: sometimes the most important action happens before the blade touches the food.
 
