@@ -1,9 +1,9 @@
 ---
 title: A Practical Sharpening Process
-status: approved
-audience: commercial-training
+status: review
+audience: general-reader
 language: en
-reviewed: 2026-08-09
+reviewed: 2026-08-22
 translation_priority: high
 ---
 
@@ -15,11 +15,17 @@ The underlying process is much simpler:
 
 > Sharpening removes steel from the two sides of the edge until they meet again in a clean apex.
 
-Everything else—the stone grit, angle, pressure, burr and finishing method—helps control that process.
+Everything else-the stone grit, angle, pressure, burr and finishing method-helps control that process.
 
-This chapter introduces a practical method for ordinary double-bevel kitchen knives. It is detailed enough to explain what the user should observe, but it does not require specialist equipment.
+This chapter introduces a practical method for ordinary double-bevel kitchen knives. It explains what to observe and why each step exists, without requiring specialist equipment.
 
 Traditional single-bevel knives such as yanagiba, usuba and deba need a different approach because their broad bevel and hollow reverse side form a specific geometry.
+
+### Historical connection: sharpening as a separate craft
+
+In the Sakai tradition, making a kitchen knife is commonly divided among specialists. The blacksmith creates and heat-treats the blade; a sharpener establishes geometry, surface and edge; another craftsperson fits the handle. This division is a useful correction to the idea that sharpening is merely the last quick touch.
+
+For the home cook, the lesson is encouraging. You are not expected to imitate a master polisher in one afternoon. Learn the process in parts: stabilize the stone, find the bevel, reach the apex, reduce the burr and test the result. Each stage can be observed and improved separately.
 
 ## Before beginning: understand the goal
 
@@ -93,15 +99,15 @@ Grit numbers describe the approximate size of the abrasive particles. Lower numb
 
 A practical classification is:
 
-- **80–400 grit:** major repairs, chips, reshaping and very dull edges;
-- **500–1000 grit:** general sharpening and restoration of a working edge;
-- **1000–3000 grit:** refinement and a smoother edge;
-- **4000–6000 grit:** fine finishing and polishing;
+- **80-400 grit:** major repairs, chips, reshaping and very dull edges;
+- **500-1000 grit:** general sharpening and restoration of a working edge;
+- **1000-3000 grit:** refinement and a smoother edge;
+- **4000-6000 grit:** fine finishing and polishing;
 - **8000 grit and above:** specialized polishing and very refined edges.
 
 The ranges overlap because grit standards and stone behaviour vary.
 
-For many kitchen knives, a medium stone around 800–1000 grit is a useful starting point. It removes enough material to restore the edge without creating the deep scratches of a repair stone.
+For many kitchen knives, a medium stone around 800-1000 grit is a useful starting point. It removes enough material to restore the edge without creating the deep scratches of a repair stone.
 
 Higher grit is not automatically better. A medium-grit finish can retain more microscopic bite and perform extremely well on tomatoes, meat and fibrous foods. A highly polished edge may be desirable for push cutting and presentation work.
 
@@ -133,7 +139,7 @@ If the ink is removed only at the very edge, the angle may be higher than the ex
 
 If the ink is removed evenly across the bevel, the angle is close.
 
-This is a training tool, not a permanent requirement. With practice, the user learns to feel when the bevel is lying correctly on the stone.
+This is a learning tool, not a permanent requirement. With practice, the user learns to feel when the bevel is lying correctly on the stone.
 
 ## Step 5: understand the angle
 
@@ -251,7 +257,7 @@ Alternate sides:
 
 The exact sequence is flexible. The purpose is to centre the edge, weaken the burr and reduce the deep scratches created during the main sharpening stage.
 
-At the end, pressure should be very light—only enough to keep the bevel in contact with the stone.
+At the end, pressure should be very light-only enough to keep the bevel in contact with the stone.
 
 ## Step 13: decide whether to move to a finer stone
 
@@ -344,7 +350,7 @@ Allow the stone to air-dry fully in a ventilated place. Avoid heat and direct su
 
 Clean the work area so no abrasive residue remains on handles, cloths or food-preparation surfaces.
 
-# Pressure: how much is enough?
+## Pressure: how much is enough?
 
 Pressure is difficult to describe with a universal number, but the stages are easy to understand.
 
@@ -362,7 +368,7 @@ Use extremely light pressure. The blade should almost feel as if it is being gui
 
 If the sound becomes harsh, the knife sticks or the angle becomes difficult to control, reduce pressure and add water.
 
-# Choosing the final grit
+## Choosing the final grit
 
 For Xinzuo knives, the steel and intended task guide the abrasive and finish. DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV and 12Cr18MoV are generally approachable with suitable conventional stones. Highly wear-resistant ZDP-189, SRS13, M390 and 14Cr14MoVNb may benefit from efficient premium ceramic or diamond abrasives and more time. Blue Steel No. 2 can respond readily to water stones but must be dried immediately. These are tendencies, not fixed angle or grit prescriptions: preserve the model's geometry and finish for its actual use.
 
@@ -378,49 +384,49 @@ An ultra-polished edge is not automatically better. On some foods it may slide b
 
 The edge should match the knife's purpose.
 
-# Common sharpening mistakes
+## Common sharpening mistakes
 
-## Counting strokes instead of reading the edge
+### Counting strokes instead of reading the edge
 
 Stroke counts help rhythm but do not prove that the apex has been reached.
 
-## Changing the angle constantly
+### Changing the angle constantly
 
 An unstable angle rounds the bevel and slows progress.
 
-## Starting with a stone that is too fine
+### Starting with a stone that is too fine
 
 A fine stone can spend a long time polishing above a dull edge.
 
-## Using too much pressure
+### Using too much pressure
 
 Heavy pressure makes angle control difficult and creates a large burr.
 
-## Ignoring the tip and heel
+### Ignoring the tip and heel
 
 These areas often remain dull while the centre is over-sharpened.
 
-## Moving to the second side before the burr is continuous
+### Moving to the second side before the burr is continuous
 
 The first bevel may remain incomplete.
 
-## Leaving the burr attached
+### Leaving the burr attached
 
 The knife may feel sharp briefly but lose performance quickly.
 
-## Over-polishing every knife
+### Over-polishing every knife
 
 The final grit should suit the intended food and cutting style.
 
-## Sharpening on a dished stone
+### Sharpening on a dished stone
 
 A hollow surface changes the angle during the stroke.
 
-## Treating every knife as 15 degrees per side
+### Treating every knife as 15 degrees per side
 
 Fifteen degrees is a useful reference, not a universal law.
 
-# A complete beginner routine
+## A complete beginner routine
 
 1. Inspect the edge and identify damage.
 2. Choose a stone coarse enough for the work.
@@ -438,8 +444,14 @@ Fifteen degrees is a useful reference, not a universal law.
 14. Wash and dry the knife.
 15. Rinse, flatten and air-dry the stone.
 
-# Customer-facing summary
+## What to remember
 
 > Sharpening is not completed by counting strokes. Follow the existing bevel, work until a light burr appears from heel to tip, repeat on the second side, then reduce pressure and remove the burr. The finished edge should be clean, stable and appropriate for the way the knife will be used.
 
 The most valuable skill is not moving the knife quickly. It is learning to observe what the stone is doing to the edge.
+
+> **Practice principle:** watch the edge, not the stroke count.
+
+### Historical source
+
+- [KOGEI JAPAN, Sakai Forged Blades and Production Process](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)

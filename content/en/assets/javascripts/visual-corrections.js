@@ -60,7 +60,7 @@
     note.textContent = item.note;
 
     const caption = document.createElement("figcaption");
-    caption.textContent = `${item.id} — previous generated visual withdrawn pending a verified replacement.`;
+    caption.textContent = `${item.id} - previous generated visual withdrawn pending a verified replacement.`;
 
     box.append(label, title, note);
     figure.append(box, caption);

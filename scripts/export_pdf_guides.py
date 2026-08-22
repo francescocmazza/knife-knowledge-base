@@ -52,6 +52,23 @@ PRINT_COVER_NAME = "__print_cover__.html"
 PRINT_REST_NAME = "__print_rest__.html"
 HERO_IMAGE_REL = "assets/images/approved/home-hero-xinzuo-masterpieces.svg"
 HERO_IMAGE_ALT = "A craftsman inspecting a Xinzuo Damascus kitchen knife."
+COVER_COPY = {
+    "English": {
+        "title": "The Kung Fu of Xinzuo",
+        "subtitle": "A Practical Guide to Kitchen Knives",
+        "strapline": "Materials, Shapes and Techniques for Masterful Cutting",
+    },
+    "Italiano": {
+        "title": "Il Kung Fu di Xinzuo",
+        "subtitle": "Guida pratica ai coltelli da cucina",
+        "strapline": "Materiali, forme e tecniche per padroneggiare il taglio",
+    },
+    "简体中文": {
+        "title": "Xinzuo 的功夫",
+        "subtitle": "厨刀实用指南",
+        "strapline": "材料、刀型与技法：掌握精准切割",
+    },
+}
 # The cover page already features the approved hero photograph prominently,
 # so the same image is skipped when printing the home chapter to avoid
 # showing it twice in a row at the start of the book.
@@ -239,10 +256,13 @@ def wait_for_images_loaded(page, context_label: str) -> None:
 
 
 def render_cover_html(language_name: str, metadata: PublicationMetadata, hero_src: str) -> str:
+    copy = COVER_COPY.get(language_name, COVER_COPY["English"])
     return f"""
     <section class="kb-cover">
       <div class="kb-cover__top">
-        <h1 class="kb-cover__title">Knife Knowledge Base</h1>
+        <h1 class="kb-cover__title">{html.escape(copy["title"])}</h1>
+        <p class="kb-cover__subtitle">{html.escape(copy["subtitle"])}<br>{html.escape(copy["strapline"])}</p>
+        <p class="kb-cover__author">Francesco Claudio Mazza<br>Brand Manager Europe, Xinzuo</p>
         <p class="kb-cover__language">{html.escape(language_name)}</p>
       </div>
       <div class="kb-cover__hero">
@@ -303,7 +323,7 @@ def assemble_cover_document(cfg: dict, metadata: PublicationMetadata, css_text: 
     direction = cfg.get("direction", "ltr")
     lang = cfg.get("mkdocs_language", "en")
     cover = render_cover_html(cfg["name"], metadata, hero_src)
-    return _wrap_document(lang, direction, "", f"Knife Knowledge Base — {cfg['name']}", css_text, cover)
+    return _wrap_document(lang, direction, "", f"The Kung Fu of Xinzuo - {cfg['name']}", css_text, cover)
 
 
 def assemble_rest_document(
@@ -316,7 +336,7 @@ def assemble_rest_document(
     """The table of contents and every chapter, printed with a numbered footer.
 
     Kept separate from the cover so that Chromium's per-document page-number
-    footer never has to be suppressed on page 1 — Chromium's headless print
+    footer never has to be suppressed on page 1 - Chromium's headless print
     header/footer templates do not reliably run the inline <script> tricks
     commonly used for that, so the cover is rendered as its own document
     instead and the two PDFs are merged afterwards.
@@ -327,7 +347,7 @@ def assemble_rest_document(
     toc = render_toc_html(tree)
     chapters = "".join(render_chapter_html(node) for node in flat)
     return _wrap_document(
-        lang, direction, body_class, f"Knife Knowledge Base — {cfg['name']}", css_text, toc + chapters
+        lang, direction, body_class, f"The Kung Fu of Xinzuo - {cfg['name']}", css_text, toc + chapters
     )
 
 
@@ -335,7 +355,7 @@ def footer_template(direction: str, metadata: PublicationMetadata) -> str:
     return f"""
     <div style="font-size:8px; width:100%; text-align:center; color:#666;
                 font-family:'Noto Sans',sans-serif; direction:{direction};">
-      Knife Knowledge Base &nbsp;&middot;&nbsp; {html.escape(metadata.version_label)}
+      The Kung Fu of Xinzuo &nbsp;&middot;&nbsp; {html.escape(metadata.version_label)}
       &nbsp;&middot;&nbsp; {html.escape(metadata.publication_date)} &nbsp;&middot;&nbsp;
       <span class="pageNumber"></span>
     </div>

@@ -1,21 +1,27 @@
 ---
 title: Safe Use and Carrying
-status: approved
-audience: commercial-training
+status: review
+audience: general-reader
 language: en
-reviewed: 2026-08-09
+reviewed: 2026-08-22
 translation_priority: high
 ---
 
 # Safe Use and Carrying
 
-A good kitchen knife is designed to cut with very little effort. That is exactly why it must be treated with respect.
+A good kitchen knife is designed to cut with very little effort. That is exactly why safety must come from habits rather than from hesitation.
 
 People sometimes say that a sharp knife is safer than a dull one. The idea is useful, but it needs a complete explanation.
 
 A sharp knife usually requires less force. It enters food more easily, follows the intended line more predictably and is less likely to slip because the user is pressing too hard. A dull knife often encourages forceful, uncontrolled movement.
 
 However, a sharp knife can cause a serious injury the moment it is handled carelessly. Safety does not come from sharpness alone. It comes from a sharp and suitable knife, a stable working area, controlled technique and clear habits.
+
+Use one short check before every session:
+
+> **Stable board. Stable food. Clear path. Hidden fingertips.**
+
+The four parts belong together. A perfect claw grip cannot rescue a rolling onion, and a stable onion is not enough if the board slides.
 
 ## Create a safe working area before cutting
 
@@ -78,7 +84,7 @@ Other grips can also be safe when they provide control. The essential point is t
 
 The supporting hand should guide the food while keeping fingertips away from the cutting path. The familiar “claw” position bends the fingertips inward and allows the side of the blade to move against the knuckles. This is easier to learn slowly than at professional speed.
 
-Speed is never the first goal. A controlled rhythm becomes faster naturally with practice.
+Speed is never the first goal. A controlled rhythm becomes faster naturally with practice. The movement chapter, [How to Cut](../06-cutting-techniques/essential-cutting-techniques.md), explains the claw, pinch grip and principal cutting motions step by step.
 
 ## Let the edge do the work
 
@@ -252,8 +258,10 @@ Glass and ceramic destroy fine edges and increase slipping.
 
 Step back instead.
 
-## Customer-facing summary
+## What to remember
 
 > A sharp knife is easier to control because it needs less force, but safety depends on the whole working method. Stabilize the board and food, use the correct knife, keep the supporting hand clear, avoid twisting and carry the knife low and still with the tip down and the edge away.
 
-The safest knife user is not the fastest person in the kitchen. It is the person whose movements remain predictable.
+The safest cook is not the fastest person in the kitchen. It is the person whose movements remain predictable.
+
+> **Practice principle:** make every knife movement easy for another person to anticipate.

@@ -1,13 +1,13 @@
-site_name: Xinzuo Knowledge Base
-site_description: Xinzuo's multilingual guide to kitchen knives, blade steels, handle materials, construction, sharpening, maintenance, safety, and product knowledge.
-site_author: Xinzuo
+site_name: The Kung Fu of Xinzuo
+site_description: "A practical guide to kitchen knives: materials, shapes and techniques for masterful cutting, with examples from Xinzuo."
+site_author: Francesco Claudio Mazza, Brand Manager Europe at Xinzuo
 site_url: https://francescocmazza.github.io/knife-knowledge-base/
 
 repo_name: francescocmazza/knife-knowledge-base
 repo_url: https://github.com/francescocmazza/knife-knowledge-base
 edit_uri: edit/main/content/en/
 
-copyright: Copyright &copy; 2026 Xinzuo — written content CC BY-NC-SA 4.0 unless otherwise stated
+copyright: Copyright &copy; 2026 Xinzuo - written content CC BY-NC-SA 4.0 unless otherwise stated
 
 docs_dir: content/en
 site_dir: site
@@ -51,20 +51,22 @@ extra_javascript:
   - assets/javascripts/visual-corrections.js
 
 nav:
-  - Xinzuo Knowledge Base: index.md
-  - How Knives Cut:
+  - Preface: preface.md
+  - The Kung Fu of Xinzuo: index.md
+  - Master the Movement:
       - Single and Double Bevels: 04-geometry-and-bevels/single-and-double-bevels.md
       - Knife Types and Cutting Styles: 05-knife-types/overview.md
-  - Materials and Performance:
+      - How to Cut - Essential Techniques: 06-cutting-techniques/essential-cutting-techniques.md
+  - Understand the Material:
       - The Five Dimensions of Knife Steel: 01-foundations/five-dimensions-of-knife-steel.md
       - Xinzuo Blade Steels: 02-steels-and-metallurgy/xinzuo-blade-steels.md
       - Alloying Elements: 02-steels-and-metallurgy/alloying-elements.md
       - Xinzuo Handle Materials: 02-steels-and-metallurgy/xinzuo-handle-materials.md
       - Damascus Steel: 03-blade-construction/damascus-steel.md
       - Self-Sharpening Full Damascus: 03-blade-construction/self-sharpening-full-damascus.md
-  - Use and Safety:
+  - Protect the Edge:
       - Safe Use and Carrying: 08-use-and-safety/safe-use-and-carrying.md
-  - Sharpening:
+  - Restore the Edge:
       - Preparing Water Stones: 10-sharpening/whetstone-preparation.md
       - Understanding the Burr: 10-sharpening/the-burr.md
       - A Practical Sharpening Process: 10-sharpening/basic-sharpening-process.md

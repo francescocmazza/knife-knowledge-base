@@ -1,9 +1,9 @@
 ---
 title: The Five Dimensions of Knife Steel
-status: approved
-audience: commercial-training
+status: review
+audience: general-reader
 language: en
-reviewed: 2026-08-09
+reviewed: 2026-08-22
 translation_priority: high
 ---
 
@@ -17,7 +17,7 @@ The better question is not, “Which steel is best?” It is:
 
 > Which balance of qualities is most useful for this knife, this user and this type of work?
 
-This is also how Xinzuo's steel range should be understood. The portfolio extends from forgiving DIN 1.4116 at 56–58 HRC to ZDP-189 at 65–67 HRC, with 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, 14Cr14MoVNb and other choices between them. The range exists because a single balance cannot serve every knife and user.
+This is also how Xinzuo's steel range should be understood. The range extends from forgiving DIN 1.4116 at 56-58 HRC to ZDP-189 at 65-67 HRC, with 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, 14Cr14MoVNb and other choices between them. The range exists because a single balance cannot serve every knife and user.
 
 A practical way to answer that question is to look at five dimensions: **hardness, ease of sharpening, corrosion resistance, robustness and microstructural fineness**. These five ideas do not describe every detail of metallurgy, but together they give a clear and useful picture of a steel's character.
 
@@ -25,7 +25,13 @@ A practical way to answer that question is to look at five dimensions: **hardnes
 
 Hardness describes how strongly steel resists being pressed, dented or permanently deformed. In kitchen knives it is commonly expressed on the Rockwell C scale, abbreviated as **HRC**.
 
-For a customer, the important point is that a harder edge is generally better able to resist folding or rolling over during normal cutting. Imagine the very tip of the edge as an extremely thin ridge. When that ridge meets a cutting board thousands of times, it is repeatedly placed under pressure. If the steel is too soft for the geometry, the ridge can bend and lose its clean shape. A harder steel tends to resist that bending for longer.
+### Historical connection: why the number is called Rockwell
+
+Before standardized indentation tests, hardness was often described through less comparable workshop methods: scratching one material with another, observing rebound or judging how a tool behaved. In the early twentieth century, Hugh and Stanley Rockwell developed a depth-based indentation tester that made production checks faster and more repeatable. The letter C identifies one particular combination of indenter and load used for hard steels.
+
+The history helps us remember what HRC is: a standardized measurement of resistance to indentation under specified conditions. It is not a direct measurement of sharpness, toughness or cutting pleasure.
+
+In the kitchen, a harder edge is generally better able to resist folding or rolling over during normal cutting. Imagine the very tip of the edge as an extremely thin ridge. Each time that ridge meets a cutting board, it is placed under pressure. If the steel is too soft for the geometry, the ridge can bend and lose its clean shape. A harder steel tends to resist that bending for longer.
 
 Higher HRC can therefore support longer edge life by improving resistance to rolling and plastic deformation at the apex. Hardness alone, however, does not determine edge retention: wear resistance, carbide type and distribution, heat treatment, edge geometry, cutting medium and technique all influence how long a knife remains effective.
 
@@ -33,7 +39,7 @@ However, hardness is not the same thing as sharpness. A knife does not become sh
 
 Hardness also brings a practical compromise. A very hard edge, especially when it is ground thin, is less able to bend harmlessly when it is twisted or struck. Instead of rolling, it may chip. This does not mean that hard knives are fragile objects that cannot be used. It means that they reward suitable technique: straight cuts, appropriate cutting boards and no twisting through hard food.
 
-A useful commercial explanation is therefore:
+A useful way to remember this is:
 
 > Greater hardness generally improves resistance to edge rolling. How long the knife remains effective also depends on wear resistance, microstructure, heat treatment, geometry and use; very hard and thin knives require more disciplined technique.
 
@@ -65,9 +71,17 @@ This is the quality most people associate with the word **stainless**. Stainless
 
 The word stainless can nevertheless create unrealistic expectations. It does not mean that the knife is completely immune to rust. Salt water, acidic ingredients, food residue and prolonged storage while wet can still stain or corrode a stainless blade. The correct meaning is closer to **stain-resistant** than **stain-proof**.
 
+### Historical connection: from "rustless" to stainless
+
+In Sheffield in 1913, metallurgist Harry Brearley produced a chromium steel widely credited as the first stainless steel of its type. The British Stainless Steel Association records a composition of about 12.8 percent chromium and 0.24 percent carbon for the celebrated August 1913 batch. Brearley called the material "rustless"; the more memorable name "stainless steel" followed.
+
+The story is often simplified into a lucky accident, but corrosion-resistant iron-chromium alloys had been studied by several researchers. Brearley's practical achievement became especially important to Sheffield's cutlery industry. A material first investigated in an industrial laboratory soon changed what ordinary households could expect from knives: less immediate staining, less patina and easier daily care.
+
+It did not abolish corrosion. The modern lesson is the same as the historical one: chromium greatly changes the reaction between steel and its environment, but "stainless" remains a relative description.
+
 Carbon steels sit at the other end of the spectrum. They can take excellent edges and may be very pleasant to sharpen, but they react more quickly with the environment. Their surface may darken and develop a patina. This patina is not necessarily damage; it is a natural reaction layer that can become part of the knife's character. Active orange rust, however, should be removed promptly. If corrosion is allowed to continue, it can deepen into pits and permanently damage the blade.
 
-Corrosion resistance matters differently to different users. A home cook who washes and dries a knife immediately may be comfortable with carbon steel. A professional working quickly around citrus fruit, tomatoes or salty ingredients may prefer the convenience of stainless steel. A customer buying a gift may value easy maintenance more than the sharpening character of a reactive steel.
+Corrosion resistance matters differently to different users. A home cook who washes and dries a knife immediately may be comfortable with carbon steel. A professional working quickly around citrus fruit, tomatoes or salty ingredients may prefer the convenience of stainless steel. A person buying a gift may value easy maintenance more than the sharpening character of a reactive steel.
 
 The practical message is simple:
 
@@ -75,7 +89,7 @@ The practical message is simple:
 
 ## 4. Robustness: how forgiving the knife is in real use
 
-In technical metallurgy, the closest term is **toughness**. For commercial training and customer education, **robustness** is often more intuitive.
+In technical metallurgy, the closest term is **toughness**. In everyday use, **robustness** is often more intuitive.
 
 Robustness describes the practical ability of the blade and edge to tolerate impact, twisting, lateral stress and demanding use without chipping or breaking. It is the quality that makes a knife feel forgiving.
 
@@ -85,7 +99,7 @@ Robustness comes from more than the steel itself. The same steel can be used in 
 
 This is why a comparison based only on steel name can be misleading. A very tough steel ground extremely thin may still be delicate. A less tough steel used in a thick, conservative geometry may feel more robust in practice.
 
-For a customer, robustness should always be discussed together with intended use. A precision slicing knife does not need to behave like a bone cleaver. A heavy-duty knife does not need the same fine geometry as a sashimi slicer. Each tool is designed around a different compromise.
+Robustness should always be discussed together with intended use. A precision slicing knife does not need to behave like a bone cleaver. A heavy-duty knife does not need the same fine geometry as a sashimi slicer. Each tool is designed around a different compromise.
 
 A useful summary is:
 
@@ -95,15 +109,15 @@ A useful summary is:
 
 Steel may appear perfectly smooth and uniform to the eye, but its internal structure is made from grains, phases and hard particles called carbides. The size and distribution of these features influence how the edge behaves.
 
-For a general reader, it is helpful to think of this as the difference between a very fine mixture and a coarse one. A fine, well-distributed structure allows the edge to be shaped into a clean and precise apex. It can support smooth sharpening, good stability and refined cutting performance.
+Think of this as the difference between a very fine mixture and a coarse one. A fine, well-distributed structure allows the edge to be shaped into a clean and precise apex. It can support smooth sharpening, good stability and refined cutting performance.
 
 Larger or harder carbides can improve resistance to wear. This can help the knife keep an aggressive cutting action for a long time. The compromise is that a very carbide-rich steel may take more effort to sharpen, and an extremely fine edge may be more difficult to produce or maintain.
 
-The phrase **grain size** is sometimes used in marketing, but grain size and carbide size are not exactly the same thing. For this knowledge base, **microstructural fineness** is the broader and more useful expression. It includes the idea that the internal structure should be fine, even and well controlled.
+The phrase **grain size** is sometimes used loosely, but grain size and carbide size are not exactly the same thing. In this guide, **microstructural fineness** is the broader and more useful expression. It includes the idea that the internal structure should be fine, even and well controlled.
 
 This dimension is especially important because it explains why two steels with similar hardness can feel completely different. One may sharpen smoothly and take a very refined edge. The other may offer stronger wear resistance but feel more abrasive-resistant on the stone.
 
-The customer does not need to see a microscope image to understand the main point:
+The reader does not need to see a microscope image to understand the main point:
 
 > A fine and well-controlled internal structure helps a steel take a clean, stable and precise edge.
 
@@ -117,7 +131,7 @@ This is not a defect in knife design. It is the reason different steels and knif
 
 ## Applying the five dimensions to Xinzuo
 
-The five dimensions provide the reading key for the [Xinzuo Blade Steels portfolio guide](../02-steels-and-metallurgy/xinzuo-blade-steels.md). At one end, ZDP-189 emphasizes hardness and retention; SRS13, M390 and 14Cr14MoVNb offer different premium balances; 10Cr15CoMoV is a central all-round option across numerous Xinzuo constructions; and DIN 1.4116 emphasizes robustness and ease of sharpening.
+The five dimensions provide the reading key for the [Xinzuo Blade Steels guide](../02-steels-and-metallurgy/xinzuo-blade-steels.md). At one end, ZDP-189 emphasizes hardness and retention; SRS13, M390 and 14Cr14MoVNb offer different premium balances; 10Cr15CoMoV is a central all-round option across numerous Xinzuo constructions; and DIN 1.4116 emphasizes robustness and ease of sharpening.
 
 These comparisons describe tendencies within the catalog, not the complete performance of a finished knife. Xinzuo's vacuum heat treatment, deep-freeze processing where specified, blade geometry and sharpening determine how the material behaves in a particular series.
 
@@ -135,9 +149,9 @@ None of these users is choosing incorrectly. They are choosing a different balan
 
 ## How to use a five-axis chart
 
-The five dimensions can be shown in a radar chart or pentagon. This is a useful marketing tool because it shows character at a glance.
+The five dimensions can be shown in a radar chart or pentagon. This is a useful teaching tool because it shows character at a glance.
 
-The chart should not be presented as an absolute scientific measurement unless the scores are supported by a consistent testing method. Its purpose is educational: to help customers see why one steel may be hard and corrosion-resistant while another may be easier to sharpen and more robust.
+The chart should not be presented as an absolute scientific measurement unless the scores are supported by a consistent testing method. Its purpose is educational: to help readers see why one steel may be hard and corrosion-resistant while another may be easier to sharpen and more robust.
 
 The most useful charts compare steels within the same product range using the same scale and the same assumptions. They should avoid suggesting that a large overall shape automatically means a better steel. A balanced shape may be more appropriate than an extreme one.
 
@@ -163,8 +177,16 @@ The same steel can behave differently depending on hardness, heat treatment, geo
 
 Long wear resistance may come with slower sharpening or reduced forgiveness. The right choice depends on the user.
 
-## Customer-facing summary
+## What to remember
 
 > A good knife steel is not defined by one number. It is the balance between hardness, ease of sharpening, corrosion resistance, robustness and the fineness of its internal structure.
 
-Once these five dimensions are understood, steel names become much easier to compare. Instead of asking which steel is universally best, the reader can ask the more useful question: **Which steel has the right character for the way this knife will be used?**
+Once these five dimensions are understood, steel names become much easier to compare. Instead of asking which steel is universally best, ask the more useful question: **Which steel has the right character for the way this knife will be used?**
+
+> **Practice principle:** compare the whole balance before comparing the headline number.
+
+### Historical sources
+
+- [Rockwell and Rockwell, US Patent 1,294,171, Hardness Tester](https://patents.google.com/patent/US1294171A/en)
+- [Sheffield City Council, Stainless Steel Research Guide](https://www.sheffield.gov.uk/libraries-archives/access-archives-local-studies-library/research-guides/stainless-steel)
+- [British Stainless Steel Association, The Discovery of Stainless Steel](https://bssa.org.uk/bssa_articles/the-discovery-of-stainless-steel/)

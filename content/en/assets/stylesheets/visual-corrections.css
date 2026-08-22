@@ -24,6 +24,24 @@
   margin-block: 1.25rem 1.75rem;
 }
 
+/* Long-form reading text is justified in every built language. Captions,
+   tables, navigation and other short interface text keep their own alignment. */
+.md-content__inner > p,
+.md-content__inner blockquote > p,
+.md-content__inner .admonition > p:not(.admonition-title),
+.md-content__inner li > p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+html:lang(zh) .md-content__inner > p,
+html:lang(zh) .md-content__inner blockquote > p,
+html:lang(zh) .md-content__inner .admonition > p:not(.admonition-title),
+html:lang(zh) .md-content__inner li > p {
+  text-justify: inter-character;
+}
+
 @media print {
   .kb-right-panel-crop {
     break-inside: avoid;

@@ -1,22 +1,24 @@
 ---
-title: Xinzuo Handle Materials — Portfolio Guide
-status: approved
-audience: customer-education
+title: Xinzuo Handle Materials - Feel, Care and Choice
+status: review
+audience: general-reader
 language: en
-reviewed: 2026-08-09
+reviewed: 2026-08-22
 translation_priority: highest
 source_basis: 2025 Xinzuo Catalog V9
 ---
 
-# Xinzuo Handle Materials — Portfolio Guide
+# Xinzuo Handle Materials - Feel, Care and Choice
 
 The handle is where the knife becomes a tool in the hand. It influences grip, balance, weight, temperature, maintenance and visual identity. Xinzuo uses both natural woods and engineered materials because no single handle material provides every advantage.
 
 Natural variation is part of the appeal of wood: two handles from the same species will not have identical grain or color. Engineered materials offer greater consistency and moisture stability. Neither category is automatically superior. Shape, finish, assembly and the intended environment remain just as important as the material name.
 
-The current Xinzuo catalog lists rosewood, ebony, North American desert ironwood, red sandalwood, resin, red wood, figured sycamore, olivewood, oak, carbon fiber, pakka wood, Micarta, carbon fiber with resin, walnut and black G10. Selected series also combine these materials with copper, buffalo horn, imitation ox bone or other accents.
+Across its documented range, Xinzuo uses rosewood, ebony, North American desert ironwood, red sandalwood, resin, red wood, figured sycamore, olivewood, oak, carbon fiber, Pakka wood, Micarta, carbon fiber with resin, walnut and black G10. Selected series also combine these materials with copper, buffalo horn, imitation ox bone or other accents.
 
-## Portfolio at a glance
+Before comparing names, hold one idea in mind: material changes the possibilities, but shape creates the grip. A plain material in a handle that fits the hand can be more comfortable than a rare wood shaped poorly for the user.
+
+## At a glance
 
 | Material | Type | Main strengths | Main compromises | Care profile |
 |---|---|---|---|---|
@@ -41,7 +43,7 @@ The current Xinzuo catalog lists rosewood, ebony, North American desert ironwood
 
 Rosewood appears across several Xinzuo series and gives the handle a warm red-brown tone with visible grain. It is dense enough for a reassuring feel and can take a smooth finish. Because “rosewood” covers a group of woods, exact color and figure naturally vary.
 
-Its advantage is a classic balance of appearance, tactility and durability. Its compromise is the normal sensitivity of wood to repeated soaking, high heat and very dry storage. A customer should expect individuality, not color uniformity.
+Its advantage is a classic balance of appearance, tactility and durability. Its compromise is the normal sensitivity of wood to repeated soaking, high heat and very dry storage. Expect individuality, not color uniformity.
 
 ### Ebony
 
@@ -57,7 +59,7 @@ Its natural oils and density make it comparatively resistant to moisture, but no
 
 ### Red sandalwood and red wood
 
-These names describe the red-toned woods used in selected Xinzuo handles. Their commercial appeal is warmth, traditional character and contrast with polished steel. Because catalog naming can group different botanical sources or trade terms, product copy should use the authorized series name and avoid inventing a precise species.
+These names describe the red-toned woods used in selected Xinzuo handles. Their appeal is warmth, traditional character and contrast with polished steel. Because catalog naming can group different botanical sources or trade terms, use the authorized series name and do not invent a precise species.
 
 The practical care rule is the same as for other woods: no dishwasher, no soaking, prompt drying and no storage beside strong heat.
 
@@ -97,7 +99,13 @@ Xinzuo uses Pakka wood across several important families, including Damascus and
 
 Micarta is a laminate produced by bonding fabric or paper layers with resin. Linen Micarta, used in selected Xinzuo series, can provide a fine visible weave and a secure, tactile surface.
 
-It is stable, durable and less sensitive to humidity than natural wood. Its grip depends on surface finish: polished Micarta feels smoother, while a more exposed texture can provide more traction. It may not appeal to a customer specifically seeking natural grain, but it is highly practical for frequent use.
+#### Historical connection: from electricity to the kitchen
+
+Micarta was developed by George Westinghouse in 1910 as an electrical insulating laminate. Layers of paper or fabric were bonded with resin to create a strong, stable industrial material. During the First World War it also found lightweight structural uses in aircraft. Much later, the same combination of dimensional stability, toughness and machinability made it attractive for tool and knife handles.
+
+This origin makes the material easy to remember. Micarta did not begin as an imitation of wood. It began as engineering material asked to remain dependable around electricity, heat and mechanical work.
+
+It is stable, durable and less sensitive to humidity than natural wood. Its grip depends on surface finish: polished Micarta feels smoother, while a more exposed texture can provide more traction. It may not appeal to someone specifically seeking natural grain, but it is highly practical for frequent use.
 
 ### Black G10
 
@@ -129,7 +137,7 @@ Selected Xinzuo handles combine the main grip material with copper, white or bla
 
 An accent material should not be treated as the whole handle specification. For example, “olivewood with black buffalo horn” describes a combined construction whose care is governed by its most sensitive component. Natural horn, where genuinely used, may vary in color and should be protected from heat and prolonged water exposure.
 
-## What the catalog does not establish
+## What a material name does not establish
 
 The material name alone does not establish:
 
@@ -140,9 +148,9 @@ The material name alone does not establish:
 - dishwasher suitability;
 - identical balance across knives with different blade sizes.
 
-These details require current authorized product data. The knowledge base should never turn an attractive catalog label into an unsupported scientific or sourcing claim.
+These details require verified product data. Do not turn an attractive material label into an unsupported scientific or sourcing claim.
 
-## Choosing a Xinzuo handle
+## Choosing a handle by the way it will be used
 
 - Choose **rosewood, olivewood, walnut, oak or figured sycamore** for visible natural grain and a warm tactile character.
 - Choose **ebony or desert ironwood** for a denser, darker and more substantial premium feel.
@@ -161,6 +169,10 @@ Grip shape and size still matter more than a material label. A beautiful materia
 5. Do not use abrasive pads on polished resin, carbon fiber or fine wood finishes.
 6. Inspect natural wood periodically and use only a suitable food-contact-safe conditioner when needed.
 
-> A handle material sets the possibilities for durability, weight and appearance. Shape, finish, assembly and care determine the experience in the hand.
+> **Practice principle:** a handle material sets the possibilities for durability, weight and appearance; shape, finish, assembly and care determine the experience in the hand.
 
-*Source note: the portfolio list and series examples on this page are based on the 2025 Xinzuo catalog. Natural materials vary, and current model-level specifications should be checked before publication or sale.*
+*Source note: the material list and series examples on this page are based on Xinzuo's 2025 product information. Natural materials vary, and the individual model specification takes precedence.*
+
+### Historical source
+
+- [Museum of Fine Arts Boston CAMEO, Micarta](https://cameo.mfa.org/wiki/Micarta)

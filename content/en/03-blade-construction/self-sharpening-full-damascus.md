@@ -1,15 +1,15 @@
 ---
 title: The Self-Sharpening Effect in Full Damascus Blades
-status: approved
-audience: commercial-training
+status: review
+audience: general-reader
 language: en
-reviewed: 2026-08-09
+reviewed: 2026-08-22
 translation_priority: high
 ---
 
 # The Self-Sharpening Effect in Full Damascus Blades
 
-The expression **self-sharpening blade** immediately sounds impressive. It can also be misunderstood.
+The expression **self-sharpening blade** creates the wrong picture if it is left unexplained. Nothing inside the knife sharpens the edge, and worn steel does not grow back.
 
 A kitchen knife does not contain a hidden sharpening device, and no steel can repair a chipped or rolled edge by itself. In the context of selected full Damascus blades, self-sharpening describes a proposed differential-wear mechanism: the different steel layers are designed to wear at slightly different rates, which can help the edge preserve a microscopic tooth-like structure during use.
 
@@ -29,7 +29,7 @@ This is why the term should not be applied to every knife with a Damascus patter
 
 ## The role of different steels
 
-The full Damascus blades described in this project are produced from steels with different hardness and wear characteristics specifically to create the desired effect.
+The selected Xinzuo full-Damascus blades discussed here are produced from steels with different hardness and wear characteristics specifically to create the desired effect.
 
 The important difference is not simply that one layer is “good” and another is “bad.” The layers have different jobs.
 
@@ -73,7 +73,7 @@ A more toothy edge may not be polished to the same degree, but it can feel very 
 
 The self-sharpening effect mainly helps maintain this **cutting aggression**, or **bite**. It does not necessarily make the geometric apex thinner every time the knife is used.
 
-This is why the most accurate commercial wording is not “the knife becomes sharper and sharper.” It is:
+The accurate explanation is not "the knife becomes sharper and sharper". It is:
 
 > The layered edge can help preserve microscopic bite and slicing ability through differential wear.
 
@@ -129,11 +129,13 @@ As with any quality knife:
 
 An extremely polished finish may temporarily reduce the toothy feel. During use, differential wear may again contribute to microscopic bite.
 
-## How to explain the feature to a customer
+## What this means for a Xinzuo knife
 
-Within Xinzuo's offer, this explanation belongs specifically to the selected customized 110-layer full-Damascus blades whose alternating steels continue to the cutting edge. It must not be copied automatically onto a Xinzuo Damascus-clad knife: in those constructions a separate core forms the edge, so the mechanism described here is not established merely by the visible outer pattern.
+Within Xinzuo's range, this explanation belongs specifically to the selected customized 110-layer full-Damascus blades whose alternating steels continue to the cutting edge. It must not be copied automatically onto a Xinzuo Damascus-clad knife: in those constructions a separate core forms the edge, so the mechanism described here is not established merely by the visible outer pattern.
 
-The explanation should begin with the benefit, then describe the mechanism.
+### How to explain the effect clearly
+
+Begin with what the cook may notice, then explain the mechanism.
 
 A concise version is:
 
@@ -143,9 +145,9 @@ A more conversational version is:
 
 > It does not sharpen itself like a machine. The idea is that differential wear may leave the more wear-resistant layers slightly more exposed, helping the edge retain a very fine natural bite instead of becoming uniformly smooth.
 
-Both versions are understandable without requiring the customer to know metallurgy.
+Both versions are understandable without requiring prior knowledge of metallurgy.
 
-## Responsible marketing language
+## Accurate and inaccurate ways to describe the effect
 
 Recommended expressions include:
 
@@ -163,10 +165,12 @@ Expressions to avoid include:
 - impossible to dull;
 - self-sharpening simply because the blade has a Damascus pattern.
 
-Responsible language does not weaken the product story. It makes the story believable.
+Accurate language makes the mechanism easier to understand and prevents unrealistic expectations.
 
-## Customer-facing summary
+## What to remember
 
 > In selected full Damascus blades, alternating steels are deliberately chosen with different hardness and wear characteristics. The intended differential-wear mechanism can leave the more wear-resistant layers slightly more exposed and help preserve a microscopic tooth-like structure. The knife is not maintenance-free, and the size of this effect should be judged from the specific construction and test evidence rather than assumed from the Damascus pattern alone.
 
 The most important idea is that the effect comes from the **working relationship between the layers**, not from the beauty of the pattern alone.
+
+> **Practice principle:** describe what the construction can support, and never promise that it replaces sharpening.

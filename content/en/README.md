@@ -1,44 +1,29 @@
-# Xinzuo Knowledge Base — English Source
+# The Kung Fu of Xinzuo - English Edition
 
-English is the source of truth for all localized versions and exports.
+*A Practical Guide to Kitchen Knives: Materials, Shapes and Techniques for Masterful Cutting*
 
-## 01 — Foundations
+Written by **Francesco Claudio Mazza**, Brand Manager Europe at Xinzuo.
 
-- [The Five Dimensions of Knife Steel](01-foundations/five-dimensions-of-knife-steel.md)
+- [Preface](preface.md)
 
-## 02 — Steels and Metallurgy
-
-- [Alloying Elements: A Practical Guide](02-steels-and-metallurgy/alloying-elements.md)
-
-## 03 — Blade Construction
-
-- [Damascus Steel: Construction, Appearance, and Performance](03-blade-construction/damascus-steel.md)
-- [The Self-Sharpening Effect in Full Damascus Blades](03-blade-construction/self-sharpening-full-damascus.md)
-
-## 04 — Geometry and Bevels
+## Master the movement
 
 - [Single and Double Bevels](04-geometry-and-bevels/single-and-double-bevels.md)
-
-## 05 — Knife Types
-
 - [Knife Types and Cutting Styles](05-knife-types/overview.md)
+- [How to Cut - Essential Knife Techniques](06-cutting-techniques/essential-cutting-techniques.md)
 
-## 08 — Use and Safety
+## Understand the material
+
+- [The Five Dimensions of Knife Steel](01-foundations/five-dimensions-of-knife-steel.md)
+- [Xinzuo Blade Steels](02-steels-and-metallurgy/xinzuo-blade-steels.md)
+- [Alloying Elements](02-steels-and-metallurgy/alloying-elements.md)
+- [Xinzuo Handle Materials](02-steels-and-metallurgy/xinzuo-handle-materials.md)
+- [Damascus Steel](03-blade-construction/damascus-steel.md)
+- [The Self-Sharpening Effect in Full Damascus Blades](03-blade-construction/self-sharpening-full-damascus.md)
+
+## Protect and restore the edge
 
 - [Safe Use and Carrying](08-use-and-safety/safe-use-and-carrying.md)
-
-## 10 — Sharpening
-
 - [Preparing Water Stones](10-sharpening/whetstone-preparation.md)
 - [Understanding the Burr](10-sharpening/the-burr.md)
 - [A Practical Sharpening Process](10-sharpening/basic-sharpening-process.md)
-
-## Planned sections
-
-- heat treatment;
-- edge geometry and thickness behind the edge;
-- handles, balance, and weight;
-- blade finishes and food release;
-- care, cleaning, storage, and corrosion;
-- detailed pages for individual knife types;
-- stone flattening and long-term maintenance.

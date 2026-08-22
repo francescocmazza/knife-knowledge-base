@@ -1,15 +1,15 @@
 ---
 title: Understanding the Burr
-status: approved
-audience: commercial-training
+status: review
+audience: general-reader
 language: en
-reviewed: 2026-08-09
+reviewed: 2026-08-22
 translation_priority: high
 ---
 
 # Understanding the Burr
 
-The burr is one of the most important ideas in manual sharpening. Once the reader understands it, sharpening stops feeling like a mysterious ritual and becomes a process that can be observed.
+The burr is one of the most useful signs in manual sharpening. Once you understand it, sharpening stops feeling like a mysterious ritual and becomes a process you can observe.
 
 A beginner often asks: How do I know when I have sharpened enough on one side? How do I know that the stone has actually reached the cutting edge instead of polishing an area above it?
 
@@ -37,7 +37,7 @@ It is not normally a separate piece of dirt resting on the blade. It is still co
 
 When the burr becomes long, weak and flexible, it is sometimes called a **wire edge**. A wire edge can make the knife feel sharp for a moment, but it is unstable. It may fold from side to side or break away during the first cuts.
 
-The goal is not to create the largest possible burr. The goal is to create the smallest light, continuous burr that confirms the edge has been reached.
+The goal is not to create the largest possible burr. Think of it as a receipt, not a trophy: the smallest light, continuous burr confirms that the stone has reached the edge.
 
 ## How the burr forms step by step
 
@@ -284,8 +284,10 @@ Heavy pressure continues to bend and enlarge the burr instead of removing it.
 11. Check that no directional lip remains.
 12. Test the clean edge on paper and suitable food.
 
-## Customer-facing summary
+## What to remember
 
 > The burr is not dirt or loose sharpening residue. It is the final, extremely thin part of the edge bending toward the side opposite the one being sharpened. A light burr from heel to tip confirms that the stone has reached the apex. It must then be reduced and removed so that the finished edge is clean and stable.
 
 Understanding the burr turns sharpening from guesswork into a process with visible and tactile checkpoints.
+
+> **Practice principle:** raise the smallest burr that proves you have reached the apex, then remove it.

@@ -1,107 +1,117 @@
 ---
-title: Xinzuo Knowledge Base
-status: approved
+title: The Kung Fu of Xinzuo
+author: Francesco Claudio Mazza
+status: review
 language: en
-reviewed: 2026-08-09
+reviewed: 2026-08-22
 ---
 
-# Xinzuo Knowledge Base
+# The Kung Fu of Xinzuo
 
-A kitchen knife looks simple: a handle, a blade and a cutting edge. Its behaviour is not simple. Steel, heat treatment, blade geometry, sharpening, balance and user technique all work together.
+*A Practical Guide to Kitchen Knives*<br>
+*Materials, Shapes and Techniques for Masterful Cutting*
 
-This is Xinzuo's knowledge base: a practical guide to the materials, constructions, production choices, use and maintenance of kitchen knives. It is written for curious home cooks, chefs, Xinzuo sales teams, distributors, retail staff, content creators and anyone who wants to understand why two knives that look similar can feel completely different in use.
+A kitchen knife looks simple: a handle, a blade and a very thin edge. In the hand, however, it can chop, glide, rock, steer, wedge, separate or crush. The difference comes from the meeting of three things: the knife's design, the ingredient and the cook's movement.
 
-The guide is practical rather than academic. It begins with the characteristics found across Xinzuo's offer and places them in the wider context of knife making. Other steels, materials, makers and traditions are discussed when they clarify a real comparison; Xinzuo is the reference point, not an occasional example.
+This book teaches that meeting. It is written for people who are curious but may know little about knives, and for store and kitchen teams that need to explain them clearly. You will learn what to do, how to do it, why it works and what to notice while practising. Technical terms appear only when they help you make a better choice or movement.
 
-> A knife is never defined by one feature alone. The useful question is always how its different features work together for a particular task and user.
+Xinzuo knives provide the examples because the range brings together Western, Japanese and Chinese forms, traditional and powder steels, layered construction and many handle materials. The lessons are wider than any catalogue: they apply to kitchen knives in general.
 
-## Recommended reading path
+> **The central idea:** steel creates possibilities, heat treatment develops them, geometry turns them into cutting behaviour, sharpening restores the edge and technique determines what the cook experiences.
 
-Each chapter can stand alone, but a new reader will understand the subject more easily in this order.
+## What “kung fu” means here
 
-### 1. Begin with geometry
+Outside China, *kung fu* is often understood as a martial art. The Chinese expression *gongfu* (功夫) also carries a broader idea: skill developed through effort, patience and time. That is exactly the kind of mastery a kitchen knife asks from us. It is not a collection of tricks. It is the habit of observing carefully, understanding the reason for a result and repeating a good movement until it becomes natural.
 
-- [Single and Double Bevels](04-geometry-and-bevels/single-and-double-bevels.md)
-- [Knife Types and Cutting Styles](05-knife-types/overview.md)
+The title therefore makes a promise. This is not a book to admire from a distance. It is a guide to knowledge that becomes visible in the hand: a straighter slice, a safer grip, a cleaner edge, a more suitable recommendation and a clearer explanation.
 
-Start by seeing how a knife meets food. Bevels, edge shape, blade height, curvature and thickness are easier to visualize than metallurgy, and they explain why a knife may steer, rock, chop, slice or release food differently.
+## The Xinzuo practice cycle
 
-### 2. Learn how steel performance is described
+Use the same four-part cycle throughout the book:
 
-- [The Five Dimensions of Knife Steel](01-foundations/five-dimensions-of-knife-steel.md)
-- [Xinzuo Blade Steels — Portfolio Guide](02-steels-and-metallurgy/xinzuo-blade-steels.md)
-- [Alloying Elements — A Practical Guide](02-steels-and-metallurgy/alloying-elements.md)
-- [Xinzuo Handle Materials — Portfolio Guide](02-steels-and-metallurgy/xinzuo-handle-materials.md)
+1. **Observe.** Look at the food, the blade and the path of the cut before moving.
+2. **Understand.** Connect what you see to shape, steel, bevel or technique.
+3. **Practise.** Work slowly enough to repeat the movement with control.
+4. **Care and explain.** Maintain the tool, then describe the lesson in plain words.
 
-Once the reader understands geometry, steel specifications become more meaningful. These chapters explain hardness, ease of sharpening, corrosion resistance, robustness and microstructural fineness, then apply those ideas to the steels and handle materials used across Xinzuo's portfolio.
+The final step matters. If you can explain why a flat-edged nakiri suits straight chopping, why a thin Chinese chef's knife is not a bone cleaver, or why a burr must be removed, you have understood more than a label.
 
-### 3. Understand blade construction
+## How to use this book
 
-- [Damascus Steel — Construction, Appearance, and Performance](03-blade-construction/damascus-steel.md)
-- [The Self-Sharpening Effect in Full Damascus Blades](03-blade-construction/self-sharpening-full-damascus.md)
+You do not have to read from beginning to end.
 
-These chapters distinguish patterned cladding, full pattern-welded construction, historical wootz and surface-applied decoration. They also explain how alternating steels can influence edge wear when the layers actually reach the apex.
+- If you are choosing a first serious knife, begin with **Knife Types and Cutting Styles**.
+- If a knife pulls sideways or behaves differently in each hand, begin with **Single and Double Bevels**.
+- If you own a knife but do not yet feel confident, go to **How to Cut** and **Safe Use and Carrying**.
+- If steel names and hardness numbers are confusing, read **The Five Dimensions of Knife Steel** before the steel chapter.
+- If the knife has become dull, read the three sharpening chapters in sequence.
 
-### 4. Use the knife safely
+For self-study, choose one question from your own kitchen and follow it through the relevant chapters. For staff training, use each chapter as a short lesson: learn the central idea, demonstrate it safely, invite the learner to try it, then ask them to explain the result without jargon. A good explanation helps a customer choose; it should never pressure them toward the most expensive option.
 
-- [Safe Use and Carrying](08-use-and-safety/safe-use-and-carrying.md)
+## Part I - Master the movement
 
-A suitable sharp knife is easier to control, but safety depends on the complete working method: a stable board and ingredient, correct grip, controlled movement, appropriate cutting surface, safe carrying and protected storage.
+### Single and double bevels
 
-### 5. Finish with sharpening
+The bevel is the sloping part that leads to the cutting edge. Its position changes steering, food separation, handedness and sharpening. The chapter also explains a practical way to use a single-bevel knife made for the opposite hand: arrange the work so that the blade travels away from the guiding hand or away from the body.
 
-- [Preparing Water Stones](10-sharpening/whetstone-preparation.md)
-- [Understanding the Burr](10-sharpening/the-burr.md)
-- [A Practical Sharpening Process](10-sharpening/basic-sharpening-process.md)
+### Knife types and cutting styles
 
-Sharpening becomes much easier once the reader knows what the bevel and apex are. The sequence is deliberate: first prepare the abrasive, then understand the burr, then follow the complete process.
+Knife names become useful only when connected to movement and food. This chapter compares the Western chef's knife, gyuto, santoku, bunka, nakiri, usuba, Chinese chef's knife, slicers, fish knives, boning knives and smaller specialist forms.
 
-## What this first edition covers
+### How to cut
 
-This edition explains:
+The practical heart of the book covers straight chopping, push cutting, draw slicing, rocking, tip work, cutting across the grain, julienne, dicing, mincing, peeling, boning and filleting. Each essential movement includes a purpose, a safe setup, a simple exercise and a common error to correct.
 
-- how single and double-bevel geometry changes cutting behaviour;
-- how major knife profiles support rocking, push cutting, chopping, slicing and detail work;
-- how to compare steels without treating one number as a universal quality score;
-- the principal Xinzuo blade steels, their typical catalog hardness ranges and practical trade-offs;
-- the principal natural and engineered handle materials used by Xinzuo;
-- what the main alloying elements contribute;
-- the difference between Damascus cladding, full Damascus and surface decoration;
-- the differential-wear mechanism described as a self-sharpening effect;
-- safe use, carrying, washing, transport and storage;
-- stone preparation, flatness, slurry and swarf;
-- burr formation, detection and removal;
-- a complete double-bevel sharpening workflow.
+## Part II - Understand the material
 
-## Subjects still to be developed
+### The five dimensions of knife steel
 
-The present guide is a strong first technical-commercial foundation, but it is not yet a complete book. Future chapters should add:
+Instead of asking which steel is “best”, learn to compare hardness, sharpening response, corrosion resistance, robustness and microstructural fineness.
 
-- the anatomy of a kitchen knife and the vocabulary of blade geometry;
-- monosteel, san-mai, ni-mai and honyaki construction in one comparative chapter;
-- heat treatment as the bridge between composition and performance;
-- blade thickness, distal taper, convexity and geometry behind the edge;
-- handle shapes, balance, weight and ergonomics beyond the present material guide;
-- polished, hammered, kurouchi and other finishes;
-- maintenance, patina, corrosion removal and long-term storage;
-- product-comparison methods that do not rely on unsupported rankings.
+### Xinzuo blade steels
 
-These additions will be placed into the same learning sequence rather than treated as isolated articles.
+The five dimensions are applied to steels used by Xinzuo, from forgiving DIN 1.4116 to 10Cr15CoMoV, 14C28N, AUS-10, Blue Steel No. 2, SRS13, M390, ZDP-189 and Xinzuo's niobium-bearing powder steel.
 
-## English is the source of truth
+### Alloying elements and handles
 
-English is the sole source-of-truth language. Localized versions are generated from the approved English core. A translation may improve natural phrasing, but it must not introduce a new technical or commercial claim independently.
+Carbon, chromium, molybdenum, vanadium and other alloying elements are explained through the changes they help produce. Natural woods, Pakka wood, Micarta, G10, carbon fibre and resin are compared by feel, stability, weight and care.
 
-The publishing system supports Italian, Spanish, German, French, Japanese, Simplified Chinese, Traditional Chinese and additional standard locale codes.
+### Damascus and layered construction
 
-## Corrections and contributions
+These chapters separate historical crucible steel, modern pattern welding, layered cladding and surface decoration. They also explain the limited differential-wear effect sometimes called self-sharpening in full-Damascus blades.
 
-Questions, corrections and proposals are welcome through GitHub Issues and pull requests. Contributions should improve Xinzuo product knowledge, clarity, usefulness or factual reliability while respecting the guide's educational purpose and the distinction between verified portfolio facts and general knife knowledge.
+## Part III - Protect and restore the edge
 
-The original written content may be shared and adapted for non-commercial purposes under CC BY-NC-SA 4.0. Commercial reuse requires separate prior written permission. Image rights may differ and must be stated individually.
+### Safe use and carrying
 
-## The central idea
+Safety begins before the first cut: a stable board, stable food, a clear path and the right knife for the task. The chapter continues through washing, passing, carrying, transport and storage.
 
-> Steel creates possibilities. Heat treatment develops them. Geometry turns them into cutting behaviour. Sharpening restores the edge. Technique determines what the user experiences.
+### Stones, burrs and sharpening
 
-That relationship is the thread connecting every chapter in this knowledge base.
+Learn when to soak a water stone, why flatness matters, how a burr forms and how to remove it. The final chapter joins preparation, angle control, apex formation, refinement and testing into one complete beginner workflow for an ordinary double-bevel kitchen knife.
+
+## History as a memory tool
+
+Knife history is not decoration. It helps us remember why a shape, material or method exists. The book follows Sakai's movement from tools and weapons to tobacco knives and professional kitchen cutlery; the meeting of Japanese and Western forms; Sheffield's early stainless cutlery; the journey of South Indian wootz through Eurasia; and the transformation of electrical laminates into modern handle materials.
+
+The story of **Bintie** runs through the steel chapters. Historical Chinese sources used the term for highly valued iron or steel, sometimes connected with imported crucible steel and sometimes with material refined in China. The surviving evidence does not support one simple recipe, but it does show that special steel, long-distance exchange and metallurgical skill were part of Chinese culture centuries before the modern factory.
+
+That history gives the book a deeper thread. Xinzuo's stainless, powder-steel and layered blades belong to modern metallurgy, not to a lost ancient formula. Yet the impulse is familiar: study the material, control the process and design the steel around the work it must perform.
+
+Where a popular origin story is disputed, the book says so. A memorable story teaches only when it is also honest.
+
+## Product information and sources
+
+Steel, hardness, construction and material details are based on Xinzuo's documented product information used for this edition. A name or silhouette alone cannot prove the exact grind, handedness, steel, hardness or suitability for bones; the specification for the individual model always takes precedence.
+
+The book does not rank every feature from worst to best. A thin slicer and a robust chopper solve different problems. A steel that sharpens easily may be more useful than a highly wear-resistant steel in one kitchen and less useful in another. Sources at the ends of chapters support the historical passages and the technical claims that benefit from further reading.
+
+*Language note: the broader sense of 功夫 used in the title follows the CC-CEDICT entry for skill, art, labour and effort, not only the martial-arts usage.*
+
+- [CC-CEDICT entry for 功夫](https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define=%E5%8A%9F%E5%A4%AB)
+
+## Before you begin
+
+Choose one question you genuinely have. Why does your knife stick in a potato? Why does a single bevel pull sideways? Why does one steel feel easy on a stone while another seems to resist it? Read until you can answer that question in your own words, then test the explanation carefully in the kitchen.
+
+That is the kung fu of this book: useful knowledge, made real through practice.

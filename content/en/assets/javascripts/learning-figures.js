@@ -37,15 +37,6 @@
       }
     ],
 
-    "01-foundations/five-dimensions-of-knife-steel": [
-      {
-        id: "FIG-STEEL-DIMENSIONS",
-        file: "five-dimensions-radar.svg",
-        alt: "Radar chart of the five dimensions used to describe knife steel",
-        caption: "The five dimensions provide an educational map of a steel's character; they are not an absolute quality score."
-      }
-    ],
-
     "03-blade-construction/damascus-steel": [
       {
         id: "VIS-FINISH-01",
@@ -66,7 +57,7 @@
         dir: "assets/images/approved/",
         file: "damascus-structure-comparison.svg",
         alt: "Technical cross-section comparison of historic Damascus steel and modern full-Damascus steel, showing the layered structure continuing to the cutting edge.",
-        caption: "In both structures, the alternating layers continue all the way to the cutting edge — the structural basis for the differential-wear mechanism described in this chapter.",
+        caption: "In both structures, the alternating layers continue all the way to the cutting edge - the structural basis for the differential-wear mechanism described in this chapter.",
         note: "Presentation material. The specific hardness values shown describe the individual steels tested there and are not a general ranking of Damascus knives.",
         width: 1600,
         height: 405,
@@ -76,12 +67,6 @@
     ],
 
     "04-geometry-and-bevels/single-and-double-bevels": [
-      {
-        id: "FIG-BEV-CROSS-SECTION",
-        file: "single-vs-double-bevel.svg",
-        alt: "Cross-section comparison of single and double bevel edges",
-        caption: "A simplified cross-section makes the basic geometric difference easier to visualize."
-      },
       {
         id: "VIS-BEV-02",
         dir: "assets/images/approved/",
@@ -97,12 +82,6 @@
     ],
 
     "05-knife-types/overview": [
-      {
-        id: "FIG-KNIFE-MOTION",
-        file: "knife-types-and-motion.svg",
-        alt: "Knife profiles and their most common cutting motions",
-        caption: "Original diagram illustrating typical profile-related cutting tendencies for gyuto, santoku, bunka and nakiri."
-      },
       {
         id: "VIS-KNIFE-09",
         dir: "assets/images/approved/",
@@ -133,12 +112,6 @@
 
     "10-sharpening/whetstone-preparation": [
       {
-        id: "FIG-STONE-PREPARATION-COMPARE",
-        file: "whetstone-preparation.svg",
-        alt: "Diagram comparing soaking, splash-and-go preparation and keeping a whetstone wet",
-        caption: "The correct preparation depends on the stone; manufacturer instructions always prevail."
-      },
-      {
         id: "VIS-STONE-01",
         dir: "assets/images/approved/",
         file: "stable-whetstone-setup.svg",
@@ -149,15 +122,6 @@
         height: 780,
         loading: "lazy",
         target: { type: "heading", level: "h2", index: 3 }
-      }
-    ],
-
-    "10-sharpening/the-burr": [
-      {
-        id: "FIG-BURR-CROSS-SECTION",
-        file: "burr-cross-section.svg",
-        alt: "Cross-section diagram showing how a sharpening burr forms",
-        caption: "The burr is a thin lip of steel still attached to the apex, not loose grinding residue."
       }
     ],
 
@@ -336,7 +300,7 @@
       {
         id: "VIS-KNIFE-15",
         title: "Deba, Sashimi, Sakimaru and Kiritsuke Family",
-        note: "Candidate source: Xinzuo catalog pages 35–37.",
+        note: "Candidate source: Xinzuo catalog pages 35-37.",
         target: { type: "heading", level: "h2", index: 12 }
       },
       {
@@ -585,7 +549,7 @@
     }
 
     const caption = document.createElement("figcaption");
-    caption.textContent = `${item.id} — planned visual awaiting production or image-rights approval.`;
+    caption.textContent = `${item.id} - planned visual awaiting production or image-rights approval.`;
     figure.append(box, caption);
     return figure;
   }

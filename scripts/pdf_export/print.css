@@ -65,6 +65,21 @@ a {
   margin: 0 0 0.4rem;
 }
 
+.kb-cover__subtitle {
+  max-width: 135mm;
+  margin: 0.35rem auto 0;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  color: var(--kb-muted);
+}
+
+.kb-cover__author {
+  margin: 1rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--kb-text);
+}
+
 .kb-cover__language {
   font-size: 1.2rem;
   color: var(--kb-muted);
@@ -191,6 +206,22 @@ h1 + *, h2 + *, h3 + *, h4 + * {
 p {
   orphans: 3;
   widows: 3;
+}
+
+.kb-chapter > p,
+.kb-chapter blockquote > p,
+.kb-chapter .admonition > p:not(.admonition-title),
+.kb-chapter li > p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+html:lang(zh) .kb-chapter > p,
+html:lang(zh) .kb-chapter blockquote > p,
+html:lang(zh) .kb-chapter .admonition > p:not(.admonition-title),
+html:lang(zh) .kb-chapter li > p {
+  text-justify: inter-character;
 }
 
 /* ---------- Figures and images ---------- */
