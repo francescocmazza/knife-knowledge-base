@@ -112,10 +112,6 @@ Gather the leaves into a compact pile. Place the front portion of the edge on th
 
 The curved edge maintains contact as the knife pivots. The cook can repeat the movement without lifting the whole blade high above the board.
 
-### Historical connection: the professional Western kitchen
-
-European professional cooking developed around busy kitchens in which broad chef's knives handled repeated preparation. In the late nineteenth and early twentieth centuries, Auguste Escoffier helped codify the kitchen brigade: different stations performed specialized work in a coordinated system. The curved chef's knife became a natural general tool for repeated board work, including the rocking action many Western cooks still learn first. The history does not prove that every chef's knife must rock; it explains why the profile and the movement became closely associated.
-
 ### Common mistake
 
 Do not rock on the fragile K-tip of a bunka or kiritsuke-style knife. The tip is for precision, not for acting as a pivot under sideways stress.
@@ -209,7 +205,7 @@ The matching handed version remains more intuitive, especially for continuous pr
 
 Some techniques cannot be responsibly learned from a short written description alone. Katsuramuki with an usuba, fish-head work with a deba and rapid professional chopping all combine blade geometry, body position and practiced feedback. The guide can explain the principles, but a qualified demonstration is the safest next step.
 
-This is not a failure of the book. Cooking has always been learned through a mixture of words, observation and repetition. In Sakai, blade making itself is traditionally divided among specialist craftspeople - forging, sharpening and handle fitting. Knife skill develops in the same way: one part at a time, with each specialist movement building on the previous one.
+This is not a failure of the book. Cooking is learned through a mixture of words, observation and repetition. The written explanation gives the learner a map; a qualified demonstration supplies the body position, timing and feedback that are difficult to communicate safely on a page.
 
 ## A seven-day practice sequence
 
@@ -236,8 +232,3 @@ Use inexpensive, stable ingredients and stop before fatigue reduces control.
 - Speed is the visible result of control, not a substitute for it.
 
 > **Practice principle:** control first, consistency second, speed last.
-
-### Historical sources for this chapter
-
-- [KOGEI JAPAN, Sakai Forged Blades](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)
-- [Le Cordon Bleu, The Kitchen Brigade](https://www.cordonbleu.edu/news/what-is-the-kitchen-brigade-system/en)

@@ -21,11 +21,7 @@ This chapter introduces a practical method for ordinary double-bevel kitchen kni
 
 Traditional single-bevel knives such as yanagiba, usuba and deba need a different approach because their broad bevel and hollow reverse side form a specific geometry.
 
-### Historical connection: sharpening as a separate craft
-
-In the Sakai tradition, making a kitchen knife is commonly divided among specialists. The blacksmith creates and heat-treats the blade; a sharpener establishes geometry, surface and edge; another craftsperson fits the handle. This division is a useful correction to the idea that sharpening is merely the last quick touch.
-
-For the home cook, the lesson is encouraging. You are not expected to imitate a master polisher in one afternoon. Learn the process in parts: stabilize the stone, find the bevel, reach the apex, reduce the burr and test the result. Each stage can be observed and improved separately.
+Sharpening becomes easier to learn when it is divided into observable stages: stabilize the stone, find the bevel, reach the apex, reduce the burr and test the result. A beginner does not need to imitate the speed of an experienced sharpener. Each stage can be practised and improved separately.
 
 ## Before beginning: understand the goal
 
@@ -451,7 +447,3 @@ Fifteen degrees is a useful reference, not a universal law.
 The most valuable skill is not moving the knife quickly. It is learning to observe what the stone is doing to the edge.
 
 > **Practice principle:** watch the edge, not the stroke count.
-
-### Historical source
-
-- [KOGEI JAPAN, Sakai Forged Blades and Production Process](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)

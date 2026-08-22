@@ -35,7 +35,7 @@ Because food is displaced on both sides, a reasonably symmetrical double bevel t
 
 Most Western chef's knives, carving and slicing knives (including sujihiki), utility and petty knives, gyuto, santoku, bunka, nakiri and many Chinese chef's knives are double bevel.
 
-### What the cook notices
+### How it feels during a cut
 
 Make a slow push cut through a potato or large carrot. If the edge is symmetrical and the blade is not unusually thick, it should follow the direction of your hand without much correction. The two halves may stick to the blade, but neither side strongly dictates where the knife must go.
 
@@ -74,15 +74,7 @@ For a beginner, the lesson is simple:
 
 > A single bevel is a complete three-dimensional system, not an ordinary edge with one side forgotten.
 
-## A short history: why Sakai matters
-
-Sakai's blade history helps explain why specialist geometry survived. Metalworkers were already present around the great burial-mound construction of the Kofun period. In the sixteenth century, Sakai became important in firearms production. During the more stable Edo period, demand for firearms fell while tobacco spread, creating demand for thin tobacco-leaf knives.
-
-According to KOGEI JAPAN's account of Sakai forged blades, the quality of these knives led the Tokugawa shogunate to use the Sakai Kiwame mark and establish a monopoly. When tobacco production later mechanized, craftspeople increasingly applied their divided skills - forging, sharpening and handle fitting - to professional kitchen knives.
-
-This history is useful because it replaces a vague myth about all Japanese knives descending directly from swords. Sakai's kitchen blades emerged through several trades and changing needs. Specialist cooking forms were refined because professional cooks required specific results, not because one national style was universally superior.
-
-## Why handed versions exist
+## Handedness and working direction
 
 The location of the broad bevel determines how the knife separates food and where the flatter side sits. Reverse the knife in the hand and those forces do not reverse themselves.
 
@@ -90,44 +82,15 @@ A right-handed yanagiba is arranged so that, in its intended working position, t
 
 The matching version normally feels more natural because the blade, body, supporting hand and direction of the cut work together. For frequent professional use, that convenience matters.
 
-## Can you use the version made for the opposite hand?
+The version made for the opposite hand can still be used, but the ingredient and the cutting direction need to be arranged around the geometry. Imagine a left-handed cook holding the knife while the right hand steadies the food. Instead of allowing the blade to travel from the knife hand toward the supporting hand, the cook turns the ingredient and chooses a path that carries the edge away from the right hand. The food can remain in front of the body while the stroke travels sideways into clear space, or it can be rotated so that the stroke moves forward and away from the body.
 
-Yes. It may require a different arrangement, but it is not impossible.
+This change of setup is more effective than trying to overpower the blade. The supporting hand remains behind the cutting line, the intended path stays clear and the wrist remains relaxed. When the knife begins to drift, the cook stops, turns the ingredient or changes stance slightly, and starts again with a more suitable direction. Forcing a buried edge sideways adds stress to the apex and usually reduces control.
 
-The least useful advice is simply to "compensate for steering." A beginner needs to know what to change.
+The technique is easiest to learn with a short, stable piece of cucumber or a small boneless portion. A tall potato, hard squash or rolling ingredient magnifies steering and encourages excess force, so it is a poor first exercise. Slow, shallow cuts reveal the knife's tendency before the blade is deep in the food.
 
-### Change the direction of the cut
+This arrangement is practical when the food can be rotated freely. A matching handed knife remains more convenient during long professional sessions or repeated identical cuts, because it fits the usual workstation without requiring the cook to reorganize each piece.
 
-Suppose you hold the knife in your left hand and steady the ingredient with your right. Arrange the ingredient so that the cutting movement carries the blade away from the right hand instead of toward it.
-
-There are two practical arrangements:
-
-1. **Lateral arrangement:** place the food in front of you and cut in the direction that takes the blade away from the supporting hand.
-2. **Forward arrangement:** rotate the food so that the cutting movement travels away from your body.
-
-In both cases, leave open space in the direction of the blade. Keep the supporting hand behind the cutting line. If appropriate, use the claw grip so the fingertips remain hidden.
-
-### Let the food move before the wrist does
-
-If the knife wants to steer, do not solve the problem by locking the wrist and forcing the blade sideways. That adds lateral stress to the edge and makes control worse.
-
-Instead:
-
-1. stop the cut;
-2. rotate or move the ingredient;
-3. shift your stance if necessary;
-4. begin again with a slightly altered starting direction;
-5. use slow, shallow practice cuts until the tendency is predictable.
-
-This method works especially well when the food can be freely rotated. It is less convenient in a fixed professional setup or during a long series of identical cuts, which is why a correctly handed knife remains preferable for many users.
-
-### Choose the first practice food carefully
-
-Start with a stable ingredient that is not extremely tall or dense. A short piece of cucumber or a small boneless portion makes steering easier to observe without requiring much force.
-
-A large potato, hard squash or tall root vegetable exaggerates lateral forces and is a poor first exercise. Never test an unfamiliar motion on a rolling ingredient or with fingers placed ahead of the blade.
-
-## Steering: what is actually happening
+## How steering develops
 
 As a blade enters food, the food presses back. With a symmetrical V-edge, pressure is distributed more evenly. With a single bevel, one face acts like a wedge while the other remains much flatter. The imbalance pushes the blade sideways.
 
@@ -212,7 +175,3 @@ Within Xinzuo's range, compare the exact model rather than relying on the profil
 - Neither family is automatically sharper, stronger or more prestigious.
 
 > **Practice principle:** when the bevel cannot change hands, change the setup—place the food so the blade travels away from the guiding hand or away from the body.
-
-### Historical source
-
-- [KOGEI JAPAN, Sakai Forged Blades](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)

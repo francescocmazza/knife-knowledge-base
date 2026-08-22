@@ -99,7 +99,7 @@ Learn when to soak a water stone, why flatness matters, how a burr forms and how
 
 ## History as a memory tool
 
-Knife history is not decoration. It helps us remember why a shape, material or method exists. The book follows Sakai's movement from tools and weapons to tobacco knives and professional kitchen cutlery; the meeting of Japanese and Western forms; Sheffield's early stainless cutlery; the journey of South Indian wootz through Eurasia; and the transformation of electrical laminates into modern handle materials.
+Knife history is included only when it makes a practical idea easier to understand or remember. The book uses the origin of the Rockwell scale to explain hardness numbers, Sheffield's early stainless cutlery to explain corrosion resistance, the journey of South Indian wootz and Chinese Bintie to place special steels in a wider tradition, and the transformation of electrical laminates into modern handle materials.
 
 The story of **Bintie** runs through the steel chapters. Historical Chinese sources used the term for highly valued iron or steel, sometimes connected with imported crucible steel and sometimes with material refined in China. The surviving evidence does not support one simple recipe, but it does show that special steel, long-distance exchange and metallurgical skill were part of Chinese culture centuries before the modern factory.
 

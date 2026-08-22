@@ -242,5 +242,3 @@ Tradition adds useful solutions and stories, but the best knife is not the one w
 - [Zwilling, slicing and carving knife](https://www.zwilling.com/us/zwilling-pro-8-inch-slicing%2Fcarving-knife-38400-203/38400-203-0.html)
 - [Tojiro, Slicer (Sujihiki)](https://www.tojiro-japan.com/item/slicer_sujihiki/)
 - [Tojiro, Western-style knife categories](https://www.tojiro-japan.com/knife_category/western_style_knives/)
-- [KOGEI JAPAN, Sakai Forged Blades](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)
-- [Government of Japan, a knife-shop owner and Japanese craftsmanship](https://www.japan.go.jp/tomodachi/2020/summer2020/a_canadian_knife_shop_owner.html)
