@@ -6,6 +6,12 @@ on:
       - Deploy multilingual knowledge base to GitHub Pages
     types:
       - completed
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/refresh-latest-release.yml"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -17,9 +23,12 @@ concurrency:
 jobs:
   refresh-release:
     if: >-
-      github.event.workflow_run.conclusion == 'success' &&
-      github.event.workflow_run.event == 'push' &&
-      github.event.workflow_run.head_branch == 'main'
+      github.event_name != 'workflow_run' ||
+      (
+        github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.event == 'push' &&
+        github.event.workflow_run.head_branch == 'main'
+      )
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
@@ -75,11 +84,11 @@ jobs:
           tag="latest"
           title="Xinzuo Knowledge Base — Latest Edition"
           source_sha="$(git rev-parse HEAD)"
-          notes="Automatically rebuilt from main after the successful multilingual GitHub Pages deployment. Source commit: ${source_sha}."
+          notes="Automatically rebuilt from the current main branch. Source commit: ${source_sha}."
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git tag -f "$tag" HEAD
+          git tag -f "$tag" "$source_sha"
           git push --force origin "refs/tags/$tag"
 
           if gh release view "$tag" --repo "$REPOSITORY" >/dev/null 2>&1; then
@@ -95,15 +104,28 @@ jobs:
             gh release upload "$tag" release-upload/* --clobber --repo "$REPOSITORY"
             gh release edit "$tag" \
               --repo "$REPOSITORY" \
-              --target "$(git rev-parse HEAD)" \
+              --target "$source_sha" \
               --title "$title" \
               --notes "$notes" \
               --latest
           else
             gh release create "$tag" release-upload/* \
               --repo "$REPOSITORY" \
-              --target "$(git rev-parse HEAD)" \
+              --verify-tag \
               --title "$title" \
               --notes "$notes" \
               --latest
           fi
+
+      - name: Verify downloadable release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          asset_count="$(gh release view latest --repo "$REPOSITORY" --json assets --jq '.assets | length')"
+          if [ "$asset_count" -lt 6 ]; then
+            echo "Expected at least 6 downloadable assets, found $asset_count." >&2
+            exit 1
+          fi
+          gh release view latest --repo "$REPOSITORY" --json url --jq '.url'
