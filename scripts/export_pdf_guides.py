@@ -119,6 +119,8 @@ EXTRACT_JS = """
   }
 
   clone.querySelectorAll('img').forEach(img => {
+    const rawSrc = img.getAttribute('src');
+    if (rawSrc) img.setAttribute('src', new URL(rawSrc, document.baseURI).href);
     img.setAttribute('loading', 'eager');
     img.removeAttribute('srcset');
   });
