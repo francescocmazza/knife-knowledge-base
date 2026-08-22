@@ -1,5 +1,5 @@
 ---
-source_hash: 28146486ec0e21c5e8ec3ea22345c06703169e1eb2b0b286873e0b39e71ae0ed
+source_hash: 02f2eef72f854bcb20df6c7c5b60fa7fb956478bea1dfb88de79302b89f80f33
 ---
 
 # Un Processo di Affilatura Pratico
@@ -16,11 +16,7 @@ Questo capitolo introduce un metodo pratico per i normali coltelli da cucina a d
 
 I coltelli tradizionali a monobisela come yanagiba, usuba e deba necessitano di un approccio diverso perché la loro ampia bisela e il lato posteriore concavo formano una geometria specifica.
 
-### Collegamento storico: affilatura come imbarcazione separata
-
-Nella tradizione Sakai, fare un coltello da cucina è comunemente diviso tra gli specialisti. Il fabbro crea e tratta calore la lama; un affilatore stabilisce geometria, superficie e bordo; un altro artigiano si adatta al manico. Questa divisione è una correzione utile all'idea che l'affilatura è solo l'ultimo tocco rapido.
-
-Per il cuoco domestico, la lezione è incoraggiante. Non ci si aspetta di imitare un maestro di lucidatura in un pomeriggio. Imparare il processo in parti: stabilizzare la pietra, trovare lo smusso, raggiungere l'apice, ridurre la bava e testare il risultato. Ogni fase può essere osservato e migliorato separatamente.
+L'affilatura diventa più facile da imparare quando è divisa in fasi osservabili: stabilizzare la pietra, trovare la smussatura, raggiungere l'apice, ridurre la bava e testare il risultato. Un principiante non ha bisogno di imitare la velocità di un affilatore esperto. Ogni fase può essere praticata e migliorata separatamente.
 
 ## Prima di iniziare: comprendere l'obiettivo
 
@@ -446,7 +442,3 @@ Quindici gradi è un utile riferimento, non una legge universale.
 L'abilità più preziosa non è muovere il coltello velocemente. È imparare a osservare cosa sta facendo la pietra al filo.
 
 > **Principio di pratica:**Guarda il bordo, non il conteggio dei tratti.
-
-### Sorgente storica
-
-- [KOGEI GIAPPONE, Sakai Lame forgiate e processo di produzione](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)

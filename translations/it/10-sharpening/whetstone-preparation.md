@@ -1,5 +1,5 @@
 ---
-source_hash: e2b2ae555aec38b659168c62b777f7b18d76dacbe0f3a822bafc3c34fe85cb52
+source_hash: 57201b9ea6d01278fd93eba69cdf9554106cf298d6aa9a340ad18edbe93eb41d
 ---
 
 # Preparare le Pietre ad Acqua

@@ -1,5 +1,5 @@
 ---
-source_hash: d3cf28abaff7017bea4c951d00fb5371354974a19dde5bdcbf5b291d4cfaefa2
+source_hash: f2297d07ed58c907fddbcc762bf958335233a86f641bdc6a45746fb0d21ada15
 ---
 
 # Xinzuo Blade Steels - Guida pratica

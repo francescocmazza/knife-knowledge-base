@@ -1,8 +1,8 @@
 ---
-source_hash: 8ae5bec25531544903099c9aee78288f265332d70b188f670ee042e0b177d5d6
+source_hash: cdab423b26782e87d7335371cecb9fb38f577ed8caba5b389df6dd9c98cbc2f5
 ---
 
-# Monobisela e Bisela Doppia
+# Smussatura singola e doppia
 
 Tagliare una patata alta con due coltelli diversi e si può notare qualcosa di sorprendente. Una lama cade quasi dritta. Un altro sembra tirare lateralmente, anche se la mano sta cercando di guidarlo in avanti. La differenza può venire dal bisello - la superficie inclinata che porta al tagliente.
 
@@ -15,15 +15,22 @@ La geometria smussata cambia quattro cose che un cuoco può sentire:
 
 Le due famiglie sono doppie e singole bisellature. Né è automaticamente più nitida o più avanzata. Risolvono problemi diversi.
 
+<figure class="kb-learning-figure" data-visual-id="VIS-BEV-02">
+<img src="../assets/images/approved/bevel-families-neutral.png" alt="" width="1400" height="380">
+<figcaption>
+Sette famiglie comuni smussate, mostrate senza etichette in lingua fissa: 1. simmetrico V; 2. convesso; 3. asimmetrico V; 4. composto doppio V; 5. concavo; 6. monofronte; 7. monofronte con urasuki. La leggenda è testo ordinario in modo che possa essere tradotto con il libro.
+</figcaption>
+</figure>
+
 ## Doppia smussatura: il bordo tutto-uso familiare
 
 Un coltello a doppia bisellatura è affilato da entrambi i lati. Visto dal davanti, le due superfici inclinate si incontrano come una stretta V.
 
 Poiché il cibo è spostato su entrambi i lati, un doppio bisello ragionevolmente simmetrico tende a viaggiare dritto. Questo è uno dei motivi per cui funziona così bene per la cottura generale e per entrambe le mani.
 
-La maggior parte dei coltelli da cuoco occidentali, gyuto, santoku, bunka, nakiri, sujihiki, piccoli coltelli e molti coltelli da cuoco cinesi sono doppie bisellature.
+La maggior parte dei coltelli da cuoco occidentali, coltelli da intaglio e affettatura (tra cui sujihiki), coltelli utility e piccoli, gyuto, santoku, bunka, nakiri e molti coltelli da cuoco cinesi sono bisellato doppio.
 
-### Cosa nota il cuoco
+### Come ci si sente durante un taglio
 
 Fare una spinta lenta tagliare attraverso una patata o una carota grande. Se il bordo è simmetrico e la lama non è insolitamente spessa, dovrebbe seguire la direzione della mano senza molta correzione. Le due metà possono attaccarsi alla lama, ma nessuno dei due lati impone fortemente dove il coltello deve andare.
 
@@ -62,15 +69,7 @@ Per un principiante, la lezione è semplice:
 
 > Una singola bisellatura è un sistema tridimensionale completo, non un bordo ordinario con un lato dimenticato.
 
-## Una breve storia: perché Sakai conta
-
-La storia della lama di Sakai aiuta a spiegare perché la geometria specialistica sopravvisse. I metalmeccanici erano già presenti intorno alla grande costruzione di tumulo del periodo di Kofun. Nel XVI secolo Sakai divenne importante nella produzione di armi da fuoco. Durante il periodo più stabile di Edo, la domanda di armi da fuoco cadde mentre il tabacco si diffuse, generando la domanda di coltelli sottili a foglia di tabacco.
-
-Secondo il racconto di KOGEI GIAPPONE delle lame forgiate Sakai, la qualità di questi coltelli ha portato lo shogunato Tokugawa ad utilizzare il marchio Sakai Kiwame e stabilire un monopolio. Quando la produzione di tabacco successivamente meccanizzato, gli artigiani hanno sempre più applicato le loro competenze divise - forgiatura, affilatura e montaggio maniglia - ai coltelli da cucina professionali.
-
-Questa storia è utile perché sostituisce un vago mito su tutti i coltelli giapponesi che scendono direttamente dalle spade. Le lame da cucina di Sakai sono emerse attraverso diversi mestieri e mutevoli esigenze. Forme di cottura specialistiche sono state raffinate perché cuochi professionisti hanno richiesto risultati specifici, non perché uno stile nazionale era universalmente superiore.
-
-## Perché esistono le versioni a mano
+## Manomissione e direzione di lavoro
 
 La posizione dell'ampio bisello determina come il coltello separa il cibo e dove il lato più piatto si siede. Invertire il coltello nella mano e quelle forze non si invertono.
 
@@ -78,44 +77,15 @@ Un yanagiba destrorso è organizzato in modo che, nella sua posizione di lavoro 
 
 La versione abbinata si sente normalmente più naturale perché la lama, il corpo, la mano di sostegno e la direzione del taglio lavorano insieme. Per uso professionale frequente, che la convenienza conta.
 
-## Puoi usare la versione fatta per la mano opposta?
+La versione fatta per la mano opposta può ancora essere utilizzata, ma l'ingrediente e la direzione di taglio devono essere disposti intorno alla geometria. Immaginate un cuoco mancino che tiene il coltello mentre la mano destra ruba il cibo. Invece di permettere alla lama di viaggiare dalla mano del coltello verso la mano di sostegno, il cuoco gira l'ingrediente e sceglie un percorso che porta il bordo lontano dalla mano destra. Il cibo può rimanere davanti al corpo mentre il colpo viaggia lateralmente nello spazio libero, o può essere ruotato in modo che il colpo si muove in avanti e lontano dal corpo.
 
-Si', potrebbe richiedere un accordo diverso, ma non e' impossibile.
+Questo cambio di configurazione è più efficace che cercare di sopraffare la lama. La mano di sostegno rimane dietro la linea di taglio, il percorso previsto rimane chiaro e il polso rimane rilassato. Quando il coltello inizia a defluire, il cuoco si ferma, gira l'ingrediente o cambia leggermente posizione, e ricomincia con una direzione più adatta. Forzare un bordo sepolto lateralmente aggiunge stress all'apice e di solito riduce il controllo.
 
-Il consiglio meno utile è semplicemente quello di "compensare lo sterzo." Un principiante ha bisogno di sapere cosa cambiare.
+La tecnica è più facile da imparare con un breve pezzo stabile di cetriolo o una piccola porzione disossata. Una patata alta, zucca dura o ingrediente rotolamento ingrandisce lo sterzo e incoraggia l'eccesso di forza, quindi si tratta di un povero primo esercizio. Tagli lenti e poco profondi rivelano la tendenza del coltello prima che la lama sia profonda nel cibo.
 
-### Cambia la direzione del taglio
+Questa disposizione è pratica quando il cibo può essere ruotato liberamente. Un coltello a mano corrispondente rimane più comodo durante lunghe sessioni professionali o ripetuti tagli identici, perché si adatta alla normale postazione di lavoro senza richiedere al cuoco di riorganizzare ogni pezzo.
 
-Supponiamo di tenere il coltello nella mano sinistra e fermare l'ingrediente con la destra. Disporre l'ingrediente in modo che il movimento di taglio porta la lama lontano dalla mano destra invece di verso di esso.
-
-Esistono due modalità pratiche:
-
-1. ** Disposizione laterale:** posizionare il cibo davanti a voi e tagliare nella direzione che toglie la lama dalla mano di sostegno.
-2. **Forward arrangement:** ruotare il cibo in modo che il movimento di taglio viaggia lontano dal vostro corpo.
-
-In entrambi i casi, lasciare spazio aperto nella direzione della lama. Tenere la mano di sostegno dietro la linea di taglio. Se necessario, utilizzare l'impugnatura artiglio in modo che le dita rimangono nascoste.
-
-### Lasciate che il cibo si muova prima del polso
-
-Se il coltello vuole guidare, non risolvere il problema bloccando il polso e forzando la lama lateralmente. Questo aggiunge stress laterale al bordo e peggiora il controllo.
-
-Invece:
-
-1. fermare il taglio;
-2. ruotare o spostare l'ingrediente;
-3. spostare la posizione se necessario;
-4. ricominciare con una direzione di partenza leggermente modificata;
-5. utilizzare tagli alle pratiche lenti e superficiali fino a quando la tendenza è prevedibile.
-
-Questo metodo funziona particolarmente bene quando il cibo può essere ruotato liberamente. E 'meno conveniente in un setup professionale fisso o durante una lunga serie di tagli identici, motivo per cui un coltello correttamente mano rimane preferibile per molti utenti.
-
-### Scegliere il primo cibo pratica con attenzione
-
-Iniziare con un ingrediente stabile che non è estremamente alto o denso. Un breve pezzo di cetriolo o una piccola porzione disossata rende lo sterzo più facile da osservare senza richiedere molta forza.
-
-Una grossa patata, zucca dura o verdure a radice alta esagera le forze laterali ed è un primo esercizio povero. Mai testare un movimento sconosciuto su un ingrediente rotolare o con le dita poste davanti alla lama.
-
-## Sterzo: cosa sta realmente accadendo
+## Come si sviluppa lo sterzo
 
 Mentre una lama entra nel cibo, il cibo preme indietro. Con un bordo a V simmetrico, la pressione è distribuita più uniformemente. Con un singolo smussamento, una faccia agisce come un cuneo mentre l'altra rimane molto più piatta. Lo squilibrio spinge la lama lateralmente.
 
@@ -134,7 +104,7 @@ La correzione migliore inizia normalmente prima del taglio: scegliere la direzio
 
 Un singolo bisello può produrre una superficie eccezionalmente pulita perché il pezzo tagliato è diretto via mentre il lato più piatto guida il cibo rimanente. Questo conta in sashimi, dove la superficie tagliata è visibile e colpisce la consistenza in bocca. Importa anche in katsuramuki, dove un'usuba trasforma un vegetale in un foglio sottile continuo.
 
-Un sujihiki affilato è più facile per molti cuochi, lavora in entrambe le mani e maniglie carne disossata e pesce molto efficacemente.
+Un coltello intaglio a doppio taglio può anche fare tagli eccellenti. Questo include il sujihiki giapponese: è più facile per molti cuochi, lavora in entrambe le mani e maniglie carne disossata e pesce molto efficacemente.
 
 La distinzione utile non è "la singola smussatura è tagliente e la doppia smussatura è ordinaria." Entrambi possono essere affilati ad un apice molto fine. La differenza sta nello sterzo, nella separazione, nella finitura superficiale e nella specializzazione.
 
@@ -145,11 +115,11 @@ Una deba è smussata singola e spessa perché è costruita per la macelleria di 
 Per stimare quanto esigente sarà un coltello, considerare:
 
 - spessore della lama;
-- spessore dietro il filo;
-- angolo del filo;
+- spessore dietro il bordo;
+- angolo di bordo;
 - acciaio e durezza;
 - forma della punta;
-- compito previsto.
+- il compito previsto.
 
 Il tipo bisellato è solo una parte della risposta.
 
@@ -157,8 +127,8 @@ Il tipo bisellato è solo una parte della risposta.
 
 Per un normale doppio bisello simmetrico:
 
-1. identificare la bisela esistente;
-2. mantenere un angolo costante;
+1. individuare lo smusso esistente;
+2. mantenere un angolo coerente;
 3. lavorare il primo lato fino a quando una bava leggera raggiunge il bordo completo;
 4. ripetere sul secondo lato;
 5. ridurre la pressione;
@@ -200,7 +170,3 @@ All'interno della gamma Xinzuo, confronta il modello esatto piuttosto che affida
 - Nessuna famiglia è automaticamente più nitida, più forte o più prestigiosa.
 
 > **Principio di pratica:** quando il bisello non può cambiare le mani, cambiare l'assetto [47] posizionare il cibo in modo che la lama viaggia lontano dalla mano guida o dal corpo.
-
-### Sorgente storica
-
-- [KOGEI GIAPPONE, Sakai Lame forgiate](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)

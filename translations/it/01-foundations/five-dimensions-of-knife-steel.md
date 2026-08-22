@@ -1,5 +1,5 @@
 ---
-source_hash: 15818222424d508ae2694bea9180207e3280a6e07f72a45e4ee3dd9f6a1bf5df
+source_hash: e815ccdff39e84cc8da201e1483d47b97124d8640a59a9b98d2c36402026a1c7
 ---
 
 # Le Cinque Dimensioni dell'Acciaio da Coltello

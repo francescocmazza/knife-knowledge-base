@@ -1,5 +1,5 @@
 ---
-source_hash: e0da003b267e09ef6a35bb3096e96a74d06a169c114c2e8e919e0904f9e7e2a9
+source_hash: 067f713c59b804035d914d4c16c6adbdb149c2d9babf5f2602ca497dcb7f48e9
 ---
 
 # Il Kung Fu di Xinzuo
@@ -8,6 +8,13 @@ source_hash: e0da003b267e09ef6a35bb3096e96a74d06a169c114c2e8e919e0904f9e7e2a9
 *Materiali, forme e tecniche per il taglio magistrale*
 
 Un coltello da cucina sembra semplice: un manico, una lama e un bordo molto sottile. Nella mano, però, può tagliare, scivolare, rock, manzo, cuneo, separato o schiacciato. La differenza deriva dall'incontro di tre cose: il design del coltello, l'ingrediente e il movimento del cuoco.
+
+<figure class="kb-learning-figure" data-visual-id="VIS-HOME-01">
+<img src="assets/images/approved/home-hero-xinzuo-neutral.png" alt="" width="1000" height="1100">
+<figcaption>
+Un coltello da cucina è il risultato di materiali, processi, geometrie e artigianato che lavorano insieme.
+</figcaption>
+</figure>
 
 Questo libro insegna quella riunione. È scritto per le persone che sono curiose ma possono sapere poco sui coltelli, e per i team di negozi e cucine che hanno bisogno di spiegarli chiaramente. Imparerete cosa fare, come farlo, perché funziona e cosa notare durante la pratica. Termini tecnici appaiono solo quando aiutano a fare una scelta migliore o movimento.
 
@@ -36,7 +43,7 @@ Il passo finale è importante. Se si può spiegare perché un nakiri a taglio pi
 
 Non devi leggere dall'inizio alla fine.
 
-- Se stai scegliendo un primo coltello serio, inizia con **Tipi di coltello e Stile di taglio**.
+- Se state scegliendo un primo coltello serio, cominciate con le forme ** del coltello e i loro usi**.
 - Se un coltello tira lateralmente o si comporta in modo diverso in ogni mano, inizia con **Single and Double Bevels**.
 - Se possiedi un coltello ma non ti senti ancora sicuro, vai a **How to Cut** e **Safe Use and Carrying**.
 - Se i nomi e i numeri di durezza dell'acciaio sono confusi, leggere **The Five Dimensions of Knife Steel** prima del capitolo dell'acciaio.
@@ -50,9 +57,9 @@ Per l'auto-studio, scegliere una domanda dalla propria cucina e seguirla attrave
 
 Lo smusso è la parte inclinata che porta al tagliente. La sua posizione cambia lo sterzo, la separazione degli alimenti, la manualità e l'affilatura. Il capitolo spiega anche un modo pratico per utilizzare un coltello a smusso realizzato per la mano opposta: organizzare il lavoro in modo che la lama si allontani dalla mano guida o dal corpo.
 
-### Tipi di coltello e stili di taglio
+### Forme di coltello e loro utilizzo
 
-I nomi dei coltelli diventano utili solo se collegati al movimento e al cibo. Questo capitolo mette a confronto il coltello da cuoco occidentale, il gyuto, il santoku, il bunka, il nakiri, l'usuba, il coltello da cuoco cinese, le affettatrici, i coltelli da pesce, i coltelli da disossamento e le forme specialistiche più piccole.
+I nomi dei coltelli diventano utili solo quando sono collegati al movimento e al cibo. Questo capitolo inizia con le famiglie più cuochi in realtà si incontrano: coltelli da cuoco, coltelli da cuoco cinesi, coltelli da intaglio e affettatura, coltelli da disossamento e filetto, coltelli da pane, piccoli coltelli utili e pesanti elicotteri. Forme giapponesi come gyuto, santoku, sujihiki, yanagiba e deba sono poi spiegate come soluzioni particolari all'interno di quelle famiglie più ampie.
 
 ### Come tagliare
 
@@ -88,7 +95,7 @@ Imparate a immergervi in una pietra d'acqua, perché la planarità conta, come f
 
 ## La storia come strumento di memoria
 
-La storia del coltello non è decorazione. Ci aiuta a ricordare perché esiste una forma, un materiale o un metodo. Il libro segue il movimento di Sakai da utensili e armi a coltelli da tabacco e posate professionali da cucina; l'incontro di forme giapponesi e occidentali; le prime posate inox di Sheffield; il viaggio del wootz indiano del sud attraverso l'Eurasia; e la trasformazione dei laminati elettrici in materiali moderni maniglia.
+La storia del coltello è inclusa solo quando rende un'idea pratica più facile da capire o da ricordare. Il libro utilizza l'origine della scala Rockwell per spiegare i numeri di durezza, le prime posate inox di Sheffield per spiegare la resistenza alla corrosione, il viaggio del wootz sud indiano e Bintie cinese per collocare acciai speciali in una tradizione più ampia, e la trasformazione dei laminati elettrici in materiali moderni maniglia.
 
 La storia di **Bintie** attraversa i capitoli dell'acciaio. Le fonti storiche cinesi usavano il termine per il ferro o l'acciaio altamente apprezzato, a volte collegato con l'acciaio crogiolo importato e a volte con materiale raffinato in Cina. Le prove sopravvissute non supportano una ricetta semplice, ma dimostrano che l'acciaio speciale, lo scambio a lunga distanza e l'abilità metallurgica facevano parte della cultura cinese secoli prima della fabbrica moderna.
 

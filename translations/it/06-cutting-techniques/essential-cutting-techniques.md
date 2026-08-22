@@ -1,5 +1,5 @@
 ---
-source_hash: 0d7f88b8b04c4a05aa32c82ae8e53349c09f3fc045977b27115cb9e4b1d9a872
+source_hash: 120dcc79b030dddc8a04125af6fbb331be32a4f6f2fc2bdb567d2343af7a49c4
 ---
 
 # Come tagliare - tecniche essenziali del coltello
@@ -107,10 +107,6 @@ Raccogliere le foglie in un mucchio compatto. Posizionare la parte anteriore del
 
 Il bordo curvo mantiene il contatto man mano che il coltello ruota. Il cuoco può ripetere il movimento senza sollevare tutta la lama sopra la tavola.
 
-### Collegamento storico: la cucina professionale occidentale
-
-La cucina professionale europea si è sviluppata attorno a cucine frequentate in cui i coltelli da cuoco hanno gestito la preparazione ripetuta.Alla fine dell'Ottocento e all'inizio del Novecento, Auguste Escoffier ha contribuito a codificare la brigata di cucina: diverse stazioni hanno svolto un lavoro specializzato in un sistema coordinato.Il coltello da cuoco curvato è diventato uno strumento naturale generale per il lavoro su tavola ripetuto, tra cui l'azione a dondolo che molti cuochi occidentali ancora apprendono per primo. La storia non dimostra che il coltello da cuoco deve rock; spiega perché il profilo e il movimento sono diventati strettamente associati.
-
 ### Errore comune
 
 Non rock sul fragile K-tip di un coltello in stile bunka o kiritsuke. La punta è per la precisione, non per agire come un perno sotto stress laterale.
@@ -204,7 +200,7 @@ La versione a mano di corrispondenza rimane più intuitiva, soprattutto per un u
 
 Alcune tecniche non possono essere apprese responsabilmente da una breve descrizione scritta da solo. Katsuramuki con un'usuba, testa di pesce lavoro con un deba e rapido taglio professionale tutti combinano geometria della lama, posizione del corpo e feedback praticato. La guida può spiegare i principi, ma una dimostrazione qualificata è il passo successivo più sicuro.
 
-Questo non è un fallimento del libro. La cucina è sempre stata appresa attraverso un mix di parole, osservazioni e ripetizioni. In Sakai, la lavorazione della lama è tradizionalmente divisa tra artigiani specializzati - forgiatura, affilatura e montaggio delle maniglie. L'abilità del coltello si sviluppa nello stesso modo: una parte alla volta, con ogni edificio di movimento specializzato su quello precedente.
+Questo non è un fallimento del libro. La cucina è appresa attraverso una miscela di parole, osservazione e ripetizione. La spiegazione scritta dà al discente una mappa; una dimostrazione qualificata fornisce la posizione del corpo, tempi e feedback che sono difficili da comunicare in modo sicuro su una pagina.
 
 ## Una sequenza di pratica di sette giorni
 
@@ -231,8 +227,3 @@ Utilizzare ingredienti economici e stabili e fermare prima della fatica riduce i
 - La velocità è il risultato visibile del controllo, non un sostituto.
 
 > **Principio di pratica:** controllo primo, consistenza secondo, velocità ultimo.
-
-### Fonti storiche di questo capitolo
-
-- [KOGEI GIAPPONE, Sakai Lame forgiate](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)
-- [Le Cordon Bleu, la Brigata della Cucina](https://www.cordonbleu.edu/news/what-is-the-kitchen-brigade-system/en)
