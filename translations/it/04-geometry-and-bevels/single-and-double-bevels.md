@@ -1,222 +1,206 @@
 ---
-source_hash: f935c590f7e495e495a544b2caafccbd4d1f9a9cb6f74ba2d133ceb2e13a698b
+source_hash: 8ae5bec25531544903099c9aee78288f265332d70b188f670ee042e0b177d5d6
 ---
 
 # Monobisela e Bisela Doppia
 
-La parola **bisela** si riferisce alla superficie inclinata che conduce verso il filo di taglio.
+Tagliare una patata alta con due coltelli diversi e si può notare qualcosa di sorprendente. Una lama cade quasi dritta. Un altro sembra tirare lateralmente, anche se la mano sta cercando di guidarlo in avanti. La differenza può venire dal bisello - la superficie inclinata che porta al tagliente.
 
-A prima vista, questo può sembrare un dettaglio minore. In realtà, la geometria della bisela cambia il modo in cui un coltello entra nel cibo, la direzione in cui tende a muoversi, il tipo di tagli in cui rende meglio e il modo in cui deve essere affilato.
+La geometria smussata cambia quattro cose che un cuoco può sentire:
 
-Le due famiglie principali sono i coltelli a **bisela doppia** e a **monobisela**.
+- la direzione in cui la lama tende a muoversi;
+- il modo in cui il pezzo tagliato si separa dal cibo;
+- come funziona naturalmente il coltello nella mano destra o sinistra;
+- come il coltello deve essere affilato.
 
-La maggior parte dei coltelli da cucina occidentali e moderni per uso generale è a bisela doppia. Molti coltelli specialistici tradizionali giapponesi sono a monobisela. Nessuno dei due design è universalmente migliore. Ciascuno è stato sviluppato per risolvere un tipo diverso di problema di taglio.
+Le due famiglie sono doppie e singole bisellature. Né è automaticamente più nitida o più avanzata. Risolvono problemi diversi.
 
-## Bisela doppia: la geometria familiare per uso generale
+## Doppia smussatura: il bordo tutto-uso familiare
 
-Un coltello a bisela doppia è affilato da entrambi i lati. Se si guarda direttamente il filo dalla parte anteriore, le due superfici inclinate si incontrano al centro, formando una forma simile alla lettera V.
+Un coltello a doppia bisellatura è affilato da entrambi i lati. Visto dal davanti, le due superfici inclinate si incontrano come una stretta V.
 
-Questa geometria bilanciata è uno dei motivi per cui i coltelli a bisela doppia sono così versatili. Mentre la lama passa attraverso il cibo, separa l'ingrediente su entrambi i lati. Le forze si distribuiscono in modo più uniforme, quindi il coltello tende a viaggiare diritto quando le bisele sono ragionevolmente simmetriche.
+Poiché il cibo è spostato su entrambi i lati, un doppio bisello ragionevolmente simmetrico tende a viaggiare dritto. Questo è uno dei motivi per cui funziona così bene per la cottura generale e per entrambe le mani.
 
-I coltelli a bisela doppia comuni includono:
+La maggior parte dei coltelli da cuoco occidentali, gyuto, santoku, bunka, nakiri, sujihiki, piccoli coltelli e molti coltelli da cuoco cinesi sono doppie bisellature.
 
-- coltelli da chef;
-- gyuto;
-- santoku;
-- bunka;
-- nakiri;
-- sujihiki;
-- coltelli petty e da pelatura;
-- molti coltelli da chef cinesi.
+### Cosa nota il cuoco
 
-Per la maggior parte dei clienti, un coltello a bisela doppia è il punto di partenza più facile. Supporta un'ampia gamma di compiti e di solito non richiede una versione specifica per destri o mancini.
+Fare una spinta lenta tagliare attraverso una patata o una carota grande. Se il bordo è simmetrico e la lama non è insolitamente spessa, dovrebbe seguire la direzione della mano senza molta correzione. Le due metà possono attaccarsi alla lama, ma nessuno dei due lati impone fortemente dove il coltello deve andare.
 
-## Bisele doppie simmetriche e asimmetriche
+Questa prevedibilità è preziosa per un primo coltello serio. Permette al lettore di imparare la presa, il controllo della scheda e il movimento di taglio prima di imparare anche a gestire lo sterzo.
 
-Non ogni filo a bisela doppia è perfettamente simmetrico.
+## Non ogni bisellatura doppia è simmetrica
 
-Un coltello può essere affilato ugualmente da entrambi i lati, spesso descritto informalmente come 50/50. Un altro coltello può avere una tendenza più forte verso un lato, come 60/40 o 70/30. I numeri esatti sono spesso approssimativi, ma comunicano che una bisela è più ampia o più pronunciata dell'altra.
+Il bordo può essere vicino al 50/50, con uno smusso simile su ogni lato, o può essere inclinato verso una faccia. Etichette come 60/40 o 70/30 sono descrizioni utili, ma sono spesso approssimative piuttosto che misurazioni di laboratorio.
 
-Una bisela doppia asimmetrica può portare il filo di taglio più vicino a un lato della lama e cambiare il modo in cui il cibo si allontana dalla superficie. Può anche far sentire il coltello più preciso in alcuni tagli.
+Una doppia smussatura asimmetrica sposta il tagliente più vicino a un lato. Può cambiare la separazione degli alimenti e rendere alcuni tagli più precisi. Può anche introdurre una piccola quantità di sterzo.
 
-Il compromesso è che il coltello può sterzare leggermente e può richiedere un'affilatura più attenta per preservare l'equilibrio previsto. Se un filo asimmetrico viene affilato ripetutamente come se fosse perfettamente simmetrico, il suo carattere di taglio può cambiare gradualmente.
+La maggior parte dei coltelli leggermente asimmetrici rimangono utilizzabili in entrambe le mani. La differenza è di solito uno di sensazione e manutenzione. Durante l'affilatura, conservare la geometria esistente invece di dare automaticamente a entrambi i lati lo stesso numero di colpi.
 
-La maggior parte dei coltelli a bisela doppia asimmetrica può comunque essere usata da entrambe le mani, specialmente quando l'asimmetria è modesta. L'utilizzatore può notare una sterzata o un rilascio del cibo diversi a seconda dell'orientamento.
+## Smusso singolo: un lato fa la maggior parte della sagomatura
 
-## Monobisela: portare il filo vicino a una faccia
+Un coltello tradizionale single-bevel ha un ampio smusso principale su una faccia. La faccia inversa è molto più piatta e spesso contiene una cavità poco profonda chiamata **urasuki**.
 
-Un tradizionale coltello a monobisela ha un'unica grande bisela principale su un lato. Il lato opposto è più piatto ed è spesso leggermente concavo.
+Il bordo si trova quindi vicino ad un lato della lama invece che vicino al centro. Man mano che il bisello principale entra nel cibo, spinge via la porzione tagliata. Il volto più piatto può aiutare a lasciare una superficie pulita sul pezzo che rimane.
 
-Invece di incontrarsi al centro della lama, il filo di taglio si trova vicino a una faccia. Questo crea una relazione molto diversa tra il coltello e il cibo.
+Esempi comuni includono:
 
-Mentre la bisela passa attraverso l'ingrediente, spinge via il pezzo tagliato dalla lama. Il lato posteriore più piatto può lasciare una superficie pulita sul cibo rimanente. Questo è particolarmente prezioso nella preparazione tradizionale giapponese, dove l'aspetto e la texture della superficie tagliata contano.
+- yanagiba per le fette finite di pesce crudo;
+- l'usuba per un lavoro vegetale preciso;
+- deba per la macelleria di pesce;
+- kiritsuke, mukimono e altre forme specialistiche tradizionali.
 
-I coltelli a monobisela comuni includono:
+Il nome di un profilo giapponese non dimostra la sua macinatura. I produttori moderni a volte fanno versioni a doppio bisello di forme tradizionalmente single-bevel. Controllare le specifiche del modello Xinzuo esatto prima di descrivere la manualità o l'affilatura.
 
-- yanagiba per affettare pesce crudo;
-- usuba per lavori di precisione sulle verdure e per sbucciare;
-- deba per lavorare il pesce;
-- alcuni kiritsuke, mukimono e altre forme tradizionali specialistiche.
+## L'urasuki non è una schiena incompiuta
 
-La geometria può sostenere tagli molto precisi e puliti, ma ha anche una tendenza più forte a sterzare. L'utilizzatore deve imparare come la bisela interagisce con l'ingrediente.
+Il cavo poco profondo sul retro riduce il contatto con il cibo e con la pietra di affilatura. Intorno a esso rimangono strette aree piane che formano la superficie di riferimento.
 
-## Il lato posteriore concavo
+Questa geometria ha una conseguenza importante: il rovescio non è affilato come il secondo lato di un normale bordo a V. Normalmente è posto quasi piatto sulla pietra e lavorato leggermente. Sollevandolo ad un normale angolo di affilatura può rimuovere la superficie di riferimento, alterare il bordo e gradualmente distruggere lo scopo della cavità.
 
-Molti coltelli tradizionali a monobisela hanno una leggera concavità sul lato posteriore, nota come **urasuki**.
+Per un principiante, la lezione è semplice:
 
-La concavità riduce la quantità di acciaio a contatto con il cibo e la pietra di affilatura. Può favorire il rilascio del cibo e rendere più facile mantenere la superficie di riferimento piatta attorno alla concavità.
+> Una singola bisellatura è un sistema tridimensionale completo, non un bordo ordinario con un lato dimenticato.
 
-Le strette aree piatte che circondano la concavità devono essere trattate con attenzione durante l'affilatura. Il lato posteriore non viene semplicemente molato con lo stesso angolo della bisela principale. Viene di solito appoggiato quasi piatto sulla pietra e lavorato leggermente secondo la geometria tradizionale del coltello.
+## Una breve storia: perché Sakai conta
 
-Questo è uno dei motivi per cui l'affilatura della monobisela non dovrebbe essere insegnata come una semplice variante dell'ordinaria affilatura a bisela doppia. Il filo fa parte di un sistema geometrico più ampio.
+La storia della lama di Sakai aiuta a spiegare perché la geometria specialistica sopravvisse. I metalmeccanici erano già presenti intorno alla grande costruzione di tumulo del periodo di Kofun. Nel XVI secolo Sakai divenne importante nella produzione di armi da fuoco. Durante il periodo più stabile di Edo, la domanda di armi da fuoco cadde mentre il tabacco si diffuse, generando la domanda di coltelli sottili a foglia di tabacco.
 
-## Perché i coltelli a monobisela hanno versioni per destri e mancini
+Secondo il racconto di KOGEI GIAPPONE delle lame forgiate Sakai, la qualità di questi coltelli ha portato lo shogunato Tokugawa ad utilizzare il marchio Sakai Kiwame e stabilire un monopolio. Quando la produzione di tabacco successivamente meccanizzato, gli artigiani hanno sempre più applicato le loro competenze divise - forgiatura, affilatura e montaggio maniglia - ai coltelli da cucina professionali.
 
-La bisela principale è posizionata su un lato particolare della lama. Questo determina come il coltello separa il cibo, dove si trova il lato piatto e in quale direzione la lama tende naturalmente a sterzare.
+Questa storia è utile perché sostituisce un vago mito su tutti i coltelli giapponesi che scendono direttamente dalle spade. Le lame da cucina di Sakai sono emerse attraverso diversi mestieri e mutevoli esigenze. Forme di cottura specialistiche sono state raffinate perché cuochi professionisti hanno richiesto risultati specifici, non perché uno stile nazionale era universalmente superiore.
 
-Uno yanagiba per destri, ad esempio, è normalmente progettato in modo che l'utilizzatore possa tenerlo nella mano destra e permettere alla bisela di allontanare la fetta tagliata nella direzione prevista. Una versione per mancini rispecchia la costruzione.
+## Perché esistono le versioni a mano
 
-La versione corretta per la mano dell'utilizzatore di solito sembra più naturale perché la lama, il corpo dell'utilizzatore e la posizione dell'ingrediente lavorano tutti insieme come previsto.
+La posizione dell'ampio bisello determina come il coltello separa il cibo e dove il lato più piatto si siede. Invertire il coltello nella mano e quelle forze non si invertono.
 
-Questo è il motivo per cui i produttori descrivono i coltelli tradizionali a monobisela come per destri o per mancini. La distinzione è reale e utile.
+Un yanagiba destrorso è organizzato in modo che, nella sua posizione di lavoro prevista, la fetta tagliata viene spostata dal bisello mentre il volto più piatto guida il cibo rimanente. Una versione mancino rispecchia la geometria.
 
-## Un coltello a monobisela può essere usato con la mano "sbagliata"?
+La versione abbinata si sente normalmente più naturale perché la lama, il corpo, la mano di sostegno e la direzione del taglio lavorano insieme. Per uso professionale frequente, che la convenienza conta.
 
-Sì, in molti casi può esserlo.
+## Puoi usare la versione fatta per la mano opposta?
 
-Dire che il coltello con l'orientamento opposto sia impossibile da usare sarebbe troppo rigido. Un utilizzatore esperto può compensare cambiando l'intera disposizione di lavoro.
+Si', potrebbe richiedere un accordo diverso, ma non e' impossibile.
 
-L'utilizzatore può cambiare:
+Il consiglio meno utile è semplicemente quello di "compensare lo sterzo." Un principiante ha bisogno di sapere cosa cambiare.
 
-- l'orientamento del coltello;
-- il lato da cui si avvicina l'ingrediente;
-- la posizione del corpo;
-- la posizione e la rotazione del cibo;
-- l'angolo del polso;
-- la direzione del taglio;
-- come viene applicata la pressione contro la sterzata naturale della lama.
+### Cambia la direzione del taglio
 
-Con questi adattamenti, è possibile ottenere un risultato molto vicino a quello prodotto con la mano prevista. Questo è particolarmente vero quando l'utilizzatore ha abbastanza spazio per riposizionare liberamente il corpo e l'ingrediente.
+Supponiamo di tenere il coltello nella mano sinistra e fermare l'ingrediente con la destra. Disporre l'ingrediente in modo che il movimento di taglio porta la lama lontano dalla mano destra invece di verso di esso.
 
-La differenza principale è la comodità. La versione corrispondente richiede di solito meno compensazione consapevole. La versione opposta chiede all'utilizzatore di riorganizzare il compito attorno alla geometria.
+Esistono due modalità pratiche:
 
-Una spiegazione commerciale utile è:
+1. ** Disposizione laterale:** posizionare il cibo davanti a voi e tagliare nella direzione che toglie la lama dalla mano di sostegno.
+2. **Forward arrangement:** ruotare il cibo in modo che il movimento di taglio viaggia lontano dal vostro corpo.
 
-> Un coltello a monobisela è ottimizzato per una mano, ma non è assolutamente limitato a quella mano. Gli utilizzatori esperti possono compensare cambiando la posizione del coltello, del corpo e dell'ingrediente.
+In entrambi i casi, lasciare spazio aperto nella direzione della lama. Tenere la mano di sostegno dietro la linea di taglio. Se necessario, utilizzare l'impugnatura artiglio in modo che le dita rimangono nascoste.
 
-## Sterzata: perché il coltello tira verso un lato
+### Lasciate che il cibo si muova prima del polso
 
-La sterzata si verifica perché le forze sui due lati della lama sono diverse.
+Se il coltello vuole guidare, non risolvere il problema bloccando il polso e forzando la lama lateralmente. Questo aggiunge stress laterale al bordo e peggiora il controllo.
 
-In un coltello a bisela doppia simmetrico, le due bisele tendono a bilanciarsi a vicenda. In un coltello a monobisela, un lato spinge via il cibo mentre l'altro lato rimane molto più piatto. Il coltello può quindi muoversi lateralmente mentre avanza.
+Invece:
 
-L'effetto diventa più evidente in ingredienti spessi, alti o densi. Un taglio lungo attraverso una grande verdura rende la sterzata più facile da osservare rispetto a una breve fetta attraverso un piccolo pezzo di pesce.
+1. fermare il taglio;
+2. ruotare o spostare l'ingrediente;
+3. spostare la posizione se necessario;
+4. ricominciare con una direzione di partenza leggermente modificata;
+5. utilizzare tagli alle pratiche lenti e superficiali fino a quando la tendenza è prevedibile.
 
-L'utilizzatore può controllare la sterzata attraverso:
+Questo metodo funziona particolarmente bene quando il cibo può essere ruotato liberamente. E 'meno conveniente in un setup professionale fisso o durante una lunga serie di tagli identici, motivo per cui un coltello correttamente mano rimane preferibile per molti utenti.
 
-- una posizione del polso costante;
-- una pressione controllata;
-- un orientamento corretto della lama;
-- una velocità appropriata;
-- il posizionamento del cibo in modo che la bisela lavori a favore, e non contro, il risultato desiderato.
+### Scegliere il primo cibo pratica con attenzione
 
-Imparare a usare un coltello a monobisela non riguarda quindi solo mantenere un angolo del filo. Riguarda comprendere come l'intera lama si muove attraverso il cibo.
+Iniziare con un ingrediente stabile che non è estremamente alto o denso. Un breve pezzo di cetriolo o una piccola porzione disossata rende lo sterzo più facile da osservare senza richiedere molta forza.
 
-## Qualità di taglio e finitura della superficie
+Una grossa patata, zucca dura o verdure a radice alta esagera le forze laterali ed è un primo esercizio povero. Mai testare un movimento sconosciuto su un ingrediente rotolare o con le dita poste davanti alla lama.
 
-Un coltello a monobisela può produrre una superficie di taglio eccezionalmente pulita perché la geometria separa il pezzo tagliato in una direzione controllata.
+## Sterzo: cosa sta realmente accadendo
 
-Questo è importante nel sashimi, dove una superficie ruvida o strappata può influenzare l'aspetto e la sensazione in bocca. È prezioso anche nel katsuramuki, la tecnica di sbucciatura continua associata ai coltelli usuba.
+Mentre una lama entra nel cibo, il cibo preme indietro. Con un bordo a V simmetrico, la pressione è distribuita più uniformemente. Con un singolo smussamento, una faccia agisce come un cuneo mentre l'altra rimane molto più piatta. Lo squilibrio spinge la lama lateralmente.
 
-Un affettatore a bisela doppia può anch'esso produrre tagli puliti eccellenti. Un sujihiki ben affilato è più facile per molti utilizzatori ed è molto efficace su carne senz'osso e molte preparazioni di pesce.
+Lo sterzo diventa più visibile quando:
 
-La differenza non dovrebbe essere presentata come "la monobisela è affilata, la bisela doppia no". Entrambe possono essere estremamente affilate. La differenza sta nella geometria, nella sterzata, nella separazione del cibo e nella specializzazione.
+- l'ingrediente è alto, duro o denso;
+- la lama è spessa;
+- il bisello è largo;
+- il taglio è lungo;
+- l'utilizzatore applica un'eccessiva forza discendente;
+- il polso cerca di correggere dopo che la lama è già in profondità nel cibo.
 
-## Robustezza e sostegno del filo
+La correzione migliore inizia normalmente prima del taglio: scegliere la direzione, stabilizzare il cibo e impostare l'angolo di partenza. Una volta che la lama è sepolta in profondità, grandi correzioni possono ruotare il bordo.
 
-La monobisela non significa automaticamente delicato, e la bisela doppia non significa automaticamente robusto.
+## Superfici pulite e separazione degli alimenti
 
-Un deba è a monobisela ma spesso e forte perché è progettato per la macelleria del pesce. Un usuba sottile è a monobisela e richiede una tecnica attenta. Un pesante mannaia a bisela doppia è robusto, mentre un sottile gyuto "laser" a bisela doppia può essere più delicato.
+Un singolo bisello può produrre una superficie eccezionalmente pulita perché il pezzo tagliato è diretto via mentre il lato più piatto guida il cibo rimanente. Questo conta in sashimi, dove la superficie tagliata è visibile e colpisce la consistenza in bocca. Importa anche in katsuramuki, dove un'usuba trasforma un vegetale in un foglio sottile continuo.
 
-La forza del coltello dipende da:
+Un sujihiki affilato è più facile per molti cuochi, lavora in entrambe le mani e maniglie carne disossata e pesce molto efficacemente.
+
+La distinzione utile non è "la singola smussatura è tagliente e la doppia smussatura è ordinaria." Entrambi possono essere affilati ad un apice molto fine. La differenza sta nello sterzo, nella separazione, nella finitura superficiale e nella specializzazione.
+
+## La forza non viene dalla sola bisellatura
+
+Una deba è smussata singola e spessa perché è costruita per la macelleria di pesce. Un'usuba è anche smussata singola ma ha un bordo di lavoro molto più fine. Un pesante elicottero a doppia smussa è robusto, mentre un sottile gyuto a doppia smussa può scheggiare se ritorto.
+
+Per stimare quanto esigente sarà un coltello, considerare:
 
 - spessore della lama;
 - spessore dietro il filo;
 - angolo del filo;
 - acciaio e durezza;
+- forma della punta;
 - compito previsto.
 
-Il tipo di bisela è solo una parte del design.
+Il tipo bisellato è solo una parte della risposta.
 
-## Affilare un coltello a bisela doppia
+## Affilatura di un doppio bisello
 
-L'affilatura a bisela doppia comporta di solito lavorare entrambi i lati finché non si incontrano in modo pulito all'apice.
-
-L'utilizzatore dovrebbe:
+Per un normale doppio bisello simmetrico:
 
 1. identificare la bisela esistente;
 2. mantenere un angolo costante;
-3. lavorare un lato finché non si forma una leggera bava di affilatura lungo l'intero filo;
-4. ripetere sull'altro lato;
-5. ridurre la pressione e rimuovere la bava di affilatura;
-6. preservare qualsiasi asimmetria intenzionale.
+3. lavorare il primo lato fino a quando una bava leggera raggiunge il bordo completo;
+4. ripetere sul secondo lato;
+5. ridurre la pressione;
+6. alternare i lati e rimuovere la bava.
 
-Un angolo di 15 gradi per lato è un riferimento iniziale utile per molti coltelli da cucina sottili, ma non è una regola universale. La geometria esistente e l'uso previsto dovrebbero guidare il processo.
+15 gradi per lato è un utile riferimento visivo per molti coltelli da cucina sottili, non una prescrizione universale. Seguire la geometria esistente e la guida del produttore.
 
-## Affilare un coltello a monobisela
+## Affilatura di un singolo smusso tradizionale
 
-Un tradizionale coltello a monobisela richiede un approccio diverso.
+L'ampio smusso principale è normalmente posto contro la pietra e lavorato come una superficie. Il rovescio viene poi posato quasi piatto e toccato leggermente per rimuovere la bava pur conservando l'urasuki ei suoi appartamenti circostanti.
 
-L'ampia bisela principale viene normalmente appoggiata contro la pietra e lavorata come una superficie, non trattata come una semplice bisela secondaria stretta. Il lato posteriore viene poi lavorato leggermente e quasi piatto per rimuovere la bava di affilatura preservando l'urasuki e le aree piatte circostanti.
-
-Un'affilatura eccessiva del lato posteriore o il sollevarlo con l'angolo sbagliato può danneggiare la geometria prevista. I principianti dovrebbero quindi ricevere istruzioni specifiche per il prodotto prima di affilare un costoso coltello a monobisela.
+Non convertire il rovescio in un normale bisello secondario. Non diradare il cavo indiscriminatamente. Un coltello singolo di alto valore merita istruzioni specifiche per il modello o un affilatore familiare con questa costruzione.
 
 ## Scegliere tra i due
 
-La gamma di Xinzuo comprende i noti coltelli da cuoco, santoku, nakiri, taglialegna e affettatrici, nonché le forme selezionate in stile giapponese. Il portfolio va quindi spiegato attraverso la tecnica, la manualità e l'alimentazione, piuttosto che presentando una famiglia smussata come intrinsecamente più avanzata. Per un modello Xinzuo, confermare l'orientamento effettivo e consegnato nella specifica attuale; un nome di profilo giapponese da solo non dimostra la costruzione smussata.
+Scegliere una doppia smussatura quando si desidera:
 
-Un coltello a bisela doppia è di solito la scelta migliore quando l'utilizzatore desidera:
+- un coltello per lavori vari;
+- uso facile in entrambe le mani;
+- tracciamento rettilineo prevedibile;
+- un processo di affilatura familiare.
 
-- versatilità;
-- maneggevolezza facile;
-- uso ambidestro;
-- affilatura più semplice;
-- uno strumento familiare per uso generale.
+Considera un singolo smusso quando vuoi:
 
-Un coltello a monobisela è attraente quando l'utilizzatore desidera:
+- un risultato specialistico come il sashimi affettatura o il tradizionale lavoro vegetale;
+- separazione controllata degli alimenti;
+- la finitura superficiale associata alla tecnica prevista;
+- un coltello che si è disposti a imparare e mantenere come uno strumento specializzato.
 
-- geometria tradizionale giapponese;
-- preparazione specializzata di pesce o verdure;
-- controllo preciso della superficie tagliata;
-- uno strumento progettato per una specifica tecnica professionale;
-- l'esperienza di apprendimento associata a un coltello più impegnativo.
+All'interno della gamma Xinzuo, confronta il modello esatto piuttosto che affidarti al solo nome del profilo. Verificare la macinatura, l'orientamento manuale, l'acciaio, lo spessore e gli alimenti destinati.
 
-La scelta corretta dipende meno da quale design sia "migliore" e più da quanta specializzazione desidera l'utilizzatore.
+## Cosa ricordare
 
-## Fraintendimenti comuni
+- Doppia smussatura descrive affilatura da entrambi i lati, non necessariamente perfetta simmetria.
+- Un singolo bisello descrive una geometria completa, spesso includendo un urasuki.
+- Un coltello single-bevel è ottimizzato per una mano, ma spesso può essere utilizzato con l'altra.
+- Il metodo più pratico è quello di riorientare il cibo in modo che la lama si allontani dalla mano di supporto o dal corpo.
+- Lo sterzo dovrebbe essere gestito attraverso l'impostazione e la direzione, non una correzione laterale forzata.
+- Nessuna famiglia è automaticamente più nitida, più forte o più prestigiosa.
 
-### "Monobisela significa affilato solo su un lato e completamente piatto sull'altro"
+> **Principio di pratica:** quando il bisello non può cambiare le mani, cambiare l'assetto [47] posizionare il cibo in modo che la lama viaggia lontano dalla mano guida o dal corpo.
 
-Il lato posteriore ha spesso una concavità controllata e strette aree piatte di riferimento. È una superficie progettata, non semplicemente un lato non rifinito.
+### Sorgente storica
 
-### "Un mancino non può usare un coltello per destri"
-
-Il coltello è ottimizzato per la mano opposta, ma una compensazione esperta è possibile cambiando la posizione e la direzione del lavoro.
-
-### "Bisela doppia significa sempre perfettamente simmetrica"
-
-Molti coltelli a bisela doppia usano un'affilatura asimmetrica.
-
-### "La monobisela è sempre più affilata"
-
-Entrambe le geometrie possono raggiungere un'affilatura molto alta. La loro differenza principale è come il filo è posizionato e come la lama separa il cibo.
-
-### "La monobisela è sempre fragile"
-
-Un deba è un chiaro esempio di un coltello a monobisela forte. La robustezza dipende dalla geometria completa.
-
-## Riepilogo per il cliente
-
-> Un coltello a bisela doppia è affilato da entrambi i lati ed è di solito versatile e facile da controllare. Un coltello a monobisela posiziona il filo vicino a una faccia della lama, creando un taglio preciso e una separazione controllata del cibo. I coltelli a monobisela sono ottimizzati per una mano particolare, ma gli utilizzatori esperti possono compensare con la posizione del corpo, l'orientamento della lama e la direzione del taglio.
-
-Comprendere le bisele aiuta a spiegare perché due coltelli ugualmente affilati possano sembrare completamente diversi sullo stesso ingrediente.
+- [KOGEI GIAPPONE, Sakai Lame forgiate](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)

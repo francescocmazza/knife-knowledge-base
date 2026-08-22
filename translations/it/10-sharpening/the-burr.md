@@ -1,10 +1,10 @@
 ---
-source_hash: 6ab6150e14cc15844df8d0b76531d4f7cba1133bb438c34cbc588f8bfcf2b9f3
+source_hash: d5f5e6daabfb202213572d13e48c46fb8ebf77af749a124530a94318ac051d16
 ---
 
 # Comprendere la Bava di Affilatura
 
-La bava di affilatura è una delle idee più importanti nell'affilatura manuale. Una volta che il lettore la comprende, affilare smette di sembrare un rituale misterioso e diventa un processo che può essere osservato.
+La bava è uno dei segni più utili nell'affilatura manuale. Una volta capito, l'affilatura smette di sentirsi come un rituale misterioso e diventa un processo che si può osservare.
 
 Un principiante spesso si chiede: Come faccio a sapere quando ho affilato abbastanza su un lato? Come faccio a sapere che la pietra ha effettivamente raggiunto il filo tagliente invece di lucidare un'area sopra di esso?
 
@@ -32,7 +32,7 @@ Non è normalmente un pezzo separato di sporco appoggiato sulla lama. È ancora 
 
 Quando la bava diventa lunga, debole e flessibile, viene a volte chiamata **filo di ferro (wire edge)**. Un filo di ferro può far sembrare il coltello affilato per un momento, ma è instabile. Può piegarsi da un lato all'altro o staccarsi durante i primi tagli.
 
-L'obiettivo non è creare la bava più grande possibile. L'obiettivo è creare la più piccola bava leggera e continua che confermi che il filo è stato raggiunto.
+L'obiettivo non è quello di creare la bava più grande possibile. Considerarla come una ricevuta, non come un trofeo: la bava più piccola e continua conferma che la pietra ha raggiunto il bordo.
 
 ## Come si forma la bava passo dopo passo
 
@@ -279,8 +279,10 @@ Una pressione forte continua a piegare e ingrandire la bava invece di rimuoverla
 11. Controllare che non resti alcun labbro direzionale.
 12. Testare il filo pulito su carta e cibo adatto.
 
-## Riepilogo per il cliente
+## Cosa ricordare
 
 > La bava non è sporco o residuo sciolto di affilatura. È la parte finale, estremamente sottile, del filo che si piega verso il lato opposto a quello in affilatura. Una leggera bava dal tallone alla punta conferma che la pietra ha raggiunto l'apice. Deve poi essere ridotta e rimossa affinché il filo finito sia pulito e stabile.
 
 Comprendere la bava trasforma l'affilatura da un tentativo casuale in un processo con checkpoint visibili e tattili.
+
+> **Pratica principio:** sollevare la più piccola bava che dimostra di aver raggiunto l'apice, quindi rimuoverlo.

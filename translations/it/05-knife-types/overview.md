@@ -1,10 +1,10 @@
 ---
-source_hash: 25d9598ab8cee2cdfb7c050748226bc8dc2d73dd881d20d3c5b6f6659fa0d8d0
+source_hash: 5e767265a77c96b4abaf885a2e18842c3dffef70a4cec85903702247b3d83291
 ---
 
 # Tipi di Coltello e Stili di Taglio
 
-Entrare per la prima volta in un negozio di coltelli specializzato può sembrare come imparare una nuova lingua. Gyuto, santoku, bunka, nakiri, usuba, sujihiki, yanagiba, deba, honesuki: i nomi non sono familiari, e molti coltelli sembrano simili finché non vengono messi fianco a fianco.
+Entrando in un negozio specializzato di coltelli può sentire come l'apertura di un dizionario in una lingua sconosciuta. Gyuto, santoku, bunka, nakiri, usuba, sujihiki, yanagiba, deba e honesuki appaiono sulle etichette prima che il lettore ha qualsiasi motivo per ricordarli.
 
 Il modo più semplice per comprendere queste forme non è memorizzare un dizionario. È collegare ogni design a tre domande pratiche:
 
@@ -28,13 +28,30 @@ Un **taglio a trazione** tira una lunga sezione del filo attraverso l'ingredient
 
 Un **taglio di dettaglio** usa la punta per rifinire, incidere, forare o lavori di precisione. Una punta a K fine o una punta stretta possono essere utili, ma sono anche più delicate.
 
-Una volta chiaro il movimento preferito, i nomi iniziano ad avere senso.
+Una volta che il movimento è chiaro, i nomi diventano più facili da ricordare perché ognuno risponde ad un bisogno pratico.
 
-# Coltelli per uso generale
+## Coltelli per uso generale
 
-## Gyuto: il coltello da chef giapponese
+### Coltello da cuoco Western: una curva per il lavoro continuo su tavola
 
-Il gyuto è una delle forme di coltello giapponese più versatili. Il suo nome è spesso tradotto come "spada per manzo", riflettendo la sua associazione storica con la carne, ma il gyuto moderno è un coltello da chef per uso generale.
+Il coltello dello chef occidentale ha un tacco largo, una punta appuntita e, in molti esempi, una curva continua lungo il bordo. Maneggia verdure, erbe, frutta, carne disossata e preparazione generale.
+
+La sua curva fa sentire naturale la spaccatura della roccia. La parte anteriore rimane su o vicino alla tavola mentre il tallone si alza e cade. Un tallone largo dà anche lo sgombero delle nocche e una sensazione sostanziale attraverso cibo denso.
+
+Le parole "occidentale" e "coltello da chef" non garantiscono una lama pesante o una curva drammatica. Gli esempi moderni variano. L'utile confronto è con il gyuto reale accanto ad esso:
+
+| Cosa osservare | Tendenza tipica del ginecologo | Tipica tendenza al coltello da chef occidentale |
+|---|---|---|
+| Tacco e mezzo | Sezione di lavoro più piatta | Curva più continua |
+| Schema generale | Più sottile e più appuntito | Più ampio e più sostanziale |
+| Movimento naturale | Spingere il taglio, disegnare la fetta, roccia moderata | Rocking, triturazione, lavori di tavola generale |
+| Limite importante | Non tutti i gyuto sono sottili o piatti | Non ogni coltello da cuoco è pesante o fortemente curvo |
+
+Il profilo occidentale è spesso descritto come più orientato alla carne a causa della sua storia visiva nelle cucine professionali europee, non perché è limitato alla carne. Rimane un coltello di uso generale e non è un elicottero osseo.
+
+### Gyuto: il coltello dello chef giapponese
+
+Il gyuto è una delle forme più versatili del coltello giapponese. Il suo nome è spesso tradotto come "spada di beef," riflettendo il periodo in cui mangia carne in stile occidentale e coltelli occidentali sono stati assorbiti nella cucina giapponese. Il moderno gyuto è un coltello da chef di uso generale, non un coltello da manzo dedicato.
 
 Può essere usato per:
 
@@ -51,15 +68,21 @@ Il profilo varia molto. Alcuni gyuto hanno una pancia curva pronunciata e sono c
 
 La punta è di solito abbastanza fine per il lavoro di dettaglio senza essere angolare quanto la punta a K di un bunka o kiritsuke. Questo rende il gyuto una scelta equilibrata per chi desidera un coltello principale capace di fare quasi tutto.
 
-Una descrizione utile per il cliente è:
+Un modo semplice per ricordarlo è:
 
 > Il gyuto è la versione giapponese del coltello da chef per uso generale. È abbastanza lungo per un'affettatura efficiente, abbastanza stretto per il controllo e disponibile in profili adatti sia al dondolamento sia al taglio a spinta.
 
-## Santoku: compatto, alto e accessibile
+### Santoku: compatto, alto e accessibile
 
 Il santoku è un altro coltello giapponese per uso generale. È di solito più corto di un gyuto e ha una lama più alta rispetto alla sua lunghezza.
 
-Il nome è comunemente collegato a "tre virtù" o "tre usi." Diverse spiegazioni li identificano come carne, pesce e verdure, oppure come affettare, tritare e tagliare a dadini. La traduzione esatta è meno importante dell'idea pratica: il santoku è progettato come un coltello domestico versatile.
+Il nome è comunemente collegato con "tre virtù" o "tre usi." Diverse spiegazioni identificano questi come carne, pesce e verdure, o come affettare, tritare e dadi. Il disaccordo stesso insegna qualcosa di utile: il santoku è ricordato come un versatile coltello da casa piuttosto che uno stretto specialista.
+
+#### Collegamento storico: un coltello per una cucina casalinga
+
+Il santoku è una forma giapponese relativamente moderna, generalmente associata con la metà del ventesimo secolo. Ha riunito il carattere piatto, asse-friendly dei coltelli vegetali giapponesi e caratteristiche utili per la gamma più ampia di alimenti che entrano nella cucina domestica del dopoguerra.
+
+La memoria importante non è una data esatta di invenzione o un singolo inventore chiamato, che sono difficili da documentare. È il cambiamento di scopo: diverse tradizioni specialistiche sono state tradotte in un unico strumento domestico compatto.
 
 La sua lunghezza compatta lo rende facile da controllare. La lama alta offre una comoda distanza per le nocche e fornisce un'ampia superficie per guidare il cibo con la mano di supporto.
 
@@ -71,15 +94,15 @@ Il santoku è spesso un'eccellente raccomandazione per:
 - cucine più piccole;
 - utilizzatori che preferiscono un coltello leggero e controllato;
 - persone che preparano molte verdure ma vogliono comunque uno strumento per uso generale;
-- clienti che trovano intimidatorio un lungo coltello da chef.
+- persone che trovano intimidatorio il coltello di un lungo chef.
 
 Il suo limite è principalmente la lunghezza. Un santoku può affettare la carne, ma può richiedere più passate su un grande arrosto o un filetto di pesce lungo rispetto a un gyuto o a un sujihiki.
 
-Una descrizione chiara è:
+Un modo semplice per ricordarlo è:
 
 > Il santoku è un coltello compatto per uso generale che combina un controllo facile, un'altezza di lama utile e un profilo adatto al tritare e al taglio a spinta.
 
-## Bunka: la versatilità del santoku con una punta a K precisa
+### Bunka: versatilità santoku con un preciso K-tip
 
 Il bunka è strettamente correlato al santoku. Offre di solito una lunghezza compatta e una lama alta simili, ma la parte anteriore termina in una **punta a K** angolare, a volte descritta come tanto inverso.
 
@@ -96,11 +119,11 @@ Il filo è spesso relativamente dritto, rendendo il bunka particolarmente comodo
 
 La punta a K dovrebbe quindi essere presentata sia come un vantaggio sia come una responsabilità. Offre controllo, ma non dovrebbe essere torta o colpita.
 
-Una spiegazione utile è:
+Un modo semplice per ricordarlo è:
 
 > Il bunka offre la versatilità compatta di un santoku con una punta più affilata e precisa. È particolarmente adatto al taglio a spinta, al tritare e al lavoro di dettaglio.
 
-## Kiritsuke e gyuto con punta a K
+### Kiritsuke e K-tip gyuto
 
 La parola kiritsuke può riferirsi a coltelli diversi a seconda del contesto.
 
@@ -108,13 +131,13 @@ Un kiritsuke tradizionale a monobisela è un coltello giapponese specialistico a
 
 Un kiritsuke moderno a bisela doppia o un gyuto con punta a K è più accessibile. Si comporta come un coltello da chef per uso generale con un filo più dritto e una punta angolare.
 
-Questa distinzione dovrebbe essere resa chiara nelle descrizioni dei prodotti. Un cliente non dovrebbe presumere che ogni coltello con punta a K sia un kiritsuke tradizionale a monobisela.
+La distinzione è importante in uso. Una silhouette K-tip da sola non dimostra una tradizionale kiritsuke single-bevel.
 
 Le versioni moderne a bisela doppia sono apprezzate per il loro filo lungo, la sezione di taglio piatta e la punta dettagliata. Sono attraenti per gli utilizzatori che preferiscono il taglio a spinta e desiderano una forma di lama drammatica.
 
-# Coltelli per verdure
+## Coltelli da tavola
 
-## Nakiri: un coltello dedicato alle verdure per un lavoro semplice sul tagliere
+### Nakiri: un coltello vegetale dedicato per un semplice lavoro da tavola
 
 Il nakiri è un coltello per verdure alto, sottile, a bisela doppia, con un filo tagliente relativamente dritto.
 
@@ -135,11 +158,11 @@ Il nakiri è particolarmente comodo per:
 
 Il suo limite è la specializzazione. Ha meno punta di un gyuto o di un bunka, quindi è meno comodo per forare, rifinire e lavori di precisione con la punta.
 
-Una descrizione per il cliente è:
+Un modo semplice per ricordarlo è:
 
 > Il nakiri è un coltello per verdure sottile, a bisela doppia, con un filo dritto. È facile da controllare ed eccellente per un tritare pulito e tagli a spinta sul tagliere.
 
-## Usuba: lo specialista tradizionale a monobisela per le verdure
+### Usuba: il tradizionale specialista di verdure single-bevel
 
 L'usuba può sembrare simile a un nakiri, ma la geometria è molto diversa.
 
@@ -154,15 +177,15 @@ L'usuba è associato a tecniche giapponesi professionali come:
 
 Il filo dritto è eccellente per i tagli verticali, ma la geometria a monobisela tende a deviare e richiede esperienza. Il coltello è meno indulgente di un nakiri ed è normalmente offerto in versioni per destri e mancini.
 
-L'usuba non dovrebbe essere venduto semplicemente come un "nakiri migliore." È uno strumento più specializzato per un utilizzatore che desidera la tecnica tradizionale ed è disposto a impararla.
+L'usuba non dovrebbe essere intesa semplicemente come un "nakiri migliore." Si tratta di uno strumento più specializzato per chi vuole la tecnica tradizionale ed è disposto ad impararla.
 
-Una spiegazione utile è:
+Un modo semplice per ricordarlo è:
 
 > Il nakiri è il coltello per verdure a bisela doppia accessibile. L'usuba è lo specialista tradizionale a monobisela per la pelatura e il lavoro di presentazione altamente precisi.
 
-# Coltelli da chef cinesi e mannaie
+## Coltello da cuoco cinese
 
-## Coltello da chef cinese o cai dao
+### Coltello da cuoco cinese o cai dao
 
 Il coltello da chef cinese ha una lama rettangolare alta ed è spesso chiamato mannaia cinese. Questo nome può essere fuorviante perché molti modelli sono sottili coltelli per uso generale, non spaccaossa.
 
@@ -181,7 +204,13 @@ La sua altezza offre un'eccellente distanza per le nocche e un'ampia superficie 
 
 Gli chef cinesi possono completare la maggior parte della preparazione con un unico coltello ben scelto. La chiave è distinguere le diverse classi di peso. Un affettatore sottile per verdure non dovrebbe mai essere trattato come una pesante mannaia per ossa.
 
-## Spaccaossa o mannaia pesante
+#### Collegamento storico: una silhouette, diversi strumenti
+
+L'ampio coltello rettangolare da cucina è diventato uno shorthand visivo per la cucina cinese, ma la silhouette nasconde una famiglia di diversi spessori. Il cai dao quotidiano è spesso un affettatore: abbastanza alto da guidare contro le nocche e abbastanza largo da spostare il cibo verso il wok. Un vero coltello osso utilizza più massa e un bordo più forte.
+
+Ricordate la storia attraverso la superficie di lavoro. La preparazione cinese spesso si muove rapidamente dal affettare e triturare per trasferire gli ingredienti in un wok caldo. La faccia larga è utile durante tutta la sequenza. La sua versatilità, non l'appetito per l'impatto pesante, spiega perché un coltello rettangolare può dominare una postazione di lavoro.
+
+### elicottero osseo o pesante mannaia
 
 Una mannaia per ossa è più spessa, più pesante e più robusta. La sua geometria è progettata per tollerare un lavoro energico che danneggerebbe un sottile cai dao.
 
@@ -193,9 +222,9 @@ La differenza può essere spiegata semplicemente:
 
 > Un coltello da chef cinese può sembrare una mannaia ma è spesso un sottile affettatore per uso generale. Uno spaccaossa è più pesante, più spesso e costruito per l'impatto.
 
-# Affettatori lunghi e coltelli per pesce
+## Affettatrici lunghe e coltelli da pesce
 
-## Sujihiki: il lungo affettatore a bisela doppia
+### Sujihiki: la lunga affettatrice a doppio bevel
 
 Il sujihiki è un coltello lungo, stretto, a bisela doppia, progettato per fare tagli puliti attraverso proteine disossate.
 
@@ -212,11 +241,11 @@ La sua lunghezza permette all'utilizzatore di completare un taglio in un'unica t
 
 È inesatto dire che un sujihiki non sia mai adatto al pesce. Può funzionare molto bene sul pesce, specialmente per gli utilizzatori che preferiscono un coltello a bisela doppia. Uno yanagiba tradizionale offre un taglio e un comportamento di separazione del cibo diversi, ma il sujihiki resta molto capace.
 
-Una descrizione chiara è:
+Un modo semplice per ricordarlo è:
 
 > Il sujihiki è un lungo affettatore a bisela doppia che crea tagli puliti attraverso carne disossata e molte preparazioni di pesce con una geometria facile e familiare.
 
-## Yanagiba: l'affettatore tradizionale per sashimi
+### Yanagiba: la tradizionale affettatrice sashimi
 
 Lo yanagiba è un coltello lungo, stretto, a monobisela, progettato per affettare pesce crudo.
 
@@ -228,11 +257,11 @@ Il coltello richiede abilità. Tende a deviare, è di solito specifico per una m
 
 Uno yanagiba può anche affettare alcune carni, ma è ottimizzato per il pesce crudo e il lavoro di presentazione. Un sujihiki è generalmente più facile e versatile per un uso misto.
 
-Un confronto pratico è:
+Un modo semplice per ricordarlo è:
 
 > Il sujihiki è l'affettatore a bisela doppia accessibile. Lo yanagiba è lo specialista tradizionale a monobisela per fette lunghe e pulite di pesce crudo.
 
-## Coltello da filetto flessibile
+### Coltello filetto flessibile
 
 Un coltello da filetto occidentale è stretto e spesso flessibile. Il suo scopo è seguire i contorni di ossa e pelle.
 
@@ -240,9 +269,9 @@ La flessibilità permette alla lama di piegarsi attorno alla gabbia toracica o d
 
 Un coltello da filetto è utile per lavorare attorno alle ossa, non per tagliarle. Una torsione eccessiva o colpire materiale duro può comunque danneggiare il filo.
 
-# Macellazione del pesce e disossatura
+## Macellazione e disossamento di pesci
 
-## Deba: un robusto coltello a monobisela per il pesce
+### Deba: un forte coltello singolo per pesce
 
 Il deba è un coltello spesso, pesante, a monobisela, sviluppato per la lavorazione del pesce.
 
@@ -258,11 +287,11 @@ Il suo spessore e peso lo distinguono da uno yanagiba. Il deba è robusto per il
 
 La parte più forte vicino al tallone viene normalmente usata per i tagli più impegnativi. La sezione anteriore più fine esegue un lavoro più preciso.
 
-Una spiegazione utile è:
+Un modo semplice per ricordarlo è:
 
 > Il deba è un coltello tradizionale spesso per la lavorazione del pesce. Può gestire articolazioni di pesce e ossa adatte, ma non è una mannaia generica per ossa.
 
-## Honesuki: lavoro su pollame e articolazioni
+### Honesuki: pollame e lavori congiunti
 
 L'honesuki è un coltello giapponese appuntito per disossare, comunemente associato al pollame.
 
@@ -272,7 +301,7 @@ L'honesuki è progettato per lavorare **attorno** alle ossa piuttosto che taglia
 
 Alcuni modelli usano una geometria a bisela doppia asimmetrica, quindi la lateralità e le indicazioni di affilatura possono variare.
 
-## Coltello disossatore occidentale
+### Coltello da disossamento occidentale
 
 Un coltello disossatore occidentale ha una lama stretta e può essere rigido, semi-flessibile o flessibile.
 
@@ -280,9 +309,9 @@ Una versione rigida offre controllo attorno alle articolazioni di manzo e maiale
 
 Come per il coltello da filetto, l'obiettivo è la precisione attorno all'osso, non l'impatto attraverso l'osso.
 
-# Coltelli piccoli
+## Piccoli coltelli
 
-## Petty o coltello da cucina multiuso
+### Coltello piccolo o di utilità
 
 Il petty è un piccolo coltello versatile che si colloca tra un coltello da sbucciatura e un coltello da chef.
 
@@ -300,7 +329,7 @@ I petty più lunghi possono lavorare comodamente su un tagliere. Quelli più cor
 
 Il petty non dovrebbe essere descritto come limitato solo alle verdure morbide. Il suo vero punto di forza è la versatilità su ingredienti piccoli e medi, a condizione che la lama non venga forzata attraverso materiali duri.
 
-## Coltello da sbucciatura
+### Coltello da cucina
 
 Il coltello da sbucciatura è molto piccolo ed è progettato principalmente per il lavoro tenuto in mano.
 
@@ -315,13 +344,13 @@ I compiti tipici includono:
 
 La sua lama corta offre controllo, ma è inefficiente per un ampio lavoro sul tagliere. La differenza rispetto a un petty non è solo la lunghezza; è anche la posizione di lavoro prevista.
 
-Un semplice confronto è:
+Un modo semplice per ricordarlo è:
 
 > Un petty è un piccolo coltello per uso generale per il lavoro sul tagliere e la rifinitura. Un coltello da sbucciatura è più corto ed è progettato principalmente per il lavoro preciso in mano.
 
-# Coltelli seghettati
+## Coltelli seghettati
 
-## Coltello da pane
+### Coltello per pane
 
 Un coltello da pane usa denti visibili per iniziare diversi piccoli tagli attraverso una crosta consistente. Questo riduce la forza applicata all'interno morbido e aiuta a evitare di schiacciare il pane.
 
@@ -334,37 +363,37 @@ Un coltello da pane usa denti visibili per iniziare diversi piccoli tagli attrav
 
 I coltelli seghettati restano funzionalmente efficaci a lungo perché le parti incassate del filo ricevono meno contatto con il tagliere. Sono più difficili da affilare con una pietra piatta e possono richiedere un'asta conica o un servizio specializzato.
 
-# Come il profilo cambia la categoria
+## Come il profilo cambia la categoria
 
 Un nome di coltello fornisce un punto di partenza, ma il profilo esatto determina la sensazione di taglio.
 
-## Curvatura del filo
+### Curvatura del bordo
 
 Una pancia curva supporta il dondolamento. Un filo più piatto supporta il taglio a spinta e il tritare. Due gyuto possono comportarsi in modo diverso perché uno ha una curva più marcata.
 
-## Altezza della lama
+### Altezza lama
 
 Una lama alta offre distanza per le nocche e un'ampia superficie di guida. Una lama stretta crea meno attrito nelle fette lunghe.
 
-## Spessore dietro il filo
+### Spessore dietro il bordo
 
 Un coltello sottile separa il cibo facilmente. Un coltello più spesso offre maggiore forza ma può incunearsi in ingredienti densi.
 
-## Forma della punta
+### Forma della punta
 
 Una punta fine supporta il lavoro di precisione. Una punta a K offre un controllo eccellente ma può essere più delicata. Una punta arrotondata o assente, come in molti nakiri, riduce la capacità di dettaglio ma supporta un tritare semplice.
 
-## Bilanciamento
+### Saldo
 
 Un coltello sbilanciato verso la lama può sembrare potente e guidarsi da solo attraverso il taglio. Un coltello sbilanciato verso il manico può sembrare controllato e familiare. Nessuno dei due bilanciamenti è universalmente migliore.
 
-## Peso
+### Peso
 
 Il peso può aiutare il coltello a muoversi attraverso il cibo, ma un peso eccessivo può causare affaticamento. Un coltello molto leggero risulta agile, ma alcuni utilizzatori preferiscono più presenza.
 
-# Scegliere un primo buon coltello
+## Scegliere un primo coltello serio
 
-Xinzuo offre questi profili in diversi acciai, costruzioni, materiali di maniglia e posizioni di prezzo. Questa larghezza è utile solo quando la raccomandazione inizia con il movimento e gli ingredienti dell'utente. Un coltello Xinzuo gyuto, santoku o cinese dello chef dovrebbe essere confrontato con lunghezza utilizzabile, curvatura, spessore, bilanciamento e taglio acciaio non scelto dal nome della categoria o strato di Damasco contare da solo. Deba specializzato, forme yanagiba e pesante-leaver dovrebbe essere raccomandato solo per le attività e la tecnica il loro supporto geometrico.
+Xinzuo offre questi profili in diversi acciai, costruzioni, materiali di maniglia e posizioni di prezzo. Questa larghezza è utile solo quando la raccomandazione inizia con il movimento e gli ingredienti dell'utente. Un coltello Xinzuo gyuto, santoku o cinese dello chef dovrebbe essere confrontato con lunghezza utilizzabile, curvatura, spessore, equilibrio e taglio acciaio-non scelto dalla categoria nome o strato di Damasco contare da solo. Deba specialista, forme yanagiba e pesante-leaver dovrebbe essere raccomandato solo per le attività e la tecnica il loro supporto geometrico.
 
 Dopo aver selezionato il profilo, utilizzare le guide [Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) e [Xinzuo Handle Materials](../02-steels-and-metallurgy/xinzuo-handle-materials.md) per scegliere la manutenzione, il peso e l'equilibrio tattile appropriati.
 
@@ -380,7 +409,7 @@ Un coltello da chef cinese è adatto a chi è disposto a imparare uno strumento 
 
 Un coltello specialistico come yanagiba, usuba o deba ha più senso quando l'utilizzatore già svolge il compito per cui è stato progettato.
 
-Le domande di vendita più utili sono:
+Chiediti:
 
 - Quali alimenti prepari più spesso?
 - Quanto è grande il tuo tagliere?
@@ -391,7 +420,7 @@ Le domande di vendita più utili sono:
 
 Queste domande rivelano più di quanto faccia chiedere quale forma sembri più attraente.
 
-# Fraintendimenti comuni
+## Incomprensioni comuni
 
 ### "Il santoku è per le verdure e i coltelli da chef sono per la carne"
 
@@ -417,12 +446,15 @@ I coltelli petty sono piccoli strumenti versatili per frutta, verdura, formaggio
 
 La curva reale del filo determina quanto naturalmente il coltello dondola.
 
-# Riepilogo per il cliente
+## Cosa ricordare
 
-> I nomi dei coltelli descrivono tradizioni di design, ma il profilo, lo spessore, il bilanciamento e la geometria del filo determinano come si sente il singolo coltello. Inizia dal movimento di taglio dell'utilizzatore e dagli ingredienti principali, poi scegli la forma che supporta quelle abitudini.
+> I nomi dei coltelli descrivono le tradizioni del design, ma il profilo, lo spessore, l'equilibrio e la geometria dei bordi determinano come si sente il singolo coltello. Iniziate con il vostro movimento di taglio e gli ingredienti principali, poi scegliete la forma che sostiene quelle abitudini.
 
-Il coltello migliore non è quello con il nome più impressionante. È quello la cui forma rende più facile, pulito e controllato il lavoro abituale dell'utilizzatore.
+Il miglior coltello non è quello con il nome più impressionante. È quello la cui forma rende il lavoro normale più facile, più pulito e più controllato.
 
-## Politica sulle immagini
+> **Principio di pratica:** nomina prima il movimento, poi scegli il profilo che lo supporta.
 
-Le illustrazioni per questa sezione devono essere originali, create appositamente per il progetto o basate su fotografie di prodotto autorizzate. Le immagini provenienti da manuali di terze parti o riservati non devono essere riutilizzate.
+### Fonti storiche
+
+- [KOGEI GIAPPONE, Sakai Lame forgiate](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)
+- [Governo del Giappone, proprietario di un negozio di coltelli e artigianato giapponese](https://www.japan.go.jp/tomodachi/2020/summer2020/a_canadian_knife_shop_owner.html)

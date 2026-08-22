@@ -1,5 +1,5 @@
 ---
-source_hash: 01238df9396abd17c4cb8d4f7d17989e564092b82a39a0f92949535a5744d490
+source_hash: e2b2ae555aec38b659168c62b777f7b18d76dacbe0f3a822bafc3c34fe85cb52
 ---
 
 # Preparare le Pietre ad Acqua
@@ -42,13 +42,21 @@ Una pietra può richiedere:
 
 Le pietre ceramiche dense e le pietre splash-and-go sono esempi comuni di prodotti che possono necessitare solo di una bagnatura superficiale. Le pietre legate con resina possono ammorbidirsi, incrinarsi, separarsi o perdere resistenza se lasciate troppo a lungo in acqua. Le piastre diamantate non assorbono acqua e non dovrebbero essere trattate come pietre porose.
 
-Il messaggio corretto per la formazione non è quindi "tutte le pietre devono essere messe a bagno." È:
+La lezione corretta non è quindi "tutte le pietre devono impregnarsi." È:
 
 > Mettere a bagno la maggior parte delle pietre ad acqua assorbenti finché le bolle non si fermano sostanzialmente, ma controllare le istruzioni del produttore prima del primo uso perché le pietre speciali possono richiedere poco o nessun ammollo.
 
+## Collegamento storico: la pietra sotto la lama
+
+Molto prima che gli abrasivi fabbricati portassero un numero di grana stampato, gli affilatori hanno imparato il carattere della pietra locale attraverso il tatto, il suono e la finitura lasciata sull'acciaio. La tradizione naturale giapponese whetstone rimane particolarmente visibile intorno a Kyoto. Il Natural Whetstone e Hone Museum di Kameoka conserva esempi tra cui Tamba Aoto e Awasedo pietre e continua a insegnare l'affilatura attraverso la pratica diretta.
+
+Le pietre sintetiche moderne resero l'affilatura più ripetibile: l'abrasivo, il legante e la dimensione approssimativa delle particelle potevano essere progettati per un lavoro specifico. La vecchia abilità non scomparve. Sia che la pietra sia naturale o sintetica, l'affilatrice legge ancora acqua, suono, liquame, planarità e la risposta dell'acciaio.
+
+Questa storia spiega perché due pietre con una descrizione simile della grana possono sembrare diverse. Un numero di grana è utile, ma la pietra è anche un sistema materiale con il proprio raccoglitore, porosità e comportamento di taglio.
+
 ## Tipi di supporti per affilatura
 
-L'ampio portafoglio in acciaio di Xinzuo è uno dei motivi per cui non si deve prescrivere una singola pietra per ogni coltello. Le pietre d'acqua convenzionali possono essere efficaci per molti DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV, 12Cr18MoV e Blue Steel No. 2 bordi. La maggiore resistenza all'usura di ZDP-189, SRS13, M390 e 14Cr14MoVNb può rendere più efficienti gli abrasivi in ceramica dura o diamante. La preparazione della pietra segue ancora le istruzioni del produttore della pietra, non il nome in acciaio Xinzuo.
+La vasta gamma di acciaio Xinzuo è uno dei motivi per cui non è necessario prescrivere una singola pietra per ogni coltello. Le pietre d'acqua convenzionali possono essere efficaci per molti DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV, 12Cr18MoV e Blue Steel No. 2 bordi. La maggiore resistenza all'usura di ZDP-189, SRS13, M390 e 14Cr14MoVNb può rendere più efficienti gli abrasivi in ceramica dura o diamante. La preparazione della pietra segue ancora le istruzioni del produttore della pietra, non il nome in acciaio Xinzuo.
 
 Comprendere le famiglie principali aiuta a spiegare perché la preparazione differisce.
 
@@ -223,8 +231,15 @@ La sospensione abrasiva è materiale sciolto sulla pietra. La bava è un sottile
 8. Tenere l'acqua disponibile durante tutta l'affilatura.
 9. Sciacquare, spianare se necessario e asciugare all'aria dopo l'uso.
 
-## Riepilogo per il cliente
+## Cosa ricordare
 
 > La maggior parte delle tradizionali pietre ad acqua assorbenti dovrebbe essere messa a bagno finché il flusso di bolle non si è sostanzialmente fermato. Questo mostra che l'acqua ha riempito i pori. Le pietre speciali, ceramiche, legate con resina, diamantate e splash-and-go possono necessitare solo di una bagnatura superficiale o di nessun ammollo, quindi le istruzioni del produttore vengono sempre prima.
 
 Una pietra ben preparata offre un feedback più chiaro, un'abrasione più costante e un'esperienza di affilatura più sicura e piacevole.
+
+> **Principio di pratica:**preparare la superficie prima di cercare di perfezionare il movimento.
+
+### Fonti storiche
+
+- [Natural Whetstone and Hone Museum, Kameoka](https://www.tennentoishikan.com/en/)
+- [Prefettura di Kyoto Turismo, Natural Whetstone e Hone Museum](https://www.kyototourism.org/en/sightseeing/32542/)

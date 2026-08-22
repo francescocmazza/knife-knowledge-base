@@ -1,16 +1,22 @@
 ---
-source_hash: b4c85279e1cbda1bce76f29a27325ac6cba101198a6b4ceb5be4ab40ed77f2b9
+source_hash: f3d89ebf307bdc345714898ca95c8b552fceafc76ed8a7c4cfe2a4c43ebe05e2
 ---
 
 # Uso e Trasporto Sicuri
 
-Un buon coltello da cucina è progettato per tagliare con pochissimo sforzo. Proprio per questo deve essere trattato con rispetto.
+Un buon coltello da cucina è progettato per tagliare con pochissimo sforzo. Ecco perché la sicurezza deve provenire dalle abitudini piuttosto che dalle esitazioni.
 
 A volte si dice che un coltello affilato sia più sicuro di uno smussato. L'idea è utile, ma richiede una spiegazione completa.
 
 Un coltello affilato richiede di solito meno forza. Entra nel cibo più facilmente, segue la linea prevista in modo più prevedibile ed è meno probabile che scivoli perché l'utilizzatore sta premendo troppo. Un coltello smussato spesso incoraggia un movimento forzato e non controllato.
 
 Tuttavia, un coltello affilato può causare una lesione grave nel momento in cui viene maneggiato con noncuranza. La sicurezza non deriva dalla sola affilatura. Deriva da un coltello affilato e adatto, un'area di lavoro stabile, una tecnica controllata e abitudini chiare.
+
+Utilizzare un controllo breve prima di ogni sessione:
+
+> **Tavola stabile. Cibo stabile. Clear path. Hidden fingertips.**
+
+Le quattro parti appartengono insieme. Una presa perfetta artiglio non può salvare una cipolla rotolante, e una cipolla stabile non è sufficiente se la scheda scivola.
 
 ## Creare un'area di lavoro sicura prima di tagliare
 
@@ -73,7 +79,7 @@ Anche altre prese possono essere sicure quando offrono controllo. Il punto essen
 
 La mano di supporto dovrebbe guidare il cibo tenendo le punte delle dita lontane dal percorso di taglio. La familiare posizione "ad artiglio" piega le punte delle dita verso l'interno e permette al lato della lama di muoversi contro le nocche. Questo è più facile da imparare lentamente che a velocità professionale.
 
-La velocità non è mai il primo obiettivo. Un ritmo controllato diventa naturalmente più veloce con la pratica.
+La velocità non è mai il primo obiettivo. Un ritmo controllato diventa naturalmente più veloce con la pratica. Il capitolo del movimento, [Come tagliare](../06-cutting-techniques/essential-cutting-techniques.md), spiega l'artiglio, la presa e i principali movimenti di taglio passo dopo passo.
 
 ## Lasciare che sia il filo a fare il lavoro
 
@@ -247,8 +253,10 @@ Vetro e ceramica distruggono i fili fini e aumentano lo scivolamento.
 
 Fare un passo indietro invece.
 
-## Riepilogo per il cliente
+## Cosa ricordare
 
 > Un coltello affilato è più facile da controllare perché richiede meno forza, ma la sicurezza dipende dall'intero metodo di lavoro. Stabilizzare il tagliere e il cibo, usare il coltello corretto, tenere la mano di supporto libera, evitare la torsione e trasportare il coltello basso e fermo con la punta verso il basso e il filo lontano.
 
-L'utilizzatore di coltelli più sicuro non è la persona più veloce in cucina. È la persona i cui movimenti restano prevedibili.
+Il cuoco più sicuro non è la persona più veloce in cucina. È la persona i cui movimenti rimangono prevedibili.
+
+> **Principio di pratica:** rendere ogni movimento coltello facile per un'altra persona da anticipare.

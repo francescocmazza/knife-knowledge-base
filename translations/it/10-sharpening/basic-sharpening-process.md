@@ -1,5 +1,5 @@
 ---
-source_hash: f8a3a90044f47349250a1c358af721236f5374c45fbaf53ee067c6e65208a11f
+source_hash: 28146486ec0e21c5e8ec3ea22345c06703169e1eb2b0b286873e0b39e71ae0ed
 ---
 
 # Un Processo di Affilatura Pratico
@@ -10,11 +10,17 @@ Il processo sottostante è molto più semplice:
 
 > L'affilatura rimuove acciaio dai due lati del filo finché non si incontrano di nuovo in un apice pulito.
 
-Tutto il resto — grana della pietra, angolo, pressione, bava e metodo di finitura — aiuta a controllare quel processo.
+Tutto il resto - la pietra grinta, l'angolo, la pressione, la bava e il metodo di finitura-aiuta a controllare quel processo.
 
-Questo capitolo introduce un metodo pratico per gli ordinari coltelli da cucina a bisela doppia. È abbastanza dettagliato da spiegare cosa l'utilizzatore dovrebbe osservare, ma non richiede attrezzatura specialistica.
+Questo capitolo introduce un metodo pratico per i normali coltelli da cucina a doppio letto. Spiega cosa osservare e perché ogni passo esiste, senza richiedere attrezzature specialistiche.
 
 I coltelli tradizionali a monobisela come yanagiba, usuba e deba necessitano di un approccio diverso perché la loro ampia bisela e il lato posteriore concavo formano una geometria specifica.
+
+### Collegamento storico: affilatura come imbarcazione separata
+
+Nella tradizione Sakai, fare un coltello da cucina è comunemente diviso tra gli specialisti. Il fabbro crea e tratta calore la lama; un affilatore stabilisce geometria, superficie e bordo; un altro artigiano si adatta al manico. Questa divisione è una correzione utile all'idea che l'affilatura è solo l'ultimo tocco rapido.
+
+Per il cuoco domestico, la lezione è incoraggiante. Non ci si aspetta di imitare un maestro di lucidatura in un pomeriggio. Imparare il processo in parti: stabilizzare la pietra, trovare lo smusso, raggiungere l'apice, ridurre la bava e testare il risultato. Ogni fase può essere osservato e migliorato separatamente.
 
 ## Prima di iniziare: comprendere l'obiettivo
 
@@ -88,15 +94,15 @@ I numeri di grana descrivono la dimensione approssimativa delle particelle abras
 
 Una classificazione pratica è:
 
-- **80–400 grana:** riparazioni importanti, scheggiature, rimodellamento e fili molto smussati;
-- **500–1000 grana:** affilatura generale e ripristino di un filo funzionale;
-- **1000–3000 grana:** rifinitura e un filo più liscio;
-- **4000–6000 grana:** finitura fine e lucidatura;
+- **80-400 grana:** riparazioni principali, chips, rimodellamento e bordi molto opachi;
+- **500-1000 grana:** affilatura generale e restauro di un bordo di lavoro;
+- **1000-3000 grana:** raffinatezza e un bordo più liscio;
+- **4000-6000 grana:** finitura fine e lucidatura;
 - **8000 grana e oltre:** lucidatura specializzata e fili molto raffinati.
 
 Gli intervalli si sovrappongono perché gli standard di grana e il comportamento della pietra variano.
 
-Per molti coltelli da cucina, una pietra media attorno a 800–1000 grana è un utile punto di partenza. Rimuove abbastanza materiale da ripristinare il filo senza creare i graffi profondi di una pietra di riparazione.
+Per molti coltelli da cucina, una pietra media di circa 800-1000 grinta è un utile punto di partenza. Rimuove abbastanza materiale per ripristinare il bordo senza creare i graffi profondi di una pietra di riparazione.
 
 Una grana più alta non è automaticamente migliore. Una finitura a grana media può mantenere più mordente microscopico e funzionare estremamente bene su pomodori, carne e cibi fibrosi. Un filo molto lucidato può essere desiderabile per il taglio a spinta e il lavoro di presentazione.
 
@@ -128,7 +134,7 @@ Se l'inchiostro viene rimosso solo sul filo estremo, l'angolo potrebbe essere pi
 
 Se l'inchiostro viene rimosso uniformemente sulla bisela, l'angolo è vicino a quello corretto.
 
-Questo è uno strumento di formazione, non un requisito permanente. Con la pratica, l'utilizzatore impara a sentire quando la bisela poggia correttamente sulla pietra.
+Questo è uno strumento di apprendimento, non un requisito permanente. Con la pratica, l'utente impara a sentire quando lo smusso si trova correttamente sulla pietra.
 
 ## Fase 5: comprendere l'angolo
 
@@ -246,7 +252,7 @@ Alternare i lati:
 
 La sequenza esatta è flessibile. Lo scopo è centrare il filo, indebolire la bava e ridurre i graffi profondi creati durante la fase principale di affilatura.
 
-Alla fine, la pressione dovrebbe essere molto leggera — solo sufficiente a mantenere la bisela a contatto con la pietra.
+Alla fine, la pressione dovrebbe essere molto leggera per mantenere il bisello a contatto con la pietra.
 
 ## Fase 13: decidere se passare a una pietra più fine
 
@@ -339,7 +345,7 @@ Lasciare che la pietra si asciughi completamente in un luogo ventilato. Evitare 
 
 Pulire l'area di lavoro in modo che nessun residuo abrasivo rimanga su manici, panni o superfici di preparazione del cibo.
 
-# Pressione: quanta ne basta?
+## Pressione: quanto è sufficiente?
 
 La pressione è difficile da descrivere con un numero universale, ma le fasi sono facili da comprendere.
 
@@ -357,7 +363,7 @@ Usare una pressione estremamente leggera. La lama dovrebbe sembrare quasi guidat
 
 Se il suono diventa aspro, il coltello si blocca o l'angolo diventa difficile da controllare, ridurre la pressione e aggiungere acqua.
 
-# Scegliere la grana finale
+## Scegliere la grinta finale
 
 Per i coltelli Xinzuo, l'acciaio e il compito previsto guidano l'abrasivo e la finitura. DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV e 12Cr18MoV sono generalmente avvicinabili con pietre convenzionali adatte. Altamente resistente all'usura ZDP-189, SRS13, M390 e 14Cr14MoVNb possono beneficiare di abrasivi pregiati in ceramica o diamante e più tempo. Acciaio Blu No. 2 può rispondere prontamente alle pietre d'acqua ma deve essere asciugato immediatamente. Si tratta di tendenze, non prescrizioni di angolo fisso o griglia: preservare la geometria del modello e la finitura per il suo uso effettivo.
 
@@ -373,49 +379,49 @@ Un filo ultra-lucidato non è automaticamente migliore. Su alcuni cibi può sciv
 
 Il filo dovrebbe corrispondere allo scopo del coltello.
 
-# Errori comuni di affilatura
+## Errori comuni di affilatura
 
-## Contare le passate invece di leggere il filo
+### Contare i tratti invece di leggere il bordo
 
 Il conteggio delle passate aiuta il ritmo ma non dimostra che l'apice sia stato raggiunto.
 
-## Cambiare costantemente l'angolo
+### Cambiare costantemente l'angolo
 
 Un angolo instabile arrotonda la bisela e rallenta il progresso.
 
-## Iniziare con una pietra troppo fine
+### A partire da una pietra troppo fine
 
 Una pietra fine può passare molto tempo lucidando sopra un filo smussato.
 
-## Usare troppa pressione
+### Usare troppa pressione
 
 Una pressione forte rende difficile il controllo dell'angolo e crea una grande bava.
 
-## Ignorare la punta e il tallone
+### Ignorare la punta e il tallone
 
 Queste aree spesso restano smussate mentre il centro viene sovra-affilato.
 
-## Passare al secondo lato prima che la bava sia continua
+### Spostarsi sul secondo lato prima che la bava sia continua
 
 La prima bisela può restare incompleta.
 
-## Lasciare la bava attaccata
+### Lasciare la bava attaccata
 
 Il coltello può sembrare affilato brevemente ma perdere rapidamente prestazioni.
 
-## Lucidare eccessivamente ogni coltello
+### Sovralucidare ogni coltello
 
 La grana finale dovrebbe adattarsi al cibo e allo stile di taglio previsti.
 
-## Affilare su una pietra incavata
+### Affilatura su una pietra piegata
 
 Una superficie concava cambia l'angolo durante la passata.
 
-## Trattare ogni coltello come 15 gradi per lato
+### Trattare ogni coltello come 15 gradi per lato
 
 Quindici gradi è un utile riferimento, non una legge universale.
 
-# Una routine completa per principianti
+## Una routine per principianti completa
 
 1. Ispezionare il filo e identificare i danni.
 2. Scegliere una pietra abbastanza grossolana per il lavoro.
@@ -433,8 +439,14 @@ Quindici gradi è un utile riferimento, non una legge universale.
 14. Lavare e asciugare il coltello.
 15. Sciacquare, spianare e asciugare all'aria la pietra.
 
-# Riepilogo per il cliente
+## Cosa ricordare
 
 > L'affilatura non si completa contando le passate. Seguire la bisela esistente, lavorare finché non appare una leggera bava dal tallone alla punta, ripetere sul secondo lato, poi ridurre la pressione e rimuovere la bava. Il filo finito dovrebbe essere pulito, stabile e appropriato per il modo in cui il coltello verrà usato.
 
 L'abilità più preziosa non è muovere il coltello velocemente. È imparare a osservare cosa sta facendo la pietra al filo.
+
+> **Principio di pratica:**Guarda il bordo, non il conteggio dei tratti.
+
+### Sorgente storica
+
+- [KOGEI GIAPPONE, Sakai Lame forgiate e processo di produzione](https://kogeijapan.com/locale/en_US/sakaiuchihamono/)

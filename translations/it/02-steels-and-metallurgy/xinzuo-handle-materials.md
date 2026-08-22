@@ -1,16 +1,18 @@
 ---
-source_hash: aac9939f0cca7c1536306d5948f1c6a558b204120f98ebc43694507718f2cbd5
+source_hash: 18a21569af8b7c7c7bcb0f91f24c37fb42d6440945c784554cff71eeaf5cf1cc
 ---
 
-# Xinzuo Handle Materials Guida al portafoglio
+# Materiali Xinzuo Handle - Sentire, Cura e Scelta
 
 L'impugnatura è dove il coltello diventa un utensile nella mano. Influisce sulla presa, sull'equilibrio, sul peso, sulla temperatura, sulla manutenzione e sull'identità visiva. Xinzuo utilizza sia legni naturali che materiali ingegnerizzati perché nessun materiale per maniglie fornisce ogni vantaggio.
 
 La variazione naturale fa parte del fascino del legno: due maniglie della stessa specie non avranno grana o colore identici. I materiali ingegnerizzati offrono una maggiore consistenza e stabilità dell'umidità. Nessuna delle due categorie è automaticamente superiore. Forma, finitura, assemblaggio e l'ambiente previsto rimangono importanti quanto il nome del materiale.
 
-L'attuale catalogo Xinzuo elenca palissandro, ebano, legno di ferro deserto nordamericano, legno di sandalo rosso, resina, legno rosso, sicomo figurato, legno di oliva, quercia, fibra di carbonio, legno di pakka, Micarta, fibra di carbonio con resina, noce e nero G10. Serie selezionata combinano anche questi materiali con rame, corno di bufalo, imitazione osso di bue o altri accenti.
+In tutta la sua gamma documentata, Xinzuo utilizza palissandro, ebano, legno di ferro deserto nordamericano, legno di sandalo rosso, resina, legno rosso, sicomo figurato, legno di oliva, quercia, fibra di carbonio, legno di Pakka, Micarta, fibra di carbonio con resina, noce e nero G10. Serie selezionata combinano anche questi materiali con rame, corno di bufalo, imitazione osso di bue o altri accenti.
 
-## Portafoglio a colpo d'occhio
+Prima di confrontare i nomi, tenete a mente un'idea: il materiale cambia le possibilità, ma la forma crea la presa. Un materiale semplice in un manico che si adatta alla mano può essere più comodo di un legno raro a forma di male per l'utente.
+
+## A colpo d'occhio
 
 | Materiale | Tipo | Punti di forza principali | Principali compromessi | Profilo di cura |
 |---|---|---|---|---|
@@ -35,7 +37,7 @@ L'attuale catalogo Xinzuo elenca palissandro, ebano, legno di ferro deserto nord
 
 Rosewood appare attraverso diverse serie Xinzuo e dà al manico un tono rosso-marrone caldo con grana visibile. È abbastanza denso per una sensazione rassicurante e può prendere una finitura liscia. Poiché il legno di acacia copre un gruppo di legni, colore esatto e figura variano naturalmente.
 
-Il suo vantaggio è un classico equilibrio di aspetto, tattilità e durata nel tempo. Il suo compromesso è la sensibilità normale del legno ad ammollo ripetuto, calore elevato e stoccaggio molto asciutto. Un cliente dovrebbe aspettarsi individualità, non uniformità di colore.
+Il suo vantaggio è un classico equilibrio di aspetto, tattilità e durata nel tempo. Il suo compromesso è la normale sensibilità del legno ad ammollo ripetuto, calore elevato e stoccaggio molto asciutto. Aspettatevi individualità, non uniformità di colore.
 
 ### Ebano
 
@@ -51,7 +53,7 @@ I suoi oli naturali e la sua densità lo rendono relativamente resistente all'um
 
 ### Sandalo rosso e legno rosso
 
-Questi nomi descrivono i legni dai toni rossi utilizzati nelle maniglie selezionate dello Xinzuo. Il loro fascino commerciale è il calore, il carattere tradizionale e il contrasto con l'acciaio lucido. Poiché il catalogo può raggruppare diverse fonti botaniche o termini commerciali, la copia del prodotto dovrebbe usare il nome della serie autorizzata ed evitare di inventare una specie precisa.
+Questi nomi descrivono i legni dai toni rossi utilizzati nelle maniglie selezionate dello Xinzuo. Il loro fascino è il calore, il carattere tradizionale e il contrasto con l'acciaio lucido. Poiché il catalogo può raggruppare diverse fonti botaniche o termini commerciali, utilizzare il nome della serie autorizzata e non inventare una specie precisa.
 
 La pratica regola di cura è la stessa di altri legni: nessuna lavastoviglie, nessun ammollo, asciugatura rapida e nessuna conservazione oltre al forte calore.
 
@@ -91,7 +93,13 @@ Xinzuo utilizza il legno Pakka in diverse famiglie importanti, tra cui Damasco e
 
 Micarta è un laminato prodotto mediante incollaggio di strati di tessuto o carta con resina. Il lino Micarta, utilizzato nelle selezionate serie Xinzuo, può fornire un tessuto finemente visibile e una superficie sicura e tattile.
 
-È stabile, resistente e meno sensibile all'umidità rispetto al legno naturale. La sua presa dipende dalla finitura superficiale: Micarta lucido si sente più liscia, mentre una texture più esposta può fornire più trazione. Può non piacere ad un cliente specificamente alla ricerca di grano naturale, ma è altamente pratico per l'uso frequente.
+#### Collegamento storico: dall'elettricità alla cucina
+
+Micarta è stato sviluppato da George Westinghouse nel 1910 come un laminato isolante elettrico. Layer di carta o tessuto sono stati legati con resina per creare un forte e stabile materiale industriale. Durante la prima guerra mondiale ha trovato anche leggere applicazioni strutturali in aerei. Molto più tardi, la stessa combinazione di stabilità dimensionale, resistenza e lavorabilità lo ha reso attraente per utensili e coltelli maniglie.
+
+Questa origine rende il materiale facile da ricordare. Micarta non ha iniziato come imitazione del legno. E 'iniziato come materiale ingegneristico chiesto di rimanere affidabile intorno a elettricità, calore e lavori meccanici.
+
+È stabile, resistente e meno sensibile all'umidità rispetto al legno naturale. La sua presa dipende dalla finitura superficiale: Micarta lucido si sente più liscia, mentre una texture più esposta può fornire più trazione. Può non piacere a qualcuno specificamente alla ricerca di grano naturale, ma è altamente pratico per l'uso frequente.
 
 ### G10 nero
 
@@ -123,7 +131,7 @@ I manici Xinzuo selezionati combinano il materiale principale dell'impugnatura c
 
 Un materiale di accento non deve essere trattato come l'intera specifica maniglia. Ad esempio, il legno di bufalo nero con corno di bufalo descrive una costruzione combinata la cui cura è governata dal suo componente più sensibile. Il corno naturale, dove effettivamente utilizzato, può variare di colore e dovrebbe essere protetto dal calore e dall'esposizione prolungata all'acqua.
 
-## Cosa non stabilisce il catalogo
+## Che cosa un nome materiale non stabilisce
 
 Il solo nome materiale non stabilisce:
 
@@ -134,9 +142,9 @@ Il solo nome materiale non stabilisce:
 - idoneità alla lavastoviglie;
 - equilibrio identico tra coltelli con diverse dimensioni della lama.
 
-Questi dettagli richiedono i dati attuali del prodotto autorizzato. La base di conoscenze non dovrebbe mai trasformare un'etichetta di catalogo attraente in un reclamo scientifico o di approvvigionamento non supportato.
+Questi dettagli richiedono dati di prodotto verificati. Non trasformare un'etichetta di materiale attraente in un'indicazione scientifica o di approvvigionamento non supportata.
 
-## Scegliere un manico Xinzuo
+## Scegliere un manico nel modo in cui verrà utilizzato
 
 - Scegli **legno di rosa, olivo, noce, rovere o sicomoro figurato** per una venatura naturale visibile e un caldo carattere tattile.
 - Scegli **legna da stiro o legno d'acciaio desertico** per una sensazione premium più densa, più scura e sostanziale.
@@ -155,6 +163,10 @@ La forma e le dimensioni della presa contano ancora più di un'etichetta materia
 5. Non utilizzare pastiglie abrasive su resina lucida, fibra di carbonio o finiture in legno pregiato.
 6. Ispezionare periodicamente il legno naturale e utilizzare solo un adeguato condizionatore a contatto con gli alimenti, se necessario.
 
-> Un materiale di maniglia imposta le possibilità di durata, peso e aspetto. Forma, finitura, assemblaggio e cura determinano l'esperienza nella mano.
+> **Principio di pratica:** un materiale di maniglia imposta le possibilità di durata, peso e aspetto; forma, finitura, assemblaggio e cura determinano l'esperienza nella mano.
 
-*Fonte: la lista dei portafogli ed esempi di serie presenti in questa pagina si basano sul catalogo Xinzuo 2025. I materiali naturali variano e le specifiche attuali a livello di modello devono essere controllate prima della pubblicazione o della vendita.*
+*Fonte: l'elenco dei materiali e gli esempi di serie di questa pagina si basano sulle informazioni sul prodotto 2025 di Xinzuo. I materiali naturali variano e le specifiche dei singoli modelli hanno la precedenza.*
+
+### Sorgente storica
+
+- [Museo di Belle Arti di Boston CAMEO, Micarta](https://cameo.mfa.org/wiki/Micarta)
