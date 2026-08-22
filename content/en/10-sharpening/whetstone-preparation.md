@@ -98,7 +98,7 @@ Choose a stable work surface at a comfortable height. Sharpening requires repeat
 Place the stone in a holder, on a non-slip base or on a damp cloth that prevents movement. A stone that slides during sharpening makes angle control difficult and can be dangerous.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-STONE-01">
-<img src="../assets/images/approved/stable-whetstone-neutral.png" alt="" width="579" height="430">
+<img src="../../assets/images/approved/stable-whetstone-neutral.png" alt="" width="579" height="430">
 <figcaption>
 A stable holder reduces stone movement and makes angle control safer and more repeatable. The exact stone, guide and sharpening angle remain choices for the individual knife and user.
 </figcaption>

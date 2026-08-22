@@ -40,7 +40,7 @@ First name the movement; then look for the profile that supports it.
 | Bone chopper | Thick, heavy blade and robust edge | Joints, suitable bones and impact work | Too thick for delicate slicing |
 
 <figure class="kb-learning-figure" data-visual-id="VIS-SHAPES-01">
-  <img src="../assets/images/approved/knife-shape-silhouettes-neutral.png" alt="Numbered silhouettes of common kitchen-knife shapes and related tools">
+  <img src="../../assets/images/approved/knife-shape-silhouettes-neutral.png" alt="Numbered silhouettes of common kitchen-knife shapes and related tools">
   <figcaption>Twenty-five profiles from the Xinzuo range, shown without language embedded in the image. The numbers correspond to the legend below.</figcaption>
 </figure>
 

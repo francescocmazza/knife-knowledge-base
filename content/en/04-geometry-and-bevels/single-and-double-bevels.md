@@ -21,7 +21,7 @@ Bevel geometry changes four things that a cook can actually feel:
 The two broad families are double bevel and single bevel. Neither is automatically sharper or more advanced. They solve different problems.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-BEV-02">
-<img src="../assets/images/approved/bevel-families-neutral.png" alt="" width="1400" height="380">
+<img src="../../assets/images/approved/bevel-families-neutral.png" alt="" width="1400" height="380">
 <figcaption>
 Seven common bevel families, shown without fixed-language labels: 1. symmetrical V; 2. convex; 3. asymmetric V; 4. compound double V; 5. concave; 6. single-sided; 7. single-sided with urasuki. The legend is ordinary text so it can be translated with the book.
 </figcaption>

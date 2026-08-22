@@ -14,7 +14,7 @@ Few words in the knife world create as much fascination, or as much confusion, a
 The flowing lines make a blade look as if its history is visible on the surface. That is often the first thing a reader notices, and it is a good place to begin.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-FINISH-01">
-<img src="../assets/images/approved/damascus-pattern-knives-neutral.png" alt="" width="330" height="700">
+<img src="../../assets/images/approved/damascus-pattern-knives-neutral.png" alt="" width="330" height="700">
 <figcaption>
 Examples of Xinzuo patterned blades. Pattern names describe a visible design; they do not by themselves define steel quality, heat treatment or cutting performance.
 </figcaption>
